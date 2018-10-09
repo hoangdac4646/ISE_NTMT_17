@@ -13,7 +13,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
+import com.example.thienbao.myapplication.DangNhap.TaiKhoan;
 import com.example.thienbao.myapplication.R;
 import com.example.thienbao.myapplication.mFragment.Home_Fragment;
 
@@ -44,14 +46,14 @@ public class Main2Activity extends AppCompatActivity
 
         navigationView = findViewById(R.id.nav_view);
         drawer = findViewById(R.id.drawer_layout);
+        navigationView.setNavigationItemSelectedListener(this);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         mtoggle = new ActionBarDrawerToggle(
                 Main2Activity.this, drawer,toolbar, R.string.navigation_drawer_open, R.string.navigation_drawer_close);
 
         drawer.addDrawerListener(mtoggle);
         mtoggle.syncState();
-
-
         transaction = getSupportFragmentManager().beginTransaction();
         mFragment = new Home_Fragment();
 
@@ -83,20 +85,14 @@ public class Main2Activity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if(mtoggle.onOptionsItemSelected(item)){
-            return true;
-        }
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
+
+       if(mtoggle.onOptionsItemSelected(item)){
+           return true;
+       }
 
         return super.onOptionsItemSelected(item);
     }
+
 
     @SuppressWarnings("StatementWithEmptyBody")
     @Override
@@ -106,6 +102,9 @@ public class Main2Activity extends AppCompatActivity
 
         if (id == R.id.nav_account) {
             // Handle the camera action
+            Intent intent   = getIntent();
+            TaiKhoan a = (TaiKhoan) intent.getSerializableExtra("TaiKhoan");
+            Toast.makeText(getApplicationContext(),a.getName()+"pass : "+a.getPass()+"",Toast.LENGTH_SHORT).show();
         } else if (id == R.id.nav_vallet_info) {
             startActivity(new Intent(Main2Activity.this, WalletInfoActivity.class));
 

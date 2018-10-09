@@ -45,7 +45,7 @@ public class DangKiActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Tài khoản lớn hơn 5 kí tự và nhỏ hơn 50 !", Toast.LENGTH_SHORT).show();
                     }
                     else {
-                        String url = "http://192.168.1.4:1080/Webserve/DangKi.php";
+                        String url = "https://ludicrous-disaster.000webhostapp.com/DangKi.php";
                         DangKi(url);
                     }
                 }else{

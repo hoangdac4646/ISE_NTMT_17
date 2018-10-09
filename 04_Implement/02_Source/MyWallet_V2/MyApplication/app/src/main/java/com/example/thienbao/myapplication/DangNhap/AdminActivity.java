@@ -29,7 +29,7 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView recyclerView;
-    final String url_read ="http://192.168.1.4:1080/Webserve/getData.php";
+    final String url_read ="https://ludicrous-disaster.000webhostapp.com/getData.php";
     private ArrayList<TaiKhoan> list = new ArrayList<TaiKhoan>();
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle drawerToggle;

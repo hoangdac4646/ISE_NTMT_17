@@ -11,26 +11,25 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="190dp"
+        android:layout_marginTop="251dp"
         android:text="Tên tài khoản"
         android:textColor="@color/colorBlack"
         android:textSize="20dp" />
 
     <EditText
         android:id="@+id/edt_name"
-        android:paddingLeft="5dp"
-        android:paddingBottom="2dp"
         android:layout_width="280dp"
         android:layout_height="32dp"
-        android:textColor="@color/colorBlack"
-        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="226dp"
+        android:layout_marginBottom="245dp"
         android:background="@drawable/drawable_editview"
         android:ems="14"
         android:gravity="bottom"
         android:inputType="textPersonName"
-        />
+        android:paddingBottom="2dp"
+        android:paddingLeft="5dp"
+        android:textColor="@color/colorBlack" />
 
     <TextView
         android:layout_width="wrap_content"

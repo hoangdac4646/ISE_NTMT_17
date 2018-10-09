@@ -42,7 +42,7 @@
         android:layout_width="wrap_content"
         android:layout_height="?attr/actionBarSize"
         android:padding="13dp"
-        android:textColor="#35e738"
+        android:textColor="#249226"
         android:layout_centerVertical="true"
 
         />
