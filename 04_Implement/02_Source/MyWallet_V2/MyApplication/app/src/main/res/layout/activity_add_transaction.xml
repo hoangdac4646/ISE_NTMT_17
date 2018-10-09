@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#f1f0f6"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+
+        >
+        <include
+            layout="@layout/cus_toolbar"></include>
+
+
+    </android.support.design.widget.NavigationView>
+
+    <RelativeLayout
+        android:background="@drawable/vien_duoi"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_centerVertical="true"
+            android:id="@+id/btn_money"
+            android:text="VND"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/btn_money"
+            android:text="Số Tiền"
+            android:textColor="@color/colorblack" />
+
+        <EditText
+            android:textColor="@color/colorblack"
+            android:text="0"
+            android:inputType="number"
+            android:layout_toRightOf="@+id/btn_money"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+    <Button
+        android:background="@drawable/vien_duoi"
+        android:drawableRight="@drawable/icon_next"
+        android:text="Choose Your Catogery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:background="@drawable/vien_duoi"
+        android:drawableRight="@drawable/icon_next"
+        android:text="Ghi Chú"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+
+        android:background="@drawable/vien_duoi"
+        android:drawableRight="@drawable/icon_next"
+        android:text="Pick Date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:background="@drawable/vien_duoi"
+        android:drawableRight="@drawable/icon_next"
+        android:text="Choose Your Wallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
