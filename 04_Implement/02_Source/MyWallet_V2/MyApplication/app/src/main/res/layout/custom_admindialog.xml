@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center|top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User:" />
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textColor="@color/colorBlack"
+            android:id="@+id/tv_tentk"
+           android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:fontFamily="sans-serif"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Họ tên"/>
+        <EditText
+            android:id="@+id/edt_ChinhSuaTen"
+            android:layout_width="wrap_content"
+            android:background="#e4e2e2"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="10dp"
+        android:textSize="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thay đổi quyền tài khoản" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Rdg_quantri"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView"
+       >
+
+        <RadioButton
+            android:id="@+id/rdb_khachHang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Khách hàng"
+            />
+        <RadioButton
+            android:id="@+id/rdb_quanli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quản trị viên"
+            />
+
+    </RadioGroup>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btnXoaTk"
+        android:layout_height="wrap_content"
+        android:text="Xóa tài khoản"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_ChinhSualuu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lưu thay đổi "
+            />
+        <Button
+            android:id="@+id/btn_ChinhHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy thay đổi"
+            />
+    </LinearLayout>
+</LinearLayout>
