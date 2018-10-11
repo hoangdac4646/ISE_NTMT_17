@@ -14,13 +14,15 @@
         <activity android:name=".DangNhap.MainActivity" />
         <activity android:name=".DangNhap.DangKiActivity" />
         <activity android:name=".DangNhap.StartActivity">
+
+        </activity>
+        <activity android:name=".DangNhap.AdminActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DangNhap.AdminActivity"></activity>
         <activity android:name=".mActivity.Main2Activity"></activity>
         <activity android:name=".mActivity.AddTransactionActivity"></activity>
         <activity android:name=".mActivity.WalletInfoActivity"></activity>
