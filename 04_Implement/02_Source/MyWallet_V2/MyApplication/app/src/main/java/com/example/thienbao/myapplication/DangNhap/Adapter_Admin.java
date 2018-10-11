@@ -89,7 +89,7 @@ public class Adapter_Admin extends RecyclerView.Adapter<Adapter_Admin.ViewHoder>
                             Toast.makeText(context,"Lổi trống họ tên",Toast.LENGTH_SHORT).show();
                         }
                         else {
-                            String url = "http://192.168.1.4:1080/Webserve/Update.php";
+                            String url = "https://ludicrous-disaster.000webhostapp.com/Update.php";
                             RequestQueue requestQueue = Volley.newRequestQueue(v.getContext());
                             StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                                 @Override
@@ -144,7 +144,7 @@ public class Adapter_Admin extends RecyclerView.Adapter<Adapter_Admin.ViewHoder>
                 Xoa.setOnClickListener(new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        String url = "http://192.168.1.4:1080/Webserve/Delete.php";
+                        String url = "https://ludicrous-disaster.000webhostapp.com/Delete.php";
                         RequestQueue requestQueue = Volley.newRequestQueue(v.getContext());
                         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
                             @Override
