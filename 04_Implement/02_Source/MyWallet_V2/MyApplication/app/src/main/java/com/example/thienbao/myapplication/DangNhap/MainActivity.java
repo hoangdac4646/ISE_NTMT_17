@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Init();
         int n =list_tk.size();
-        final String url = "http://192.168.1.4:1080/Webserve/Login.php";
+        final String url = "https://ludicrous-disaster.000webhostapp.com/Login.php";
          n = list_tk.size();
         Dangki.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,9 +54,7 @@ public class MainActivity extends AppCompatActivity {
         DangNhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if(TaiKhoan.getText().toString().equals("123") && MatKhau.getText().toString().equals("123")){
-                    startActivity(new Intent(MainActivity.this, Main2Activity.class));
-                }
+
                 ReadTaiKhoan(url);
             }
         });
@@ -97,15 +95,15 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(MainActivity.this,AdminActivity.class));
                 }else if(ViTri.equals("0")){
                     ///Dang nhap thanh cong
-                   // Intent intent = new Intent(MainActivity.this,Activity Sau khi dang nhap thanh cong);
+                    Intent intent = new Intent(MainActivity.this,Main2Activity.class);
                     //Gui goi tin tai khoan qua acti moi
                     TaiKhoan a = new TaiKhoan(TenTk,Matkhau,Sodt,ViTri,Hoten);
-                    //intent.putExtra("TaiKhoan",a);
-                    //startActivity(intent);
-                    startActivity(new Intent(MainActivity.this, Main2Activity.class));
-
-
+                    intent.putExtra("TaiKhoan",a);
+                    startActivity(intent);
                     //
+                }
+                else{
+                    Toast.makeText(getApplicationContext(),"Đăng nhập không thành công !",Toast.LENGTH_SHORT).show();
                 }
             }
         }, new Response.ErrorListener() {
@@ -126,22 +124,3 @@ public class MainActivity extends AppCompatActivity {
     }
 
 }
-/* StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
-            @Override
-            public void onResponse(String response) {
-                Toast.makeText(getApplicationContext(),""+response.toString(),Toast.LENGTH_SHORT).show();
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getApplicationContext(),"Error"+error.toString(),Toast.LENGTH_SHORT).show();
-            }
-        }){
-            @Override
-            protected Map<String, String> getParams() throws AuthFailureError {
-                Map<String,String> map = new HashMap<>();
-                map.put("username",TaiKhoan.getText().toString());
-                map.put("userpass",MatKhau.getText().toString());
-                return map;
-            }
-        };*/

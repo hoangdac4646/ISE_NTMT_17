@@ -2,6 +2,8 @@ package com.example.thienbao.myapplication.DangNhap;
 
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -18,6 +20,9 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.thienbao.myapplication.R;
+import com.example.thienbao.myapplication.mFragment.QlFeedback_fragment;
+import com.example.thienbao.myapplication.mFragment.QlTaiKhoan_fragment;
+import com.example.thienbao.myapplication.mFragment.QlTaiKhoan_hotdeal;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -26,11 +31,7 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 
 public class AdminActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
-    private RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
-    private RecyclerView recyclerView;
-    final String url_read ="http://192.168.1.4:1080/Webserve/getData.php";
-    private ArrayList<TaiKhoan> list = new ArrayList<TaiKhoan>();
+    final String url_read ="https://ludicrous-disaster.000webhostapp.com/getData.php";
     DrawerLayout drawerLayout;
     ActionBarDrawerToggle drawerToggle;
     NavigationView navigationView;
@@ -38,23 +39,21 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin);
-        recyclerView = findViewById(R.id.rcv_result);
-        layoutManager = new LinearLayoutManager(AdminActivity.this, LinearLayoutManager.VERTICAL, false);
-        recyclerView.setHasFixedSize(true);
-        recyclerView.setLayoutManager(layoutManager);
-        adapter =new Adapter_Admin(list,getApplicationContext());
-        recyclerView.setAdapter(adapter);
-        adapter.notifyDataSetChanged();
-        ReadTaiKhoan(url_read);
+        QlTaiKhoan_fragment qlTaiKhoan_fragment = new QlTaiKhoan_fragment();
+        android.app.FragmentManager fragmentManager  = getFragmentManager();
+        android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+        fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
+        fragmentTransaction.commit();
         //Nagative button menu
         navigationView = findViewById(R.id.navigation_header_container);
         navigationView.setNavigationItemSelectedListener(this);
-
         drawerLayout = findViewById(R.id.draw_layout);
         drawerToggle = new ActionBarDrawerToggle(this,drawerLayout,R.string.nv_open,R.string.nv_close);
         drawerLayout.addDrawerListener(drawerToggle);
         drawerToggle.syncState();
-        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        if(getSupportActionBar() !=null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
         navigationView.setCheckedItem(R.id.ad_danhmuc);
         navigationView.setCheckedItem(R.id.ad_deal);
         navigationView.setCheckedItem(R.id.ad_user);
@@ -70,45 +69,38 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
     }
 
 
-    private void ReadTaiKhoan(String url){
-        RequestQueue requestQueue = Volley.newRequestQueue(getApplicationContext());
-        JsonArrayRequest arrayRequest = new JsonArrayRequest(Request.Method.GET, url, null, new Response.Listener<JSONArray>() {
-            @Override
-            public void onResponse(JSONArray response) {
-                for(int i=0;i<response.length();i++){
-                    try {
-                        JSONObject object = response.getJSONObject(i);
-                        list.add(new TaiKhoan(object.getString("Name"),object.getString("MatKhau"),
-                                object.getString("SoDt"),object.getString("ViTri"),object.getString("Hoten")));
 
-                    } catch (JSONException e) {
-                        e.printStackTrace();
-                    }
-                }
-                adapter.notifyDataSetChanged();
-            }
-        }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-
-            }
-        });
-        requestQueue.add(arrayRequest);
-    }
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         if(item.getItemId()==R.id.ad_danhmuc) {
-            ReadTaiKhoan(url_read);
+          //  ReadTaiKhoan(url_read);
+
+
         }
         else  if(item.getItemId()==R.id.ad_phanhoi) {
-            Toast.makeText(getApplicationContext(),"Phan hoi",Toast.LENGTH_SHORT).show();
+            QlFeedback_fragment qlTaiKhoan_fragment = new QlFeedback_fragment();
+            android.app.FragmentManager fragmentManager  = getFragmentManager();
+            android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
+            fragmentTransaction.commit();
+            return true;
         }
         else  if(item.getItemId()==R.id.ad_user) {
-            Toast.makeText(getApplicationContext(),"QL user",Toast.LENGTH_SHORT).show();
+            QlTaiKhoan_fragment qlTaiKhoan_fragment = new QlTaiKhoan_fragment();
+            android.app.FragmentManager fragmentManager  = getFragmentManager();
+            android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
+            fragmentTransaction.commit();
+            return true;
         }
         else  if(item.getItemId()==R.id.ad_deal) {
-            Toast.makeText(getApplicationContext(),"Deal",Toast.LENGTH_SHORT).show();
+            QlTaiKhoan_hotdeal qlTaiKhoan_fragment = new QlTaiKhoan_hotdeal();
+            android.app.FragmentManager fragmentManager  = getFragmentManager();
+            android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+            fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
+            fragmentTransaction.commit();
+            return true;
         }
         return false;
     }

@@ -17,6 +17,13 @@
 
     </android.support.design.widget.NavigationView>
 
+    <ImageView
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_wallet_logo" />
+
     <LinearLayout
         android:orientation="horizontal"
         android:layout_marginTop="30dp"
