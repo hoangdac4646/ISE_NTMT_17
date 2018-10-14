@@ -26,8 +26,6 @@
         <activity android:name=".mActivity.AddWalletActivity" ></activity>
         <activity android:name=".mActivity.AboutUsActivity" ></activity>
         <activity android:name=".mActivity.WalletActivity"></activity>
-
-
     </application>
 
 </manifest>
