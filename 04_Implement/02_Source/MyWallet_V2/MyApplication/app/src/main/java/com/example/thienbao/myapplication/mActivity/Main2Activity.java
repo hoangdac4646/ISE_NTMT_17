@@ -28,6 +28,7 @@ public class Main2Activity extends AppCompatActivity
     BottomNavigationView bottomNavigationView;
     Fragment mFragment;
     FragmentTransaction transaction;
+    TaiKhoan loginAccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,6 +60,9 @@ public class Main2Activity extends AppCompatActivity
 
         transaction.add(R.id.main_Fragment, mFragment);
         transaction.commit();
+        Intent intent   = getIntent();
+        loginAccount = (TaiKhoan) intent.getSerializableExtra("TaiKhoan");
+
     }
 
     @Override
@@ -89,6 +93,9 @@ public class Main2Activity extends AppCompatActivity
        if(mtoggle.onOptionsItemSelected(item)){
            return true;
        }
+       if(item.getItemId() == android.R.id.home){
+           return true;
+       }
 
         return super.onOptionsItemSelected(item);
     }
@@ -98,27 +105,25 @@ public class Main2Activity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
 
-        if (id == R.id.nav_account) {
-            // Handle the camera action
-            Intent intent   = getIntent();
-            TaiKhoan a = (TaiKhoan) intent.getSerializableExtra("TaiKhoan");
-            Toast.makeText(getApplicationContext(),a.getName()+"pass : "+a.getPass()+"",Toast.LENGTH_SHORT).show();
-        } else if (id == R.id.nav_vallet_info) {
-            startActivity(new Intent(Main2Activity.this, WalletInfoActivity.class));
+        switch (item.getItemId())
+        {
+            case R.id.nav_account:
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+                break;
+            case R.id.nav_vallet_info:
+                Intent intent = new Intent(Main2Activity.this, WalletInfoActivity.class);
+                //intent.putExtra("TaiKhoang", loginAccount);
+                startActivity(intent);
+                break;
+            case R.id.nav_about:
+                startActivity(new Intent(Main2Activity.this, AboutUsActivity.class));
+                break;
+            case R.id.nav_add:
+                startActivity(new Intent(Main2Activity.this, AddTransactionActivity.class));
+                break;
         }
-        else if(id == R.id.nav_add){
-            startActivity(new Intent(Main2Activity.this, AddTransactionActivity.class));
-            return true;
-        }
+
 
         drawer.closeDrawer(GravityCompat.START);
         return true;
