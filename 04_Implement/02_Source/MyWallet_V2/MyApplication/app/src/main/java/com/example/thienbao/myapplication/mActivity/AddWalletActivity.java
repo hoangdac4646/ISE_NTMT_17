@@ -13,6 +13,14 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+import com.example.thienbao.myapplication.DangNhap.TaiKhoan;
 import com.example.thienbao.myapplication.R;
 import com.example.thienbao.myapplication.mClass.mSQLite;
 
@@ -20,6 +28,8 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AddWalletActivity extends AppCompatActivity implements TextWatcher, View.OnClickListener {
 
@@ -30,6 +40,7 @@ public class AddWalletActivity extends AppCompatActivity implements TextWatcher,
     ArrayList<String> category;
     Spinner spinner;
     ArrayAdapter adapter;
+    TaiKhoan mAccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -56,7 +67,8 @@ public class AddWalletActivity extends AppCompatActivity implements TextWatcher,
 
 
         database = new mSQLite(this);
-        database.QueryData("CREATE TABLE IF NOT EXISTS Wallet(id INTEGER PRIMARY KEY AUTOINCREMENT, name NVARCHAR(255), category INTEGER, money MONEY, timeinit NVARCHAR(100))");
+        Intent intent = getIntent();
+        mAccount = (TaiKhoan) intent.getSerializableExtra("TaiKhoang");
     }
 
     private void ExcItem(){
@@ -122,4 +134,31 @@ public class AddWalletActivity extends AppCompatActivity implements TextWatcher,
         }
 
     }
+    private void PutData(String url){
+        RequestQueue request = Volley.newRequestQueue(this);
+        StringRequest jsonObjectRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+
+                Map<String,String> map = new HashMap<>();
+                map.put("","");
+
+                return super.getParams();
+            }
+        };
+
+        request.add(jsonObjectRequest);
+    }
+
 }

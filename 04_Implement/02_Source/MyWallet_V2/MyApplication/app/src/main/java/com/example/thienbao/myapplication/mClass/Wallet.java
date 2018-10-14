@@ -4,13 +4,15 @@ import java.io.Serializable;
 import java.util.Calendar;
 
 public class Wallet implements Serializable {
+    private int idUser;
     private int id;
     private String Wallet_name;
     private int category_wallet;
     private long Money;
     private Calendar init_time;
 
-    public Wallet(int id,String wallet_name,int category_wallet, long money, Calendar init_time) {
+    public Wallet(int idUser,int id,String wallet_name,int category_wallet, long money, Calendar init_time) {
+        this.idUser  = idUser;
         this.id = id;
         Wallet_name = wallet_name;
         this.category_wallet = category_wallet;
@@ -18,6 +20,8 @@ public class Wallet implements Serializable {
 
         this.init_time = init_time;
     }
+
+
 
     public int getId() {
         return id;
