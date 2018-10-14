@@ -13,33 +13,21 @@
         android:theme="@style/AppTheme">
         <activity android:name=".DangNhap.MainActivity" />
         <activity android:name=".DangNhap.DangKiActivity" />
-<<<<<<< HEAD
         <activity android:name=".DangNhap.StartActivity"></activity>
         <activity android:name=".DangNhap.AdminActivity" />
         <activity android:name=".mActivity.Main2Activity">
-=======
-        <activity android:name=".DangNhap.StartActivity">
-
-        </activity>
-        <activity android:name=".DangNhap.AdminActivity">
->>>>>>> master
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-        <activity android:name=".mActivity.AddTransactionActivity" ></activity>
-        <activity android:name=".mActivity.WalletInfoActivity" ></activity>
+        <activity android:name=".mActivity.AddTransactionActivity" />
+        <activity android:name=".mActivity.WalletInfoActivity" />
         <activity android:name=".mActivity.AddWalletActivity" ></activity>
         <activity android:name=".mActivity.AboutUsActivity" ></activity>
         <activity android:name=".mActivity.WalletActivity"></activity>
-=======
-        <activity android:name=".mActivity.Main2Activity"></activity>
-        <activity android:name=".mActivity.AddTransactionActivity"></activity>
-        <activity android:name=".mActivity.WalletInfoActivity"></activity>
-        <activity android:name=".mActivity.AddWalletActivity"></activity>
->>>>>>> master
+
+
     </application>
 
 </manifest>
