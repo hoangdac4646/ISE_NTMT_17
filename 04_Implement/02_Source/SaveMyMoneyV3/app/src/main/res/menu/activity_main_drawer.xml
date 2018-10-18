@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:title="Thông Tin Cá Nhân" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="Thay Đổi Thông Tin" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="FeelBack" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:title="Giới Thiệu" />
+    </group>
+
+    <item android:title="Hệ Thống">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Đăng Xuất" />
+            <item
+                android:id="@+id/nav_quit"
+                android:title="Thoát" />
+        </menu>
+    </item>
+
+</menu>

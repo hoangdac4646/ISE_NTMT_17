@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mActivity.AddPlanActivity">
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar_AP"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/calendar" />
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorText"
+        android:text="Kinh Phí"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_kinhphi"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cus_editext"
+        android:padding="15dp" />
+    <TextView
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="15dp"
+    android:textColor="@color/colorText"
+    android:text="Ngày Dự Định"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+
+        android:id="@+id/edt_ngaydd"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cus_editext"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorText"
+        android:text="Ghi Chú"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_ghichu_DD"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cus_editext"
+        android:gravity="start"
+        android:lines="5"
+        android:nestedScrollingEnabled="true"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_yes_dd"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ccus_button"
+        android:text="Xác Nhận" />
+
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mFragment.Plan_Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:background="@drawable/cus_lich"
+        android:textColor="@color/colorblack"
+        android:textSize="25sp"
+        android:id="@+id/show_m_y"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <com.github.sundeepk.compactcalendarview.CompactCalendarView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/compactcalendar_view"
+        android:layout_width="fill_parent"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:layout_height="220dp"
+        app:compactCalendarTargetHeight="250dp"
+        app:compactCalendarTextSize="12sp"
+        app:compactCalendarBackgroundColor="#7af98d"
+        app:compactCalendarTextColor="#000000"
+        app:compactCalendarCurrentSelectedDayIndicatorStyle="no_fill_large_indicator"
+        app:compactCalendarOtherMonthDaysTextColor="#696767"
+        app:compactCalendarDisplayOtherMonthDays="true"
+        app:compactCalendarCurrentSelectedDayBackgroundColor="@color/colorRed"
+        app:compactCalendarCurrentDayTextColor="#f96d70"
+        app:compactCalendarMultiEventIndicatorColor="#04f1e1"
+        app:compactCalendarEventIndicatorStyle="fill_large_indicator"
+        app:compactCalendarCurrentSelectedDayTextColor="@color/colorRed"
+        app:compactCalendarCurrentDayIndicatorStyle="no_fill_large_indicator"
+        app:compactCalendarCurrentDayBackgroundColor="#f96d70"
+        />
+
+
+
+    <ListView
+        android:id="@+id/list_plan"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"></ListView>
+
+
+    <Button
+        android:id="@+id/btn_them_DD"
+        android:layout_width="133dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ccus_button"
+        android:text="Thêm" />
+
+</LinearLayout>

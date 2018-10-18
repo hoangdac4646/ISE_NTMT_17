@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mActivity.AddMoneyActivity">
+    
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/mtoolbar_AW"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/img_icon_walletinfo"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/icon_wallet_logo" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txtName_AW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="16dp"
+                android:text="Tên Của Ví"
+                android:textColor="@color/colorRed"
+                 />
+
+            <TextView
+                android:id="@+id/txtMoney_AW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="16dp"
+                android:text="Tiền: "
+                android:textColor="@color/colorRed"
+                 />
+
+            <TextView
+                android:id="@+id/txtDate_AW"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="16dp"
+                android:text="Ngày Tạo "
+                android:textColor="@color/colorRed"
+                 />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorText"
+        android:text="Số Tiền"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_TienNap"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cus_editext"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:text="Ngày Tạo "
+        android:textColor="@color/colorText" />
+
+    <EditText
+        android:inputType="date"
+        android:layout_marginRight="20dp"
+        android:id="@+id/edt_ngayNap"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/cus_editext"
+        android:padding="15dp" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="@color/colorText"
+        android:text="Ghi Chú"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:gravity="start"
+        android:id="@+id/edt_ghichu_AW"
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/cus_editext"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/btn_xacnhan_AW"
+        android:layout_width="141dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ccus_button"
+        android:text="Xác Nhận" />
+
+</LinearLayout>

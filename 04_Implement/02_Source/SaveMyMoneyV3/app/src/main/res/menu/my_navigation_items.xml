@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/icon_more_big"
+        android:title="@string/nav_home"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/nav_report"
+        android:icon="@drawable/ic_report"
+        android:title="@string/nav_report"
+        app:showAsAction="always"></item>
+    <item
+        android:id="@+id/nav_add"
+        android:icon="@drawable/icon_add_biggest"
+        android:title="@string/nav_add"
+        app:showAsAction="always" />
+    <item android:id="@+id/nav_plan"
+        android:title="Plan"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_plan_1"></item>
+    <item
+        android:id="@+id/nav_more"
+        android:icon="@drawable/ic_more"
+        android:title="Item"
+        app:showAsAction="always" />
+
+
+
+
+
+
+
+
+
+
+
+
+</menu>
