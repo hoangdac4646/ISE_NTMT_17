@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
+            "outputFile": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
                     "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-28.0.0.aar\\b384c2ccf48243534ff76f858a721d8e\\res\\values-v23\\values-v23.xml",

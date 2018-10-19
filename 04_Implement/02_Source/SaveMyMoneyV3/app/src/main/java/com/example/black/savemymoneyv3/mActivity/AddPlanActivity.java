@@ -10,12 +10,21 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mClass.DuDinh;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 public class AddPlanActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -23,6 +32,8 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
     private Button yes;
     private DuDinh duDinh;
     private Toolbar mtoolbar;
+    private String ngaykt;
+    final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataPlan.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,23 +65,49 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
         return super.onOptionsItemSelected(item);
     }
 
+    private void PutData(String url){
+        RequestQueue requestQueue = Volley.newRequestQueue(this);
+        StringRequest request       = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(AddPlanActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String, String> map = new HashMap<>();
+                map.put("kinhphi", edtKinhPhi.getText().toString());
+                map.put("ngaykt", ngaykt);
+                map.put("ghichu", edtghichu.getText().toString());
+                map.put("taikhoan", "vietdanh");
+
+                return map;
+            }
+        };
+        requestQueue.add(request);
+    }
+
     @Override
         public void onClick(View v) {
             if(v.getId() == R.id.btn_yes_dd){
 
                 SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+                SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd");
                 try {
 
                     Calendar calendar = Calendar.getInstance();
                     calendar.setTime(dateFormat.parse(edtNgaydd.getText().toString()));
-                    duDinh = new DuDinh(1,
-                            Long.parseLong(String.valueOf(edtKinhPhi.getText())),
-                            calendar,
-                            edtghichu.getText().toString(), "danh");
+                    ngaykt = dateFormat1.format(calendar.getTime());
+                    PutData(url);
 
-                    Intent intent = new Intent();
-                    intent.putExtra("data", duDinh);
-                    setResult(RESULT_OK, intent);
+                    setResult(RESULT_OK);
                     finish();
                 } catch (ParseException e) {
                     Toast.makeText(this, "Vui Lòng Nhập Đúng Định Dạng dd/MM/yyyy", Toast.LENGTH_SHORT).show();

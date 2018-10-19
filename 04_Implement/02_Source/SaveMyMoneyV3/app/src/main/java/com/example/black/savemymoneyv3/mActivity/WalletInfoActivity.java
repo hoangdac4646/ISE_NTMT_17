@@ -1,12 +1,15 @@
 package com.example.black.savemymoneyv3.mActivity;
 
+import android.app.Activity;
 import android.content.Intent;
+import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.support.v7.widget.Toolbar;
@@ -39,6 +42,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     private TextView name, money, date;
     private Toolbar mtoolbar;
     private ListView list_WF;
+    private ImageView imageView;
     private ArrayList<GiaoDich> items;
     private Button btn_Nap, btn_GD;
     private final int RES_CODE = 2;
@@ -58,6 +62,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
 
         name.setText(wallet.getName());
         money.append(wallet.getMoney() + "");
+        imageView.setImageResource(wallet.getIcon());
         Calendar calendar = wallet.getDate();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
 
@@ -79,7 +84,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         list_WF = findViewById(R.id.list_action);
         btn_Nap = findViewById(R.id.btn_Nap);
         btn_GD = findViewById(R.id.btn_GD);
-
+        imageView = (ImageView) findViewById(R.id.img_icon_walletinfo);
 
         items = new ArrayList<>();
         GetData(url);
@@ -153,8 +158,17 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     }
 
     @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+
+        if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK){
+            GetData(url);
+        }
+    }
+
+    @Override
     public void onClick(View v) {
-        int loaigd = 0;
+        int loaigd = -1;
         Intent intent = new Intent(WalletInfoActivity.this, AddMoneyActivity.class);
         if(v.getId() == R.id.btn_Nap){
             loaigd = 1;

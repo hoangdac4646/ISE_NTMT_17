@@ -60,7 +60,6 @@ public class HoatDongAdapter extends BaseAdapter {
         }else{
             holder = (ViewHolder) view.getTag();
         }
-        holder.icon.setBackgroundResource(items.get(position).getIcon());
         holder.icon.setImageResource(items.get(position).getIcon());
         holder.name.setText(items.get(position).getName());
         holder.money.setText(items.get(position).getMoney() + "");

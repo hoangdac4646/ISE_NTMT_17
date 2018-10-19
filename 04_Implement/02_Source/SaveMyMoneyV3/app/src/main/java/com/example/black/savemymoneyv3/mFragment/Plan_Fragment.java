@@ -138,15 +138,10 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK  && data != null){
+        if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK){
 
 
-            DuDinh duDinh = (DuDinh) data.getSerializableExtra("data");
-            Calendar calendar = duDinh.getNgayKetThuc();
-            Event mevent = new Event(Color.YELLOW, calendar.getTimeInMillis(), duDinh);
-            compactCalendarView.addEvent(mevent);
-
-            Toast.makeText(context, duDinh.getGhiChu(), Toast.LENGTH_SHORT).show();
+            GetData(url);
         }
     }
 

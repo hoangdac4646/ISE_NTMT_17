@@ -1,18 +1,18 @@
 #Internal package file, do not edit.
-#Mon Oct 15 18:15:35 ICT 2018
+#Fri Oct 19 08:57:33 ICT 2018
 4.path=classes.dex
 8.set=DEX
 6.path=classes.dex
 0.baseType=DIRECTORY
 10.path=classes.dex
 5.baseType=DIRECTORY
-1.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+1.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
 8.path=classes.dex
-3.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
+3.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
 4.set=DEX
-5.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-7.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
-9.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+5.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+7.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+9.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\18
 1.baseType=DIRECTORY
 0.set=DEX
 6.baseType=DIRECTORY
@@ -25,16 +25,16 @@
 3.path=classes.dex
 10.set=DEX
 5.path=classes.dex
-0.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\20
+0.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
 7.path=classes.dex
 9.path=classes.dex
 6.set=DEX
-2.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
-4.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+2.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
+4.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
 3.baseType=DIRECTORY
-6.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
-10.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\21
-8.base=E\:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+6.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+10.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+8.base=E\:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 2.set=DEX
 8.baseType=DIRECTORY
 9.set=DEX

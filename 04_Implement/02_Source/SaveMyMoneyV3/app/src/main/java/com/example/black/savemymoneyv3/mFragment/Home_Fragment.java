@@ -1,19 +1,23 @@
 package com.example.black.savemymoneyv3.mFragment;
 
 
+import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -48,9 +52,13 @@ public class Home_Fragment extends Fragment {
     HoatDongAdapter adapter;
     Context context;
     MainActivity mainActivity;
+    Dialog dialog;
+    ProgressBar progressBar;
+    Boolean isRunning = false;
     final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
     //final static int[] icon = {R.drawable.pic0, R.drawable.pic0};
     int[] icon;
+    Handler myHandler = new Handler();
     public Home_Fragment() {
     }
     @Override
@@ -58,7 +66,6 @@ public class Home_Fragment extends Fragment {
         super.onCreate(savedInstanceState);
         context = getActivity();
         mainActivity = (MainActivity) getActivity();
-        GetData(url);
     }
 
     @Override
@@ -69,6 +76,10 @@ public class Home_Fragment extends Fragment {
         sum_money       = view.findViewById(R.id.txt_sum_money_main);
         icon = MainActivity.icon;
 
+        dialog = new Dialog(context);
+        dialog.setContentView(R.layout.cus_dialog_wailt);
+        progressBar = dialog.findViewById(R.id.progressBar);
+        progressBar.setMax(30);
         return view;
     }
 
@@ -77,8 +88,6 @@ public class Home_Fragment extends Fragment {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         items = new ArrayList<>();
-        //icon = getActivity().getResources().getIntArray(R.array.iconARR);
-        Calendar calendar = Calendar.getInstance();
         adapter = new HoatDongAdapter(context, R.layout.cus_list_chitieu, items);
         list_ChiTieu.setAdapter(adapter);
 
@@ -120,9 +129,16 @@ public class Home_Fragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        GetData(url);
+        //GetData(url);
     }
     private void GetData(String url){
+
+        dialog.show();
+        isRunning = true;
+        Thread myBackgroundThread = new Thread( backgroundTask, "backAlias1" );
+        myBackgroundThread.start();
+
+
         RequestQueue request = Volley.newRequestQueue(mainActivity);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
@@ -163,6 +179,33 @@ public class Home_Fragment extends Fragment {
             }
         });
         request.add(jsonArrayRequest);
+
+        isRunning = false;
+        dialog.dismiss();
     }
+
+    private Runnable backgroundTask = new Runnable() {
+        @Override
+        public void run() {
+            while (isRunning == true){
+                Log.d("threadday ne", "ahihi");
+                myHandler.post(foregroundRunnable);
+            }
+        }
+    };
+    private Runnable foregroundRunnable = new Runnable() {
+        @Override
+        public void run() {
+
+            try {
+               for(int i = 0; isRunning ; i++){
+                   Thread.sleep(1000);
+                   progressBar.incrementProgressBy(3);
+               }
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
+    };
 
 }

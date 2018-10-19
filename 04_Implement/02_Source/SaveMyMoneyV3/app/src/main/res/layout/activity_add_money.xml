@@ -21,10 +21,10 @@
         <ImageView
             android:layout_marginTop="5dp"
             android:layout_marginLeft="20dp"
-            android:id="@+id/img_icon_walletinfo"
+            android:id="@+id/img_icon_walleadd"
             android:layout_width="100dp"
             android:layout_height="100dp"
-            app:srcCompat="@drawable/icon_wallet_logo" />
+             />
 
         <LinearLayout
             android:orientation="vertical"

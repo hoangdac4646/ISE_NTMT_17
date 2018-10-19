@@ -18,6 +18,22 @@ public class DuDinh implements Serializable {
         this.taikhoan = taikhoan;
     }
 
+    public int getId_gd() {
+        return id_gd;
+    }
+
+    public void setId_gd(int id_gd) {
+        this.id_gd = id_gd;
+    }
+
+    public String getTaikhoan() {
+        return taikhoan;
+    }
+
+    public void setTaikhoan(String taikhoan) {
+        this.taikhoan = taikhoan;
+    }
+
     public Long getKinhPhi() {
         return kinhPhi;
     }

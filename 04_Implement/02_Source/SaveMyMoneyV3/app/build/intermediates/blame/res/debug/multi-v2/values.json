@@ -1,8 +1,27 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\android project\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
+                {
+                    "source": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "33,14,8,1,30,11,10,7,6,5,9,12,13,4,3,2",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1425,767,486,17,1316,624,583,423,347,286,540,667,716,209,134,72",
+                        "endLines": "36,26,8,1,30,11,10,7,6,5,9,12,13,4,3,2",
+                        "endColumns": "12,9,52,53,69,41,39,61,74,59,41,47,49,75,73,60",
+                        "endOffsets": "1534,1247,534,66,1381,661,618,480,417,341,577,710,761,280,203,128"
+                    },
+                    "to": {
+                        "startLines": "2,2286,2299,2300,2307,2310,2311,2312,2313,2314,2315,2316,2317,2318,2319,2327",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "150,140928,141401,141454,142269,142568,142610,142650,142712,142787,142847,142889,142937,142987,143063,144063",
+                        "endLines": "5,2298,2299,2300,2307,2310,2311,2312,2313,2314,2315,2316,2317,2318,2319,2327",
+                        "endColumns": "12,9,52,53,69,41,39,61,74,59,41,47,49,75,73,60",
+                        "endOffsets": "256,141396,141449,141503,142334,142605,142645,142707,142782,142842,142884,142932,142982,143058,143132,144119"
+                    }
+                },
                 {
                     "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\59884f19e294e79a69c8f75a194f8744\\res\\values\\values.xml",
                     "from": {
@@ -23,7 +42,7 @@
                     }
                 },
                 {
-                    "source": "E:\\android project\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,10,12",
                         "startColumns": "4,4,4",
@@ -59,7 +78,7 @@
                     }
                 },
                 {
-                    "source": "E:\\android project\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\dimens.xml",
+                    "source": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\dimens.xml",
                     "from": {
                         "startLines": "2,3,6,5,4",
                         "startColumns": "4,4,4,4,4",
@@ -73,6 +92,23 @@
                         "startOffsets": "125452,125510,129201,133090,133140",
                         "endColumns": "57,55,41,49,57",
                         "endOffsets": "125505,125561,129238,133135,133193"
+                    }
+                },
+                {
+                    "source": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\drawables.xml",
+                    "from": {
+                        "startLines": "1,2,4,6,5,3",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "76,165,351,527,440,256",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "159,250,434,606,521,345"
+                    },
+                    "to": {
+                        "startLines": "2188,2189,2190,2191,2192,2193",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "134841,134929,135019,135107,135191,135277",
+                        "endColumns": "87,89,87,83,85,93",
+                        "endOffsets": "134924,135014,135102,135186,135272,135366"
                     }
                 },
                 {
@@ -109,23 +145,6 @@
                         "startOffsets": "135724,136054,136193,136240,136295,136889,136943,136995,137044,137105",
                         "endColumns": "39,42,46,54,44,53,51,48,60,49",
                         "endOffsets": "135759,136092,136235,136290,136335,136938,136990,137039,137100,137150"
-                    }
-                },
-                {
-                    "source": "E:\\android project\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\drawables.xml",
-                    "from": {
-                        "startLines": "1,2,4,6,5,3",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "76,165,351,527,440,256",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "159,250,434,606,521,345"
-                    },
-                    "to": {
-                        "startLines": "2188,2189,2190,2191,2192,2193",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "134841,134929,135019,135107,135191,135277",
-                        "endColumns": "87,89,87,83,85,93",
-                        "endOffsets": "134924,135014,135102,135186,135272,135366"
                     }
                 },
                 {
@@ -167,7 +186,7 @@
                     }
                 },
                 {
-                    "source": "E:\\android project\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "8,4,2,3,9,10,7,6",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -181,25 +200,6 @@
                         "startOffsets": "9831,10766,10812,10859,10910,10953,10997,12486",
                         "endColumns": "44,45,46,50,42,43,44,43",
                         "endOffsets": "9871,10807,10854,10905,10948,10992,11037,12525"
-                    }
-                },
-                {
-                    "source": "E:\\android project\\SaveMyMoneyV3\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "33,14,8,1,30,11,10,7,6,5,9,12,13,4,3,2",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1425,767,486,17,1316,624,583,423,347,286,540,667,716,209,134,72",
-                        "endLines": "36,26,8,1,30,11,10,7,6,5,9,12,13,4,3,2",
-                        "endColumns": "12,9,52,53,69,41,39,61,74,59,41,47,49,75,73,60",
-                        "endOffsets": "1534,1247,534,66,1381,661,618,480,417,341,577,710,761,280,203,128"
-                    },
-                    "to": {
-                        "startLines": "2,2286,2299,2300,2307,2310,2311,2312,2313,2314,2315,2316,2317,2318,2319,2327",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "150,140928,141401,141454,142269,142568,142610,142650,142712,142787,142847,142889,142937,142987,143063,144063",
-                        "endLines": "5,2298,2299,2300,2307,2310,2311,2312,2313,2314,2315,2316,2317,2318,2319,2327",
-                        "endColumns": "12,9,52,53,69,41,39,61,74,59,41,47,49,75,73,60",
-                        "endOffsets": "256,141396,141449,141503,142334,142605,142645,142707,142782,142842,142884,142932,142982,143058,143132,144119"
                     }
                 },
                 {
