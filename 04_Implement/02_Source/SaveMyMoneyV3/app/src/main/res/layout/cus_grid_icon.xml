@@ -4,8 +4,11 @@
     android:layout_height="wrap_content">
 
     <ImageView
+        android:hardwareAccelerated="false"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:largeHeap="true"
         android:id="@+id/icons"
-        android:src="@drawable/pic0"
-        android:layout_width="50dp"
-        android:layout_height="50dp" />
+        android:layout_width="55dp"
+        android:layout_height="55dp" />
 </LinearLayout>

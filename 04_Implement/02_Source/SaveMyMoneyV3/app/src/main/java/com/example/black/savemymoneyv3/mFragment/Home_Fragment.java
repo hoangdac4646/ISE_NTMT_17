@@ -2,20 +2,27 @@ package com.example.black.savemymoneyv3.mFragment;
 
 
 import android.app.Dialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.TypedArray;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.Fragment;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.animation.AnimationUtils;
+import android.view.animation.LinearInterpolator;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
@@ -52,13 +59,12 @@ public class Home_Fragment extends Fragment {
     HoatDongAdapter adapter;
     Context context;
     MainActivity mainActivity;
-    Dialog dialog;
-    ProgressBar progressBar;
-    Boolean isRunning = false;
+    ProgressDialog progress;
+    ImageView img_reset;
+
     final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
-    //final static int[] icon = {R.drawable.pic0, R.drawable.pic0};
-    int[] icon;
-    Handler myHandler = new Handler();
+    TypedArray imgs;
+    boolean isrunning = false;
     public Home_Fragment() {
     }
     @Override
@@ -66,20 +72,19 @@ public class Home_Fragment extends Fragment {
         super.onCreate(savedInstanceState);
         context = getActivity();
         mainActivity = (MainActivity) getActivity();
+        imgs = context.getResources().obtainTypedArray(R.array.micon);
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_home_, container, false);
         list_ChiTieu    = view.findViewById(R.id.list_chitieu);
         sum_money       = view.findViewById(R.id.txt_sum_money_main);
-        icon = MainActivity.icon;
+        img_reset       = view.findViewById(R.id.img_reset);
 
-        dialog = new Dialog(context);
-        dialog.setContentView(R.layout.cus_dialog_wailt);
-        progressBar = dialog.findViewById(R.id.progressBar);
-        progressBar.setMax(30);
+
         return view;
     }
 
@@ -91,7 +96,16 @@ public class Home_Fragment extends Fragment {
         adapter = new HoatDongAdapter(context, R.layout.cus_list_chitieu, items);
         list_ChiTieu.setAdapter(adapter);
 
-        GetData(url);
+
+        progress = ProgressDialog.show(getActivity(), "Getting Data From Server", "Loading...", true);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                GetData(url);
+            }
+        }, 0);
+
 
         list_ChiTieu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -122,6 +136,28 @@ public class Home_Fragment extends Fragment {
                 return true;
             }
         });
+        img_reset.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                isrunning = true;
+                Handler handler = new Handler();
+                handler.postDelayed(new Runnable() {
+                    @RequiresApi(api = Build.VERSION_CODES.JELLY_BEAN)
+                    @Override
+                    public void run() {
+                        if(isrunning)
+                        {
+                            img_reset.animate().rotationBy(360).withEndAction(this).setDuration(1000).setInterpolator(new LinearInterpolator()).start();
+                            GetData(url);
+                        }
+
+                        isrunning = false;
+                    }
+                }, 0);
+
+
+            }
+        });
 
 
     }
@@ -129,16 +165,17 @@ public class Home_Fragment extends Fragment {
     @Override
     public void onResume() {
         super.onResume();
-        //GetData(url);
+        Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                GetData(url);
+            }
+        }, 0);
     }
-    private void GetData(String url){
 
-        dialog.show();
-        isRunning = true;
-        Thread myBackgroundThread = new Thread( backgroundTask, "backAlias1" );
-        myBackgroundThread.start();
-
-
+    private void GetData(final String url) {
+        progress.show();
         RequestQueue request = Volley.newRequestQueue(mainActivity);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
@@ -146,16 +183,16 @@ public class Home_Fragment extends Fragment {
                     public void onResponse(JSONArray response) {
                         items.clear();
                         Long sum = 0L;
-                        for(int i = 0; i < response.length(); i++){
+                        for (int i = 0; i < response.length(); i++) {
                             try {
-                                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MM-yyyy");
+                                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
                                 Calendar calendar = Calendar.getInstance();
 
                                 JSONObject object = response.getJSONObject(i);
                                 calendar.setTime(simpleDateFormat.parse(object.getString("ngaytao")));
 
                                 items.add(new KhoangChiTieu(object.getInt("mavi"),
-                                        icon[object.getInt("icon")],
+                                        object.getInt("icon"),
                                         object.getString("tenvi"),
                                         object.getLong("tien"),
                                         calendar,
@@ -171,6 +208,7 @@ public class Home_Fragment extends Fragment {
                         }
                         sum_money.setText(sum + "");
                         adapter.notifyDataSetChanged();
+                        progress.dismiss();
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -179,33 +217,6 @@ public class Home_Fragment extends Fragment {
             }
         });
         request.add(jsonArrayRequest);
-
-        isRunning = false;
-        dialog.dismiss();
     }
-
-    private Runnable backgroundTask = new Runnable() {
-        @Override
-        public void run() {
-            while (isRunning == true){
-                Log.d("threadday ne", "ahihi");
-                myHandler.post(foregroundRunnable);
-            }
-        }
-    };
-    private Runnable foregroundRunnable = new Runnable() {
-        @Override
-        public void run() {
-
-            try {
-               for(int i = 0; isRunning ; i++){
-                   Thread.sleep(1000);
-                   progressBar.incrementProgressBy(3);
-               }
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
-        }
-    };
 
 }

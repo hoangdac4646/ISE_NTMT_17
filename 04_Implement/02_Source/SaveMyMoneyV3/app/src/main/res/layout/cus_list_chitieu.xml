@@ -6,29 +6,36 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/imgIcon"
-        android:layout_width="70dp"
-        android:layout_height="70dp" />
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:id="@+id/imgIcon_CT"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
 
     <LinearLayout
-        android:padding="9dp"
+        android:padding="10dp"
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/txtName"
+
+            android:id="@+id/txtName_CT"
         android:textSize="20sp"
         android:textColor="@color/colorblack"
         android:text="Name"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content" >
+
+        </TextView>
         <TextView
-            android:id="@+id/txtMoney"
+            android:id="@+id/txtMoney_CT"
             android:textSize="20sp"
             android:textColor="@color/colorblack"
             android:text="Name"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content" >
+
+        </TextView>
 
     </LinearLayout>
 

@@ -1,7 +1,10 @@
 package com.example.black.savemymoneyv3.mActivity;
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Intent;
+import android.content.res.TypedArray;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -48,8 +51,13 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     private final int RES_CODE = 2;
     ListGDAdapter adapter;
     KhoangChiTieu wallet;
-
+    private  ProgressDialog mprogress;
+    TypedArray imgs;
+    Handler handler = new Handler();
     final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataAction.php";
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,18 +65,29 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
 
         initwork();
 
+
         Intent intent = getIntent();
         wallet = (KhoangChiTieu) intent.getSerializableExtra("wallet");
 
         name.setText(wallet.getName());
         money.append(wallet.getMoney() + "");
-        imageView.setImageResource(wallet.getIcon());
+        imageView.setImageResource(imgs.getResourceId(wallet.getIcon(), -1));
         Calendar calendar = wallet.getDate();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd/MM/yyyy");
-
-
-
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         date.setText(simpleDateFormat.format(calendar.getTime()));
+
+        mprogress = ProgressDialog.show(this, "Getting Data From Server", "Loading...", true);
+
+
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                GetData(url);
+
+            }
+        }, 0);
+
+
         btn_Nap.setOnClickListener(this);
         btn_GD.setOnClickListener(this);
 
@@ -85,9 +104,12 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         btn_Nap = findViewById(R.id.btn_Nap);
         btn_GD = findViewById(R.id.btn_GD);
         imageView = (ImageView) findViewById(R.id.img_icon_walletinfo);
+        imgs = getResources().obtainTypedArray(R.array.micon);
 
         items = new ArrayList<>();
-        GetData(url);
+
+
+
 
         adapter = new ListGDAdapter(this, R.layout.cus_list_action, items);
         list_WF.setAdapter(adapter);
@@ -98,6 +120,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
+
 
     @Override
     public void onBackPressed() {
@@ -116,6 +139,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void GetData(String url){
+        mprogress.show();
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
@@ -144,16 +168,16 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
                             }
                         }
                         adapter.notifyDataSetChanged();
+                        mprogress.dismiss();
 
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
-
+                        Toast.makeText(WalletInfoActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
                     }
                 });
-
         requestQueue.add(jsonArrayRequest);
     }
 
@@ -162,7 +186,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK){
-            GetData(url);
+
         }
     }
 

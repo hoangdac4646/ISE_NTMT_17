@@ -2,10 +2,12 @@ package com.example.black.savemymoneyv3.mFragment;
 
 
 import android.app.Activity;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -56,6 +58,9 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
     private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
     private ArrayList<DuDinh> plans;
     final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataPlan.php";
+    private ProgressDialog progress;
+    private  Handler handler = new Handler();
+
 
     public Plan_Fragment() {
 
@@ -79,7 +84,14 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
 
-        GetData(url);
+        progress = ProgressDialog.show(getActivity(), "Getting Data From Server", "Loading...", true);
+
+        handler.post(new Runnable() {
+            @Override
+            public void run() {
+                GetData(url);
+            }
+        });
 
         adapter = new ListPlanAdapter(context, R.layout.cus_list_plan, plans);
         list_plan.setAdapter(adapter);
@@ -175,13 +187,15 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
                             } catch (ParseException e) {
                                 e.printStackTrace();
                             }
-
+                            progress.dismiss();
                         }
                     }
                 },
                 new Response.ErrorListener() {
                     @Override
                     public void onErrorResponse(VolleyError error) {
+                        Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
+                        progress.dismiss();
 
                     }
                 });

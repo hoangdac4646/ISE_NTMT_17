@@ -26,6 +26,7 @@ import com.example.black.savemymoneyv3.mAdapter.ListIconAdapter;
 import com.example.black.savemymoneyv3.mFragment.Home_Fragment;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Collections;
 import java.util.HashMap;
@@ -43,7 +44,6 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_add_wallet);
         InitWork();
-
         edtDateInit.setText(format.format(Calendar.getInstance().getTime()));
 
         btnXacnhan.setOnClickListener(this);
