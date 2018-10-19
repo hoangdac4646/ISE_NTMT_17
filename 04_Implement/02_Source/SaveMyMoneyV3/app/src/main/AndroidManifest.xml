@@ -15,17 +15,23 @@
             android:name=".MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
+       <activity android:name=".DangNhap.StartActivity">
+           <intent-filter>
+               <action android:name="android.intent.action.MAIN" />
+               <category android:name="android.intent.category.LAUNCHER" />
+           </intent-filter>
+       </activity>
+        <activity android:name=".DangNhap.DangKiActivity"/>
+
         <activity android:name=".mActivity.AddWallet" />
+        <activity android:name=".DangNhap.DangNhapActivity"/>
         <activity android:name=".mActivity.WalletInfoActivity" />
         <activity android:name=".mActivity.AddPlanActivity" />
         <activity android:name=".mActivity.AboutUsActivity" />
         <activity android:name=".mActivity.AddMoneyActivity"></activity>
+        <activity android:name=".DangNhap.AdminActivity"/>
     </application>
 
 </manifest>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\cloneGitKragen\\new\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\59884f19e294e79a69c8f75a194f8744\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2,3,4",
                         "startColumns": "4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\d45e948e01dd0bb0dd41abc5499a0c90\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

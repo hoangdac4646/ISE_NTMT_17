@@ -9,6 +9,8 @@
     <string name="action_settings">Settings</string>
     <string name="nav_home">Home</string>
     <string name="nav_add">Add</string>
+    <string name="nv_open">Open</string>
+    <string name="nv_close">Close</string>
     <string name="nav_More">More</string>
     <string name="nav_report">Thống Kê</string>
     <string name="nav_task">Lập Kế Hoạch</string>
@@ -44,24 +46,55 @@
         <item>@drawable/pic9</item>
         <item>@drawable/pic10</item>
         <item>@drawable/pic11</item>
-        <item>@drawable/pic12</item>
-        <item>@drawable/pic13</item>
-        <item>@drawable/pic14</item>
-        <item>@drawable/pic15</item>
-        <item>@drawable/pic16</item>
-        <item>@drawable/pic17</item>
-        <item>@drawable/pic18</item>
-        <item>@drawable/pic19</item>
-        <item>@drawable/pic20</item>
-        <item>@drawable/pic21</item>
-        <item>@drawable/pic22</item>
-        <item>@drawable/pic23</item>
-        <item>@drawable/pic24</item>
-        <item>@drawable/pic25</item>
-        <item>@drawable/pic26</item>
-        <item>@drawable/pic27</item>
-        <item>@drawable/pic28</item>
-        <item>@drawable/pic29</item>
+        <item>@drawable/pic0</item>
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+        <item>@drawable/pic7</item>
+        <item>@drawable/pic8</item>
+        <item>@drawable/pic9</item>
+        <item>@drawable/pic10</item>
+        <item>@drawable/pic11</item>
+        <item>@drawable/pic0</item>
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+        <item>@drawable/pic7</item>
+        <item>@drawable/pic8</item>
+        <item>@drawable/pic9</item>
+        <item>@drawable/pic10</item>
+        <item>@drawable/pic11</item>
+        <item>@drawable/pic0</item>
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+        <item>@drawable/pic7</item>
+        <item>@drawable/pic8</item>
+        <item>@drawable/pic9</item>
+        <item>@drawable/pic10</item>
+        <item>@drawable/pic11</item>
+        <item>@drawable/pic0</item>
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+        <item>@drawable/pic5</item>
+        <item>@drawable/pic6</item>
+        <item>@drawable/pic7</item>
+        <item>@drawable/pic8</item>
+        <item>@drawable/pic9</item>
+        <item>@drawable/pic10</item>
+        <item>@drawable/pic11</item>
+
 
     </integer-array>
 

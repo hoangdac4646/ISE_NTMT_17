@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/ad_user"
+        android:icon="@drawable/user"
+        android:title="Quản lí tài khoản" />
+    <item
+        android:id="@+id/ad_danhmuc"
+        android:icon="@drawable/danhmuc"
+        android:title="Quản lí danh mục" />
+
+    <item
+        android:id="@+id/ad_phanhoi"
+        android:icon="@drawable/feedback"
+        android:title="Quản lí phản hồi" />
+    <item
+        android:id="@+id/ad_deal"
+        android:icon="@drawable/deal"
+        android:title="Quản lí deal " />
+    <item
+        android:id="@+id/ad_logout"
+        android:icon="@drawable/logout"
+        android:title="Thoát " />
+</menu>

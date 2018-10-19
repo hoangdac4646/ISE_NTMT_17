@@ -2,6 +2,7 @@ package com.example.black.savemymoneyv3.mActivity;
 
 import android.app.Dialog;
 import android.content.Intent;
+import android.content.res.TypedArray;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -39,6 +40,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
     ImageView icon;
     int pos = 0;
     final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataWallet.php";
+    TypedArray imgs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +64,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
         icon = findViewById(R.id.imageView);
 
         format = new SimpleDateFormat("yyyy-MM-dd");
+        imgs = getResources().obtainTypedArray(R.array.micon);
 
     }
 
@@ -118,13 +121,10 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
                     @Override
                     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                         pos = position;
-                        icon.setImageResource(MainActivity.icon[position]);
+                        icon.setImageResource(imgs.getResourceId(position, -1));
                         dialog.dismiss();
                     }
                 });
-
-
-
         }
     }
 }
