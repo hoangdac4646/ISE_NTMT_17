@@ -6,7 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".mFragment.Plan_Fragment">
-
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/planPregress"
+        android:indeterminate="true"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <!-- TODO: Update blank fragment layout -->
     <TextView
 

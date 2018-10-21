@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".mActivity.AddWallet">
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:indeterminate="true"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:background="@drawable/circle_vien"
@@ -78,7 +87,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/cus_editext"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="number"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2" />
@@ -108,7 +117,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/cus_editext"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
@@ -136,6 +145,8 @@
         android:text="Huỷ"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_dateinit" />
+
+
 
 
 </android.support.constraint.ConstraintLayout>

@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -21,11 +22,13 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
 import com.example.black.savemymoneyv3.MainActivity;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mAdapter.ListIconAdapter;
 import com.example.black.savemymoneyv3.mFragment.Home_Fragment;
 
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -34,13 +37,15 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AddWallet extends AppCompatActivity implements View.OnClickListener {
-    EditText edtName, edtMoney, edtDateInit;
-    Button btnXacnhan, btnHuy;
-    SimpleDateFormat format;
-    ImageView icon;
-    int pos = 0;
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataWallet.php";
-    TypedArray imgs;
+    private EditText edtName, edtMoney, edtDateInit;
+    private Button btnXacnhan, btnHuy;
+    private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
+    private ImageView icon;
+    private int pos = 0;
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataWallet.php";
+    private TypedArray imgs;
+    private String username;
+    private ProgressBar progressBar2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,12 +68,15 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
         btnHuy = findViewById(R.id.btn_huy);
         icon = findViewById(R.id.imageView);
 
-        format = new SimpleDateFormat("yyyy-MM-dd");
         imgs = getResources().obtainTypedArray(R.array.micon);
+        username = DangNhapActivity.user.getName();
+        progressBar2 = findViewById(R.id.progressBar2);
+        progressBar2.setVisibility(View.INVISIBLE);
 
     }
 
     private void PutData(String url){
+        progressBar2.setVisibility(View.VISIBLE);
         RequestQueue request = Volley.newRequestQueue(AddWallet.this);
         StringRequest jsonObjectRequest = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
@@ -81,6 +89,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(AddWallet.this, error.toString(), Toast.LENGTH_SHORT).show();
+                progressBar2.setVisibility(View.INVISIBLE);
             }
         }){
             @Override
@@ -91,8 +100,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
                 map.put("tien", edtMoney.getText().toString());
                 map.put("ngaytao", edtDateInit.getText().toString());
                 map.put("icon", pos+"");
-                map.put("taikhoan", "vietdanh");
-
+                map.put("taikhoan", username);
                 return map;
             }
         };
@@ -106,8 +114,23 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
                 finish();
                 break;
             case R.id.btn_xacnhan:
-                PutData(url);
-                startActivity(new Intent(AddWallet.this, MainActivity.class));
+                try {
+                    format.parse(edtDateInit.getText().toString());
+                    if(edtName.getText().length() == 0 || edtMoney.getText().length() == 0 ){
+                        Toast.makeText(this, "Vui Lòng Nhập Đầy Đủ Thông Tin", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(Long.parseLong(String.valueOf(edtMoney.getText())) < 0){
+                        Toast.makeText(AddWallet.this, "Vui Lòng Nhập Tiền Là Số Dương", Toast.LENGTH_SHORT).show();
+                    }else {
+                        PutData(url);
+                        finish();
+                    }
+                } catch (ParseException e) {
+                    e.printStackTrace();
+                    Toast.makeText(this, "Sai Dịnh Dạng Ngày Tháng (2018-01-31)", Toast.LENGTH_SHORT).show();
+                }
+
+
                 break;
             case R.id.imageView:
                 final Dialog dialog = new Dialog(this);

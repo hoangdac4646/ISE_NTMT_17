@@ -8,7 +8,7 @@ import android.view.MenuItem;
 import com.example.black.savemymoneyv3.R;
 
 public class AboutUsActivity extends AppCompatActivity {
-    Toolbar mtoolbar;
+    private Toolbar mtoolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

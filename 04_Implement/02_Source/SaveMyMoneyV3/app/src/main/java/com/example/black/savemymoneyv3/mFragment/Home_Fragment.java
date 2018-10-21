@@ -1,6 +1,7 @@
 package com.example.black.savemymoneyv3.mFragment;
 
 
+import android.app.Activity;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -23,11 +24,13 @@ import android.view.animation.LinearInterpolator;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -35,10 +38,14 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
 import com.example.black.savemymoneyv3.MainActivity;
 import com.example.black.savemymoneyv3.R;
+import com.example.black.savemymoneyv3.mActivity.AddBorrowActivity;
+import com.example.black.savemymoneyv3.mActivity.BorrowActivity;
 import com.example.black.savemymoneyv3.mActivity.WalletInfoActivity;
 import com.example.black.savemymoneyv3.mAdapter.HoatDongAdapter;
+import com.example.black.savemymoneyv3.mClass.Communicator;
 import com.example.black.savemymoneyv3.mClass.KhoangChiTieu;
 
 import org.json.JSONArray;
@@ -49,22 +56,32 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 
-public class Home_Fragment extends Fragment {
+public class Home_Fragment extends Fragment implements Communicator {
 
-    TextView sum_money;
-    ListView list_ChiTieu;
-    ArrayList<KhoangChiTieu> items;
-    HoatDongAdapter adapter;
-    Context context;
-    MainActivity mainActivity;
-    ProgressDialog progress;
-    ImageView img_reset;
+    private TextView sum_money;
+    private ListView list_ChiTieu;
+    private ArrayList<KhoangChiTieu> items;
+    private HoatDongAdapter adapter;
+    private Context context;
+    private MainActivity mainActivity;
+    private ProgressDialog progress;
+    private ImageView img_reset;
+    private String username ;
+    private LinearLayout borrow_linear;
+    private TextView sum_borrow, sum_lent;
+    private ProgressBar homeprogress;
 
     final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
+    String url1 = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataBorrow.php";
+    String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataWallet.php";
+
     TypedArray imgs;
     boolean isrunning = false;
+
     public Home_Fragment() {
     }
     @Override
@@ -73,6 +90,7 @@ public class Home_Fragment extends Fragment {
         context = getActivity();
         mainActivity = (MainActivity) getActivity();
         imgs = context.getResources().obtainTypedArray(R.array.micon);
+        username = DangNhapActivity.user.getName();
     }
 
     @Override
@@ -83,8 +101,10 @@ public class Home_Fragment extends Fragment {
         list_ChiTieu    = view.findViewById(R.id.list_chitieu);
         sum_money       = view.findViewById(R.id.txt_sum_money_main);
         img_reset       = view.findViewById(R.id.img_reset);
-
-
+        borrow_linear   = view.findViewById(R.id.borrow_linear);
+        sum_borrow      = view.findViewById(R.id.txtSumBorrow);
+        sum_lent      = view.findViewById(R.id.txtSumLent);
+        homeprogress    = view.findViewById(R.id.homeprogress);
         return view;
     }
 
@@ -95,16 +115,9 @@ public class Home_Fragment extends Fragment {
         items = new ArrayList<>();
         adapter = new HoatDongAdapter(context, R.layout.cus_list_chitieu, items);
         list_ChiTieu.setAdapter(adapter);
+        GetData(url);
+        GetBorrowData(url1);
 
-
-        progress = ProgressDialog.show(getActivity(), "Getting Data From Server", "Loading...", true);
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                GetData(url);
-            }
-        }, 0);
 
 
         list_ChiTieu.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -118,13 +131,13 @@ public class Home_Fragment extends Fragment {
 
         list_ChiTieu.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
                 final AlertDialog.Builder builder = new AlertDialog.Builder(context);
                 builder.setMessage("Bạn có chắc chắn muốn xoá khoảng chi tiêu này không?");
                 builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        // xoá đi
+                        Delete(urldelete, position);
                     }
                 });
                 builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
@@ -150,32 +163,33 @@ public class Home_Fragment extends Fragment {
                             img_reset.animate().rotationBy(360).withEndAction(this).setDuration(1000).setInterpolator(new LinearInterpolator()).start();
                             GetData(url);
                         }
-
                         isrunning = false;
                     }
                 }, 0);
-
-
+            }
+        });
+        borrow_linear.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(context, BorrowActivity.class));
             }
         });
 
 
     }
 
+
+
+
     @Override
     public void onResume() {
         super.onResume();
-        Handler handler = new Handler();
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                GetData(url);
-            }
-        }, 0);
+        GetData(url);
+        GetBorrowData(url1);
     }
 
     private void GetData(final String url) {
-        progress.show();
+        homeprogress.setVisibility(View.VISIBLE);
         RequestQueue request = Volley.newRequestQueue(mainActivity);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
@@ -189,16 +203,18 @@ public class Home_Fragment extends Fragment {
                                 Calendar calendar = Calendar.getInstance();
 
                                 JSONObject object = response.getJSONObject(i);
-                                calendar.setTime(simpleDateFormat.parse(object.getString("ngaytao")));
+                                if(username.equals(object.getString("taikhoan"))) {
+                                    calendar.setTime(simpleDateFormat.parse(object.getString("ngaytao")));
 
-                                items.add(new KhoangChiTieu(object.getInt("mavi"),
-                                        object.getInt("icon"),
-                                        object.getString("tenvi"),
-                                        object.getLong("tien"),
-                                        calendar,
-                                        object.getString("taikhoan")));
+                                    items.add(new KhoangChiTieu(object.getInt("mavi"),
+                                            object.getInt("icon"),
+                                            object.getString("tenvi"),
+                                            object.getLong("tien"),
+                                            calendar,
+                                            object.getString("taikhoan")));
 
-                                sum += object.getLong("tien");
+                                    sum += object.getLong("tien");
+                                }
 
                             } catch (JSONException e) {
                                 e.printStackTrace();
@@ -208,15 +224,92 @@ public class Home_Fragment extends Fragment {
                         }
                         sum_money.setText(sum + "");
                         adapter.notifyDataSetChanged();
-                        progress.dismiss();
+                        homeprogress.setVisibility(View.GONE);
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
+                homeprogress.setVisibility(View.GONE);
+            }
+        });
+        request.add(jsonArrayRequest);
+    }
+    private void GetBorrowData(final String url) {
+        homeprogress.setVisibility(View.VISIBLE);
+        RequestQueue request = Volley.newRequestQueue(mainActivity);
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        Long sumB = 0L;
+                        Long SumL = 0L;
+                        for (int i = 0; i < response.length(); i++) {
+                            try {
+                                JSONObject object = response.getJSONObject(i);
+                                if(object.getString("taikhoan").equals(DangNhapActivity.user.getName())) {
+                                    if (object.getInt("loai") == 0) {
+                                        sumB += object.getLong("tien");
+                                    } else {
+                                        SumL += object.getLong("tien");
+                                    }
+                                }
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                        sum_borrow.setText(sumB+"");
+                        sum_lent.setText(SumL+"");
+                        homeprogress.setVisibility(View.GONE);
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
+                homeprogress.setVisibility(View.GONE);
+
             }
         });
         request.add(jsonArrayRequest);
     }
 
+    private void Delete(final String urldele, final int pos){
+        homeprogress.setVisibility(View.VISIBLE);
+        RequestQueue requestQueue   = Volley.newRequestQueue(context);
+            StringRequest request       = new StringRequest(Request.Method.POST, urldele,
+                    new Response.Listener<String>() {
+                        @Override
+                        public void onResponse(String response) {
+                            Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show();
+                            homeprogress.setVisibility(View.GONE);
+                            GetData(url);
+                        }
+                    }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError error) {
+                    Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
+                    homeprogress.setVisibility(View.GONE);
+                }
+            }){
+                @Override
+                protected Map<String, String> getParams() throws AuthFailureError {
+                    Map<String,String> map = new HashMap<>();
+                    map.put("mavi", items.get(pos).getId() + "");
+                    return map;
+                }
+            };
+            requestQueue.add(request);
+
+
+    }
+
+
+    @Override
+    public void Communicate(String key, String data) {
+        if(key.equals("username")) {
+            username = data;
+        }
+    }
 }

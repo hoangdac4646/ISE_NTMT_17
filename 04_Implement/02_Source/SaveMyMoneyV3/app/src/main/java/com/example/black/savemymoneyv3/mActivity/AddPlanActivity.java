@@ -8,6 +8,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -17,6 +18,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mClass.DuDinh;
 
@@ -33,7 +35,8 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
     private DuDinh duDinh;
     private Toolbar mtoolbar;
     private String ngaykt;
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataPlan.php";
+    private ProgressBar AP_progressbar;
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataPlan.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,9 +52,12 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
         edtghichu = (EditText) findViewById(R.id.edt_ghichu_DD);
         yes = (Button) findViewById(R.id.btn_yes_dd);
         mtoolbar = findViewById(R.id.toolbar_AP);
+        AP_progressbar = findViewById(R.id.AP_progressbar);
+        AP_progressbar.setVisibility(View.INVISIBLE);
 
         setSupportActionBar(mtoolbar);
-
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        edtNgaydd.setText(simpleDateFormat.format(Calendar.getInstance().getTime()));
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }
@@ -66,18 +72,19 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     private void PutData(String url){
+        AP_progressbar.setVisibility(View.VISIBLE);
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         StringRequest request       = new StringRequest(Request.Method.POST, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
                         Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
-
                     }
                 }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(AddPlanActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                AP_progressbar.setVisibility(View.INVISIBLE);
             }
         }){
             @Override
@@ -86,7 +93,7 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
                 map.put("kinhphi", edtKinhPhi.getText().toString());
                 map.put("ngaykt", ngaykt);
                 map.put("ghichu", edtghichu.getText().toString());
-                map.put("taikhoan", "vietdanh");
+                map.put("taikhoan", DangNhapActivity.user.getName());
 
                 return map;
             }
@@ -98,22 +105,24 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
         public void onClick(View v) {
             if(v.getId() == R.id.btn_yes_dd){
 
-                SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
                 SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd");
                 try {
-
                     Calendar calendar = Calendar.getInstance();
-                    calendar.setTime(dateFormat.parse(edtNgaydd.getText().toString()));
+                    calendar.setTime(dateFormat1.parse(edtNgaydd.getText().toString()));
                     ngaykt = dateFormat1.format(calendar.getTime());
-                    PutData(url);
-
-                    setResult(RESULT_OK);
-                    finish();
+                    if(edtKinhPhi.getText().length() == 0 || edtghichu.getText().length() == 0){
+                        Toast.makeText(this, "Vui Lòng Nhập Đầy Đủ Thông Tin", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(Long.parseLong(String.valueOf(edtKinhPhi.getText())) < 0){
+                        Toast.makeText(AddPlanActivity.this, "Vui Lòng Nhập Tiền Là Số Dương", Toast.LENGTH_SHORT).show();
+                    }else {
+                        PutData(url);
+                        setResult(RESULT_OK);
+                        finish();
+                    }
                 } catch (ParseException e) {
-                    Toast.makeText(this, "Vui Lòng Nhập Đúng Định Dạng dd/MM/yyyy", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, "Vui Lòng Nhập Đúng Định Dạng yyyy-MM-dd", Toast.LENGTH_SHORT).show();
                 }
-
-
             }
         }
 }

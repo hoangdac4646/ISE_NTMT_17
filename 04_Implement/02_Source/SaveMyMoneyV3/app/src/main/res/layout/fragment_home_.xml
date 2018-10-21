@@ -6,7 +6,13 @@
     android:orientation="vertical"
     android:layout_weight="4"
     tools:context=".mFragment.Home_Fragment">
-
+    <ProgressBar
+        android:id="@+id/homeprogress"
+        android:indeterminate="true"
+        android:visibility="gone"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
     <RelativeLayout
         android:layout_weight="0.3"
         android:layout_marginTop="15dp"
@@ -54,6 +60,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"></ListView>
     <LinearLayout
+        android:id="@+id/borrow_linear"
         android:layout_weight="0.02"
         android:weightSum="2"
         android:orientation="horizontal"
@@ -65,17 +72,18 @@
             android:orientation="vertical"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
-            <TextView
-                android:text="Cho Vay"
-                android:textColor="#2fff00"
-                android:layout_gravity="center"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content" />
-            <TextView
-                android:textColor="#2fff00"
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="1000000000"
+                android:text="Cho Vay"
+                android:textColor="#2fff00" />
+            <TextView
+                android:id="@+id/txtSumLent"
+                android:textColor="#2fff00"
+                android:layout_gravity="center"
+                android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
@@ -92,9 +100,10 @@
                 android:layout_height="wrap_content" />
             <TextView
                 android:textColor="@color/colorRed"
+                android:id="@+id/txtSumBorrow"
 
                 android:layout_gravity="center"
-                android:text="1000000000"
+                android:text="0"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
         </LinearLayout>
