@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mActivity.BorrowActivity">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/mtoolbar_BA"
+        android:background="@color/colorPrimary"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+
+
+    <ProgressBar
+        android:layout_below="@id/mtoolbar_BA"
+        android:indeterminate="true"
+        android:id="@+id/progressBar3"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:layout_below="@id/progressBar3"
+        android:id="@+id/list_borrow"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"></ListView>
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:text="Thêm"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/btn_them_BA"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ccus_button" />
+</RelativeLayout>

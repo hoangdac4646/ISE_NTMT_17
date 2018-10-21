@@ -4,20 +4,25 @@ package com.example.black.savemymoneyv3.mFragment;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.AlertDialog;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
@@ -25,9 +30,11 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mActivity.AddPlanActivity;
 import com.example.black.savemymoneyv3.mAdapter.ListPlanAdapter;
+import com.example.black.savemymoneyv3.mClass.Communicator;
 import com.example.black.savemymoneyv3.mClass.DuDinh;
 import com.example.black.savemymoneyv3.mClass.GiaoDich;
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
@@ -42,10 +49,12 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
-public class Plan_Fragment extends Fragment implements View.OnClickListener {
+public class Plan_Fragment extends Fragment implements View.OnClickListener, Communicator {
 
     CompactCalendarView compactCalendarView;
     Button btn_them;
@@ -55,13 +64,12 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
     int RES_CODE = 123;
     private ListPlanAdapter adapter;
     private SimpleDateFormat dateFormatForMonth = new SimpleDateFormat("MMM - yyyy", Locale.getDefault());
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
     private ArrayList<DuDinh> plans;
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataPlan.php";
-    private ProgressDialog progress;
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataPlan.php";
     private  Handler handler = new Handler();
-
-
+    private String username;
+    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataPlan.php";
+    private ProgressBar planPregress;
     public Plan_Fragment() {
 
     }
@@ -83,19 +91,35 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
-
-        progress = ProgressDialog.show(getActivity(), "Getting Data From Server", "Loading...", true);
-
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
+        username = DangNhapActivity.user.getName();
                 GetData(url);
-            }
-        });
-
         adapter = new ListPlanAdapter(context, R.layout.cus_list_plan, plans);
         list_plan.setAdapter(adapter);
 
+        list_plan.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
+                final AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                builder.setMessage("Bạn có chắc chắn muốn xoá khoảng chi tiêu này không?");
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Delete(urldelete, position);
+                        GetData(url);
+
+                        plans.remove(position);
+                        adapter.notifyDataSetChanged();
+                    }
+                });
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                builder.show();
+                return true;
+            }
+        });
         compactCalendarView.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
             public void onDayClick(Date dateClicked) {
@@ -106,7 +130,6 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
                         Event temp = events.get(i);
                         DuDinh plan = (DuDinh) temp.getData();
                         plans.add(plan);
-
                     }
                 }
                 adapter.notifyDataSetChanged();
@@ -118,6 +141,43 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
         });
     }
 
+    private void Delete(final String urldele, final int pos){
+        planPregress.setVisibility(View.VISIBLE);
+        RequestQueue requestQueue   = Volley.newRequestQueue(context);
+        StringRequest request       = new StringRequest(Request.Method.POST, urldele,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show();
+                        planPregress.setVisibility(View.GONE);
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
+                planPregress.setVisibility(View.GONE);
+
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> map = new HashMap<>();
+                map.put("madd", plans.get(pos).getId_gd() + "");
+                return map;
+            }
+        };
+        requestQueue.add(request);
+
+
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+                GetData(url);
+    }
+
     private void initWork(View view){
         compactCalendarView = (CompactCalendarView) view.findViewById(R.id.compactcalendar_view);
         btn_them = view.findViewById(R.id.btn_them_DD);
@@ -126,6 +186,8 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
         compactCalendarView.displayOtherMonthDays(true);
         compactCalendarView.setFirstDayOfWeek(Calendar.MONDAY);
         compactCalendarView.setUseThreeLetterAbbreviation(true);
+        planPregress = view.findViewById(R.id.planPregress);
+        planPregress.setVisibility(View.GONE);
 
         txtShow.setText(dateFormatForMonth.format(compactCalendarView.getFirstDayOfCurrentMonth()));
 
@@ -151,43 +213,44 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK){
-
-
             GetData(url);
         }
     }
 
+
+
     private void GetData(String url){
+        planPregress.setVisibility(View.VISIBLE);
         RequestQueue requestQueue = Volley.newRequestQueue(context);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
                     @Override
                     public void onResponse(JSONArray response) {
+                        compactCalendarView.removeAllEvents();
                         DuDinh duDinh;
                         for(int i = 0; i < response.length(); i++){
                             try {
                                 JSONObject object = response.getJSONObject(i);
-
-                                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
-                                Calendar calendar = Calendar.getInstance();
-                                calendar.setTime(dateFormat.parse(object.getString("ngaykt")));
-
+                                if(username.equals(object.getString("taikhoan"))) {
+                                    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                                    Calendar calendar = Calendar.getInstance();
+                                    calendar.setTime(dateFormat.parse(object.getString("ngaykt")));
 
                                     duDinh = new DuDinh(object.getInt("madd"),
                                             object.getLong("kinhphi"),
                                             calendar,
                                             object.getString("ghichu"),
                                             object.getString("taikhoan"));
-                                Event mevent = new Event(Color.YELLOW, calendar.getTimeInMillis(), duDinh);
-                                compactCalendarView.addEvent(mevent);
-
-
+                                    Event mevent = new Event(Color.YELLOW, calendar.getTimeInMillis(), duDinh);
+                                    compactCalendarView.addEvent(mevent);
+                                }
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             } catch (ParseException e) {
                                 e.printStackTrace();
+                                Toast.makeText(context, "Lỗi Dịnh Dạng", Toast.LENGTH_SHORT).show();
                             }
-                            progress.dismiss();
+                            planPregress.setVisibility(View.GONE);
                         }
                     }
                 },
@@ -195,11 +258,18 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener {
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
-                        progress.dismiss();
+                        planPregress.setVisibility(View.GONE);
 
                     }
                 });
 
         requestQueue.add(jsonArrayRequest);
+    }
+
+    @Override
+    public void Communicate(String key, String data) {
+        if(key.equals("username")){
+            username = data;
+        }
     }
 }

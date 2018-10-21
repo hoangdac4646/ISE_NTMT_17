@@ -30,8 +30,7 @@
         <activity
             android:name="com.example.black.savemymoneyv3.MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme" >
-        </activity>
+            android:theme="@style/AppTheme" />
         <activity android:name="com.example.black.savemymoneyv3.DangNhap.StartActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -47,6 +46,8 @@
         <activity android:name="com.example.black.savemymoneyv3.mActivity.AboutUsActivity" />
         <activity android:name="com.example.black.savemymoneyv3.mActivity.AddMoneyActivity" />
         <activity android:name="com.example.black.savemymoneyv3.DangNhap.AdminActivity" />
+        <activity android:name="com.example.black.savemymoneyv3.mActivity.BorrowActivity" />
+        <activity android:name="com.example.black.savemymoneyv3.mActivity.AddBorrowActivity" />
         <activity android:name="com.liferay.mobile.screens.base.MediaStoreRequestShadowActivity" />
         <activity
             android:name="com.liferay.mobile.screens.viewsets.defaultviews.imagegallery.DetailImageActivity"

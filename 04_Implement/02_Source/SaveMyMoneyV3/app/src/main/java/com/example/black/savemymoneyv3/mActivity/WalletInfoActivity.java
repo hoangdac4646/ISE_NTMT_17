@@ -2,28 +2,34 @@ package com.example.black.savemymoneyv3.mActivity;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.TypedArray;
 import android.os.Handler;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.support.v7.widget.Toolbar;
 import android.widget.Toast;
 
 
+import com.android.volley.AuthFailureError;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
+import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.black.savemymoneyv3.MainActivity;
 import com.example.black.savemymoneyv3.R;
@@ -39,6 +45,8 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
+import java.util.HashMap;
+import java.util.Map;
 
 public class WalletInfoActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -49,14 +57,14 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     private ArrayList<GiaoDich> items;
     private Button btn_Nap, btn_GD;
     private final int RES_CODE = 2;
-    ListGDAdapter adapter;
-    KhoangChiTieu wallet;
+    private ListGDAdapter adapter;
+    private KhoangChiTieu wallet;
     private  ProgressDialog mprogress;
-    TypedArray imgs;
-    Handler handler = new Handler();
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataAction.php";
-
-
+    private TypedArray imgs;
+    private Handler handler = new Handler();
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataAction.php";
+    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataAction.php";
+    private ProgressBar walletProgress;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -75,21 +83,30 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         Calendar calendar = wallet.getDate();
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         date.setText(simpleDateFormat.format(calendar.getTime()));
-
-        mprogress = ProgressDialog.show(this, "Getting Data From Server", "Loading...", true);
-
-
-        handler.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                GetData(url);
-
-            }
-        }, 0);
-
+        GetData(url);
 
         btn_Nap.setOnClickListener(this);
         btn_GD.setOnClickListener(this);
+        list_WF.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, final int position, long id) {
+                final AlertDialog.Builder builder = new AlertDialog.Builder(WalletInfoActivity.this);
+                builder.setMessage("Bạn có chắc chắn muốn xoá khoảng chi tiêu này không?");
+                builder.setPositiveButton("Có", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Delete(urldelete, position);
+                    }
+                });
+                builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                    }
+                });
+                builder.show();
+                return true;
+            }
+        });
 
 
 
@@ -108,7 +125,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
 
         items = new ArrayList<>();
 
-
+        walletProgress = findViewById(R.id.walletProgress);
 
 
         adapter = new ListGDAdapter(this, R.layout.cus_list_action, items);
@@ -121,6 +138,12 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
 
     }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        GetData(url);
+    }
 
     @Override
     public void onBackPressed() {
@@ -139,7 +162,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     }
 
     private void GetData(String url){
-        mprogress.show();
+        walletProgress.setVisibility(View.VISIBLE);
         RequestQueue requestQueue = Volley.newRequestQueue(this);
         JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, url, null,
                 new Response.Listener<JSONArray>() {
@@ -168,7 +191,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
                             }
                         }
                         adapter.notifyDataSetChanged();
-                        mprogress.dismiss();
+                        walletProgress.setVisibility(View.GONE);
 
                     }
                 },
@@ -176,10 +199,41 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
                     @Override
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(WalletInfoActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                        walletProgress.setVisibility(View.GONE);
                     }
                 });
         requestQueue.add(jsonArrayRequest);
     }
+
+    private void Delete(final String urldele, final int pos){
+        walletProgress.setVisibility(View.VISIBLE);
+        RequestQueue requestQueue   = Volley.newRequestQueue(WalletInfoActivity.this);
+        StringRequest request       = new StringRequest(Request.Method.POST, urldele,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(WalletInfoActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                        GetData(url);
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(WalletInfoActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                walletProgress.setVisibility(View.GONE);
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> map = new HashMap<>();
+                map.put("magd", items.get(pos).getId_gd() + "");
+                return map;
+            }
+        };
+        requestQueue.add(request);
+
+
+    }
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {

@@ -1,7 +1,9 @@
 package com.example.black.savemymoneyv3.DangNhap;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -37,6 +39,8 @@ public class DangNhapActivity extends AppCompatActivity {
     //list tai khoan doc tu service
     private  static   List<TaiKhoan> list_tk;
     private int KiemTra=0;
+    private ProgressDialog progress;
+    public static TaiKhoan user;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -55,8 +59,14 @@ public class DangNhapActivity extends AppCompatActivity {
         DangNhap.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                ReadTaiKhoan(url);
+                progress = ProgressDialog.show(DangNhapActivity.this, "", "Loading...", true);
+                Handler handler = new Handler();
+                handler.post(new Runnable() {
+                    @Override
+                    public void run() {
+                        ReadTaiKhoan(url);
+                    }
+                });
             }
         });
 
@@ -69,9 +79,10 @@ public class DangNhapActivity extends AppCompatActivity {
         MatKhau = findViewById(R.id.edt_pass);
 
 
+
     }
     private void ReadTaiKhoan(String url){
-
+        progress.show();
        final  List<TaiKhoan> a =new ArrayList<TaiKhoan>();
          final String Dem= new String();
          //Request lay du lieu tu database ve
@@ -93,24 +104,31 @@ public class DangNhapActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 if(ViTri.equals("1")){
+                    progress.dismiss();
                     startActivity(new Intent(DangNhapActivity.this,AdminActivity.class));
                 }else if(ViTri.equals("0")){
                     ///Dang nhap thanh cong
+                    progress.dismiss();
                     Intent intent = new Intent(DangNhapActivity.this,MainActivity.class);
                     //Gui goi tin tai khoan qua acti moi
                     TaiKhoan a = new TaiKhoan(TenTk,Matkhau,Sodt,ViTri,Hoten);
+                    user = a;
                     intent.putExtra("TaiKhoan",a);
                     startActivity(intent);
                     //
                 }
                 else{
                     Toast.makeText(getApplicationContext(),"Đăng nhập không thành công !",Toast.LENGTH_SHORT).show();
+                    progress.dismiss();
+
                 }
             }
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
                 Toast.makeText(getApplicationContext(),"Error"+error.toString(),Toast.LENGTH_SHORT).show();
+                progress.dismiss();
+
             }
         }){
             @Override

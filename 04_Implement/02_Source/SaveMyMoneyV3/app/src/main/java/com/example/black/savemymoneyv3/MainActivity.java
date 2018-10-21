@@ -15,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.android.volley.Request;
@@ -23,8 +24,11 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
+import com.example.black.savemymoneyv3.DangNhap.TaiKhoan;
 import com.example.black.savemymoneyv3.mActivity.AboutUsActivity;
 import com.example.black.savemymoneyv3.mActivity.AddWallet;
+import com.example.black.savemymoneyv3.mClass.Communicator;
 import com.example.black.savemymoneyv3.mClass.KhoangChiTieu;
 import com.example.black.savemymoneyv3.mFragment.Home_Fragment;
 import com.example.black.savemymoneyv3.mFragment.Plan_Fragment;
@@ -39,7 +43,8 @@ import java.util.ArrayList;
 import java.util.Calendar;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, BottomNavigationView.OnNavigationItemSelectedListener {
+        implements NavigationView.OnNavigationItemSelectedListener,
+        BottomNavigationView.OnNavigationItemSelectedListener, Communicator {
 
     private Toolbar toolbar;
     private DrawerLayout drawer;
@@ -73,6 +78,9 @@ public class MainActivity extends AppCompatActivity
 
          navigationView = (NavigationView) findViewById(R.id.nav_view);
          bottomNavigationView = findViewById(R.id.bottom_navigation);
+
+        Intent intent = getIntent();
+        TaiKhoan user = (TaiKhoan) intent.getSerializableExtra("TaiKhoan");
          mTransaction = getSupportFragmentManager().beginTransaction();
          mFragment = new Home_Fragment();
          mTransaction.replace(R.id.home_linear, mFragment);
@@ -119,7 +127,8 @@ public class MainActivity extends AppCompatActivity
                 mTransaction.replace(R.id.home_linear, mFragment);
                 break;
             case R.id.nav_add:
-               startActivity(new Intent(MainActivity.this, AddWallet.class));
+                Intent intent = new Intent(MainActivity.this, AddWallet.class);
+               startActivity(intent);
                 break;
             case R.id.nav_plan:
                 mFragment = new Plan_Fragment();
@@ -132,6 +141,8 @@ public class MainActivity extends AppCompatActivity
                 finish();
                 System.exit(0);
                 return true;
+            case R.id.nav_logout:
+                startActivity(new Intent(MainActivity.this, DangNhapActivity.class));
         }
         mTransaction.commit();
         drawer.closeDrawer(GravityCompat.START);
@@ -139,5 +150,8 @@ public class MainActivity extends AppCompatActivity
     }
 
 
+    @Override
+    public void Communicate(String key ,String data) {
 
+    }
 }

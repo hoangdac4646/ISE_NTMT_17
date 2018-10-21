@@ -15,6 +15,13 @@
         android:layout_height="?attr/actionBarSize">
 
     </android.support.v7.widget.Toolbar>
+    <ProgressBar
+        android:id="@+id/walletProgress"
+        android:visibility="gone"
+        android:indeterminate="true"
+        style="@style/Base.Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:orientation="horizontal"

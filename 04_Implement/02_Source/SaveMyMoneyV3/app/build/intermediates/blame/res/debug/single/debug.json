@@ -8,12 +8,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_mood_satisfied.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_mood_satisfied.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21_design_bottom_sheet_slide_in.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_mood_satisfied.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_mood_satisfied.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_default_portrait_placeholder.png.flat",
@@ -24,6 +24,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic44.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic44.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_gallery_progress_view_default.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\gallery_progress_view_default.xml"
     },
@@ -32,36 +36,36 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\ddlfield_number_default.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\design_error.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_wallet.xml.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_add_wallet.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_wallet.xml.flat",
-        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_add_wallet.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_design_error.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\design_error.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_action.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\layout-v21\\notification_action.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\layout\\design_navigation_item_subheader.xml"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_circle_failed.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable\\default_circle_failed.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_default_comment_delete.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-mdpi-v4\\default_comment_delete.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_circle_failed.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable\\default_circle_failed.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_primary_text_disable_only_material_light.xml.flat",
@@ -88,6 +92,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-tvdpi-v4\\common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic35.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic35.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_pressed.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_pressed.9.png"
     },
@@ -112,20 +120,20 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_batdau.xml.flat",
-        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_batdau.xml"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_background_cache_hint_selector_material_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_background_cache_hint_selector_material_dark.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_batdau.xml.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_batdau.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_default_comment_edit.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xxxhdpi-v4\\default_comment_edit.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
@@ -138,6 +146,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_default_mail_icon.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xhdpi-v4\\default_mail_icon.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic53.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic53.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_pressed_holo_light.9.png.flat",
@@ -160,12 +172,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_disabled.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_default_mood_satisfied.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-anydpi-v21\\default_mood_satisfied.xml"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_default_mood_satisfied.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-anydpi-v21\\default_mood_satisfied.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_plus_signin_btn_text_light_disabled.9.png.flat",
@@ -192,12 +204,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_item_background_holo_light.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_default_cancel.png.flat",
@@ -272,6 +284,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic17.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic17.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -282,6 +298,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_chip_ripple_color.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\mtrl_chip_ripple_color.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic40.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic40.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_camera.xml.flat",
@@ -296,12 +316,12 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\bieudo.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic10.png.flat",
-        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic10.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic10.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic10.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_icon_dark_disabled.9.png.flat",
@@ -312,16 +332,24 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\022b8dd3dea81ba8cb2e5ca8de43862d\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic78.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic78.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic71.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic71.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_activated_mtrl_alpha.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_duong_vien.xml.flat",
@@ -424,6 +452,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\interpolator-v21\\mtrl_linear_out_slow_in.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic31.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic31.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_plus_signin_btn_icon_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
     },
@@ -432,16 +464,20 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\icon_analyse.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic57.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic57.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_hint_foreground_material_dark.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xxhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_seekbar_tick_mark_material.xml.flat",
@@ -512,16 +548,20 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\cus_list_action.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more.png.flat",
-        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\ic_more.png"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic74.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic74.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_tint_seek_thumb.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_plus_signin_btn_icon_dark_disabled.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_seek_thumb.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_tint_seek_thumb.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_more.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\ic_more.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_default_cancel.png.flat",
@@ -560,6 +600,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-mdpi-v4\\default_mail_icon.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic22.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic22.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_activity_chooser_view_list_item.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
@@ -568,28 +612,28 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_screen_simple.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_icon_dark.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_blogsentry_display_default.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\blogsentry_display_default.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\mtrl_bottom_nav_item_tint.xml"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_focused.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_bottom_nav_item_tint.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\mtrl_bottom_nav_item_tint.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic4.png.flat",
@@ -618,6 +662,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_plus_signin_btn_icon_light.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic23.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic23.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic5.png.flat",
@@ -744,6 +792,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic47.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic47.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_plus_signin_btn_text_dark_disabled.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
@@ -760,12 +812,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_cancel.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_cancel.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_title_material.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_cancel.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_cancel.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_switch_to_on_mtrl_00012.9.png.flat",
@@ -796,12 +848,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\gallery_item_slideshow.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_default_mood_very_dissatisfied.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xhdpi-v4\\default_mood_very_dissatisfied.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_header.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_default_mood_very_dissatisfied.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xhdpi-v4\\default_mood_very_dissatisfied.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_asset_display_default.xml.flat",
@@ -832,12 +884,16 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable-v21\\ic_menu_gallery.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_chose_origin_dialog_default.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\chose_origin_dialog_default.xml"
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic48.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic48.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_google_signin_btn_text_light_normal.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_chose_origin_dialog_default.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\chose_origin_dialog_default.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_notification_bg_low.xml.flat",
@@ -896,12 +952,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color-v23\\abc_btn_colored_borderless_text_material.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_text_dark_normal.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-mdpi-v4\\common_google_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_selector_disabled_holo_light.9.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility.png.flat",
@@ -936,6 +992,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xxhdpi-v4\\default_mood_dissatisfied.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic75.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic75.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
@@ -946,6 +1006,14 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_tabs_ripple_color.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\mtrl_tabs_ripple_color.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic62.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic62.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lent.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\lent.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_ic_googleplayservices.png.flat",
@@ -986,6 +1054,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_thumb_down.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_thumb_down.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic36.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic36.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -1052,16 +1124,20 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable\\default_button_drawable_green.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4_common_plus_signin_btn_text_light_focused.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic45.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic45.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -1080,12 +1156,12 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4_common_full_open_on_phone.png.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4_common_full_open_on_phone.png.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-tvdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -1148,6 +1224,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic38.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic38.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
@@ -1168,16 +1248,20 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic43.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic43.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_btn_default_mtrl_shape.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_default_thumb_down_outline.xml.flat",
-        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-anydpi-v21\\default_thumb_down_outline.xml"
-    },
-    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_default_gallery_cancel.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xhdpi-v4\\default_gallery_cancel.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_default_thumb_down_outline.xml.flat",
+        "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-anydpi-v21\\default_thumb_down_outline.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_edittext.xml.flat",
@@ -1210,6 +1294,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_sub.png.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\ic_sub.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic18.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic18.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_forgotpassword_default.xml.flat",
@@ -1300,6 +1388,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic16.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic16.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1388,6 +1480,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\layout\\design_navigation_item.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic65.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic65.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-ldrtl-xhdpi-v17\\abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1456,6 +1552,10 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic11.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic72.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic72.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_switch_track.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_tint_switch_track.xml"
     },
@@ -1466,6 +1566,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic66.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic66.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_full_open_on_phone.png.flat",
@@ -1482,6 +1586,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic14.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic14.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -1540,12 +1648,20 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\ddlfield_text_default.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic67.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic67.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_mtrl_text_btn_text_color_selector.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\color\\mtrl_text_btn_text_color_selector.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ripple.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-v21\\ripple.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic13.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic13.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_comment_row_default.xml.flat",
@@ -1576,12 +1692,20 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_disabled.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_borrow.xml.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_borrow.xml"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_full_open_on_phone.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic15.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic15.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_dark_pressed.9.png.flat",
@@ -1620,6 +1744,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\login_default.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic12.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic12.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21_design_appbar_state_list_animator.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
     },
@@ -1630,6 +1758,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic69.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic69.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",
@@ -1728,6 +1860,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic41.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic41.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_default_audio_background.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xxxhdpi-v4\\default_audio_background.png"
     },
@@ -1744,6 +1880,14 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic39.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic39.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic70.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic70.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_plus_signin_btn_icon_light_pressed.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xxhdpi-v4\\common_plus_signin_btn_icon_light_pressed.9.png"
     },
@@ -1758,6 +1902,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_common_plus_signin_btn_icon_dark_focused.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-hdpi-v4\\common_plus_signin_btn_icon_dark_focused.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic68.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic68.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_audio_background.png.flat",
@@ -1786,6 +1934,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic42.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic42.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_gallery_default_list.xml.flat",
@@ -1928,6 +2080,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_thumb_down_outline.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic28.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic28.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_add_biggest.png.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\icon_add_biggest.png"
     },
@@ -1936,8 +2092,16 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic60.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic60.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_borrow.xml.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_add_borrow.xml"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1946,6 +2110,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_plus_signin_btn_icon_dark_pressed.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic51.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic51.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mtrl_tabs_default_indicator.xml.flat",
@@ -2002,6 +2170,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_feedback.xml.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\custom_feedback.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic46.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic46.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_textfield_search_default_mtrl_alpha.9.png.flat",
@@ -2240,6 +2412,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic64.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic64.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -2356,6 +2532,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\color\\common_google_signin_btn_text_dark.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic37.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic37.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_common_google_signin_btn_icon_dark_pressed.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-mdpi-v4\\common_google_signin_btn_icon_dark_pressed.9.png"
     },
@@ -2382,6 +2562,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic24.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic24.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_viewadmin.xml.flat",
@@ -2424,6 +2608,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xxhdpi-v4\\default_mood_neutral.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic21.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic21.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\animator_mtrl_btn_state_list_anim.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\animator\\mtrl_btn_state_list_anim.xml"
     },
@@ -2460,12 +2648,20 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\circle_vien.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic59.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic59.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_default_ok.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-hdpi-v4\\default_ok.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic73.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic73.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
@@ -2520,6 +2716,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-hdpi-v4\\abc_ic_star_half_black_16dp.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic58.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic58.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
@@ -2534,6 +2734,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\f37f1f675121fe612d67931ea537b5d1\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic49.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic49.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -2570,6 +2774,18 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_google_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic76.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic76.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_cus_list_borrow.xml.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\cus_list_borrow.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic20.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic20.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_default_button_pressed_drawable.xml.flat",
@@ -2648,6 +2864,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_secondary_text_material_light.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic63.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic63.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_cascading_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout\\abc_cascading_menu_item_layout.xml"
     },
@@ -2662,6 +2882,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_text_select_handle_right_mtrl_dark.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic33.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic33.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_default_thumb_up.xml.flat",
@@ -2756,6 +2980,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\layout-v26\\abc_screen_toolbar.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic34.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic34.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\anim_abc_slide_in_bottom.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -2774,6 +3002,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_ic_menu_manage.xml.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable-v21\\ic_menu_manage.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic19.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic19.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_tint_spinner.xml.flat",
@@ -2904,6 +3136,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\drawable-mdpi-v4\\notification_bg_low_pressed.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic52.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic52.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
@@ -2914,6 +3150,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_color_highlight_material.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color-v23\\abc_color_highlight_material.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic29.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic29.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_default_mood_satisfied.png.flat",
@@ -2996,6 +3236,10 @@
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\user.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic61.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic61.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_common_full_open_on_phone.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xxhdpi-v4\\common_full_open_on_phone.png"
     },
@@ -3014,6 +3258,14 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_ic_googleplayservices.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_ic_googleplayservices.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic50.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic50.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_brorrow.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\brorrow.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4_common_plus_signin_btn_text_dark_focused.9.png.flat",
@@ -3080,6 +3332,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-xxxhdpi-v4\\default_ok.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic79.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic79.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_focused_holo.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-mdpi-v4\\abc_list_focused_holo.9.png"
     },
@@ -3120,6 +3376,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic25.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic25.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_part_chronometer.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\layout\\notification_template_part_chronometer.xml"
     },
@@ -3146,6 +3406,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_common_plus_signin_btn_text_dark.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\color\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic77.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic77.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_default.xml.flat",
@@ -3190,6 +3454,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_tab_indicator_material.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic32.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic32.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_qlfeedback.xml.flat",
@@ -3416,6 +3684,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\drawable-mdpi-v4\\default_portrait_placeholder.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic80.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic80.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_hint_foreground_material_light.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\color\\abc_hint_foreground_material_light.xml"
     },
@@ -3496,12 +3768,20 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-watch-v20\\abc_dialog_material_background.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic56.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic56.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_plus_signin_btn_icon_light_normal.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic30.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic30.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -3580,6 +3860,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\layout\\ddl_list_default.xml"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic55.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic55.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_common_plus_signin_btn_text_light.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable\\common_plus_signin_btn_text_light.xml"
     },
@@ -3604,6 +3888,10 @@
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\drawable-xxxhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
     },
     {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic54.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic54.png"
+    },
+    {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_plus_signin_btn_text_light_normal.9.png.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-9.0.2.aar\\2096bc7c832312a187c2a70b24ee56b0\\res\\drawable-xhdpi-v4\\common_plus_signin_btn_text_light_normal.9.png"
     },
@@ -3626,6 +3914,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_media_cancel_action.xml.flat",
         "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-28.0.0.aar\\022b8dd3dea81ba8cb2e5ca8de43862d\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic26.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic26.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_pdf_display_default.xml.flat",
@@ -3694,6 +3986,10 @@
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_admin.xml.flat",
         "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\layout\\activity_admin.xml"
+    },
+    {
+        "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pic27.png.flat",
+        "source": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\src\\main\\res\\drawable\\pic27.png"
     },
     {
         "merged": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
