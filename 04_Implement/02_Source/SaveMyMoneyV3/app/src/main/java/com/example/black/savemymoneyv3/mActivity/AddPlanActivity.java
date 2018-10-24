@@ -78,7 +78,7 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
                     }
                 }, new Response.ErrorListener() {
             @Override

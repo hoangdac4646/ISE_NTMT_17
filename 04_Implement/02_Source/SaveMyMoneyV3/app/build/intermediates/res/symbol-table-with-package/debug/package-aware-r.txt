@@ -1379,6 +1379,7 @@ drawable pic8
 drawable pic80
 drawable pic9
 drawable pixel_grey
+drawable plan_24
 drawable progress_bar_circle
 drawable ripple
 drawable side_nav_bar

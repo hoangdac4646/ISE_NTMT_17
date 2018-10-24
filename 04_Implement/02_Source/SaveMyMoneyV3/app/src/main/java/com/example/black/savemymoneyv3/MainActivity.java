@@ -32,6 +32,7 @@ import com.example.black.savemymoneyv3.mClass.Communicator;
 import com.example.black.savemymoneyv3.mClass.KhoangChiTieu;
 import com.example.black.savemymoneyv3.mFragment.Home_Fragment;
 import com.example.black.savemymoneyv3.mFragment.Plan_Fragment;
+import com.example.black.savemymoneyv3.mServer.BorrowService;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -64,6 +65,7 @@ public class MainActivity extends AppCompatActivity
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
 
 
+
     }
 
     private void initWork(){
@@ -86,6 +88,9 @@ public class MainActivity extends AppCompatActivity
          mTransaction.replace(R.id.home_linear, mFragment);
          mTransaction.commit();
 
+        Intent serverIntent = new Intent(this , BorrowService.class);
+
+        startService(serverIntent);
 
     }
 

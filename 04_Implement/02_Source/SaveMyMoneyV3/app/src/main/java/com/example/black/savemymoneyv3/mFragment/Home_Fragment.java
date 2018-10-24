@@ -75,9 +75,9 @@ public class Home_Fragment extends Fragment implements Communicator {
     private TextView sum_borrow, sum_lent;
     private ProgressBar homeprogress;
 
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
-    String url1 = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataBorrow.php";
-    String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataWallet.php";
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
+    private final String url1 = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataBorrow.php";
+    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataWallet.php";
 
     TypedArray imgs;
     boolean isrunning = false;

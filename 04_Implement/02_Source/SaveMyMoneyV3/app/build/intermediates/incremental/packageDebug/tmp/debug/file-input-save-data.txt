@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Oct 21 19:21:54 ICT 2018
+#Mon Oct 22 20:15:38 ICT 2018
 17.baseType=DIRECTORY
 4.path=gallery.css
 8.set=NATIVE_RESOURCE
@@ -7,11 +7,11 @@
 11.set=DEX
 2.baseType=DIRECTORY
 4.baseType=DIRECTORY
-14.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
+14.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
 16.set=DEX
 count=21
 6.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-13.path=classes.dex
+13.path=lib/armeabi-v7a/libsnappydb-native.so
 6.baseType=DIRECTORY
 2.set=ASSET
 5.path=lib/armeabi/libsnappydb-native.so
@@ -23,7 +23,7 @@ count=21
 10.baseType=DIRECTORY
 15.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
 7.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
-14.path=lib/armeabi-v7a/libsnappydb-native.so
+14.path=classes.dex
 15.set=DEX
 6.path=lib/x86/libsnappydb-native.so
 1.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
@@ -41,7 +41,7 @@ count=21
 10.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
 7.path=lib/x86_64/libsnappydb-native.so
 16.baseType=DIRECTORY
-14.set=NATIVE_RESOURCE
+14.set=DEX
 2.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\merged_assets\\debug\\mergeDebugAssets\\out
 18.baseType=DIRECTORY
 1.path=lib/mips/libsnappydb-native.so
@@ -61,7 +61,7 @@ count=21
 3.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 10.path=classes.dex
 20.baseType=DIRECTORY
-13.set=DEX
+13.set=NATIVE_RESOURCE
 2.path=gallery.js
 9.baseType=DIRECTORY
 18.set=DEX
@@ -79,7 +79,7 @@ count=21
 0.baseType=DIRECTORY
 17.set=DEX
 13.baseType=DIRECTORY
-13.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+13.base=E\:\\cloneGitKragen\\1\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 19.path=classes.dex
 15.baseType=DIRECTORY
 3.set=NATIVE_RESOURCE

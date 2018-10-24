@@ -3,12 +3,19 @@
   <component name="AndroidLayouts">
     <shared>
       <config>
-        <device id="pixel_2_xl" />
+        <device id="Nexus 4" />
         <device id="Nexus 5" />
+        <device id="Nexus 5X" />
+        <device id="Nexus 10" />
+        <device id="pixel" />
+        <device id="pixel_2_xl" />
         <device id="Nexus S" />
         <device id="Nexus One" />
       </config>
     </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -37,93 +44,93 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Home_Fragment.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Home_Fragment.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Plan_Fragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="107" selection-start-line="107" selection-end-line="107" />
+            <state relative-caret-position="376">
+              <caret line="262" column="58" selection-start-line="262" selection-start-column="58" selection-end-line="262" selection-end-column="58" />
               <folding>
-                <element signature="method#onCreate#0;class#Home_Fragment#0" />
-                <element signature="method#onActivityCreated#0;class#Home_Fragment#0" />
-                <element signature="e#4639#5001#0" expanded="true" />
-                <element signature="e#5000#5001#0" expanded="true" />
-                <element signature="e#5053#6019#0" expanded="true" />
-                <element signature="e#5454#5693#0" expanded="true" />
-                <element signature="e#5692#5693#0" expanded="true" />
-                <element signature="e#6018#6019#0" expanded="true" />
-                <element signature="e#6869#7059#0" expanded="true" />
-                <element signature="e#7058#7059#0" expanded="true" />
-                <element signature="method#onResume#0;class#Home_Fragment#0" />
-                <element signature="method#GetData#0;class#Home_Fragment#0" />
-                <element signature="e#7453#9212#0" expanded="true" />
-                <element signature="e#9211#9212#0" expanded="true" />
-                <element signature="e#9214#9437#0" expanded="true" />
-                <element signature="e#9436#9437#0" expanded="true" />
-                <element signature="method#GetBorrowData#0;class#Home_Fragment#0" />
-                <element signature="e#9742#10929#0" expanded="true" />
-                <element signature="e#10928#10929#0" expanded="true" />
-                <element signature="e#10931#11154#0" expanded="true" />
-                <element signature="e#11153#11154#0" expanded="true" />
-                <element signature="method#Delete#0;class#Home_Fragment#0" />
-                <element signature="method#Communicate#0;class#Home_Fragment#0" />
+                <element signature="method#onActivityCreated#0;class#Plan_Fragment#0" />
+                <element signature="e#4422#4804#0" expanded="true" />
+                <element signature="e#4803#4804#0" expanded="true" />
+                <element signature="class#4584:5376" />
+                <element signature="method#Delete#0;class#Plan_Fragment#0" />
+                <element signature="method#onResume#0;class#Plan_Fragment#0" />
+                <element signature="method#initWork#0;class#Plan_Fragment#0" />
+                <element signature="method#onClick#0;class#Plan_Fragment#0" />
+                <element signature="method#onActivityResult#0;class#Plan_Fragment#0" />
+                <element signature="e#8729#11814#0" expanded="true" />
+                <element signature="e#11813#11814#0" expanded="true" />
+                <element signature="e#11832#12158#0" expanded="true" />
+                <element signature="e#12157#12158#0" expanded="true" />
+                <element signature="method#Communicate#0;class#Plan_Fragment#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DangNhapActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java">
+      <file leaf-file-name="AddPlanActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddPlanActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
-              <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WalletInfoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-348">
-              <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+            <state relative-caret-position="300">
+              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
               <folding>
-                <element signature="method#onCreate#0;class#WalletInfoActivity#0" />
-                <element signature="e#3400#4382#0" expanded="true" />
-                <element signature="e#4381#4382#0" expanded="true" />
-                <element signature="method#initwork#0;class#WalletInfoActivity#0" />
-                <element signature="method#onOptionsItemSelected#0;class#WalletInfoActivity#0" />
-                <element signature="method#GetData#0;class#WalletInfoActivity#0" />
-                <element signature="method#Delete#0;class#WalletInfoActivity#0" />
-                <element signature="method#onActivityResult#0;class#WalletInfoActivity#0" />
-                <element signature="method#onClick#0;class#WalletInfoActivity#0" />
+                <element signature="method#onClick#0;class#AddPlanActivity#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_wallet_info.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_info.xml">
+      <file leaf-file-name="fragment_plan_.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_plan_.xml">
           <provider editor-type-id="android-designer2">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="18" column="39" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+            <state relative-caret-position="233">
+              <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddMoneyActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddMoneyActivity.java">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="489">
-              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="900">
+              <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
               <folding>
-                <element signature="method#onOptionsItemSelected#0;class#AddMoneyActivity#0" />
-                <element signature="method#onClick#0;class#AddMoneyActivity#0" />
-                <element signature="method#PutData#0;class#AddMoneyActivity#0" />
+                <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BorrowService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mServer/BorrowService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="439">
+              <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#497#498#0" expanded="true" />
+                <element signature="e#530#531#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#356#357#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="500">
+              <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-manifest">
+            <state />
           </provider>
         </entry>
       </file>
@@ -2400,9 +2407,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mClass/Communicator.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/menu/activity_main_drawer.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/cus_list_borrow.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mClass/Borrows.java" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_borrow.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mAdapter/ListBorrowAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AboutUsActivity.java" />
@@ -2412,18 +2417,24 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_plan.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_wallet.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddWallet.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddPlanActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/BorrowActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_plan_.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_home_.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_info.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/drawable/ccus_button.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Home_Fragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddMoneyActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mClass/App.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/BorrowActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/fragment_plan_.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddPlanActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mServer/BorrowService.java" />
       </list>
     </option>
   </component>
@@ -2438,6 +2449,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane" />
       <pane id="AndroidView">
         <subPane>
@@ -2469,11 +2481,28 @@
               <item name="savemymoneyv3" type="cbb59c9e:AndroidPsiDirectoryNode" />
               <item name="mActivity" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SaveMyMoneyV3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="savemymoneyv3" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="mServer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SaveMyMoneyV3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+            </path>
+            <path>
+              <item name="SaveMyMoneyV3" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -2539,7 +2568,7 @@
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
       <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
@@ -2621,36 +2650,36 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Android Profiler" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info id="Build Variants" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Preview" weight="0.28091684" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Build Variants" order="2" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Preview" order="3" weight="0.28091684" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32943678" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Logcat" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32943678" />
       <window_info id="Captures" order="2" weight="0.25" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946696" />
-      <window_info anchor="bottom" id="Build" weight="0.32943678" />
-      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.32943678" />
+      <window_info anchor="right" id="Gradle" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995749" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Device File Explorer" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -2658,10 +2687,96 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java</url>
+          <line>261</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_info.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddMoneyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Home_Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+          <folding>
+            <element signature="method#onCreate#0;class#Home_Fragment#0" />
+            <element signature="method#onActivityCreated#0;class#Home_Fragment#0" />
+            <element signature="method#onResume#0;class#Home_Fragment#0" />
+            <element signature="method#GetData#0;class#Home_Fragment#0" />
+            <element signature="method#GetBorrowData#0;class#Home_Fragment#0" />
+            <element signature="method#Delete#0;class#Home_Fragment#0" />
+            <element signature="method#Communicate#0;class#Home_Fragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2550">
+          <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_wallet_info.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddMoneyActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mClass/Communicator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2676,26 +2791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="125">
           <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding>
-            <element signature="e#738#963#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="54" selection-start-line="54" selection-end-line="54" />
-          <folding>
-            <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="355">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
         </state>
       </provider>
     </entry>
@@ -2703,9 +2798,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2747,9 +2839,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1303">
           <caret line="71" column="70" selection-start-line="71" selection-start-column="70" selection-end-line="71" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2764,10 +2853,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="44" column="59" selection-start-line="44" selection-end-line="45" />
-          <folding>
-            <element signature="method#InitWork#0;class#AddBorrowActivity#0" />
-            <element signature="method#PutData#0;class#AddBorrowActivity#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2796,19 +2881,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="23" lean-forward="true" selection-start-line="9" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#2139#2590#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_plan.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -2827,20 +2899,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Looper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="199" selection-start-line="199" selection-end-line="199" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/59884f19e294e79a69c8f75a194f8744/jars/classes.jar!/android/support/v7/app/AlertController.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="179">
@@ -2848,142 +2906,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/BorrowActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="50" column="36" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2810#3049#0" expanded="true" />
-            <element signature="e#3048#3049#0" expanded="true" />
-            <element signature="method#onOptionsItemSelected#0;class#BorrowActivity#0" />
-            <element signature="method#onResume#0;class#BorrowActivity#0" />
-            <element signature="method#getData#0;class#BorrowActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddPlanActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="566">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_borrow.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="19" column="47" selection-start-line="14" selection-start-column="3" selection-end-line="19" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_plan_.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="75" selection-start-line="75" selection-end-line="75" />
-          <folding>
-            <element signature="e#3530#4639#0" expanded="true" />
-            <element signature="e#3930#4312#0" expanded="true" />
-            <element signature="e#4311#4312#0" expanded="true" />
-            <element signature="e#4638#4639#0" expanded="true" />
-            <element signature="method#Delete#0;class#Plan_Fragment#0" />
-            <element signature="method#initWork#0;class#Plan_Fragment#0" />
-            <element signature="method#GetData#0;class#Plan_Fragment#0" />
-            <element signature="e#8302#10137#0" expanded="true" />
-            <element signature="e#10136#10137#0" expanded="true" />
-            <element signature="e#10155#10482#0" expanded="true" />
-            <element signature="e#10481#10482#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="850">
           <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-          <folding>
-            <element signature="e#1476#3697#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-348">
-          <caret line="69" column="55" selection-start-line="69" selection-start-column="55" selection-end-line="69" selection-end-column="55" />
-          <folding>
-            <element signature="method#onCreate#0;class#WalletInfoActivity#0" />
-            <element signature="e#3400#4382#0" expanded="true" />
-            <element signature="e#4381#4382#0" expanded="true" />
-            <element signature="method#initwork#0;class#WalletInfoActivity#0" />
-            <element signature="method#onOptionsItemSelected#0;class#WalletInfoActivity#0" />
-            <element signature="method#GetData#0;class#WalletInfoActivity#0" />
-            <element signature="method#Delete#0;class#WalletInfoActivity#0" />
-            <element signature="method#onActivityResult#0;class#WalletInfoActivity#0" />
-            <element signature="method#onClick#0;class#WalletInfoActivity#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="133" column="21" selection-start-line="133" selection-start-column="21" selection-end-line="133" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Home_Fragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="107" selection-start-line="107" selection-end-line="107" />
-          <folding>
-            <element signature="method#onCreate#0;class#Home_Fragment#0" />
-            <element signature="method#onActivityCreated#0;class#Home_Fragment#0" />
-            <element signature="e#4639#5001#0" expanded="true" />
-            <element signature="e#5000#5001#0" expanded="true" />
-            <element signature="e#5053#6019#0" expanded="true" />
-            <element signature="e#5454#5693#0" expanded="true" />
-            <element signature="e#5692#5693#0" expanded="true" />
-            <element signature="e#6018#6019#0" expanded="true" />
-            <element signature="e#6869#7059#0" expanded="true" />
-            <element signature="e#7058#7059#0" expanded="true" />
-            <element signature="method#onResume#0;class#Home_Fragment#0" />
-            <element signature="method#GetData#0;class#Home_Fragment#0" />
-            <element signature="e#7453#9212#0" expanded="true" />
-            <element signature="e#9211#9212#0" expanded="true" />
-            <element signature="e#9214#9437#0" expanded="true" />
-            <element signature="e#9436#9437#0" expanded="true" />
-            <element signature="method#GetBorrowData#0;class#Home_Fragment#0" />
-            <element signature="e#9742#10929#0" expanded="true" />
-            <element signature="e#10928#10929#0" expanded="true" />
-            <element signature="e#10931#11154#0" expanded="true" />
-            <element signature="e#11153#11154#0" expanded="true" />
-            <element signature="method#Delete#0;class#Home_Fragment#0" />
-            <element signature="method#Communicate#0;class#Home_Fragment#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3001,10 +2927,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
           <caret line="110" column="32" lean-forward="true" selection-start-line="110" selection-start-column="32" selection-end-line="110" selection-end-column="32" />
-          <folding>
-            <element signature="method#PutData#0;class#AddWallet#0" />
-            <element signature="method#onClick#0;class#AddWallet#0" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/drawable/ccus_button.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="37" lean-forward="true" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/DangNhap/DangNhapActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="39" column="45" lean-forward="true" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -3013,19 +2949,207 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
+        <state relative-caret-position="450">
           <caret line="18" column="39" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/WalletInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-450">
+          <caret line="71" column="55" selection-start-line="71" selection-start-column="55" selection-end-line="71" selection-end-column="55" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddMoneyActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="489">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="-134">
+          <caret line="45" column="22" selection-start-line="45" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Home_Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="64" column="31" lean-forward="true" selection-start-line="64" selection-start-column="31" selection-end-line="64" selection-end-column="31" />
           <folding>
-            <element signature="method#onOptionsItemSelected#0;class#AddMoneyActivity#0" />
-            <element signature="method#onClick#0;class#AddMoneyActivity#0" />
-            <element signature="method#PutData#0;class#AddMoneyActivity#0" />
+            <element signature="method#onCreate#0;class#Home_Fragment#0" />
+            <element signature="method#onActivityCreated#0;class#Home_Fragment#0" />
+            <element signature="method#onResume#0;class#Home_Fragment#0" />
+            <element signature="method#GetData#0;class#Home_Fragment#0" />
+            <element signature="method#GetBorrowData#0;class#Home_Fragment#0" />
+            <element signature="method#Delete#0;class#Home_Fragment#0" />
+            <element signature="method#Communicate#0;class#Home_Fragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_borrow.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="19" column="47" selection-start-line="14" selection-start-column="3" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/BorrowActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="91" column="27" selection-start-line="91" selection-start-column="27" selection-end-line="91" selection-end-column="27" />
+          <folding>
+            <element signature="method#onCreate#0;class#BorrowActivity#0" />
+            <element signature="method#InitWork#0;class#BorrowActivity#0" />
+            <element signature="method#onOptionsItemSelected#0;class#BorrowActivity#0" />
+            <element signature="method#getData#0;class#BorrowActivity#0" />
+            <element signature="method#Delete#0;class#BorrowActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mClass/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.1.1/3fb00d0da53c4e9f35a519da6e22bc2de7463816/volley-1.1.1-sources.jar!/com/android/volley/ExecutorDelivery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="106" selection-start-line="106" selection-end-line="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.volley/volley/1.1.1/3fb00d0da53c4e9f35a519da6e22bc2de7463816/volley-1.1.1-sources.jar!/com/android/volley/toolbox/JsonRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_add_plan.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/Sdk/sources/android-28/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="3538" selection-start-line="3538" selection-end-line="3538" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mActivity/AddPlanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+          <folding>
+            <element signature="method#onClick#0;class#AddPlanActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/fragment_plan_.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="53" column="43" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="77" column="41" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
+          <folding>
+            <element signature="method#onNavigationItemSelected#0;class#MainActivity#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mFragment/Plan_Fragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="262" column="58" selection-start-line="262" selection-start-column="58" selection-end-line="262" selection-end-column="58" />
+          <folding>
+            <element signature="method#onActivityCreated#0;class#Plan_Fragment#0" />
+            <element signature="e#4422#4804#0" expanded="true" />
+            <element signature="e#4803#4804#0" expanded="true" />
+            <element signature="class#4584:5376" />
+            <element signature="method#Delete#0;class#Plan_Fragment#0" />
+            <element signature="method#onResume#0;class#Plan_Fragment#0" />
+            <element signature="method#initWork#0;class#Plan_Fragment#0" />
+            <element signature="method#onClick#0;class#Plan_Fragment#0" />
+            <element signature="method#onActivityResult#0;class#Plan_Fragment#0" />
+            <element signature="e#8729#11814#0" expanded="true" />
+            <element signature="e#11813#11814#0" expanded="true" />
+            <element signature="e#11832#12158#0" expanded="true" />
+            <element signature="e#12157#12158#0" expanded="true" />
+            <element signature="method#Communicate#0;class#Plan_Fragment#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="44" column="28" lean-forward="true" selection-start-line="44" selection-start-column="28" selection-end-line="44" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/black/savemymoneyv3/mServer/BorrowService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="73" column="63" selection-start-line="73" selection-start-column="63" selection-end-line="73" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#356#357#0" expanded="true" />
           </folding>
         </state>
       </provider>

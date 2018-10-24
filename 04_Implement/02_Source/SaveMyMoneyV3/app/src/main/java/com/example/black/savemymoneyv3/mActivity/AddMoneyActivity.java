@@ -40,9 +40,11 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
     private ImageView img_icon;
     private ProgressBar AM_progressbar;
 
-    TextView ten, tien, ngaytao;
-    SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataAction.php";
+    private TextView ten, tien, ngaytao;
+    private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+    private final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataAction.php";
+    private final String urlUpdate = "https://ludicrous-disaster.000webhostapp.com/Update%20Data/updateDataWallet.php";
+
 
     KhoangChiTieu wallet;
     int loaiGD;
@@ -108,6 +110,7 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
                     Toast.makeText(AddMoneyActivity.this, "Vui Lòng Nhập Tiền Là Số Dương", Toast.LENGTH_SHORT).show();
                 }
                 else {
+                    UpdateDate(urlUpdate);
                     PutData(url);
                 }
             } catch (ParseException e) {
@@ -143,6 +146,51 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
                 map.put("ghichu", edt_ghichu_AW.getText().toString());
                 map.put("mavi", wallet.getId()+"");
 
+
+                return map;
+            }
+        };
+        requestQueue.add(request);
+    }
+
+    private void UpdateDate(String urlupdate){
+        AM_progressbar.setVisibility(View.VISIBLE);
+        RequestQueue requestQueue   = Volley.newRequestQueue(this);
+        StringRequest request       = new StringRequest(Request.Method.POST, urlupdate,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(AddMoneyActivity.this, "Update Success", Toast.LENGTH_SHORT).show();
+                        AM_progressbar.setVisibility(View.GONE);
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(AddMoneyActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                AM_progressbar.setVisibility(View.GONE);
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> map = new HashMap<>();
+
+                map.put("mavi", wallet.getId()+"");
+                map.put("tenvi", wallet.getName());
+                if(loaiGD == 0){
+                    Long Tien = wallet.getMoney() - Long.parseLong(String.valueOf(edtTienNap.getText()));
+                    map.put("tien", Tien+"");
+
+                }
+                else{
+                    Long Tien = wallet.getMoney() + Long.parseLong(String.valueOf(edtTienNap.getText()));
+                    map.put("tien", Tien+"");
+                }
+                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                Calendar calendar = wallet.getDate();
+                map.put("ngaytao", dateFormat.format(calendar.getTime()));
+                map.put("icon", wallet.getIcon()+"");
+                map.put("taikhoan", wallet.getTaikhoang());
 
                 return map;
             }

@@ -37,6 +37,7 @@ import com.example.black.savemymoneyv3.mAdapter.ListPlanAdapter;
 import com.example.black.savemymoneyv3.mClass.Communicator;
 import com.example.black.savemymoneyv3.mClass.DuDinh;
 import com.example.black.savemymoneyv3.mClass.GiaoDich;
+import com.example.black.savemymoneyv3.mServer.BorrowService;
 import com.github.sundeepk.compactcalendarview.CompactCalendarView;
 import com.github.sundeepk.compactcalendarview.domain.Event;
 
@@ -64,15 +65,17 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
     int RES_CODE = 123;
     private ListPlanAdapter adapter;
     private SimpleDateFormat dateFormatForMonth = new SimpleDateFormat("MMM - yyyy", Locale.getDefault());
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+
     private ArrayList<DuDinh> plans;
     private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataPlan.php";
-    private  Handler handler = new Handler();
     private String username;
     private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataPlan.php";
     private ProgressBar planPregress;
+    private ArrayList<String> dates;
     public Plan_Fragment() {
-
     }
+
 
 
     @Override
@@ -80,7 +83,6 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_plan_, container, false);
         initWork(view);
-
         btn_them.setOnClickListener(this);
         return view;
 
@@ -92,9 +94,19 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
         super.onActivityCreated(savedInstanceState);
         context = getActivity();
         username = DangNhapActivity.user.getName();
-                GetData(url);
         adapter = new ListPlanAdapter(context, R.layout.cus_list_plan, plans);
         list_plan.setAdapter(adapter);
+
+
+        GetData(url);
+
+
+
+
+
+
+
+
 
         list_plan.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
             @Override
@@ -106,7 +118,6 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                     public void onClick(DialogInterface dialog, int which) {
                         Delete(urldelete, position);
                         GetData(url);
-
                         plans.remove(position);
                         adapter.notifyDataSetChanged();
                     }
@@ -120,6 +131,8 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                 return true;
             }
         });
+
+
         compactCalendarView.setListener(new CompactCalendarView.CompactCalendarViewListener() {
             @Override
             public void onDayClick(Date dateClicked) {
@@ -148,7 +161,7 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(context, "Success", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(context, "Delete Success", Toast.LENGTH_SHORT).show();
                         planPregress.setVisibility(View.GONE);
 
                     }
@@ -163,7 +176,13 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
             @Override
             protected Map<String, String> getParams() throws AuthFailureError {
                 Map<String,String> map = new HashMap<>();
-                map.put("madd", plans.get(pos).getId_gd() + "");
+                if(pos < 0){ // pos < 0 là các dự dinh có ngàykt < ngày hiện tại và pos củng là madd chỉ cần đổi đấu lại
+                    map.put("madd", -pos + "");
+                }
+                else // do người dùng xoá tại 1 vị trí trong list
+                {
+                    map.put("madd", plans.get(pos).getId_gd() + "");
+                }
                 return map;
             }
         };
@@ -175,7 +194,7 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
     @Override
     public void onResume() {
         super.onResume();
-                GetData(url);
+        GetData(url);
     }
 
     private void initWork(View view){
@@ -192,9 +211,7 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
         txtShow.setText(dateFormatForMonth.format(compactCalendarView.getFirstDayOfCurrentMonth()));
 
         plans = new ArrayList<>();
-
-
-
+        dates = new ArrayList<>();
 
 
 
@@ -227,31 +244,50 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                     @Override
                     public void onResponse(JSONArray response) {
                         compactCalendarView.removeAllEvents();
+                        dates.clear();
+                        plans.clear();
                         DuDinh duDinh;
                         for(int i = 0; i < response.length(); i++){
                             try {
                                 JSONObject object = response.getJSONObject(i);
+                                String today = dateFormat.format(Calendar.getInstance().getTime());
+                                Calendar calen = Calendar.getInstance();
+                                calen.setTime(dateFormat.parse(today));
+
                                 if(username.equals(object.getString("taikhoan"))) {
-                                    SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
                                     Calendar calendar = Calendar.getInstance();
                                     calendar.setTime(dateFormat.parse(object.getString("ngaykt")));
 
-                                    duDinh = new DuDinh(object.getInt("madd"),
-                                            object.getLong("kinhphi"),
-                                            calendar,
-                                            object.getString("ghichu"),
-                                            object.getString("taikhoan"));
-                                    Event mevent = new Event(Color.YELLOW, calendar.getTimeInMillis(), duDinh);
-                                    compactCalendarView.addEvent(mevent);
+                                    if(calendar.getTimeInMillis() < calen.getTimeInMillis()){
+                                        int temp  = -(object.getInt("madd")); //set pos < 0 de biết là nó được xoá ngay từ đầu để goi hàm
+                                        Delete(urldelete, temp);
+                                    }
+                                    else {
+                                        duDinh = new DuDinh(object.getInt("madd"),
+                                                object.getLong("kinhphi"),
+                                                calendar,
+                                                object.getString("ghichu"),
+                                                object.getString("taikhoan"));
+                                        Event mevent = new Event(Color.YELLOW, calendar.getTimeInMillis(), duDinh);
+                                        compactCalendarView.addEvent(mevent);
+                                        if (today.equals(object.getString("ngaykt"))) {
+                                            plans.add(duDinh);
+                                        }
+                                        dates.add(object.getString("ngaykt"));
+                                    }
                                 }
                             } catch (JSONException e) {
                                 e.printStackTrace();
                             } catch (ParseException e) {
                                 e.printStackTrace();
                                 Toast.makeText(context, "Lỗi Dịnh Dạng", Toast.LENGTH_SHORT).show();
-                            }
+                            }// catch2
                             planPregress.setVisibility(View.GONE);
-                        }
+                            adapter.notifyDataSetChanged();
+                        } //for
+                        Intent intent = new Intent(context, BorrowService.class);
+                        intent.putStringArrayListExtra("dates", dates);
+                        context.startService(intent);
                     }
                 },
                 new Response.ErrorListener() {
@@ -259,12 +295,12 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
                     public void onErrorResponse(VolleyError error) {
                         Toast.makeText(context, error.toString(), Toast.LENGTH_SHORT).show();
                         planPregress.setVisibility(View.GONE);
-
                     }
                 });
 
         requestQueue.add(jsonArrayRequest);
     }
+
 
     @Override
     public void Communicate(String key, String data) {
