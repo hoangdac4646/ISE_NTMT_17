@@ -5997,20 +5997,21 @@ public final class R {
     public static final int pic80=0x7f08014c;
     public static final int pic9=0x7f08014d;
     public static final int pixel_grey=0x7f08014e;
-    public static final int press_chuyenbentien=0x7f08014f;
-    public static final int press_chuyendoitien=0x7f080150;
-    public static final int progress_bar_circle=0x7f080151;
-    public static final int ripple=0x7f080152;
-    public static final int russia=0x7f080153;
-    public static final int side_nav_bar=0x7f080154;
-    public static final int thailand=0x7f080155;
-    public static final int thongke=0x7f080156;
-    public static final int tooltip_frame_dark=0x7f080157;
-    public static final int tooltip_frame_light=0x7f080158;
-    public static final int usa=0x7f080159;
-    public static final int user=0x7f08015a;
-    public static final int vien_duoi=0x7f08015b;
-    public static final int vietnam=0x7f08015c;
+    public static final int plan_24=0x7f08014f;
+    public static final int press_chuyenbentien=0x7f080150;
+    public static final int press_chuyendoitien=0x7f080151;
+    public static final int progress_bar_circle=0x7f080152;
+    public static final int ripple=0x7f080153;
+    public static final int russia=0x7f080154;
+    public static final int side_nav_bar=0x7f080155;
+    public static final int thailand=0x7f080156;
+    public static final int thongke=0x7f080157;
+    public static final int tooltip_frame_dark=0x7f080158;
+    public static final int tooltip_frame_light=0x7f080159;
+    public static final int usa=0x7f08015a;
+    public static final int user=0x7f08015b;
+    public static final int vien_duoi=0x7f08015c;
+    public static final int vietnam=0x7f08015d;
   }
   public static final class id {
     public static final int AB_progressbar=0x7f090000;

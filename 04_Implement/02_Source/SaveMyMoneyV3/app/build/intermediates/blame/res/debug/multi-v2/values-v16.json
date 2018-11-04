@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
+            "outputFile": "E:\\cloneGitKragen\\ISE_NTMT_17\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v16\\values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\9f8abf68aa2a03f27d31d2e1ff4025c0\\res\\values-v16\\values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "223"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "121",
-                        "endLines": "6",
-                        "endColumns": "12",
-                        "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\a48b54ebf7fdd4cb51cac4d6145ba95f\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\liferay-screens-4.0.1.aar\\1dc6b8499157e599628c5fb4b3816f24\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2,5,8,11,14,17",
                         "startColumns": "4,4,4,4,4,4",
@@ -42,7 +23,26 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\59884f19e294e79a69c8f75a194f8744\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\8bea51acc2fa86d3c72bfbb1cb138562\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -28,6 +28,7 @@ import com.example.black.savemymoneyv3.DangNhap.TaiKhoan;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mAdapter.ListBorrowAdapter;
 import com.example.black.savemymoneyv3.mClass.Borrows;
+import com.example.black.savemymoneyv3.mServer.BorrowService;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -102,7 +103,6 @@ public class BorrowActivity extends AppCompatActivity {
 
         getData(url);
 
-
     }//init
 
     @Override
@@ -133,7 +133,7 @@ public class BorrowActivity extends AppCompatActivity {
 
                                 if(DangNhapActivity.user.getName().equals(object.getString("taikhoan"))){
                                     Calendar calendar = Calendar.getInstance();
-                                        calendar.setTime(simpleDateFormat.parse(object.getString("ngay")));
+                                    calendar.setTime(simpleDateFormat.parse(object.getString("ngay")));
                                     items.add(new Borrows(object.getInt("mavm"),
                                             object.getLong("tien"),
                                             object.getInt("loai"),
@@ -186,5 +186,9 @@ public class BorrowActivity extends AppCompatActivity {
 
 
     }
+
+
+
+
 
 }

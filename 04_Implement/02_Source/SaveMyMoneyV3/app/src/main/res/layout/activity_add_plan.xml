@@ -71,6 +71,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:inputType="textShortMessage"
         android:layout_marginRight="20dp"
         android:id="@+id/edt_ghichu_DD"
         android:layout_width="match_parent"

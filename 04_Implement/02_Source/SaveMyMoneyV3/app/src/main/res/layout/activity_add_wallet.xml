@@ -56,7 +56,7 @@
         android:layout_marginRight="32dp"
         android:background="@drawable/cus_editext"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType="textShortMessage"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"

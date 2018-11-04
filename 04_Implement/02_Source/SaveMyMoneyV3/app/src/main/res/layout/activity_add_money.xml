@@ -119,6 +119,7 @@
         android:layout_height="wrap_content" />
 
     <EditText
+        android:inputType="textShortMessage"
         android:gravity="start"
         android:id="@+id/edt_ghichu_AW"
         android:layout_width="match_parent"

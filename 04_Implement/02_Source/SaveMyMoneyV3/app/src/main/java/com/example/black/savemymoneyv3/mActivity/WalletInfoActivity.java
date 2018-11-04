@@ -31,6 +31,7 @@ import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonArrayRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.black.savemymoneyv3.DangNhap.DangNhapActivity;
 import com.example.black.savemymoneyv3.MainActivity;
 import com.example.black.savemymoneyv3.R;
 import com.example.black.savemymoneyv3.mAdapter.ListGDAdapter;
@@ -59,12 +60,13 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     private final int RES_CODE = 2;
     private ListGDAdapter adapter;
     private KhoangChiTieu wallet;
-    private  ProgressDialog mprogress;
     private TypedArray imgs;
-    private Handler handler = new Handler();
     private final String url = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataAction.php";
     private final String urldelete = "http://ludicrous-disaster.hostingerapp.com/Delete%20Data/deleteDataAction.php";
+    private final String urlUpdate = "http://ludicrous-disaster.hostingerapp.com/Update%20Data/updateDataWallet.php";
+    private final String urlwallet = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataWallet.php";
     private ProgressBar walletProgress;
+    private int mavi = -1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,6 +78,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
 
         Intent intent = getIntent();
         wallet = (KhoangChiTieu) intent.getSerializableExtra("wallet");
+        mavi = wallet.getId();
 
         name.setText(wallet.getName());
         money.append(wallet.getMoney() + "");
@@ -96,6 +99,8 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         Delete(urldelete, position);
+                        UpdateData(urlUpdate, position);
+                        GetWalletData(urlwallet);
                     }
                 });
                 builder.setNegativeButton("Không", new DialogInterface.OnClickListener() {
@@ -205,6 +210,97 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         requestQueue.add(jsonArrayRequest);
     }
 
+    private void GetWalletData(final String urlwallet) {
+        walletProgress.setVisibility(View.VISIBLE);
+        RequestQueue request = Volley.newRequestQueue(this);
+        JsonArrayRequest jsonArrayRequest = new JsonArrayRequest(Request.Method.GET, urlwallet, null,
+                new Response.Listener<JSONArray>() {
+                    @Override
+                    public void onResponse(JSONArray response) {
+                        for (int i = 0; i < response.length(); i++) {
+                            try {
+                                SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                                Calendar calendar = Calendar.getInstance();
+
+                                JSONObject object = response.getJSONObject(i);
+                                if(mavi == object.getInt("mavi")) {
+                                    calendar.setTime(simpleDateFormat.parse(object.getString("ngaytao")));
+
+                                    wallet = new KhoangChiTieu(object.getInt("mavi"),
+                                            object.getInt("icon"),
+                                            object.getString("tenvi"),
+                                            object.getLong("tien"),
+                                            calendar,
+                                            object.getString("taikhoan"));
+
+                                    name.setText(object.getString("tenvi"));
+                                    money.setText(object.getLong("tien") + "");
+                                    date.setText(object.getString("ngaytao"));
+                                }
+
+                            } catch (JSONException e) {
+                                e.printStackTrace();
+                            } catch (ParseException e) {
+                                e.printStackTrace();
+                            }
+                        }
+                        walletProgress.setVisibility(View.GONE);
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(WalletInfoActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                walletProgress.setVisibility(View.GONE);
+            }
+        });
+        request.add(jsonArrayRequest);
+    }
+
+    private void UpdateData(String urlupdate , final int position){
+        walletProgress.setVisibility(View.VISIBLE);
+        RequestQueue requestQueue   = Volley.newRequestQueue(this);
+        StringRequest request       = new StringRequest(Request.Method.POST, urlupdate,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(WalletInfoActivity.this, "Update Success", Toast.LENGTH_SHORT).show();
+                        walletProgress.setVisibility(View.GONE);
+
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(WalletInfoActivity.this, error.toString(), Toast.LENGTH_SHORT).show();
+                walletProgress.setVisibility(View.GONE);
+            }
+        }){
+            @Override
+            protected Map<String, String> getParams() throws AuthFailureError {
+                Map<String,String> map = new HashMap<>();
+
+                map.put("mavi", wallet.getId()+"");
+                map.put("tenvi", wallet.getName());
+                if(items.get(position).getLoaigd() == 0){
+                    Long Tien = wallet.getMoney() + items.get(position).getMoney();
+                    map.put("tien", Tien+"");
+                }
+                else{
+                    Long Tien = wallet.getMoney() - items.get(position).getMoney();
+                    map.put("tien", Tien+"");
+                }
+                SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
+                Calendar calendar = wallet.getDate();
+                map.put("ngaytao", dateFormat.format(calendar.getTime()));
+                map.put("icon", wallet.getIcon()+"");
+                map.put("taikhoan", wallet.getTaikhoang());
+
+                return map;
+            }
+        };
+        requestQueue.add(request);
+    }
+
+
     private void Delete(final String urldele, final int pos){
         walletProgress.setVisibility(View.VISIBLE);
         RequestQueue requestQueue   = Volley.newRequestQueue(WalletInfoActivity.this);
@@ -240,7 +336,7 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
         super.onActivityResult(requestCode, resultCode, data);
 
         if(requestCode == RES_CODE && resultCode == Activity.RESULT_OK){
-
+            GetWalletData(urlwallet);
         }
     }
 

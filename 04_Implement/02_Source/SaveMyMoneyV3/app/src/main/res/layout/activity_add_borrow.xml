@@ -50,6 +50,7 @@
             app:layout_constraintTop_toBottomOf="@+id/radioGroup2" />
 
         <EditText
+            android:inputType="textShortMessage"
             android:padding="15dp"
             android:id="@+id/edtName_AB"
             android:layout_width="match_parent"

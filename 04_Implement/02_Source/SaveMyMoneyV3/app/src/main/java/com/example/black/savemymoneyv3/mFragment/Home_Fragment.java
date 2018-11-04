@@ -117,8 +117,6 @@ public class Home_Fragment extends Fragment implements Communicator {
         adapter = new HoatDongAdapter(context, R.layout.cus_list_chitieu, items);
         list_ChiTieu.setAdapter(adapter);
         GetData(url);
-
-
         GetBorrowData(url1);
 
 
@@ -190,7 +188,6 @@ public class Home_Fragment extends Fragment implements Communicator {
         GetData(url);
 
         GetBorrowData(url1);
-        //Toast.makeText(context, "--------- "+ MAvi, Toast.LENGTH_SHORT).show();
 
     }
 

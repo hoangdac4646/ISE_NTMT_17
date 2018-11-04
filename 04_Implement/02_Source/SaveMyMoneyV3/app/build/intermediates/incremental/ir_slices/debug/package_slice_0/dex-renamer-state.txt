@@ -1,4 +1,4 @@
-#Sun Nov 04 23:56:31 ICT 2018
-base.0=D\:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Mon Nov 05 01:22:52 ICT 2018
+base.0=E\:\\cloneGitKragen\\ISE_NTMT_17\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex

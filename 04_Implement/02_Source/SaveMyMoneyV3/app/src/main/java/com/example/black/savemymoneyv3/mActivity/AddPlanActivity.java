@@ -78,7 +78,7 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
-                        Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(AddPlanActivity.this, "Success", Toast.LENGTH_SHORT).show();
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -102,27 +102,27 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     @Override
-        public void onClick(View v) {
-            if(v.getId() == R.id.btn_yes_dd){
+    public void onClick(View v) {
+        if(v.getId() == R.id.btn_yes_dd){
 
-                SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd");
-                try {
-                    Calendar calendar = Calendar.getInstance();
-                    calendar.setTime(dateFormat1.parse(edtNgaydd.getText().toString()));
-                    ngaykt = dateFormat1.format(calendar.getTime());
-                    if(edtKinhPhi.getText().length() == 0 || edtghichu.getText().length() == 0){
-                        Toast.makeText(this, "Vui Lòng Nhập Đầy Đủ Thông Tin", Toast.LENGTH_SHORT).show();
-                    }
-                    else if(Long.parseLong(String.valueOf(edtKinhPhi.getText())) < 0){
-                        Toast.makeText(AddPlanActivity.this, "Vui Lòng Nhập Tiền Là Số Dương", Toast.LENGTH_SHORT).show();
-                    }else {
-                        PutData(url);
-                        setResult(RESULT_OK);
-                        finish();
-                    }
-                } catch (ParseException e) {
-                    Toast.makeText(this, "Vui Lòng Nhập Đúng Định Dạng yyyy-MM-dd", Toast.LENGTH_SHORT).show();
+            SimpleDateFormat dateFormat1 = new SimpleDateFormat("yyyy-MM-dd");
+            try {
+                Calendar calendar = Calendar.getInstance();
+                calendar.setTime(dateFormat1.parse(edtNgaydd.getText().toString()));
+                ngaykt = dateFormat1.format(calendar.getTime());
+                if(edtKinhPhi.getText().length() == 0 || edtghichu.getText().length() == 0){
+                    Toast.makeText(this, "Vui Lòng Nhập Đầy Đủ Thông Tin", Toast.LENGTH_SHORT).show();
                 }
+                else if(Long.parseLong(String.valueOf(edtKinhPhi.getText())) < 0){
+                    Toast.makeText(AddPlanActivity.this, "Vui Lòng Nhập Tiền Là Số Dương", Toast.LENGTH_SHORT).show();
+                }else {
+                    PutData(url);
+                    setResult(RESULT_OK);
+                    finish();
+                }
+            } catch (ParseException e) {
+                Toast.makeText(this, "Vui Lòng Nhập Đúng Định Dạng yyyy-MM-dd", Toast.LENGTH_SHORT).show();
             }
         }
+    }
 }

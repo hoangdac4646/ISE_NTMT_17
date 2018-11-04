@@ -27,12 +27,13 @@
         android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <ImageView
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="20dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
             android:id="@+id/img_icon_walletinfo"
-            android:layout_width="100dp"
-            android:layout_height="100dp"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
             app:srcCompat="@drawable/icon_wallet_logo" />
 
         <LinearLayout
