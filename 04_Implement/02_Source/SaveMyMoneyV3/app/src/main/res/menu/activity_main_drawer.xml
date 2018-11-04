@@ -5,13 +5,13 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
+            android:id="@+id/nav_thongtincanhan"
             android:title="Thông Tin Cá Nhân" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_thaydoithongtin"
             android:title="Thay Đổi Thông Tin" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_feelback"
             android:title="FeelBack" />
         <item
             android:id="@+id/nav_aboutus"

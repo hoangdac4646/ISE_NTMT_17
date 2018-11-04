@@ -30,7 +30,7 @@ public class QlTaiKhoan_fragment extends Fragment {
     private RecyclerView.Adapter adapter;
     private RecyclerView.LayoutManager layoutManager;
     private RecyclerView recyclerView;
-    final String url_read ="https://ludicrous-disaster.000webhostapp.com/getData.php";
+    final String url_read ="http://ludicrous-disaster.hostingerapp.com/getData.php";
     private ArrayList<TaiKhoan> list = new ArrayList<TaiKhoan>();
     @Nullable
     @Override

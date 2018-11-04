@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
+            "outputFile": "D:\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-b+sr+Latn\\values-b+sr+Latn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-28.0.0.aar\\b3faebeaf9b92b783352d5e30f68c02a\\res\\values-b+sr+Latn\\values-b+sr+Latn.xml",

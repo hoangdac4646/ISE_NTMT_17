@@ -47,7 +47,7 @@ public class DangKiActivity extends AppCompatActivity {
                         Toast.makeText(getApplicationContext(), "Tài khoản lớn hơn 5 kí tự và nhỏ hơn 50 !", Toast.LENGTH_SHORT).show();
                     }
                     else {
-                        String url = "https://ludicrous-disaster.000webhostapp.com/DangKi.php";
+                        String url = "http://ludicrous-disaster.hostingerapp.com/DangKi.php";
                         DangKi(url);
                     }
                 }else{
@@ -105,9 +105,10 @@ public class DangKiActivity extends AppCompatActivity {
                 Map<String,String> map = new HashMap<>();
                 map.put("username",Name.getText().toString().trim());
                 map.put("userpass",Pass1.getText().toString().trim());
+                map.put("Hoten",Hoten.getText().toString().trim());
                 map.put("userphone",Sodt.getText().toString().trim());
                 map.put("admin",0+"");
-                map.put("Hoten",Hoten.getText().toString().trim());
+
                 return map;
             }
         };

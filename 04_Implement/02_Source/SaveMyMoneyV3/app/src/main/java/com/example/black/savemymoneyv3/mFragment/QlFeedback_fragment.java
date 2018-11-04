@@ -29,7 +29,7 @@ import java.util.List;
 public class QlFeedback_fragment extends Fragment {
     ListView listView;
     Admin_feedback admin_feedback;
-    final String url_read ="https://ludicrous-disaster.000webhostapp.com/getFeedBack.php";
+    final String url_read ="http://ludicrous-disaster.hostingerapp.com/getFeedBack.php";
     private List<feddback_ad> list = new ArrayList<feddback_ad>();
     @Nullable
     @Override

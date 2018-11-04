@@ -74,10 +74,11 @@ public class Home_Fragment extends Fragment implements Communicator {
     private LinearLayout borrow_linear;
     private TextView sum_borrow, sum_lent;
     private ProgressBar homeprogress;
+    private int MAvi = 0;
 
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataWallet.php";
-    String url1 = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataBorrow.php";
-    String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataWallet.php";
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataWallet.php";
+    private final String url1 = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataBorrow.php";
+    private final String urldelete = "http://ludicrous-disaster.hostingerapp.com/Delete%20Data/deleteDataWallet.php";
 
     TypedArray imgs;
     boolean isrunning = false;
@@ -116,6 +117,8 @@ public class Home_Fragment extends Fragment implements Communicator {
         adapter = new HoatDongAdapter(context, R.layout.cus_list_chitieu, items);
         list_ChiTieu.setAdapter(adapter);
         GetData(url);
+
+
         GetBorrowData(url1);
 
 
@@ -185,7 +188,10 @@ public class Home_Fragment extends Fragment implements Communicator {
     public void onResume() {
         super.onResume();
         GetData(url);
+
         GetBorrowData(url1);
+        //Toast.makeText(context, "--------- "+ MAvi, Toast.LENGTH_SHORT).show();
+
     }
 
     private void GetData(final String url) {
@@ -205,7 +211,7 @@ public class Home_Fragment extends Fragment implements Communicator {
                                 JSONObject object = response.getJSONObject(i);
                                 if(username.equals(object.getString("taikhoan"))) {
                                     calendar.setTime(simpleDateFormat.parse(object.getString("ngaytao")));
-
+                                    MAvi = object.getInt("mavi");
                                     items.add(new KhoangChiTieu(object.getInt("mavi"),
                                             object.getInt("icon"),
                                             object.getString("tenvi"),

@@ -49,8 +49,8 @@ public class BorrowActivity extends AppCompatActivity {
     private Button btn_them;
     private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private ProgressBar progressBar3;
-    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataBorrow.php";
-    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataBorrow.php";
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataBorrow.php";
+    private final String urldelete = "http://ludicrous-disaster.hostingerapp.com/Delete%20Data/deleteDataBorrow.php";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

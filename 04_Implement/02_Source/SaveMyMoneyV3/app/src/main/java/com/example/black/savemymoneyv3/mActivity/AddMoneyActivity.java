@@ -42,7 +42,7 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
 
     TextView ten, tien, ngaytao;
     SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
-    final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataAction.php";
+    final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataAction.php";
 
     KhoangChiTieu wallet;
     int loaiGD;

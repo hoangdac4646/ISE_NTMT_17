@@ -6,10 +6,7 @@
         android:id="@+id/ad_user"
         android:icon="@drawable/user"
         android:title="Quản lí tài khoản" />
-    <item
-        android:id="@+id/ad_danhmuc"
-        android:icon="@drawable/danhmuc"
-        android:title="Quản lí danh mục" />
+
 
     <item
         android:id="@+id/ad_phanhoi"

@@ -11,6 +11,8 @@
     <color name="backgroups">#f1f0f6</color>
     <color name="colorRed">#ff0000</color>
     <color name="colorText">#4675e1</color>
+    <color name="Red">#ec1f0c</color>
+    <color name="Xanh">#1edb44</color>
 
 
 </resources>

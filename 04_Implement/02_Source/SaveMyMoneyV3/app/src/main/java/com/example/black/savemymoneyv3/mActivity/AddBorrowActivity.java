@@ -25,7 +25,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AddBorrowActivity extends AppCompatActivity {
-    String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataBorrow.php";
+    String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataBorrow.php";
     EditText edtName, edtDate, edtMoney;
     RadioButton rbnChovay, rbnMuontien;
     Button btn_yes;

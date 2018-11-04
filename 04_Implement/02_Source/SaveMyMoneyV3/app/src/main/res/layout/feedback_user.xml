@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/feddback_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+
+        android:layout_height="96dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/icon_wallet_logo" />
+<LinearLayout
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="234dp"
+        android:layout_height="wrap_content"
+        android:text="Hãy đánh giá Save My Money"
+        android:textSize="17dp" />
+    <TextView
+        android:layout_marginTop="5dp"
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+
+        android:text="Hãy đánh giá Save My Money !"
+        android:textSize="14dp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginTop="5dp"
+        android:stepSize="1"
+        android:rating="5"
+        android:layout_toEndOf="@+id/imageView2" />
+</LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bình luận"
+            />
+        <EditText
+            android:layout_margin="10dp"
+            android:background="#e4e2e2"
+            android:gravity="left|top"
+            android:id="@+id/feedback_noidung"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <Button
+            android:id="@+id/btn_gui"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gửi"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

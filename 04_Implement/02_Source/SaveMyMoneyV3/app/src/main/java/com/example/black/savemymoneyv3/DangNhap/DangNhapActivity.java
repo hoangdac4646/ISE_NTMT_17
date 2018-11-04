@@ -47,7 +47,7 @@ public class DangNhapActivity extends AppCompatActivity {
         setContentView(R.layout.dangnhap_activity);
         Init();
         int n =list_tk.size();
-        final String url = "https://ludicrous-disaster.000webhostapp.com/Login.php";
+        final String url = "http://ludicrous-disaster.hostingerapp.com/Login.php";
          n = list_tk.size();
         Dangki.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -90,6 +90,7 @@ public class DangNhapActivity extends AppCompatActivity {
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
+
                 String TenTk="",Matkhau="",Sodt="",ViTri="-1",Hoten="";
                 try {
                     JSONArray array = new JSONArray(response);
@@ -126,7 +127,7 @@ public class DangNhapActivity extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(getApplicationContext(),"Error"+error.toString(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Error :    "+error.toString(),Toast.LENGTH_SHORT).show();
                 progress.dismiss();
 
             }

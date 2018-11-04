@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\DayNE\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
+            "outputFile": "D:\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-vi\\values-vi.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Thien Bao\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-9.0.2.aar\\6fccdd24062572c0f7ecc97b441da683\\res\\values-vi\\values.xml",

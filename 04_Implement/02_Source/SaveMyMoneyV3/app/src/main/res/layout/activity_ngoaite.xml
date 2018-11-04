@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:gravity="center|top"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/ngoaite_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+    </android.support.v7.widget.Toolbar>
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="casual"
+            android:text="Currency Converter"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:textSize="20dp"
+                android:id="@+id/tv_giatri1"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="casual"
+                android:text="USA TO"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textSize="20dp"
+                android:id="@+id/tv_giatri2"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="casual"
+                android:layout_marginLeft="5dp"
+                android:layout_width="wrap_content"
+                android:text="RUB"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/edt_tiendoi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Nhập số tiền"
+            android:inputType="number"
+            android:ems="10"
+            />
+        <ImageView
+            android:id="@+id/img_doitien"
+            android:layout_width="wrap_content"
+            android:src="@drawable/press_chuyendoitien"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+
+        android:weightSum="7"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Spinner
+            android:layout_weight="3"
+            android:id="@+id/sp_chuyen1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"></Spinner>
+        <ImageView
+            android:layout_weight="1"
+            android:id="@+id/img_exchange2ben"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/press_chuyenbentien"
+            />
+
+        <Spinner
+            android:layout_weight="3"
+            android:id="@+id/sp_chuyen2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"></Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_tientrckhichuyen"
+            android:layout_gravity="center"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:id="@+id/tv_tiensaukhichuyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="@color/colorBlack"
+            android:text=""
+            />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

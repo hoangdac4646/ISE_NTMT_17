@@ -5259,180 +5259,182 @@ public final class R {
     public static final int mtrl_btn_textappearance_all_caps=0x7f050003;
   }
   public static final class color {
-    public static final int abc_background_cache_hint_selector_material_dark=0x7f060000;
-    public static final int abc_background_cache_hint_selector_material_light=0x7f060001;
-    public static final int abc_btn_colored_borderless_text_material=0x7f060002;
-    public static final int abc_btn_colored_text_material=0x7f060003;
-    public static final int abc_color_highlight_material=0x7f060004;
-    public static final int abc_hint_foreground_material_dark=0x7f060005;
-    public static final int abc_hint_foreground_material_light=0x7f060006;
-    public static final int abc_input_method_navigation_guard=0x7f060007;
-    public static final int abc_primary_text_disable_only_material_dark=0x7f060008;
-    public static final int abc_primary_text_disable_only_material_light=0x7f060009;
-    public static final int abc_primary_text_material_dark=0x7f06000a;
-    public static final int abc_primary_text_material_light=0x7f06000b;
-    public static final int abc_search_url_text=0x7f06000c;
-    public static final int abc_search_url_text_normal=0x7f06000d;
-    public static final int abc_search_url_text_pressed=0x7f06000e;
-    public static final int abc_search_url_text_selected=0x7f06000f;
-    public static final int abc_secondary_text_material_dark=0x7f060010;
-    public static final int abc_secondary_text_material_light=0x7f060011;
-    public static final int abc_tint_btn_checkable=0x7f060012;
-    public static final int abc_tint_default=0x7f060013;
-    public static final int abc_tint_edittext=0x7f060014;
-    public static final int abc_tint_seek_thumb=0x7f060015;
-    public static final int abc_tint_spinner=0x7f060016;
-    public static final int abc_tint_switch_track=0x7f060017;
-    public static final int accent_material_dark=0x7f060018;
-    public static final int accent_material_light=0x7f060019;
-    public static final int background_floating_material_dark=0x7f06001a;
-    public static final int background_floating_material_light=0x7f06001b;
-    public static final int background_material_dark=0x7f06001c;
-    public static final int background_material_light=0x7f06001d;
-    public static final int backgroups=0x7f06001e;
-    public static final int bright_foreground_disabled_material_dark=0x7f06001f;
-    public static final int bright_foreground_disabled_material_light=0x7f060020;
-    public static final int bright_foreground_inverse_material_dark=0x7f060021;
-    public static final int bright_foreground_inverse_material_light=0x7f060022;
-    public static final int bright_foreground_material_dark=0x7f060023;
-    public static final int bright_foreground_material_light=0x7f060024;
-    public static final int button_material_dark=0x7f060025;
-    public static final int button_material_light=0x7f060026;
-    public static final int cardview_dark_background=0x7f060027;
-    public static final int cardview_light_background=0x7f060028;
-    public static final int cardview_shadow_end_color=0x7f060029;
-    public static final int cardview_shadow_start_color=0x7f06002a;
-    public static final int clear_red_default=0x7f06002b;
-    public static final int colorAccent=0x7f06002c;
-    public static final int colorAccent_default=0x7f06002d;
-    public static final int colorBlack=0x7f06002e;
-    public static final int colorPrimary=0x7f06002f;
-    public static final int colorPrimaryDark=0x7f060030;
-    public static final int colorPrimaryDark_default=0x7f060031;
-    public static final int colorPrimaryLight=0x7f060032;
-    public static final int colorPrimaryLight_default=0x7f060033;
-    public static final int colorPrimary_default=0x7f060034;
-    public static final int colorRed=0x7f060035;
-    public static final int colorRequiredField=0x7f060036;
-    public static final int colorText=0x7f060037;
-    public static final int colorTrans=0x7f060038;
-    public static final int colorWhite=0x7f060039;
-    public static final int colorblack=0x7f06003a;
-    public static final int common_action_bar_splitter=0x7f06003b;
-    public static final int common_google_signin_btn_text_dark=0x7f06003c;
-    public static final int common_google_signin_btn_text_dark_default=0x7f06003d;
-    public static final int common_google_signin_btn_text_dark_disabled=0x7f06003e;
-    public static final int common_google_signin_btn_text_dark_focused=0x7f06003f;
-    public static final int common_google_signin_btn_text_dark_pressed=0x7f060040;
-    public static final int common_google_signin_btn_text_light=0x7f060041;
-    public static final int common_google_signin_btn_text_light_default=0x7f060042;
-    public static final int common_google_signin_btn_text_light_disabled=0x7f060043;
-    public static final int common_google_signin_btn_text_light_focused=0x7f060044;
-    public static final int common_google_signin_btn_text_light_pressed=0x7f060045;
-    public static final int common_plus_signin_btn_text_dark=0x7f060046;
-    public static final int common_plus_signin_btn_text_dark_default=0x7f060047;
-    public static final int common_plus_signin_btn_text_dark_disabled=0x7f060048;
-    public static final int common_plus_signin_btn_text_dark_focused=0x7f060049;
-    public static final int common_plus_signin_btn_text_dark_pressed=0x7f06004a;
-    public static final int common_plus_signin_btn_text_light=0x7f06004b;
-    public static final int common_plus_signin_btn_text_light_default=0x7f06004c;
-    public static final int common_plus_signin_btn_text_light_disabled=0x7f06004d;
-    public static final int common_plus_signin_btn_text_light_focused=0x7f06004e;
-    public static final int common_plus_signin_btn_text_light_pressed=0x7f06004f;
-    public static final int design_bottom_navigation_shadow_color=0x7f060050;
-    public static final int design_default_color_primary=0x7f060051;
-    public static final int design_default_color_primary_dark=0x7f060052;
-    public static final int design_error=0x7f060053;
-    public static final int design_fab_shadow_end_color=0x7f060054;
-    public static final int design_fab_shadow_mid_color=0x7f060055;
-    public static final int design_fab_shadow_start_color=0x7f060056;
-    public static final int design_fab_stroke_end_inner_color=0x7f060057;
-    public static final int design_fab_stroke_end_outer_color=0x7f060058;
-    public static final int design_fab_stroke_top_inner_color=0x7f060059;
-    public static final int design_fab_stroke_top_outer_color=0x7f06005a;
-    public static final int design_snackbar_background_color=0x7f06005b;
-    public static final int design_tint_password_toggle=0x7f06005c;
-    public static final int dim_foreground_disabled_material_dark=0x7f06005d;
-    public static final int dim_foreground_disabled_material_light=0x7f06005e;
-    public static final int dim_foreground_material_dark=0x7f06005f;
-    public static final int dim_foreground_material_light=0x7f060060;
-    public static final int error_color_material_dark=0x7f060061;
-    public static final int error_color_material_light=0x7f060062;
-    public static final int foreground_material_dark=0x7f060063;
-    public static final int foreground_material_light=0x7f060064;
-    public static final int green_default=0x7f060065;
-    public static final int highlighted_text_material_dark=0x7f060066;
-    public static final int highlighted_text_material_light=0x7f060067;
-    public static final int maincolor=0x7f060068;
-    public static final int material_blue_grey_800=0x7f060069;
-    public static final int material_blue_grey_900=0x7f06006a;
-    public static final int material_blue_grey_950=0x7f06006b;
-    public static final int material_deep_teal_200=0x7f06006c;
-    public static final int material_deep_teal_500=0x7f06006d;
-    public static final int material_grey_100=0x7f06006e;
-    public static final int material_grey_300=0x7f06006f;
-    public static final int material_grey_50=0x7f060070;
-    public static final int material_grey_600=0x7f060071;
-    public static final int material_grey_800=0x7f060072;
-    public static final int material_grey_850=0x7f060073;
-    public static final int material_grey_900=0x7f060074;
-    public static final int mtrl_bottom_nav_colored_item_tint=0x7f060075;
-    public static final int mtrl_bottom_nav_item_tint=0x7f060076;
-    public static final int mtrl_btn_bg_color_disabled=0x7f060077;
-    public static final int mtrl_btn_bg_color_selector=0x7f060078;
-    public static final int mtrl_btn_ripple_color=0x7f060079;
-    public static final int mtrl_btn_stroke_color_selector=0x7f06007a;
-    public static final int mtrl_btn_text_btn_ripple_color=0x7f06007b;
-    public static final int mtrl_btn_text_color_disabled=0x7f06007c;
-    public static final int mtrl_btn_text_color_selector=0x7f06007d;
-    public static final int mtrl_btn_transparent_bg_color=0x7f06007e;
-    public static final int mtrl_chip_background_color=0x7f06007f;
-    public static final int mtrl_chip_close_icon_tint=0x7f060080;
-    public static final int mtrl_chip_ripple_color=0x7f060081;
-    public static final int mtrl_chip_text_color=0x7f060082;
-    public static final int mtrl_fab_ripple_color=0x7f060083;
-    public static final int mtrl_scrim_color=0x7f060084;
-    public static final int mtrl_tabs_colored_ripple_color=0x7f060085;
-    public static final int mtrl_tabs_icon_color_selector=0x7f060086;
-    public static final int mtrl_tabs_icon_color_selector_colored=0x7f060087;
-    public static final int mtrl_tabs_legacy_text_color_selector=0x7f060088;
-    public static final int mtrl_tabs_ripple_color=0x7f060089;
-    public static final int mtrl_text_btn_text_color_selector=0x7f06008a;
-    public static final int mtrl_textinput_default_box_stroke_color=0x7f06008b;
-    public static final int mtrl_textinput_disabled_color=0x7f06008c;
-    public static final int mtrl_textinput_filled_box_default_background_color=0x7f06008d;
-    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f06008e;
-    public static final int notification_action_color_filter=0x7f06008f;
-    public static final int notification_icon_bg_color=0x7f060090;
-    public static final int notification_material_background_media_default_color=0x7f060091;
-    public static final int primary_dark_material_dark=0x7f060092;
-    public static final int primary_dark_material_light=0x7f060093;
-    public static final int primary_material_dark=0x7f060094;
-    public static final int primary_material_light=0x7f060095;
-    public static final int primary_text_default_material_dark=0x7f060096;
-    public static final int primary_text_default_material_light=0x7f060097;
-    public static final int primary_text_disabled_material_dark=0x7f060098;
-    public static final int primary_text_disabled_material_light=0x7f060099;
-    public static final int pure_red_default=0x7f06009a;
-    public static final int red_default=0x7f06009b;
-    public static final int ripple_material_dark=0x7f06009c;
-    public static final int ripple_material_light=0x7f06009d;
-    public static final int secondary_text_default_material_dark=0x7f06009e;
-    public static final int secondary_text_default_material_light=0x7f06009f;
-    public static final int secondary_text_disabled_material_dark=0x7f0600a0;
-    public static final int secondary_text_disabled_material_light=0x7f0600a1;
-    public static final int switch_thumb_disabled_material_dark=0x7f0600a2;
-    public static final int switch_thumb_disabled_material_light=0x7f0600a3;
-    public static final int switch_thumb_material_dark=0x7f0600a4;
-    public static final int switch_thumb_material_light=0x7f0600a5;
-    public static final int switch_thumb_normal_material_dark=0x7f0600a6;
-    public static final int switch_thumb_normal_material_light=0x7f0600a7;
-    public static final int textColorPrimary=0x7f0600a8;
-    public static final int textColorPrimary_default=0x7f0600a9;
-    public static final int textColorSecondary=0x7f0600aa;
-    public static final int textColorSecondary_default=0x7f0600ab;
-    public static final int tooltip_background_dark=0x7f0600ac;
-    public static final int tooltip_background_light=0x7f0600ad;
+    public static final int Red=0x7f060000;
+    public static final int Xanh=0x7f060001;
+    public static final int abc_background_cache_hint_selector_material_dark=0x7f060002;
+    public static final int abc_background_cache_hint_selector_material_light=0x7f060003;
+    public static final int abc_btn_colored_borderless_text_material=0x7f060004;
+    public static final int abc_btn_colored_text_material=0x7f060005;
+    public static final int abc_color_highlight_material=0x7f060006;
+    public static final int abc_hint_foreground_material_dark=0x7f060007;
+    public static final int abc_hint_foreground_material_light=0x7f060008;
+    public static final int abc_input_method_navigation_guard=0x7f060009;
+    public static final int abc_primary_text_disable_only_material_dark=0x7f06000a;
+    public static final int abc_primary_text_disable_only_material_light=0x7f06000b;
+    public static final int abc_primary_text_material_dark=0x7f06000c;
+    public static final int abc_primary_text_material_light=0x7f06000d;
+    public static final int abc_search_url_text=0x7f06000e;
+    public static final int abc_search_url_text_normal=0x7f06000f;
+    public static final int abc_search_url_text_pressed=0x7f060010;
+    public static final int abc_search_url_text_selected=0x7f060011;
+    public static final int abc_secondary_text_material_dark=0x7f060012;
+    public static final int abc_secondary_text_material_light=0x7f060013;
+    public static final int abc_tint_btn_checkable=0x7f060014;
+    public static final int abc_tint_default=0x7f060015;
+    public static final int abc_tint_edittext=0x7f060016;
+    public static final int abc_tint_seek_thumb=0x7f060017;
+    public static final int abc_tint_spinner=0x7f060018;
+    public static final int abc_tint_switch_track=0x7f060019;
+    public static final int accent_material_dark=0x7f06001a;
+    public static final int accent_material_light=0x7f06001b;
+    public static final int background_floating_material_dark=0x7f06001c;
+    public static final int background_floating_material_light=0x7f06001d;
+    public static final int background_material_dark=0x7f06001e;
+    public static final int background_material_light=0x7f06001f;
+    public static final int backgroups=0x7f060020;
+    public static final int bright_foreground_disabled_material_dark=0x7f060021;
+    public static final int bright_foreground_disabled_material_light=0x7f060022;
+    public static final int bright_foreground_inverse_material_dark=0x7f060023;
+    public static final int bright_foreground_inverse_material_light=0x7f060024;
+    public static final int bright_foreground_material_dark=0x7f060025;
+    public static final int bright_foreground_material_light=0x7f060026;
+    public static final int button_material_dark=0x7f060027;
+    public static final int button_material_light=0x7f060028;
+    public static final int cardview_dark_background=0x7f060029;
+    public static final int cardview_light_background=0x7f06002a;
+    public static final int cardview_shadow_end_color=0x7f06002b;
+    public static final int cardview_shadow_start_color=0x7f06002c;
+    public static final int clear_red_default=0x7f06002d;
+    public static final int colorAccent=0x7f06002e;
+    public static final int colorAccent_default=0x7f06002f;
+    public static final int colorBlack=0x7f060030;
+    public static final int colorPrimary=0x7f060031;
+    public static final int colorPrimaryDark=0x7f060032;
+    public static final int colorPrimaryDark_default=0x7f060033;
+    public static final int colorPrimaryLight=0x7f060034;
+    public static final int colorPrimaryLight_default=0x7f060035;
+    public static final int colorPrimary_default=0x7f060036;
+    public static final int colorRed=0x7f060037;
+    public static final int colorRequiredField=0x7f060038;
+    public static final int colorText=0x7f060039;
+    public static final int colorTrans=0x7f06003a;
+    public static final int colorWhite=0x7f06003b;
+    public static final int colorblack=0x7f06003c;
+    public static final int common_action_bar_splitter=0x7f06003d;
+    public static final int common_google_signin_btn_text_dark=0x7f06003e;
+    public static final int common_google_signin_btn_text_dark_default=0x7f06003f;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f060040;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f060041;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f060042;
+    public static final int common_google_signin_btn_text_light=0x7f060043;
+    public static final int common_google_signin_btn_text_light_default=0x7f060044;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f060045;
+    public static final int common_google_signin_btn_text_light_focused=0x7f060046;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f060047;
+    public static final int common_plus_signin_btn_text_dark=0x7f060048;
+    public static final int common_plus_signin_btn_text_dark_default=0x7f060049;
+    public static final int common_plus_signin_btn_text_dark_disabled=0x7f06004a;
+    public static final int common_plus_signin_btn_text_dark_focused=0x7f06004b;
+    public static final int common_plus_signin_btn_text_dark_pressed=0x7f06004c;
+    public static final int common_plus_signin_btn_text_light=0x7f06004d;
+    public static final int common_plus_signin_btn_text_light_default=0x7f06004e;
+    public static final int common_plus_signin_btn_text_light_disabled=0x7f06004f;
+    public static final int common_plus_signin_btn_text_light_focused=0x7f060050;
+    public static final int common_plus_signin_btn_text_light_pressed=0x7f060051;
+    public static final int design_bottom_navigation_shadow_color=0x7f060052;
+    public static final int design_default_color_primary=0x7f060053;
+    public static final int design_default_color_primary_dark=0x7f060054;
+    public static final int design_error=0x7f060055;
+    public static final int design_fab_shadow_end_color=0x7f060056;
+    public static final int design_fab_shadow_mid_color=0x7f060057;
+    public static final int design_fab_shadow_start_color=0x7f060058;
+    public static final int design_fab_stroke_end_inner_color=0x7f060059;
+    public static final int design_fab_stroke_end_outer_color=0x7f06005a;
+    public static final int design_fab_stroke_top_inner_color=0x7f06005b;
+    public static final int design_fab_stroke_top_outer_color=0x7f06005c;
+    public static final int design_snackbar_background_color=0x7f06005d;
+    public static final int design_tint_password_toggle=0x7f06005e;
+    public static final int dim_foreground_disabled_material_dark=0x7f06005f;
+    public static final int dim_foreground_disabled_material_light=0x7f060060;
+    public static final int dim_foreground_material_dark=0x7f060061;
+    public static final int dim_foreground_material_light=0x7f060062;
+    public static final int error_color_material_dark=0x7f060063;
+    public static final int error_color_material_light=0x7f060064;
+    public static final int foreground_material_dark=0x7f060065;
+    public static final int foreground_material_light=0x7f060066;
+    public static final int green_default=0x7f060067;
+    public static final int highlighted_text_material_dark=0x7f060068;
+    public static final int highlighted_text_material_light=0x7f060069;
+    public static final int maincolor=0x7f06006a;
+    public static final int material_blue_grey_800=0x7f06006b;
+    public static final int material_blue_grey_900=0x7f06006c;
+    public static final int material_blue_grey_950=0x7f06006d;
+    public static final int material_deep_teal_200=0x7f06006e;
+    public static final int material_deep_teal_500=0x7f06006f;
+    public static final int material_grey_100=0x7f060070;
+    public static final int material_grey_300=0x7f060071;
+    public static final int material_grey_50=0x7f060072;
+    public static final int material_grey_600=0x7f060073;
+    public static final int material_grey_800=0x7f060074;
+    public static final int material_grey_850=0x7f060075;
+    public static final int material_grey_900=0x7f060076;
+    public static final int mtrl_bottom_nav_colored_item_tint=0x7f060077;
+    public static final int mtrl_bottom_nav_item_tint=0x7f060078;
+    public static final int mtrl_btn_bg_color_disabled=0x7f060079;
+    public static final int mtrl_btn_bg_color_selector=0x7f06007a;
+    public static final int mtrl_btn_ripple_color=0x7f06007b;
+    public static final int mtrl_btn_stroke_color_selector=0x7f06007c;
+    public static final int mtrl_btn_text_btn_ripple_color=0x7f06007d;
+    public static final int mtrl_btn_text_color_disabled=0x7f06007e;
+    public static final int mtrl_btn_text_color_selector=0x7f06007f;
+    public static final int mtrl_btn_transparent_bg_color=0x7f060080;
+    public static final int mtrl_chip_background_color=0x7f060081;
+    public static final int mtrl_chip_close_icon_tint=0x7f060082;
+    public static final int mtrl_chip_ripple_color=0x7f060083;
+    public static final int mtrl_chip_text_color=0x7f060084;
+    public static final int mtrl_fab_ripple_color=0x7f060085;
+    public static final int mtrl_scrim_color=0x7f060086;
+    public static final int mtrl_tabs_colored_ripple_color=0x7f060087;
+    public static final int mtrl_tabs_icon_color_selector=0x7f060088;
+    public static final int mtrl_tabs_icon_color_selector_colored=0x7f060089;
+    public static final int mtrl_tabs_legacy_text_color_selector=0x7f06008a;
+    public static final int mtrl_tabs_ripple_color=0x7f06008b;
+    public static final int mtrl_text_btn_text_color_selector=0x7f06008c;
+    public static final int mtrl_textinput_default_box_stroke_color=0x7f06008d;
+    public static final int mtrl_textinput_disabled_color=0x7f06008e;
+    public static final int mtrl_textinput_filled_box_default_background_color=0x7f06008f;
+    public static final int mtrl_textinput_hovered_box_stroke_color=0x7f060090;
+    public static final int notification_action_color_filter=0x7f060091;
+    public static final int notification_icon_bg_color=0x7f060092;
+    public static final int notification_material_background_media_default_color=0x7f060093;
+    public static final int primary_dark_material_dark=0x7f060094;
+    public static final int primary_dark_material_light=0x7f060095;
+    public static final int primary_material_dark=0x7f060096;
+    public static final int primary_material_light=0x7f060097;
+    public static final int primary_text_default_material_dark=0x7f060098;
+    public static final int primary_text_default_material_light=0x7f060099;
+    public static final int primary_text_disabled_material_dark=0x7f06009a;
+    public static final int primary_text_disabled_material_light=0x7f06009b;
+    public static final int pure_red_default=0x7f06009c;
+    public static final int red_default=0x7f06009d;
+    public static final int ripple_material_dark=0x7f06009e;
+    public static final int ripple_material_light=0x7f06009f;
+    public static final int secondary_text_default_material_dark=0x7f0600a0;
+    public static final int secondary_text_default_material_light=0x7f0600a1;
+    public static final int secondary_text_disabled_material_dark=0x7f0600a2;
+    public static final int secondary_text_disabled_material_light=0x7f0600a3;
+    public static final int switch_thumb_disabled_material_dark=0x7f0600a4;
+    public static final int switch_thumb_disabled_material_light=0x7f0600a5;
+    public static final int switch_thumb_material_dark=0x7f0600a6;
+    public static final int switch_thumb_material_light=0x7f0600a7;
+    public static final int switch_thumb_normal_material_dark=0x7f0600a8;
+    public static final int switch_thumb_normal_material_light=0x7f0600a9;
+    public static final int textColorPrimary=0x7f0600aa;
+    public static final int textColorPrimary_default=0x7f0600ab;
+    public static final int textColorSecondary=0x7f0600ac;
+    public static final int textColorSecondary_default=0x7f0600ad;
+    public static final int tooltip_background_dark=0x7f0600ae;
+    public static final int tooltip_background_light=0x7f0600af;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f070000;
@@ -5751,247 +5753,264 @@ public final class R {
     public static final int abc_textfield_search_default_mtrl_alpha=0x7f080058;
     public static final int abc_textfield_search_material=0x7f080059;
     public static final int abc_vector_test=0x7f08005a;
-    public static final int avd_hide_password=0x7f08005b;
-    public static final int avd_show_password=0x7f08005c;
-    public static final int bieudo=0x7f08005d;
-    public static final int brorrow=0x7f08005e;
-    public static final int calendar=0x7f08005f;
-    public static final int can=0x7f080060;
-    public static final int ccus_button=0x7f080061;
-    public static final int circle_vien=0x7f080062;
-    public static final int common_full_open_on_phone=0x7f080063;
-    public static final int common_google_signin_btn_icon_dark=0x7f080064;
-    public static final int common_google_signin_btn_icon_dark_disabled=0x7f080065;
-    public static final int common_google_signin_btn_icon_dark_focused=0x7f080066;
-    public static final int common_google_signin_btn_icon_dark_normal=0x7f080067;
-    public static final int common_google_signin_btn_icon_dark_pressed=0x7f080068;
-    public static final int common_google_signin_btn_icon_light=0x7f080069;
-    public static final int common_google_signin_btn_icon_light_disabled=0x7f08006a;
-    public static final int common_google_signin_btn_icon_light_focused=0x7f08006b;
-    public static final int common_google_signin_btn_icon_light_normal=0x7f08006c;
-    public static final int common_google_signin_btn_icon_light_pressed=0x7f08006d;
-    public static final int common_google_signin_btn_text_dark=0x7f08006e;
-    public static final int common_google_signin_btn_text_dark_disabled=0x7f08006f;
-    public static final int common_google_signin_btn_text_dark_focused=0x7f080070;
-    public static final int common_google_signin_btn_text_dark_normal=0x7f080071;
-    public static final int common_google_signin_btn_text_dark_pressed=0x7f080072;
-    public static final int common_google_signin_btn_text_light=0x7f080073;
-    public static final int common_google_signin_btn_text_light_disabled=0x7f080074;
-    public static final int common_google_signin_btn_text_light_focused=0x7f080075;
-    public static final int common_google_signin_btn_text_light_normal=0x7f080076;
-    public static final int common_google_signin_btn_text_light_pressed=0x7f080077;
-    public static final int common_ic_googleplayservices=0x7f080078;
-    public static final int common_plus_signin_btn_icon_dark=0x7f080079;
-    public static final int common_plus_signin_btn_icon_dark_disabled=0x7f08007a;
-    public static final int common_plus_signin_btn_icon_dark_focused=0x7f08007b;
-    public static final int common_plus_signin_btn_icon_dark_normal=0x7f08007c;
-    public static final int common_plus_signin_btn_icon_dark_pressed=0x7f08007d;
-    public static final int common_plus_signin_btn_icon_light=0x7f08007e;
-    public static final int common_plus_signin_btn_icon_light_disabled=0x7f08007f;
-    public static final int common_plus_signin_btn_icon_light_focused=0x7f080080;
-    public static final int common_plus_signin_btn_icon_light_normal=0x7f080081;
-    public static final int common_plus_signin_btn_icon_light_pressed=0x7f080082;
-    public static final int common_plus_signin_btn_text_dark=0x7f080083;
-    public static final int common_plus_signin_btn_text_dark_disabled=0x7f080084;
-    public static final int common_plus_signin_btn_text_dark_focused=0x7f080085;
-    public static final int common_plus_signin_btn_text_dark_normal=0x7f080086;
-    public static final int common_plus_signin_btn_text_dark_pressed=0x7f080087;
-    public static final int common_plus_signin_btn_text_light=0x7f080088;
-    public static final int common_plus_signin_btn_text_light_disabled=0x7f080089;
-    public static final int common_plus_signin_btn_text_light_focused=0x7f08008a;
-    public static final int common_plus_signin_btn_text_light_normal=0x7f08008b;
-    public static final int common_plus_signin_btn_text_light_pressed=0x7f08008c;
-    public static final int cus_editext=0x7f08008d;
-    public static final int cus_lich=0x7f08008e;
-    public static final int cus_progress_bar=0x7f08008f;
-    public static final int danhmuc=0x7f080090;
-    public static final int deal=0x7f080091;
-    public static final int defaul_gallery_cancel=0x7f080092;
-    public static final int default_arrow=0x7f080093;
-    public static final int default_audio_background=0x7f080094;
-    public static final int default_blue=0x7f080095;
-    public static final int default_blue_tinted=0x7f080096;
-    public static final int default_button_drawable=0x7f080097;
-    public static final int default_button_drawable_green=0x7f080098;
-    public static final int default_button_drawable_red=0x7f080099;
-    public static final int default_button_pressed_drawable=0x7f08009a;
-    public static final int default_button_selector=0x7f08009b;
-    public static final int default_button_selector_green=0x7f08009c;
-    public static final int default_button_selector_red=0x7f08009d;
-    public static final int default_calendar=0x7f08009e;
-    public static final int default_calendar_blue=0x7f08009f;
-    public static final int default_calendar_blue_tinted=0x7f0800a0;
-    public static final int default_cancel=0x7f0800a1;
-    public static final int default_circle_failed=0x7f0800a2;
-    public static final int default_circle_success=0x7f0800a3;
-    public static final int default_comment_delete=0x7f0800a4;
-    public static final int default_comment_edit=0x7f0800a5;
-    public static final int default_divider=0x7f0800a6;
-    public static final int default_edit_text_drawable=0x7f0800a7;
-    public static final int default_edit_text_pressed_drawable=0x7f0800a8;
-    public static final int default_edit_text_selector=0x7f0800a9;
-    public static final int default_gallery_cancel=0x7f0800aa;
-    public static final int default_hourglass=0x7f0800ab;
-    public static final int default_hourglass_tinted=0x7f0800ac;
-    public static final int default_lock_icon=0x7f0800ad;
-    public static final int default_mail_icon=0x7f0800ae;
-    public static final int default_mood_dissatisfied=0x7f0800af;
-    public static final int default_mood_neutral=0x7f0800b0;
-    public static final int default_mood_satisfied=0x7f0800b1;
-    public static final int default_mood_very_dissatisfied=0x7f0800b2;
-    public static final int default_mood_very_satisfied=0x7f0800b3;
-    public static final int default_ok=0x7f0800b4;
-    public static final int default_placeholder_image=0x7f0800b5;
-    public static final int default_portrait_placeholder=0x7f0800b6;
-    public static final int default_thumb_down=0x7f0800b7;
-    public static final int default_thumb_down_outline=0x7f0800b8;
-    public static final int default_thumb_up=0x7f0800b9;
-    public static final int default_thumb_up_outline=0x7f0800ba;
-    public static final int default_upload_icon=0x7f0800bb;
-    public static final int default_user_icon=0x7f0800bc;
-    public static final int design_bottom_navigation_item_background=0x7f0800bd;
-    public static final int design_fab_background=0x7f0800be;
-    public static final int design_ic_visibility=0x7f0800bf;
-    public static final int design_ic_visibility_off=0x7f0800c0;
-    public static final int design_password_eye=0x7f0800c1;
-    public static final int design_snackbar_background=0x7f0800c2;
-    public static final int drawable_vienbutton=0x7f0800c3;
-    public static final int duong_vien=0x7f0800c4;
-    public static final int feedback=0x7f0800c5;
-    public static final int heo=0x7f0800c6;
-    public static final int ic_add=0x7f0800c7;
-    public static final int ic_home=0x7f0800c8;
-    public static final int ic_launcher_background=0x7f0800c9;
-    public static final int ic_launcher_foreground=0x7f0800ca;
-    public static final int ic_menu_camera=0x7f0800cb;
-    public static final int ic_menu_gallery=0x7f0800cc;
-    public static final int ic_menu_manage=0x7f0800cd;
-    public static final int ic_menu_send=0x7f0800ce;
-    public static final int ic_menu_share=0x7f0800cf;
-    public static final int ic_menu_slideshow=0x7f0800d0;
-    public static final int ic_more=0x7f0800d1;
-    public static final int ic_mtrl_chip_checked_black=0x7f0800d2;
-    public static final int ic_mtrl_chip_checked_circle=0x7f0800d3;
-    public static final int ic_mtrl_chip_close_circle=0x7f0800d4;
-    public static final int ic_plan_1=0x7f0800d5;
-    public static final int ic_report=0x7f0800d6;
-    public static final int ic_reset=0x7f0800d7;
-    public static final int ic_sub=0x7f0800d8;
-    public static final int icon=0x7f0800d9;
-    public static final int icon_add_biggest=0x7f0800da;
-    public static final int icon_analyse=0x7f0800db;
-    public static final int icon_logo=0x7f0800dc;
-    public static final int icon_more_big=0x7f0800dd;
-    public static final int icon_wallet_logo=0x7f0800de;
-    public static final int lent=0x7f0800df;
-    public static final int liferay_glyph=0x7f0800e0;
-    public static final int liferay_icon=0x7f0800e1;
-    public static final int logout=0x7f0800e2;
-    public static final int mtrl_snackbar_background=0x7f0800e3;
-    public static final int mtrl_tabs_default_indicator=0x7f0800e4;
-    public static final int navigation_empty_icon=0x7f0800e5;
-    public static final int notification_action_background=0x7f0800e6;
-    public static final int notification_bg=0x7f0800e7;
-    public static final int notification_bg_low=0x7f0800e8;
-    public static final int notification_bg_low_normal=0x7f0800e9;
-    public static final int notification_bg_low_pressed=0x7f0800ea;
-    public static final int notification_bg_normal=0x7f0800eb;
-    public static final int notification_bg_normal_pressed=0x7f0800ec;
-    public static final int notification_icon_background=0x7f0800ed;
-    public static final int notification_template_icon_bg=0x7f0800ee;
-    public static final int notification_template_icon_low_bg=0x7f0800ef;
-    public static final int notification_tile_bg=0x7f0800f0;
-    public static final int notify_panel_notification_icon_bg=0x7f0800f1;
-    public static final int pic0=0x7f0800f2;
-    public static final int pic1=0x7f0800f3;
-    public static final int pic10=0x7f0800f4;
-    public static final int pic11=0x7f0800f5;
-    public static final int pic12=0x7f0800f6;
-    public static final int pic13=0x7f0800f7;
-    public static final int pic14=0x7f0800f8;
-    public static final int pic15=0x7f0800f9;
-    public static final int pic16=0x7f0800fa;
-    public static final int pic17=0x7f0800fb;
-    public static final int pic18=0x7f0800fc;
-    public static final int pic19=0x7f0800fd;
-    public static final int pic2=0x7f0800fe;
-    public static final int pic20=0x7f0800ff;
-    public static final int pic21=0x7f080100;
-    public static final int pic22=0x7f080101;
-    public static final int pic23=0x7f080102;
-    public static final int pic24=0x7f080103;
-    public static final int pic25=0x7f080104;
-    public static final int pic26=0x7f080105;
-    public static final int pic27=0x7f080106;
-    public static final int pic28=0x7f080107;
-    public static final int pic29=0x7f080108;
-    public static final int pic3=0x7f080109;
-    public static final int pic30=0x7f08010a;
-    public static final int pic31=0x7f08010b;
-    public static final int pic32=0x7f08010c;
-    public static final int pic33=0x7f08010d;
-    public static final int pic34=0x7f08010e;
-    public static final int pic35=0x7f08010f;
-    public static final int pic36=0x7f080110;
-    public static final int pic37=0x7f080111;
-    public static final int pic38=0x7f080112;
-    public static final int pic39=0x7f080113;
-    public static final int pic4=0x7f080114;
-    public static final int pic40=0x7f080115;
-    public static final int pic41=0x7f080116;
-    public static final int pic42=0x7f080117;
-    public static final int pic43=0x7f080118;
-    public static final int pic44=0x7f080119;
-    public static final int pic45=0x7f08011a;
-    public static final int pic46=0x7f08011b;
-    public static final int pic47=0x7f08011c;
-    public static final int pic48=0x7f08011d;
-    public static final int pic49=0x7f08011e;
-    public static final int pic5=0x7f08011f;
-    public static final int pic50=0x7f080120;
-    public static final int pic51=0x7f080121;
-    public static final int pic52=0x7f080122;
-    public static final int pic53=0x7f080123;
-    public static final int pic54=0x7f080124;
-    public static final int pic55=0x7f080125;
-    public static final int pic56=0x7f080126;
-    public static final int pic57=0x7f080127;
-    public static final int pic58=0x7f080128;
-    public static final int pic59=0x7f080129;
-    public static final int pic6=0x7f08012a;
-    public static final int pic60=0x7f08012b;
-    public static final int pic61=0x7f08012c;
-    public static final int pic62=0x7f08012d;
-    public static final int pic63=0x7f08012e;
-    public static final int pic64=0x7f08012f;
-    public static final int pic65=0x7f080130;
-    public static final int pic66=0x7f080131;
-    public static final int pic67=0x7f080132;
-    public static final int pic68=0x7f080133;
-    public static final int pic69=0x7f080134;
-    public static final int pic7=0x7f080135;
-    public static final int pic70=0x7f080136;
-    public static final int pic71=0x7f080137;
-    public static final int pic72=0x7f080138;
-    public static final int pic73=0x7f080139;
-    public static final int pic74=0x7f08013a;
-    public static final int pic75=0x7f08013b;
-    public static final int pic76=0x7f08013c;
-    public static final int pic77=0x7f08013d;
-    public static final int pic78=0x7f08013e;
-    public static final int pic79=0x7f08013f;
-    public static final int pic8=0x7f080140;
-    public static final int pic80=0x7f080141;
-    public static final int pic9=0x7f080142;
-    public static final int pixel_grey=0x7f080143;
-    public static final int progress_bar_circle=0x7f080144;
-    public static final int ripple=0x7f080145;
-    public static final int side_nav_bar=0x7f080146;
-    public static final int thongke=0x7f080147;
-    public static final int tooltip_frame_dark=0x7f080148;
-    public static final int tooltip_frame_light=0x7f080149;
-    public static final int user=0x7f08014a;
-    public static final int vien_duoi=0x7f08014b;
+    public static final int anh=0x7f08005b;
+    public static final int avd_hide_password=0x7f08005c;
+    public static final int avd_show_password=0x7f08005d;
+    public static final int bieudo=0x7f08005e;
+    public static final int brorrow=0x7f08005f;
+    public static final int calendar=0x7f080060;
+    public static final int can=0x7f080061;
+    public static final int ccus_button=0x7f080062;
+    public static final int change=0x7f080063;
+    public static final int china=0x7f080064;
+    public static final int chuyenben=0x7f080065;
+    public static final int chuyenben1=0x7f080066;
+    public static final int circle_vien=0x7f080067;
+    public static final int common_full_open_on_phone=0x7f080068;
+    public static final int common_google_signin_btn_icon_dark=0x7f080069;
+    public static final int common_google_signin_btn_icon_dark_disabled=0x7f08006a;
+    public static final int common_google_signin_btn_icon_dark_focused=0x7f08006b;
+    public static final int common_google_signin_btn_icon_dark_normal=0x7f08006c;
+    public static final int common_google_signin_btn_icon_dark_pressed=0x7f08006d;
+    public static final int common_google_signin_btn_icon_light=0x7f08006e;
+    public static final int common_google_signin_btn_icon_light_disabled=0x7f08006f;
+    public static final int common_google_signin_btn_icon_light_focused=0x7f080070;
+    public static final int common_google_signin_btn_icon_light_normal=0x7f080071;
+    public static final int common_google_signin_btn_icon_light_pressed=0x7f080072;
+    public static final int common_google_signin_btn_text_dark=0x7f080073;
+    public static final int common_google_signin_btn_text_dark_disabled=0x7f080074;
+    public static final int common_google_signin_btn_text_dark_focused=0x7f080075;
+    public static final int common_google_signin_btn_text_dark_normal=0x7f080076;
+    public static final int common_google_signin_btn_text_dark_pressed=0x7f080077;
+    public static final int common_google_signin_btn_text_light=0x7f080078;
+    public static final int common_google_signin_btn_text_light_disabled=0x7f080079;
+    public static final int common_google_signin_btn_text_light_focused=0x7f08007a;
+    public static final int common_google_signin_btn_text_light_normal=0x7f08007b;
+    public static final int common_google_signin_btn_text_light_pressed=0x7f08007c;
+    public static final int common_ic_googleplayservices=0x7f08007d;
+    public static final int common_plus_signin_btn_icon_dark=0x7f08007e;
+    public static final int common_plus_signin_btn_icon_dark_disabled=0x7f08007f;
+    public static final int common_plus_signin_btn_icon_dark_focused=0x7f080080;
+    public static final int common_plus_signin_btn_icon_dark_normal=0x7f080081;
+    public static final int common_plus_signin_btn_icon_dark_pressed=0x7f080082;
+    public static final int common_plus_signin_btn_icon_light=0x7f080083;
+    public static final int common_plus_signin_btn_icon_light_disabled=0x7f080084;
+    public static final int common_plus_signin_btn_icon_light_focused=0x7f080085;
+    public static final int common_plus_signin_btn_icon_light_normal=0x7f080086;
+    public static final int common_plus_signin_btn_icon_light_pressed=0x7f080087;
+    public static final int common_plus_signin_btn_text_dark=0x7f080088;
+    public static final int common_plus_signin_btn_text_dark_disabled=0x7f080089;
+    public static final int common_plus_signin_btn_text_dark_focused=0x7f08008a;
+    public static final int common_plus_signin_btn_text_dark_normal=0x7f08008b;
+    public static final int common_plus_signin_btn_text_dark_pressed=0x7f08008c;
+    public static final int common_plus_signin_btn_text_light=0x7f08008d;
+    public static final int common_plus_signin_btn_text_light_disabled=0x7f08008e;
+    public static final int common_plus_signin_btn_text_light_focused=0x7f08008f;
+    public static final int common_plus_signin_btn_text_light_normal=0x7f080090;
+    public static final int common_plus_signin_btn_text_light_pressed=0x7f080091;
+    public static final int cus_editext=0x7f080092;
+    public static final int cus_lich=0x7f080093;
+    public static final int cus_progress_bar=0x7f080094;
+    public static final int danhmuc=0x7f080095;
+    public static final int deal=0x7f080096;
+    public static final int defaul_gallery_cancel=0x7f080097;
+    public static final int default_arrow=0x7f080098;
+    public static final int default_audio_background=0x7f080099;
+    public static final int default_blue=0x7f08009a;
+    public static final int default_blue_tinted=0x7f08009b;
+    public static final int default_button_drawable=0x7f08009c;
+    public static final int default_button_drawable_green=0x7f08009d;
+    public static final int default_button_drawable_red=0x7f08009e;
+    public static final int default_button_pressed_drawable=0x7f08009f;
+    public static final int default_button_selector=0x7f0800a0;
+    public static final int default_button_selector_green=0x7f0800a1;
+    public static final int default_button_selector_red=0x7f0800a2;
+    public static final int default_calendar=0x7f0800a3;
+    public static final int default_calendar_blue=0x7f0800a4;
+    public static final int default_calendar_blue_tinted=0x7f0800a5;
+    public static final int default_cancel=0x7f0800a6;
+    public static final int default_circle_failed=0x7f0800a7;
+    public static final int default_circle_success=0x7f0800a8;
+    public static final int default_comment_delete=0x7f0800a9;
+    public static final int default_comment_edit=0x7f0800aa;
+    public static final int default_divider=0x7f0800ab;
+    public static final int default_edit_text_drawable=0x7f0800ac;
+    public static final int default_edit_text_pressed_drawable=0x7f0800ad;
+    public static final int default_edit_text_selector=0x7f0800ae;
+    public static final int default_gallery_cancel=0x7f0800af;
+    public static final int default_hourglass=0x7f0800b0;
+    public static final int default_hourglass_tinted=0x7f0800b1;
+    public static final int default_lock_icon=0x7f0800b2;
+    public static final int default_mail_icon=0x7f0800b3;
+    public static final int default_mood_dissatisfied=0x7f0800b4;
+    public static final int default_mood_neutral=0x7f0800b5;
+    public static final int default_mood_satisfied=0x7f0800b6;
+    public static final int default_mood_very_dissatisfied=0x7f0800b7;
+    public static final int default_mood_very_satisfied=0x7f0800b8;
+    public static final int default_ok=0x7f0800b9;
+    public static final int default_placeholder_image=0x7f0800ba;
+    public static final int default_portrait_placeholder=0x7f0800bb;
+    public static final int default_thumb_down=0x7f0800bc;
+    public static final int default_thumb_down_outline=0x7f0800bd;
+    public static final int default_thumb_up=0x7f0800be;
+    public static final int default_thumb_up_outline=0x7f0800bf;
+    public static final int default_upload_icon=0x7f0800c0;
+    public static final int default_user_icon=0x7f0800c1;
+    public static final int design_bottom_navigation_item_background=0x7f0800c2;
+    public static final int design_fab_background=0x7f0800c3;
+    public static final int design_ic_visibility=0x7f0800c4;
+    public static final int design_ic_visibility_off=0x7f0800c5;
+    public static final int design_password_eye=0x7f0800c6;
+    public static final int design_snackbar_background=0x7f0800c7;
+    public static final int drawable_vienbutton=0x7f0800c8;
+    public static final int duong_vien=0x7f0800c9;
+    public static final int euro=0x7f0800ca;
+    public static final int feedback=0x7f0800cb;
+    public static final int hanquoc=0x7f0800cc;
+    public static final int heo=0x7f0800cd;
+    public static final int hongkong=0x7f0800ce;
+    public static final int ic_add=0x7f0800cf;
+    public static final int ic_home=0x7f0800d0;
+    public static final int ic_launcher_background=0x7f0800d1;
+    public static final int ic_launcher_foreground=0x7f0800d2;
+    public static final int ic_menu_camera=0x7f0800d3;
+    public static final int ic_menu_gallery=0x7f0800d4;
+    public static final int ic_menu_manage=0x7f0800d5;
+    public static final int ic_menu_send=0x7f0800d6;
+    public static final int ic_menu_share=0x7f0800d7;
+    public static final int ic_menu_slideshow=0x7f0800d8;
+    public static final int ic_more=0x7f0800d9;
+    public static final int ic_mtrl_chip_checked_black=0x7f0800da;
+    public static final int ic_mtrl_chip_checked_circle=0x7f0800db;
+    public static final int ic_mtrl_chip_close_circle=0x7f0800dc;
+    public static final int ic_plan_1=0x7f0800dd;
+    public static final int ic_report=0x7f0800de;
+    public static final int ic_reset=0x7f0800df;
+    public static final int ic_sub=0x7f0800e0;
+    public static final int icon=0x7f0800e1;
+    public static final int icon_add_biggest=0x7f0800e2;
+    public static final int icon_analyse=0x7f0800e3;
+    public static final int icon_logo=0x7f0800e4;
+    public static final int icon_more_big=0x7f0800e5;
+    public static final int icon_wallet_logo=0x7f0800e6;
+    public static final int japan=0x7f0800e7;
+    public static final int lent=0x7f0800e8;
+    public static final int liferay_glyph=0x7f0800e9;
+    public static final int liferay_icon=0x7f0800ea;
+    public static final int logout=0x7f0800eb;
+    public static final int mtrl_snackbar_background=0x7f0800ec;
+    public static final int mtrl_tabs_default_indicator=0x7f0800ed;
+    public static final int navigation_empty_icon=0x7f0800ee;
+    public static final int next=0x7f0800ef;
+    public static final int next2=0x7f0800f0;
+    public static final int notification_action_background=0x7f0800f1;
+    public static final int notification_bg=0x7f0800f2;
+    public static final int notification_bg_low=0x7f0800f3;
+    public static final int notification_bg_low_normal=0x7f0800f4;
+    public static final int notification_bg_low_pressed=0x7f0800f5;
+    public static final int notification_bg_normal=0x7f0800f6;
+    public static final int notification_bg_normal_pressed=0x7f0800f7;
+    public static final int notification_icon_background=0x7f0800f8;
+    public static final int notification_template_icon_bg=0x7f0800f9;
+    public static final int notification_template_icon_low_bg=0x7f0800fa;
+    public static final int notification_tile_bg=0x7f0800fb;
+    public static final int notify_panel_notification_icon_bg=0x7f0800fc;
+    public static final int pic0=0x7f0800fd;
+    public static final int pic1=0x7f0800fe;
+    public static final int pic10=0x7f0800ff;
+    public static final int pic11=0x7f080100;
+    public static final int pic12=0x7f080101;
+    public static final int pic13=0x7f080102;
+    public static final int pic14=0x7f080103;
+    public static final int pic15=0x7f080104;
+    public static final int pic16=0x7f080105;
+    public static final int pic17=0x7f080106;
+    public static final int pic18=0x7f080107;
+    public static final int pic19=0x7f080108;
+    public static final int pic2=0x7f080109;
+    public static final int pic20=0x7f08010a;
+    public static final int pic21=0x7f08010b;
+    public static final int pic22=0x7f08010c;
+    public static final int pic23=0x7f08010d;
+    public static final int pic24=0x7f08010e;
+    public static final int pic25=0x7f08010f;
+    public static final int pic26=0x7f080110;
+    public static final int pic27=0x7f080111;
+    public static final int pic28=0x7f080112;
+    public static final int pic29=0x7f080113;
+    public static final int pic3=0x7f080114;
+    public static final int pic30=0x7f080115;
+    public static final int pic31=0x7f080116;
+    public static final int pic32=0x7f080117;
+    public static final int pic33=0x7f080118;
+    public static final int pic34=0x7f080119;
+    public static final int pic35=0x7f08011a;
+    public static final int pic36=0x7f08011b;
+    public static final int pic37=0x7f08011c;
+    public static final int pic38=0x7f08011d;
+    public static final int pic39=0x7f08011e;
+    public static final int pic4=0x7f08011f;
+    public static final int pic40=0x7f080120;
+    public static final int pic41=0x7f080121;
+    public static final int pic42=0x7f080122;
+    public static final int pic43=0x7f080123;
+    public static final int pic44=0x7f080124;
+    public static final int pic45=0x7f080125;
+    public static final int pic46=0x7f080126;
+    public static final int pic47=0x7f080127;
+    public static final int pic48=0x7f080128;
+    public static final int pic49=0x7f080129;
+    public static final int pic5=0x7f08012a;
+    public static final int pic50=0x7f08012b;
+    public static final int pic51=0x7f08012c;
+    public static final int pic52=0x7f08012d;
+    public static final int pic53=0x7f08012e;
+    public static final int pic54=0x7f08012f;
+    public static final int pic55=0x7f080130;
+    public static final int pic56=0x7f080131;
+    public static final int pic57=0x7f080132;
+    public static final int pic58=0x7f080133;
+    public static final int pic59=0x7f080134;
+    public static final int pic6=0x7f080135;
+    public static final int pic60=0x7f080136;
+    public static final int pic61=0x7f080137;
+    public static final int pic62=0x7f080138;
+    public static final int pic63=0x7f080139;
+    public static final int pic64=0x7f08013a;
+    public static final int pic65=0x7f08013b;
+    public static final int pic66=0x7f08013c;
+    public static final int pic67=0x7f08013d;
+    public static final int pic68=0x7f08013e;
+    public static final int pic69=0x7f08013f;
+    public static final int pic7=0x7f080140;
+    public static final int pic70=0x7f080141;
+    public static final int pic71=0x7f080142;
+    public static final int pic72=0x7f080143;
+    public static final int pic73=0x7f080144;
+    public static final int pic74=0x7f080145;
+    public static final int pic75=0x7f080146;
+    public static final int pic76=0x7f080147;
+    public static final int pic77=0x7f080148;
+    public static final int pic78=0x7f080149;
+    public static final int pic79=0x7f08014a;
+    public static final int pic8=0x7f08014b;
+    public static final int pic80=0x7f08014c;
+    public static final int pic9=0x7f08014d;
+    public static final int pixel_grey=0x7f08014e;
+    public static final int press_chuyenbentien=0x7f08014f;
+    public static final int press_chuyendoitien=0x7f080150;
+    public static final int progress_bar_circle=0x7f080151;
+    public static final int ripple=0x7f080152;
+    public static final int russia=0x7f080153;
+    public static final int side_nav_bar=0x7f080154;
+    public static final int thailand=0x7f080155;
+    public static final int thongke=0x7f080156;
+    public static final int tooltip_frame_dark=0x7f080157;
+    public static final int tooltip_frame_light=0x7f080158;
+    public static final int usa=0x7f080159;
+    public static final int user=0x7f08015a;
+    public static final int vien_duoi=0x7f08015b;
+    public static final int vietnam=0x7f08015c;
   }
   public static final class id {
     public static final int AB_progressbar=0x7f090000;
@@ -6044,20 +6063,20 @@ public final class R {
     public static final int action_text=0x7f09002f;
     public static final int actions=0x7f090030;
     public static final int activity_chooser_view_content=0x7f090031;
-    public static final int ad_danhmuc=0x7f090032;
-    public static final int ad_deal=0x7f090033;
-    public static final int ad_logout=0x7f090034;
-    public static final int ad_phanhoi=0x7f090035;
-    public static final int ad_user=0x7f090036;
-    public static final int add=0x7f090037;
-    public static final int adjust_height=0x7f090038;
-    public static final int adjust_width=0x7f090039;
-    public static final int alertTitle=0x7f09003a;
-    public static final int all=0x7f09003b;
-    public static final int always=0x7f09003c;
-    public static final int async=0x7f09003d;
-    public static final int auto=0x7f09003e;
-    public static final int averageRatingBar=0x7f09003f;
+    public static final int ad_deal=0x7f090032;
+    public static final int ad_logout=0x7f090033;
+    public static final int ad_phanhoi=0x7f090034;
+    public static final int ad_user=0x7f090035;
+    public static final int add=0x7f090036;
+    public static final int adjust_height=0x7f090037;
+    public static final int adjust_width=0x7f090038;
+    public static final int alertTitle=0x7f090039;
+    public static final int all=0x7f09003a;
+    public static final int always=0x7f09003b;
+    public static final int async=0x7f09003c;
+    public static final int auto=0x7f09003d;
+    public static final int averageRatingBar=0x7f09003e;
+    public static final int barchar=0x7f09003f;
     public static final int barrier=0x7f090040;
     public static final int basic=0x7f090041;
     public static final int basic_authentication_login=0x7f090042;
@@ -6067,438 +6086,471 @@ public final class R {
     public static final int bottom=0x7f090046;
     public static final int bottom_navigation=0x7f090047;
     public static final int btnXoaTk=0x7f090048;
-    public static final int btn_ChinhHuy=0x7f090049;
-    public static final int btn_ChinhSualuu=0x7f09004a;
-    public static final int btn_GD=0x7f09004b;
-    public static final int btn_Nap=0x7f09004c;
-    public static final int btn_adChinhSua=0x7f09004d;
-    public static final int btn_dangnhap=0x7f09004e;
-    public static final int btn_huy=0x7f09004f;
-    public static final int btn_them_BA=0x7f090050;
-    public static final int btn_them_DD=0x7f090051;
-    public static final int btn_xacnhan=0x7f090052;
-    public static final int btn_xacnhan_AW=0x7f090053;
-    public static final int btn_yes_AB=0x7f090054;
-    public static final int btn_yes_dd=0x7f090055;
-    public static final int buttonPanel=0x7f090056;
-    public static final int cancel_action=0x7f090057;
-    public static final int center=0x7f090058;
-    public static final int center_horizontal=0x7f090059;
-    public static final int center_vertical=0x7f09005a;
-    public static final int chains=0x7f09005b;
-    public static final int checkbox=0x7f09005c;
-    public static final int chronometer=0x7f09005d;
-    public static final int clip_horizontal=0x7f09005e;
-    public static final int clip_vertical=0x7f09005f;
-    public static final int collapseActionView=0x7f090060;
-    public static final int comment_add=0x7f090061;
-    public static final int comment_add_separator=0x7f090062;
-    public static final int comment_body=0x7f090063;
-    public static final int comment_body_group=0x7f090064;
-    public static final int comment_buttons=0x7f090065;
-    public static final int comment_create_date=0x7f090066;
-    public static final int comment_delete_or_cancel=0x7f090067;
-    public static final int comment_display_content=0x7f090068;
-    public static final int comment_edit_body=0x7f090069;
-    public static final int comment_edit_or_confirm=0x7f09006a;
-    public static final int comment_edited=0x7f09006b;
-    public static final int comment_empty_list=0x7f09006c;
-    public static final int comment_send=0x7f09006d;
-    public static final int comment_separator=0x7f09006e;
-    public static final int comment_user_name=0x7f09006f;
-    public static final int comment_user_portrait=0x7f090070;
-    public static final int comment_view=0x7f090071;
-    public static final int compactcalendar_view=0x7f090072;
-    public static final int container=0x7f090073;
-    public static final int content=0x7f090074;
-    public static final int contentPanel=0x7f090075;
-    public static final int cookie=0x7f090076;
-    public static final int coordinator=0x7f090077;
-    public static final int custom=0x7f090078;
-    public static final int customPanel=0x7f090079;
-    public static final int dark=0x7f09007a;
-    public static final int ddlfields_container=0x7f09007b;
-    public static final int ddlform_loading_screen_progress_bar=0x7f09007c;
-    public static final int ddlform_progress_bar=0x7f09007d;
-    public static final int decor_content_parent=0x7f09007e;
-    public static final int default_activity_button=0x7f09007f;
-    public static final int default_dialog_edit_text=0x7f090080;
-    public static final int default_list=0x7f090081;
-    public static final int default_progress_view_text=0x7f090082;
-    public static final int design_bottom_sheet=0x7f090083;
-    public static final int design_menu_item_action_area=0x7f090084;
-    public static final int design_menu_item_action_area_stub=0x7f090085;
-    public static final int design_menu_item_text=0x7f090086;
-    public static final int design_navigation_view=0x7f090087;
-    public static final int detailed_image=0x7f090088;
-    public static final int dimensions=0x7f090089;
-    public static final int direct=0x7f09008a;
-    public static final int disableHome=0x7f09008b;
-    public static final int dissatisfied_button=0x7f09008c;
-    public static final int dissatisfied_label=0x7f09008d;
-    public static final int dotsLayout=0x7f09008e;
-    public static final int draw_layout=0x7f09008f;
-    public static final int drawer_layout=0x7f090090;
-    public static final int edit_query=0x7f090091;
-    public static final int edtDate_AB=0x7f090092;
-    public static final int edtMoney_AB=0x7f090093;
-    public static final int edtName_AB=0x7f090094;
-    public static final int edt_ChinhSuaTen=0x7f090095;
-    public static final int edt_TienNap=0x7f090096;
-    public static final int edt_dateinit=0x7f090097;
-    public static final int edt_ghichu_AW=0x7f090098;
-    public static final int edt_ghichu_DD=0x7f090099;
-    public static final int edt_hoten=0x7f09009a;
-    public static final int edt_kinhphi=0x7f09009b;
-    public static final int edt_money=0x7f09009c;
-    public static final int edt_name=0x7f09009d;
-    public static final int edt_ngayNap=0x7f09009e;
-    public static final int edt_ngaydd=0x7f09009f;
-    public static final int edt_pass=0x7f0900a0;
-    public static final int edt_pass1=0x7f0900a1;
-    public static final int edt_pass2=0x7f0900a2;
-    public static final int edt_sdt=0x7f0900a3;
-    public static final int edt_ten=0x7f0900a4;
-    public static final int email=0x7f0900a5;
-    public static final int emoji_1_button=0x7f0900a6;
-    public static final int emoji_1_label=0x7f0900a7;
-    public static final int emoji_2_button=0x7f0900a8;
-    public static final int emoji_2_label=0x7f0900a9;
-    public static final int emoji_3_button=0x7f0900aa;
-    public static final int emoji_3_label=0x7f0900ab;
-    public static final int emoji_4_button=0x7f0900ac;
-    public static final int emoji_4_label=0x7f0900ad;
-    public static final int end=0x7f0900ae;
-    public static final int end_padder=0x7f0900af;
-    public static final int enterAlways=0x7f0900b0;
-    public static final int enterAlwaysCollapsed=0x7f0900b1;
-    public static final int exitUntilCollapsed=0x7f0900b2;
-    public static final int expand_activities_button=0x7f0900b3;
-    public static final int expanded_menu=0x7f0900b4;
-    public static final int feedback_mes=0x7f0900b5;
-    public static final int feedback_tk=0x7f0900b6;
-    public static final int fill=0x7f0900b7;
-    public static final int fill_horizontal=0x7f0900b8;
-    public static final int fill_large_indicator=0x7f0900b9;
-    public static final int fill_vertical=0x7f0900ba;
-    public static final int filled=0x7f0900bb;
-    public static final int fixed=0x7f0900bc;
-    public static final int forever=0x7f0900bd;
-    public static final int gallery_item_image=0x7f0900be;
-    public static final int ghost_view=0x7f0900bf;
-    public static final int gone=0x7f0900c0;
-    public static final int group_divider=0x7f0900c1;
-    public static final int groups=0x7f0900c2;
-    public static final int home=0x7f0900c3;
-    public static final int homeAsUp=0x7f0900c4;
-    public static final int home_linear=0x7f0900c5;
-    public static final int homeprogress=0x7f0900c6;
-    public static final int ic_changes=0x7f0900c7;
-    public static final int icon=0x7f0900c8;
-    public static final int icon_group=0x7f0900c9;
-    public static final int icon_only=0x7f0900ca;
-    public static final int icons=0x7f0900cb;
-    public static final int ifRoom=0x7f0900cc;
-    public static final int image=0x7f0900cd;
-    public static final int imageView=0x7f0900ce;
-    public static final int imageView3=0x7f0900cf;
-    public static final int imageView4=0x7f0900d0;
-    public static final int imgIcon_CT=0x7f0900d1;
-    public static final int img_Icon_BA=0x7f0900d2;
-    public static final int img_icon_walleadd=0x7f0900d3;
-    public static final int img_icon_walletinfo=0x7f0900d4;
-    public static final int img_reset=0x7f0900d5;
-    public static final int img_slide=0x7f0900d6;
-    public static final int info=0x7f0900d7;
-    public static final int inner_screenlet_container=0x7f0900d8;
-    public static final int invisible=0x7f0900d9;
-    public static final int italic=0x7f0900da;
-    public static final int item_touch_helper_previous_elevation=0x7f0900db;
-    public static final int labeled=0x7f0900dc;
-    public static final int largeLabel=0x7f0900dd;
-    public static final int left=0x7f0900de;
-    public static final int liferay_asset_progress_horizontal=0x7f0900df;
-    public static final int liferay_asset_progress_number=0x7f0900e0;
-    public static final int liferay_asset_title=0x7f0900e1;
-    public static final int liferay_audio_asset=0x7f0900e2;
-    public static final int liferay_audio_image_background=0x7f0900e3;
-    public static final int liferay_audio_message=0x7f0900e4;
-    public static final int liferay_audio_title=0x7f0900e5;
-    public static final int liferay_blog_content=0x7f0900e6;
-    public static final int liferay_blog_date=0x7f0900e7;
-    public static final int liferay_blog_image=0x7f0900e8;
-    public static final int liferay_blog_subtitle=0x7f0900e9;
-    public static final int liferay_blog_title=0x7f0900ea;
-    public static final int liferay_blog_userinfo=0x7f0900eb;
-    public static final int liferay_blog_username=0x7f0900ec;
-    public static final int liferay_ddl_custom_rating=0x7f0900ed;
-    public static final int liferay_ddl_edit_text=0x7f0900ee;
-    public static final int liferay_ddl_label=0x7f0900ef;
-    public static final int liferay_ddl_switch=0x7f0900f0;
-    public static final int liferay_dialog_select_file=0x7f0900f1;
-    public static final int liferay_dialog_select_file_form=0x7f0900f2;
-    public static final int liferay_dialog_select_gallery=0x7f0900f3;
-    public static final int liferay_dialog_select_gallery_video=0x7f0900f4;
-    public static final int liferay_dialog_take_photo=0x7f0900f5;
-    public static final int liferay_dialog_take_photo_form=0x7f0900f6;
-    public static final int liferay_dialog_take_video=0x7f0900f7;
-    public static final int liferay_dialog_take_video_form=0x7f0900f8;
-    public static final int liferay_dialog_title=0x7f0900f9;
-    public static final int liferay_document_progress=0x7f0900fa;
-    public static final int liferay_email_address=0x7f0900fb;
-    public static final int liferay_first_name=0x7f0900fc;
-    public static final int liferay_forgot_button=0x7f0900fd;
-    public static final int liferay_forgot_login=0x7f0900fe;
-    public static final int liferay_form_submit=0x7f0900ff;
-    public static final int liferay_gallery_upload_description=0x7f090100;
-    public static final int liferay_gallery_upload_image=0x7f090101;
-    public static final int liferay_gallery_upload_title=0x7f090102;
-    public static final int liferay_go_to_page=0x7f090103;
-    public static final int liferay_go_to_page_submit=0x7f090104;
-    public static final int liferay_image_asset=0x7f090105;
-    public static final int liferay_last_name=0x7f090106;
-    public static final int liferay_latitude_edit_text=0x7f090107;
-    public static final int liferay_linear_buttons=0x7f090108;
-    public static final int liferay_list_screenlet=0x7f090109;
-    public static final int liferay_list_title=0x7f09010a;
-    public static final int liferay_login=0x7f09010b;
-    public static final int liferay_login_button=0x7f09010c;
-    public static final int liferay_longitude_edit_text=0x7f09010d;
-    public static final int liferay_next_page=0x7f09010e;
-    public static final int liferay_pager=0x7f09010f;
-    public static final int liferay_password=0x7f090110;
-    public static final int liferay_pdf_renderer=0x7f090111;
-    public static final int liferay_portlet_progress=0x7f090112;
-    public static final int liferay_portrait=0x7f090113;
-    public static final int liferay_portrait_progress=0x7f090114;
-    public static final int liferay_previous_page=0x7f090115;
-    public static final int liferay_progress=0x7f090116;
-    public static final int liferay_rating_content=0x7f090117;
-    public static final int liferay_rating_progress=0x7f090118;
-    public static final int liferay_recycler_list=0x7f090119;
-    public static final int liferay_replace_image=0x7f09011a;
-    public static final int liferay_sign_up_button=0x7f09011b;
-    public static final int liferay_submit_container=0x7f09011c;
-    public static final int liferay_upload_fab=0x7f09011d;
-    public static final int liferay_video_asset=0x7f09011e;
-    public static final int liferay_video_message=0x7f09011f;
-    public static final int liferay_webview=0x7f090120;
-    public static final int liferay_webview_progress=0x7f090121;
-    public static final int light=0x7f090122;
-    public static final int likeCountLabel=0x7f090123;
-    public static final int likeRatingButton=0x7f090124;
-    public static final int line1=0x7f090125;
-    public static final int line3=0x7f090126;
-    public static final int listMode=0x7f090127;
-    public static final int list_action=0x7f090128;
-    public static final int list_borrow=0x7f090129;
-    public static final int list_chitieu=0x7f09012a;
-    public static final int list_icon=0x7f09012b;
-    public static final int list_item=0x7f09012c;
-    public static final int list_plan=0x7f09012d;
-    public static final int lsv_feedback=0x7f09012e;
-    public static final int masked=0x7f09012f;
-    public static final int media_actions=0x7f090130;
-    public static final int message=0x7f090131;
-    public static final int middle=0x7f090132;
-    public static final int mini=0x7f090133;
-    public static final int mtoolbar_AB=0x7f090134;
-    public static final int mtoolbar_AW=0x7f090135;
-    public static final int mtoolbar_BA=0x7f090136;
-    public static final int mtrl_child_content_container=0x7f090137;
-    public static final int mtrl_internal_children_alpha_tag=0x7f090138;
-    public static final int multiply=0x7f090139;
-    public static final int nav_aboutus=0x7f09013a;
-    public static final int nav_add=0x7f09013b;
-    public static final int nav_camera=0x7f09013c;
-    public static final int nav_gallery=0x7f09013d;
-    public static final int nav_home=0x7f09013e;
-    public static final int nav_logout=0x7f09013f;
-    public static final int nav_more=0x7f090140;
-    public static final int nav_plan=0x7f090141;
-    public static final int nav_quit=0x7f090142;
-    public static final int nav_report=0x7f090143;
-    public static final int nav_slideshow=0x7f090144;
-    public static final int nav_view=0x7f090145;
-    public static final int navigation_header_container=0x7f090146;
-    public static final int negativeRatingButton=0x7f090147;
-    public static final int negativeRatingCount=0x7f090148;
-    public static final int neutral_button=0x7f090149;
-    public static final int neutral_label=0x7f09014a;
-    public static final int never=0x7f09014b;
-    public static final int no_fill_large_indicator=0x7f09014c;
-    public static final int none=0x7f09014d;
-    public static final int normal=0x7f09014e;
-    public static final int notification_background=0x7f09014f;
-    public static final int notification_main_column=0x7f090150;
-    public static final int notification_main_column_container=0x7f090151;
-    public static final int oauth2Redirect=0x7f090152;
-    public static final int oauth2UsernameAndPassword=0x7f090153;
-    public static final int oauth2_authentication_login=0x7f090154;
-    public static final int outline=0x7f090155;
-    public static final int packed=0x7f090156;
-    public static final int parallax=0x7f090157;
-    public static final int parent=0x7f090158;
-    public static final int parentPanel=0x7f090159;
-    public static final int parent_matrix=0x7f09015a;
-    public static final int percent=0x7f09015b;
-    public static final int pin=0x7f09015c;
-    public static final int planPregress=0x7f09015d;
-    public static final int positiveRatingButton=0x7f09015e;
-    public static final int positiveRatingCount=0x7f09015f;
-    public static final int progressBar=0x7f090160;
-    public static final int progressBar2=0x7f090161;
-    public static final int progressBar3=0x7f090162;
-    public static final int progress_circular=0x7f090163;
-    public static final int progress_horizontal=0x7f090164;
-    public static final int progress_view_cancel_button=0x7f090165;
-    public static final int progress_view_image=0x7f090166;
-    public static final int progress_view_progressbar=0x7f090167;
-    public static final int radio=0x7f090168;
-    public static final int radioGroup2=0x7f090169;
-    public static final int radio_group=0x7f09016a;
-    public static final int ratingBar=0x7f09016b;
-    public static final int rbn_chovay=0x7f09016c;
-    public static final int rbn_muontien=0x7f09016d;
-    public static final int rcv_result=0x7f09016e;
-    public static final int rdb_khachHang=0x7f09016f;
-    public static final int rdb_quanli=0x7f090170;
-    public static final int recycler_container=0x7f090171;
-    public static final int right=0x7f090172;
-    public static final int right_icon=0x7f090173;
-    public static final int right_side=0x7f090174;
-    public static final int rvp_fragment_container=0x7f090175;
-    public static final int satisfied_button=0x7f090176;
-    public static final int satisfied_label=0x7f090177;
-    public static final int save_image_matrix=0x7f090178;
-    public static final int save_non_transition_alpha=0x7f090179;
-    public static final int save_scale_type=0x7f09017a;
-    public static final int screen=0x7f09017b;
-    public static final int screen_name=0x7f09017c;
-    public static final int scroll=0x7f09017d;
-    public static final int scrollIndicatorDown=0x7f09017e;
-    public static final int scrollIndicatorUp=0x7f09017f;
-    public static final int scrollView=0x7f090180;
-    public static final int scrollable=0x7f090181;
-    public static final int search_badge=0x7f090182;
-    public static final int search_bar=0x7f090183;
-    public static final int search_button=0x7f090184;
-    public static final int search_close_btn=0x7f090185;
-    public static final int search_edit_frame=0x7f090186;
-    public static final int search_go_btn=0x7f090187;
-    public static final int search_mag_icon=0x7f090188;
-    public static final int search_plate=0x7f090189;
-    public static final int search_src_text=0x7f09018a;
-    public static final int search_voice_btn=0x7f09018b;
-    public static final int select_dialog_listview=0x7f09018c;
-    public static final int selected=0x7f09018d;
-    public static final int shared_preferences=0x7f09018e;
-    public static final int shortcut=0x7f09018f;
-    public static final int showCustom=0x7f090190;
-    public static final int showHome=0x7f090191;
-    public static final int showTitle=0x7f090192;
-    public static final int show_m_y=0x7f090193;
-    public static final int slideViewPager=0x7f090194;
-    public static final int smallLabel=0x7f090195;
-    public static final int small_indicator=0x7f090196;
-    public static final int snackbar_action=0x7f090197;
-    public static final int snackbar_text=0x7f090198;
-    public static final int snap=0x7f090199;
-    public static final int snapMargins=0x7f09019a;
-    public static final int spacer=0x7f09019b;
-    public static final int split_action_bar=0x7f09019c;
-    public static final int spread=0x7f09019d;
-    public static final int spread_inside=0x7f09019e;
-    public static final int src_atop=0x7f09019f;
-    public static final int src_in=0x7f0901a0;
-    public static final int src_over=0x7f0901a1;
-    public static final int standard=0x7f0901a2;
-    public static final int start=0x7f0901a3;
-    public static final int status_bar_latest_event_content=0x7f0901a4;
-    public static final int stretch=0x7f0901a5;
-    public static final int submenuarrow=0x7f0901a6;
-    public static final int submit_area=0x7f0901a7;
-    public static final int tabMode=0x7f0901a8;
-    public static final int tag_transition_group=0x7f0901a9;
-    public static final int tag_unhandled_key_event_manager=0x7f0901aa;
-    public static final int tag_unhandled_key_listeners=0x7f0901ab;
-    public static final int text=0x7f0901ac;
-    public static final int text2=0x7f0901ad;
-    public static final int textSpacerNoButtons=0x7f0901ae;
-    public static final int textSpacerNoTitle=0x7f0901af;
-    public static final int textStart=0x7f0901b0;
-    public static final int textView=0x7f0901b1;
-    public static final int textView1=0x7f0901b2;
-    public static final int textView2=0x7f0901b3;
-    public static final int textView3=0x7f0901b4;
-    public static final int textView4=0x7f0901b5;
-    public static final int textView5=0x7f0901b6;
-    public static final int textView7=0x7f0901b7;
-    public static final int text_input_password_toggle=0x7f0901b8;
-    public static final int textinput_counter=0x7f0901b9;
-    public static final int textinput_error=0x7f0901ba;
-    public static final int textinput_helper_text=0x7f0901bb;
-    public static final int time=0x7f0901bc;
-    public static final int title=0x7f0901bd;
-    public static final int titleDividerNoCustom=0x7f0901be;
-    public static final int title_template=0x7f0901bf;
-    public static final int toolbar=0x7f0901c0;
-    public static final int toolbar_AP=0x7f0901c1;
-    public static final int toolbar_WF=0x7f0901c2;
-    public static final int top=0x7f0901c3;
-    public static final int topPanel=0x7f0901c4;
-    public static final int totalCountTextView=0x7f0901c5;
-    public static final int touch_outside=0x7f0901c6;
-    public static final int transition_current_scene=0x7f0901c7;
-    public static final int transition_layout_save=0x7f0901c8;
-    public static final int transition_position=0x7f0901c9;
-    public static final int transition_scene_layoutid_cache=0x7f0901ca;
-    public static final int transition_transform=0x7f0901cb;
-    public static final int tv_adTenUser=0x7f0901cc;
-    public static final int tv_admk=0x7f0901cd;
-    public static final int tv_adnumber=0x7f0901ce;
-    public static final int tv_adtk=0x7f0901cf;
-    public static final int tv_advitri=0x7f0901d0;
-    public static final int tv_dangki=0x7f0901d1;
-    public static final int tv_tentk=0x7f0901d2;
-    public static final int txtDate_AW=0x7f0901d3;
-    public static final int txtDate_BA=0x7f0901d4;
-    public static final int txtDate_WF=0x7f0901d5;
-    public static final int txtMoney_AW=0x7f0901d6;
-    public static final int txtMoney_BA=0x7f0901d7;
-    public static final int txtMoney_CT=0x7f0901d8;
-    public static final int txtMoney_WF=0x7f0901d9;
-    public static final int txtName_AW=0x7f0901da;
-    public static final int txtName_BA=0x7f0901db;
-    public static final int txtName_CT=0x7f0901dc;
-    public static final int txtName_WF=0x7f0901dd;
-    public static final int txtSumBorrow=0x7f0901de;
-    public static final int txtSumLent=0x7f0901df;
-    public static final int txt_date_L=0x7f0901e0;
-    public static final int txt_ghichu_DD=0x7f0901e1;
-    public static final int txt_ghichu_L=0x7f0901e2;
-    public static final int txt_kinhphi=0x7f0901e3;
-    public static final int txt_money_L=0x7f0901e4;
-    public static final int txt_sum_money_main=0x7f0901e5;
-    public static final int uniform=0x7f0901e6;
-    public static final int unlabeled=0x7f0901e7;
-    public static final int up=0x7f0901e8;
-    public static final int useLogo=0x7f0901e9;
-    public static final int userRatingBar=0x7f0901ea;
-    public static final int user_id=0x7f0901eb;
-    public static final int user_portrait_screenlet=0x7f0901ec;
-    public static final int very_dissatisfied_button=0x7f0901ed;
-    public static final int very_dissatisfied_label=0x7f0901ee;
-    public static final int very_satisfied_button=0x7f0901ef;
-    public static final int very_satisfied_label=0x7f0901f0;
-    public static final int view_offset_helper=0x7f0901f1;
-    public static final int visible=0x7f0901f2;
-    public static final int walletProgress=0x7f0901f3;
-    public static final int web_content_field=0x7f0901f4;
-    public static final int wide=0x7f0901f5;
-    public static final int withText=0x7f0901f6;
-    public static final int wrap=0x7f0901f7;
-    public static final int wrap_content=0x7f0901f8;
+    public static final int btn_CHOke=0x7f090049;
+    public static final int btn_CHOke1=0x7f09004a;
+    public static final int btn_CHcannel=0x7f09004b;
+    public static final int btn_ChinhHuy=0x7f09004c;
+    public static final int btn_ChinhSualuu=0x7f09004d;
+    public static final int btn_GD=0x7f09004e;
+    public static final int btn_Nap=0x7f09004f;
+    public static final int btn_adChinhSua=0x7f090050;
+    public static final int btn_dangnhap=0x7f090051;
+    public static final int btn_gui=0x7f090052;
+    public static final int btn_huy=0x7f090053;
+    public static final int btn_them_BA=0x7f090054;
+    public static final int btn_them_DD=0x7f090055;
+    public static final int btn_xacnhan=0x7f090056;
+    public static final int btn_xacnhan_AW=0x7f090057;
+    public static final int btn_yes_AB=0x7f090058;
+    public static final int btn_yes_dd=0x7f090059;
+    public static final int buttonPanel=0x7f09005a;
+    public static final int cancel_action=0x7f09005b;
+    public static final int center=0x7f09005c;
+    public static final int center_horizontal=0x7f09005d;
+    public static final int center_vertical=0x7f09005e;
+    public static final int chains=0x7f09005f;
+    public static final int checkbox=0x7f090060;
+    public static final int chronometer=0x7f090061;
+    public static final int clip_horizontal=0x7f090062;
+    public static final int clip_vertical=0x7f090063;
+    public static final int collapseActionView=0x7f090064;
+    public static final int comment_add=0x7f090065;
+    public static final int comment_add_separator=0x7f090066;
+    public static final int comment_body=0x7f090067;
+    public static final int comment_body_group=0x7f090068;
+    public static final int comment_buttons=0x7f090069;
+    public static final int comment_create_date=0x7f09006a;
+    public static final int comment_delete_or_cancel=0x7f09006b;
+    public static final int comment_display_content=0x7f09006c;
+    public static final int comment_edit_body=0x7f09006d;
+    public static final int comment_edit_or_confirm=0x7f09006e;
+    public static final int comment_edited=0x7f09006f;
+    public static final int comment_empty_list=0x7f090070;
+    public static final int comment_send=0x7f090071;
+    public static final int comment_separator=0x7f090072;
+    public static final int comment_user_name=0x7f090073;
+    public static final int comment_user_portrait=0x7f090074;
+    public static final int comment_view=0x7f090075;
+    public static final int compactcalendar_view=0x7f090076;
+    public static final int container=0x7f090077;
+    public static final int content=0x7f090078;
+    public static final int contentPanel=0x7f090079;
+    public static final int cookie=0x7f09007a;
+    public static final int coordinator=0x7f09007b;
+    public static final int custom=0x7f09007c;
+    public static final int customPanel=0x7f09007d;
+    public static final int dark=0x7f09007e;
+    public static final int ddlfields_container=0x7f09007f;
+    public static final int ddlform_loading_screen_progress_bar=0x7f090080;
+    public static final int ddlform_progress_bar=0x7f090081;
+    public static final int decor_content_parent=0x7f090082;
+    public static final int default_activity_button=0x7f090083;
+    public static final int default_dialog_edit_text=0x7f090084;
+    public static final int default_list=0x7f090085;
+    public static final int default_progress_view_text=0x7f090086;
+    public static final int design_bottom_sheet=0x7f090087;
+    public static final int design_menu_item_action_area=0x7f090088;
+    public static final int design_menu_item_action_area_stub=0x7f090089;
+    public static final int design_menu_item_text=0x7f09008a;
+    public static final int design_navigation_view=0x7f09008b;
+    public static final int detailed_image=0x7f09008c;
+    public static final int dimensions=0x7f09008d;
+    public static final int direct=0x7f09008e;
+    public static final int disableHome=0x7f09008f;
+    public static final int dissatisfied_button=0x7f090090;
+    public static final int dissatisfied_label=0x7f090091;
+    public static final int dotsLayout=0x7f090092;
+    public static final int draw_layout=0x7f090093;
+    public static final int drawer_layout=0x7f090094;
+    public static final int edit_query=0x7f090095;
+    public static final int edtDate_AB=0x7f090096;
+    public static final int edtMoney_AB=0x7f090097;
+    public static final int edtName_AB=0x7f090098;
+    public static final int edt_CHpass=0x7f090099;
+    public static final int edt_CHpass1=0x7f09009a;
+    public static final int edt_CHsdt=0x7f09009b;
+    public static final int edt_CHsdt1=0x7f09009c;
+    public static final int edt_CHten=0x7f09009d;
+    public static final int edt_CHten1=0x7f09009e;
+    public static final int edt_CHuser=0x7f09009f;
+    public static final int edt_CHuser1=0x7f0900a0;
+    public static final int edt_ChinhSuaTen=0x7f0900a1;
+    public static final int edt_TienNap=0x7f0900a2;
+    public static final int edt_dateinit=0x7f0900a3;
+    public static final int edt_ghichu_AW=0x7f0900a4;
+    public static final int edt_ghichu_DD=0x7f0900a5;
+    public static final int edt_hoten=0x7f0900a6;
+    public static final int edt_kinhphi=0x7f0900a7;
+    public static final int edt_money=0x7f0900a8;
+    public static final int edt_name=0x7f0900a9;
+    public static final int edt_ngayNap=0x7f0900aa;
+    public static final int edt_ngaydd=0x7f0900ab;
+    public static final int edt_pass=0x7f0900ac;
+    public static final int edt_pass1=0x7f0900ad;
+    public static final int edt_pass2=0x7f0900ae;
+    public static final int edt_sdt=0x7f0900af;
+    public static final int edt_ten=0x7f0900b0;
+    public static final int edt_tiendoi=0x7f0900b1;
+    public static final int email=0x7f0900b2;
+    public static final int emoji_1_button=0x7f0900b3;
+    public static final int emoji_1_label=0x7f0900b4;
+    public static final int emoji_2_button=0x7f0900b5;
+    public static final int emoji_2_label=0x7f0900b6;
+    public static final int emoji_3_button=0x7f0900b7;
+    public static final int emoji_3_label=0x7f0900b8;
+    public static final int emoji_4_button=0x7f0900b9;
+    public static final int emoji_4_label=0x7f0900ba;
+    public static final int end=0x7f0900bb;
+    public static final int end_padder=0x7f0900bc;
+    public static final int enterAlways=0x7f0900bd;
+    public static final int enterAlwaysCollapsed=0x7f0900be;
+    public static final int exitUntilCollapsed=0x7f0900bf;
+    public static final int expand_activities_button=0x7f0900c0;
+    public static final int expanded_menu=0x7f0900c1;
+    public static final int feddback_toolbar=0x7f0900c2;
+    public static final int feedback_mes=0x7f0900c3;
+    public static final int feedback_noidung=0x7f0900c4;
+    public static final int feedback_tk=0x7f0900c5;
+    public static final int fill=0x7f0900c6;
+    public static final int fill_horizontal=0x7f0900c7;
+    public static final int fill_large_indicator=0x7f0900c8;
+    public static final int fill_vertical=0x7f0900c9;
+    public static final int filled=0x7f0900ca;
+    public static final int fixed=0x7f0900cb;
+    public static final int forever=0x7f0900cc;
+    public static final int gallery_item_image=0x7f0900cd;
+    public static final int ghost_view=0x7f0900ce;
+    public static final int gone=0x7f0900cf;
+    public static final int group_divider=0x7f0900d0;
+    public static final int groups=0x7f0900d1;
+    public static final int home=0x7f0900d2;
+    public static final int homeAsUp=0x7f0900d3;
+    public static final int home_linear=0x7f0900d4;
+    public static final int homeprogress=0x7f0900d5;
+    public static final int ic_changes=0x7f0900d6;
+    public static final int icon=0x7f0900d7;
+    public static final int icon_group=0x7f0900d8;
+    public static final int icon_only=0x7f0900d9;
+    public static final int icons=0x7f0900da;
+    public static final int ifRoom=0x7f0900db;
+    public static final int image=0x7f0900dc;
+    public static final int imageView=0x7f0900dd;
+    public static final int imageView2=0x7f0900de;
+    public static final int imageView3=0x7f0900df;
+    public static final int imageView4=0x7f0900e0;
+    public static final int imgIcon_CT=0x7f0900e1;
+    public static final int img_Icon_BA=0x7f0900e2;
+    public static final int img_NgoaiTeQG=0x7f0900e3;
+    public static final int img_doitien=0x7f0900e4;
+    public static final int img_exchange2ben=0x7f0900e5;
+    public static final int img_icon_walleadd=0x7f0900e6;
+    public static final int img_icon_walletinfo=0x7f0900e7;
+    public static final int img_reset=0x7f0900e8;
+    public static final int img_slide=0x7f0900e9;
+    public static final int info=0x7f0900ea;
+    public static final int inner_screenlet_container=0x7f0900eb;
+    public static final int invisible=0x7f0900ec;
+    public static final int italic=0x7f0900ed;
+    public static final int item_touch_helper_previous_elevation=0x7f0900ee;
+    public static final int labeled=0x7f0900ef;
+    public static final int largeLabel=0x7f0900f0;
+    public static final int left=0x7f0900f1;
+    public static final int liferay_asset_progress_horizontal=0x7f0900f2;
+    public static final int liferay_asset_progress_number=0x7f0900f3;
+    public static final int liferay_asset_title=0x7f0900f4;
+    public static final int liferay_audio_asset=0x7f0900f5;
+    public static final int liferay_audio_image_background=0x7f0900f6;
+    public static final int liferay_audio_message=0x7f0900f7;
+    public static final int liferay_audio_title=0x7f0900f8;
+    public static final int liferay_blog_content=0x7f0900f9;
+    public static final int liferay_blog_date=0x7f0900fa;
+    public static final int liferay_blog_image=0x7f0900fb;
+    public static final int liferay_blog_subtitle=0x7f0900fc;
+    public static final int liferay_blog_title=0x7f0900fd;
+    public static final int liferay_blog_userinfo=0x7f0900fe;
+    public static final int liferay_blog_username=0x7f0900ff;
+    public static final int liferay_ddl_custom_rating=0x7f090100;
+    public static final int liferay_ddl_edit_text=0x7f090101;
+    public static final int liferay_ddl_label=0x7f090102;
+    public static final int liferay_ddl_switch=0x7f090103;
+    public static final int liferay_dialog_select_file=0x7f090104;
+    public static final int liferay_dialog_select_file_form=0x7f090105;
+    public static final int liferay_dialog_select_gallery=0x7f090106;
+    public static final int liferay_dialog_select_gallery_video=0x7f090107;
+    public static final int liferay_dialog_take_photo=0x7f090108;
+    public static final int liferay_dialog_take_photo_form=0x7f090109;
+    public static final int liferay_dialog_take_video=0x7f09010a;
+    public static final int liferay_dialog_take_video_form=0x7f09010b;
+    public static final int liferay_dialog_title=0x7f09010c;
+    public static final int liferay_document_progress=0x7f09010d;
+    public static final int liferay_email_address=0x7f09010e;
+    public static final int liferay_first_name=0x7f09010f;
+    public static final int liferay_forgot_button=0x7f090110;
+    public static final int liferay_forgot_login=0x7f090111;
+    public static final int liferay_form_submit=0x7f090112;
+    public static final int liferay_gallery_upload_description=0x7f090113;
+    public static final int liferay_gallery_upload_image=0x7f090114;
+    public static final int liferay_gallery_upload_title=0x7f090115;
+    public static final int liferay_go_to_page=0x7f090116;
+    public static final int liferay_go_to_page_submit=0x7f090117;
+    public static final int liferay_image_asset=0x7f090118;
+    public static final int liferay_last_name=0x7f090119;
+    public static final int liferay_latitude_edit_text=0x7f09011a;
+    public static final int liferay_linear_buttons=0x7f09011b;
+    public static final int liferay_list_screenlet=0x7f09011c;
+    public static final int liferay_list_title=0x7f09011d;
+    public static final int liferay_login=0x7f09011e;
+    public static final int liferay_login_button=0x7f09011f;
+    public static final int liferay_longitude_edit_text=0x7f090120;
+    public static final int liferay_next_page=0x7f090121;
+    public static final int liferay_pager=0x7f090122;
+    public static final int liferay_password=0x7f090123;
+    public static final int liferay_pdf_renderer=0x7f090124;
+    public static final int liferay_portlet_progress=0x7f090125;
+    public static final int liferay_portrait=0x7f090126;
+    public static final int liferay_portrait_progress=0x7f090127;
+    public static final int liferay_previous_page=0x7f090128;
+    public static final int liferay_progress=0x7f090129;
+    public static final int liferay_rating_content=0x7f09012a;
+    public static final int liferay_rating_progress=0x7f09012b;
+    public static final int liferay_recycler_list=0x7f09012c;
+    public static final int liferay_replace_image=0x7f09012d;
+    public static final int liferay_sign_up_button=0x7f09012e;
+    public static final int liferay_submit_container=0x7f09012f;
+    public static final int liferay_upload_fab=0x7f090130;
+    public static final int liferay_video_asset=0x7f090131;
+    public static final int liferay_video_message=0x7f090132;
+    public static final int liferay_webview=0x7f090133;
+    public static final int liferay_webview_progress=0x7f090134;
+    public static final int light=0x7f090135;
+    public static final int likeCountLabel=0x7f090136;
+    public static final int likeRatingButton=0x7f090137;
+    public static final int line1=0x7f090138;
+    public static final int line3=0x7f090139;
+    public static final int listMode=0x7f09013a;
+    public static final int list_action=0x7f09013b;
+    public static final int list_borrow=0x7f09013c;
+    public static final int list_chitieu=0x7f09013d;
+    public static final int list_icon=0x7f09013e;
+    public static final int list_item=0x7f09013f;
+    public static final int list_plan=0x7f090140;
+    public static final int lsv_feedback=0x7f090141;
+    public static final int masked=0x7f090142;
+    public static final int media_actions=0x7f090143;
+    public static final int menu_convert=0x7f090144;
+    public static final int message=0x7f090145;
+    public static final int middle=0x7f090146;
+    public static final int mini=0x7f090147;
+    public static final int mtoolbar_AB=0x7f090148;
+    public static final int mtoolbar_AW=0x7f090149;
+    public static final int mtoolbar_BA=0x7f09014a;
+    public static final int mtrl_child_content_container=0x7f09014b;
+    public static final int mtrl_internal_children_alpha_tag=0x7f09014c;
+    public static final int multiply=0x7f09014d;
+    public static final int nav_aboutus=0x7f09014e;
+    public static final int nav_add=0x7f09014f;
+    public static final int nav_feelback=0x7f090150;
+    public static final int nav_home=0x7f090151;
+    public static final int nav_logout=0x7f090152;
+    public static final int nav_more=0x7f090153;
+    public static final int nav_plan=0x7f090154;
+    public static final int nav_quit=0x7f090155;
+    public static final int nav_report=0x7f090156;
+    public static final int nav_thaydoithongtin=0x7f090157;
+    public static final int nav_thongtincanhan=0x7f090158;
+    public static final int nav_view=0x7f090159;
+    public static final int navigation_header_container=0x7f09015a;
+    public static final int negativeRatingButton=0x7f09015b;
+    public static final int negativeRatingCount=0x7f09015c;
+    public static final int neutral_button=0x7f09015d;
+    public static final int neutral_label=0x7f09015e;
+    public static final int never=0x7f09015f;
+    public static final int ngoaite_toolbar=0x7f090160;
+    public static final int no_fill_large_indicator=0x7f090161;
+    public static final int none=0x7f090162;
+    public static final int normal=0x7f090163;
+    public static final int notification_background=0x7f090164;
+    public static final int notification_main_column=0x7f090165;
+    public static final int notification_main_column_container=0x7f090166;
+    public static final int oauth2Redirect=0x7f090167;
+    public static final int oauth2UsernameAndPassword=0x7f090168;
+    public static final int oauth2_authentication_login=0x7f090169;
+    public static final int outline=0x7f09016a;
+    public static final int packed=0x7f09016b;
+    public static final int parallax=0x7f09016c;
+    public static final int parent=0x7f09016d;
+    public static final int parentPanel=0x7f09016e;
+    public static final int parent_matrix=0x7f09016f;
+    public static final int percent=0x7f090170;
+    public static final int pin=0x7f090171;
+    public static final int planPregress=0x7f090172;
+    public static final int positiveRatingButton=0x7f090173;
+    public static final int positiveRatingCount=0x7f090174;
+    public static final int progressBar=0x7f090175;
+    public static final int progressBar2=0x7f090176;
+    public static final int progressBar3=0x7f090177;
+    public static final int progress_circular=0x7f090178;
+    public static final int progress_horizontal=0x7f090179;
+    public static final int progress_view_cancel_button=0x7f09017a;
+    public static final int progress_view_image=0x7f09017b;
+    public static final int progress_view_progressbar=0x7f09017c;
+    public static final int radio=0x7f09017d;
+    public static final int radioGroup2=0x7f09017e;
+    public static final int radio_group=0x7f09017f;
+    public static final int ratingBar=0x7f090180;
+    public static final int ratingBar2=0x7f090181;
+    public static final int rbn_chovay=0x7f090182;
+    public static final int rbn_muontien=0x7f090183;
+    public static final int rcv_result=0x7f090184;
+    public static final int rdb_khachHang=0x7f090185;
+    public static final int rdb_quanli=0x7f090186;
+    public static final int recycler_container=0x7f090187;
+    public static final int right=0x7f090188;
+    public static final int right_icon=0x7f090189;
+    public static final int right_side=0x7f09018a;
+    public static final int rvp_fragment_container=0x7f09018b;
+    public static final int satisfied_button=0x7f09018c;
+    public static final int satisfied_label=0x7f09018d;
+    public static final int save_image_matrix=0x7f09018e;
+    public static final int save_non_transition_alpha=0x7f09018f;
+    public static final int save_scale_type=0x7f090190;
+    public static final int screen=0x7f090191;
+    public static final int screen_name=0x7f090192;
+    public static final int scroll=0x7f090193;
+    public static final int scrollIndicatorDown=0x7f090194;
+    public static final int scrollIndicatorUp=0x7f090195;
+    public static final int scrollView=0x7f090196;
+    public static final int scrollable=0x7f090197;
+    public static final int search_badge=0x7f090198;
+    public static final int search_bar=0x7f090199;
+    public static final int search_button=0x7f09019a;
+    public static final int search_close_btn=0x7f09019b;
+    public static final int search_edit_frame=0x7f09019c;
+    public static final int search_go_btn=0x7f09019d;
+    public static final int search_mag_icon=0x7f09019e;
+    public static final int search_plate=0x7f09019f;
+    public static final int search_src_text=0x7f0901a0;
+    public static final int search_voice_btn=0x7f0901a1;
+    public static final int select_dialog_listview=0x7f0901a2;
+    public static final int selected=0x7f0901a3;
+    public static final int shared_preferences=0x7f0901a4;
+    public static final int shortcut=0x7f0901a5;
+    public static final int showCustom=0x7f0901a6;
+    public static final int showHome=0x7f0901a7;
+    public static final int showTitle=0x7f0901a8;
+    public static final int show_m_y=0x7f0901a9;
+    public static final int slideViewPager=0x7f0901aa;
+    public static final int smallLabel=0x7f0901ab;
+    public static final int small_indicator=0x7f0901ac;
+    public static final int snackbar_action=0x7f0901ad;
+    public static final int snackbar_text=0x7f0901ae;
+    public static final int snap=0x7f0901af;
+    public static final int snapMargins=0x7f0901b0;
+    public static final int sp_chuyen1=0x7f0901b1;
+    public static final int sp_chuyen2=0x7f0901b2;
+    public static final int spacer=0x7f0901b3;
+    public static final int split_action_bar=0x7f0901b4;
+    public static final int spread=0x7f0901b5;
+    public static final int spread_inside=0x7f0901b6;
+    public static final int src_atop=0x7f0901b7;
+    public static final int src_in=0x7f0901b8;
+    public static final int src_over=0x7f0901b9;
+    public static final int standard=0x7f0901ba;
+    public static final int start=0x7f0901bb;
+    public static final int status_bar_latest_event_content=0x7f0901bc;
+    public static final int stretch=0x7f0901bd;
+    public static final int submenuarrow=0x7f0901be;
+    public static final int submit_area=0x7f0901bf;
+    public static final int tabMode=0x7f0901c0;
+    public static final int tag_transition_group=0x7f0901c1;
+    public static final int tag_unhandled_key_event_manager=0x7f0901c2;
+    public static final int tag_unhandled_key_listeners=0x7f0901c3;
+    public static final int text=0x7f0901c4;
+    public static final int text2=0x7f0901c5;
+    public static final int textSpacerNoButtons=0x7f0901c6;
+    public static final int textSpacerNoTitle=0x7f0901c7;
+    public static final int textStart=0x7f0901c8;
+    public static final int textView=0x7f0901c9;
+    public static final int textView1=0x7f0901ca;
+    public static final int textView2=0x7f0901cb;
+    public static final int textView3=0x7f0901cc;
+    public static final int textView4=0x7f0901cd;
+    public static final int textView5=0x7f0901ce;
+    public static final int textView7=0x7f0901cf;
+    public static final int textView8=0x7f0901d0;
+    public static final int text_input_password_toggle=0x7f0901d1;
+    public static final int textinput_counter=0x7f0901d2;
+    public static final int textinput_error=0x7f0901d3;
+    public static final int textinput_helper_text=0x7f0901d4;
+    public static final int time=0x7f0901d5;
+    public static final int title=0x7f0901d6;
+    public static final int titleDividerNoCustom=0x7f0901d7;
+    public static final int title_template=0x7f0901d8;
+    public static final int toolbar=0x7f0901d9;
+    public static final int toolbar_AP=0x7f0901da;
+    public static final int toolbar_WF=0x7f0901db;
+    public static final int top=0x7f0901dc;
+    public static final int topPanel=0x7f0901dd;
+    public static final int totalCountTextView=0x7f0901de;
+    public static final int touch_outside=0x7f0901df;
+    public static final int transition_current_scene=0x7f0901e0;
+    public static final int transition_layout_save=0x7f0901e1;
+    public static final int transition_position=0x7f0901e2;
+    public static final int transition_scene_layoutid_cache=0x7f0901e3;
+    public static final int transition_transform=0x7f0901e4;
+    public static final int tv_NgoaiTeTenQg=0x7f0901e5;
+    public static final int tv_NgoaiTemieuta=0x7f0901e6;
+    public static final int tv_adTenUser=0x7f0901e7;
+    public static final int tv_admk=0x7f0901e8;
+    public static final int tv_adnumber=0x7f0901e9;
+    public static final int tv_adtk=0x7f0901ea;
+    public static final int tv_advitri=0x7f0901eb;
+    public static final int tv_chi=0x7f0901ec;
+    public static final int tv_dangki=0x7f0901ed;
+    public static final int tv_giatri1=0x7f0901ee;
+    public static final int tv_giatri2=0x7f0901ef;
+    public static final int tv_tentk=0x7f0901f0;
+    public static final int tv_thu=0x7f0901f1;
+    public static final int tv_tiensaukhichuyen=0x7f0901f2;
+    public static final int tv_tientrckhichuyen=0x7f0901f3;
+    public static final int txtDate_AW=0x7f0901f4;
+    public static final int txtDate_BA=0x7f0901f5;
+    public static final int txtDate_WF=0x7f0901f6;
+    public static final int txtMoney_AW=0x7f0901f7;
+    public static final int txtMoney_BA=0x7f0901f8;
+    public static final int txtMoney_CT=0x7f0901f9;
+    public static final int txtMoney_WF=0x7f0901fa;
+    public static final int txtName_AW=0x7f0901fb;
+    public static final int txtName_BA=0x7f0901fc;
+    public static final int txtName_CT=0x7f0901fd;
+    public static final int txtName_WF=0x7f0901fe;
+    public static final int txtSumBorrow=0x7f0901ff;
+    public static final int txtSumLent=0x7f090200;
+    public static final int txt_date_L=0x7f090201;
+    public static final int txt_ghichu_DD=0x7f090202;
+    public static final int txt_ghichu_L=0x7f090203;
+    public static final int txt_kinhphi=0x7f090204;
+    public static final int txt_money_L=0x7f090205;
+    public static final int txt_sum_money_main=0x7f090206;
+    public static final int uniform=0x7f090207;
+    public static final int unlabeled=0x7f090208;
+    public static final int up=0x7f090209;
+    public static final int useLogo=0x7f09020a;
+    public static final int userRatingBar=0x7f09020b;
+    public static final int user_id=0x7f09020c;
+    public static final int user_portrait_screenlet=0x7f09020d;
+    public static final int very_dissatisfied_button=0x7f09020e;
+    public static final int very_dissatisfied_label=0x7f09020f;
+    public static final int very_satisfied_button=0x7f090210;
+    public static final int very_satisfied_label=0x7f090211;
+    public static final int view_offset_helper=0x7f090212;
+    public static final int visible=0x7f090213;
+    public static final int walletProgress=0x7f090214;
+    public static final int web_content_field=0x7f090215;
+    public static final int wide=0x7f090216;
+    public static final int withText=0x7f090217;
+    public static final int wrap=0x7f090218;
+    public static final int wrap_content=0x7f090219;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -6566,121 +6618,129 @@ public final class R {
     public static final int activity_borrow=0x7f0c0023;
     public static final int activity_dang_ki=0x7f0c0024;
     public static final int activity_main=0x7f0c0025;
-    public static final int activity_start=0x7f0c0026;
-    public static final int activity_wallet_info=0x7f0c0027;
-    public static final int app_bar_main=0x7f0c0028;
-    public static final int asset_display_default=0x7f0c0029;
-    public static final int asset_list_default=0x7f0c002a;
-    public static final int audio_display_default=0x7f0c002b;
-    public static final int blogsentry_display_default=0x7f0c002c;
-    public static final int chose_origin_dialog_default=0x7f0c002d;
-    public static final int comment_add_default=0x7f0c002e;
-    public static final int comment_display_default=0x7f0c002f;
-    public static final int comment_list_default=0x7f0c0030;
-    public static final int comment_row_default=0x7f0c0031;
-    public static final int cus_dialog_wailt=0x7f0c0032;
-    public static final int cus_grid_icon=0x7f0c0033;
-    public static final int cus_icon_dialog=0x7f0c0034;
-    public static final int cus_list_action=0x7f0c0035;
-    public static final int cus_list_borrow=0x7f0c0036;
-    public static final int cus_list_chitieu=0x7f0c0037;
-    public static final int cus_list_plan=0x7f0c0038;
-    public static final int custom_admindialog=0x7f0c0039;
-    public static final int custom_feedback=0x7f0c003a;
-    public static final int custom_viewadmin=0x7f0c003b;
-    public static final int dangnhap_activity=0x7f0c003c;
-    public static final int ddl_form_default=0x7f0c003d;
-    public static final int ddl_form_pager=0x7f0c003e;
-    public static final int ddl_list_default=0x7f0c003f;
-    public static final int ddlfield_checkbox_default=0x7f0c0040;
-    public static final int ddlfield_custom_rating_number=0x7f0c0041;
-    public static final int ddlfield_date_default=0x7f0c0042;
-    public static final int ddlfield_document_chose_option_default=0x7f0c0043;
-    public static final int ddlfield_document_default=0x7f0c0044;
-    public static final int ddlfield_geo_default=0x7f0c0045;
-    public static final int ddlfield_number_default=0x7f0c0046;
-    public static final int ddlfield_radio_default=0x7f0c0047;
-    public static final int ddlfield_select_default=0x7f0c0048;
-    public static final int ddlfield_select_dialog_default=0x7f0c0049;
-    public static final int ddlfield_text_area_default=0x7f0c004a;
-    public static final int ddlfield_text_default=0x7f0c004b;
-    public static final int default_upload_detail_activity=0x7f0c004c;
-    public static final int design_bottom_navigation_item=0x7f0c004d;
-    public static final int design_bottom_sheet_dialog=0x7f0c004e;
-    public static final int design_layout_snackbar=0x7f0c004f;
-    public static final int design_layout_snackbar_include=0x7f0c0050;
-    public static final int design_layout_tab_icon=0x7f0c0051;
-    public static final int design_layout_tab_text=0x7f0c0052;
-    public static final int design_menu_item_action_area=0x7f0c0053;
-    public static final int design_navigation_item=0x7f0c0054;
-    public static final int design_navigation_item_header=0x7f0c0055;
-    public static final int design_navigation_item_separator=0x7f0c0056;
-    public static final int design_navigation_item_subheader=0x7f0c0057;
-    public static final int design_navigation_menu=0x7f0c0058;
-    public static final int design_navigation_menu_item=0x7f0c0059;
-    public static final int design_text_input_password_icon=0x7f0c005a;
-    public static final int forgotpassword_default=0x7f0c005b;
-    public static final int fragment_home_=0x7f0c005c;
-    public static final int fragment_plan_=0x7f0c005d;
-    public static final int fragment_qlfeedback=0x7f0c005e;
-    public static final int fragment_qlhotdeal=0x7f0c005f;
-    public static final int fragment_qltk=0x7f0c0060;
-    public static final int gallery_default=0x7f0c0061;
-    public static final int gallery_default_list=0x7f0c0062;
-    public static final int gallery_default_slideshow=0x7f0c0063;
-    public static final int gallery_detailed_default=0x7f0c0064;
-    public static final int gallery_item_grid=0x7f0c0065;
-    public static final int gallery_item_list=0x7f0c0066;
-    public static final int gallery_item_slideshow=0x7f0c0067;
-    public static final int gallery_progress_view_default=0x7f0c0068;
-    public static final int image_display_default=0x7f0c0069;
-    public static final int list_item_default=0x7f0c006a;
-    public static final int list_item_progress_default=0x7f0c006b;
-    public static final int list_item_progress_empty=0x7f0c006c;
-    public static final int login_default=0x7f0c006d;
-    public static final int mtrl_layout_snackbar=0x7f0c006e;
-    public static final int mtrl_layout_snackbar_include=0x7f0c006f;
-    public static final int notification_action=0x7f0c0070;
-    public static final int notification_action_tombstone=0x7f0c0071;
-    public static final int notification_media_action=0x7f0c0072;
-    public static final int notification_media_cancel_action=0x7f0c0073;
-    public static final int notification_template_big_media=0x7f0c0074;
-    public static final int notification_template_big_media_custom=0x7f0c0075;
-    public static final int notification_template_big_media_narrow=0x7f0c0076;
-    public static final int notification_template_big_media_narrow_custom=0x7f0c0077;
-    public static final int notification_template_custom_big=0x7f0c0078;
-    public static final int notification_template_icon_group=0x7f0c0079;
-    public static final int notification_template_lines_media=0x7f0c007a;
-    public static final int notification_template_media=0x7f0c007b;
-    public static final int notification_template_media_custom=0x7f0c007c;
-    public static final int notification_template_part_chronometer=0x7f0c007d;
-    public static final int notification_template_part_time=0x7f0c007e;
-    public static final int pdf_display_default=0x7f0c007f;
-    public static final int rating_emojis_default=0x7f0c0080;
-    public static final int rating_like_default=0x7f0c0081;
-    public static final int rating_reactions_default=0x7f0c0082;
-    public static final int rating_star_bar_default=0x7f0c0083;
-    public static final int rating_thumb_default=0x7f0c0084;
-    public static final int rvp_fragment_container=0x7f0c0085;
-    public static final int select_dialog_item_material=0x7f0c0086;
-    public static final int select_dialog_multichoice_material=0x7f0c0087;
-    public static final int select_dialog_singlechoice_material=0x7f0c0088;
-    public static final int select_file_default=0x7f0c0089;
-    public static final int sign_up_default=0x7f0c008a;
-    public static final int slide=0x7f0c008b;
-    public static final int support_simple_spinner_dropdown_item=0x7f0c008c;
-    public static final int userportrait_default=0x7f0c008d;
-    public static final int video_display_default=0x7f0c008e;
-    public static final int web_default=0x7f0c008f;
-    public static final int webcontentdisplay_default=0x7f0c0090;
-    public static final int webcontentdisplay_structured_default=0x7f0c0091;
-    public static final int webcontentlist_default=0x7f0c0092;
+    public static final int activity_ngoaite=0x7f0c0026;
+    public static final int activity_start=0x7f0c0027;
+    public static final int activity_wallet_info=0x7f0c0028;
+    public static final int app_bar_main=0x7f0c0029;
+    public static final int asset_display_default=0x7f0c002a;
+    public static final int asset_list_default=0x7f0c002b;
+    public static final int audio_display_default=0x7f0c002c;
+    public static final int blogsentry_display_default=0x7f0c002d;
+    public static final int chinhsuatt_main2=0x7f0c002e;
+    public static final int chose_origin_dialog_default=0x7f0c002f;
+    public static final int comment_add_default=0x7f0c0030;
+    public static final int comment_display_default=0x7f0c0031;
+    public static final int comment_list_default=0x7f0c0032;
+    public static final int comment_row_default=0x7f0c0033;
+    public static final int cus_dialog_wailt=0x7f0c0034;
+    public static final int cus_grid_icon=0x7f0c0035;
+    public static final int cus_icon_dialog=0x7f0c0036;
+    public static final int cus_list_action=0x7f0c0037;
+    public static final int cus_list_borrow=0x7f0c0038;
+    public static final int cus_list_chitieu=0x7f0c0039;
+    public static final int cus_list_plan=0x7f0c003a;
+    public static final int custom_admindialog=0x7f0c003b;
+    public static final int custom_feedback=0x7f0c003c;
+    public static final int custom_ngoaite=0x7f0c003d;
+    public static final int custom_viewadmin=0x7f0c003e;
+    public static final int dangnhap_activity=0x7f0c003f;
+    public static final int ddl_form_default=0x7f0c0040;
+    public static final int ddl_form_pager=0x7f0c0041;
+    public static final int ddl_list_default=0x7f0c0042;
+    public static final int ddlfield_checkbox_default=0x7f0c0043;
+    public static final int ddlfield_custom_rating_number=0x7f0c0044;
+    public static final int ddlfield_date_default=0x7f0c0045;
+    public static final int ddlfield_document_chose_option_default=0x7f0c0046;
+    public static final int ddlfield_document_default=0x7f0c0047;
+    public static final int ddlfield_geo_default=0x7f0c0048;
+    public static final int ddlfield_number_default=0x7f0c0049;
+    public static final int ddlfield_radio_default=0x7f0c004a;
+    public static final int ddlfield_select_default=0x7f0c004b;
+    public static final int ddlfield_select_dialog_default=0x7f0c004c;
+    public static final int ddlfield_text_area_default=0x7f0c004d;
+    public static final int ddlfield_text_default=0x7f0c004e;
+    public static final int default_upload_detail_activity=0x7f0c004f;
+    public static final int design_bottom_navigation_item=0x7f0c0050;
+    public static final int design_bottom_sheet_dialog=0x7f0c0051;
+    public static final int design_layout_snackbar=0x7f0c0052;
+    public static final int design_layout_snackbar_include=0x7f0c0053;
+    public static final int design_layout_tab_icon=0x7f0c0054;
+    public static final int design_layout_tab_text=0x7f0c0055;
+    public static final int design_menu_item_action_area=0x7f0c0056;
+    public static final int design_navigation_item=0x7f0c0057;
+    public static final int design_navigation_item_header=0x7f0c0058;
+    public static final int design_navigation_item_separator=0x7f0c0059;
+    public static final int design_navigation_item_subheader=0x7f0c005a;
+    public static final int design_navigation_menu=0x7f0c005b;
+    public static final int design_navigation_menu_item=0x7f0c005c;
+    public static final int design_text_input_password_icon=0x7f0c005d;
+    public static final int feedback_user=0x7f0c005e;
+    public static final int forgotpassword_default=0x7f0c005f;
+    public static final int fragment_home_=0x7f0c0060;
+    public static final int fragment_plan_=0x7f0c0061;
+    public static final int fragment_qlfeedback=0x7f0c0062;
+    public static final int fragment_qlhotdeal=0x7f0c0063;
+    public static final int fragment_qltk=0x7f0c0064;
+    public static final int fragment_thongke=0x7f0c0065;
+    public static final int gallery_default=0x7f0c0066;
+    public static final int gallery_default_list=0x7f0c0067;
+    public static final int gallery_default_slideshow=0x7f0c0068;
+    public static final int gallery_detailed_default=0x7f0c0069;
+    public static final int gallery_item_grid=0x7f0c006a;
+    public static final int gallery_item_list=0x7f0c006b;
+    public static final int gallery_item_slideshow=0x7f0c006c;
+    public static final int gallery_progress_view_default=0x7f0c006d;
+    public static final int image_display_default=0x7f0c006e;
+    public static final int list_item_default=0x7f0c006f;
+    public static final int list_item_progress_default=0x7f0c0070;
+    public static final int list_item_progress_empty=0x7f0c0071;
+    public static final int login_default=0x7f0c0072;
+    public static final int mtrl_layout_snackbar=0x7f0c0073;
+    public static final int mtrl_layout_snackbar_include=0x7f0c0074;
+    public static final int notification_action=0x7f0c0075;
+    public static final int notification_action_tombstone=0x7f0c0076;
+    public static final int notification_media_action=0x7f0c0077;
+    public static final int notification_media_cancel_action=0x7f0c0078;
+    public static final int notification_template_big_media=0x7f0c0079;
+    public static final int notification_template_big_media_custom=0x7f0c007a;
+    public static final int notification_template_big_media_narrow=0x7f0c007b;
+    public static final int notification_template_big_media_narrow_custom=0x7f0c007c;
+    public static final int notification_template_custom_big=0x7f0c007d;
+    public static final int notification_template_icon_group=0x7f0c007e;
+    public static final int notification_template_lines_media=0x7f0c007f;
+    public static final int notification_template_media=0x7f0c0080;
+    public static final int notification_template_media_custom=0x7f0c0081;
+    public static final int notification_template_part_chronometer=0x7f0c0082;
+    public static final int notification_template_part_time=0x7f0c0083;
+    public static final int pdf_display_default=0x7f0c0084;
+    public static final int rating_emojis_default=0x7f0c0085;
+    public static final int rating_like_default=0x7f0c0086;
+    public static final int rating_reactions_default=0x7f0c0087;
+    public static final int rating_star_bar_default=0x7f0c0088;
+    public static final int rating_thumb_default=0x7f0c0089;
+    public static final int rvp_fragment_container=0x7f0c008a;
+    public static final int select_dialog_item_material=0x7f0c008b;
+    public static final int select_dialog_multichoice_material=0x7f0c008c;
+    public static final int select_dialog_singlechoice_material=0x7f0c008d;
+    public static final int select_file_default=0x7f0c008e;
+    public static final int sign_up_default=0x7f0c008f;
+    public static final int slide=0x7f0c0090;
+    public static final int support_simple_spinner_dropdown_item=0x7f0c0091;
+    public static final int thongke_fragment=0x7f0c0092;
+    public static final int userportrait_default=0x7f0c0093;
+    public static final int video_display_default=0x7f0c0094;
+    public static final int web_default=0x7f0c0095;
+    public static final int webcontentdisplay_default=0x7f0c0096;
+    public static final int webcontentdisplay_structured_default=0x7f0c0097;
+    public static final int webcontentlist_default=0x7f0c0098;
+    public static final int xemthongtin=0x7f0c0099;
   }
   public static final class menu {
     public static final int activity_main_drawer=0x7f0d0000;
     public static final int admin_menu=0x7f0d0001;
     public static final int main=0x7f0d0002;
-    public static final int my_navigation_items=0x7f0d0003;
+    public static final int menu_more=0x7f0d0003;
+    public static final int my_navigation_items=0x7f0d0004;
   }
   public static final class mipmap {
     public static final int ic_launcher=0x7f0e0000;
@@ -7446,39 +7506,39 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionBar_background com.example.black.savemymoneyv3:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.black.savemymoneyv3:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.black.savemymoneyv3:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.black.savemymoneyv3:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.black.savemymoneyv3:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #ActionBar_background com.example.thienbao.myapplication:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundSplit com.example.thienbao.myapplication:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_backgroundStacked com.example.thienbao.myapplication:backgroundStacked}</code></td><td>Specifies a background drawable for a second stacked row of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEnd com.example.thienbao.myapplication:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetEndWithActions com.example.thienbao.myapplication:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.black.savemymoneyv3:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.black.savemymoneyv3:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.black.savemymoneyv3:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.black.savemymoneyv3:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #ActionBar_contentInsetLeft com.example.thienbao.myapplication:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetRight com.example.thienbao.myapplication:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStart com.example.thienbao.myapplication:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_contentInsetStartWithNavigation com.example.thienbao.myapplication:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.black.savemymoneyv3:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
-     * <tr><td><code>{@link #ActionBar_displayOptions com.example.black.savemymoneyv3:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
-     * <tr><td><code>{@link #ActionBar_divider com.example.black.savemymoneyv3:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #ActionBar_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #ActionBar_height com.example.black.savemymoneyv3:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.black.savemymoneyv3:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.black.savemymoneyv3:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #ActionBar_homeLayout com.example.black.savemymoneyv3:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_icon com.example.black.savemymoneyv3:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.black.savemymoneyv3:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
-     * <tr><td><code>{@link #ActionBar_itemPadding com.example.black.savemymoneyv3:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
+     * <tr><td><code>{@link #ActionBar_customNavigationLayout com.example.thienbao.myapplication:customNavigationLayout}</code></td><td>Specifies a layout for custom navigation.</td></tr>
+     * <tr><td><code>{@link #ActionBar_displayOptions com.example.thienbao.myapplication:displayOptions}</code></td><td>Options affecting how the action bar is displayed.</td></tr>
+     * <tr><td><code>{@link #ActionBar_divider com.example.thienbao.myapplication:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #ActionBar_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #ActionBar_height com.example.thienbao.myapplication:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_hideOnContentScroll com.example.thienbao.myapplication:hideOnContentScroll}</code></td><td>Set true to hide the action bar on a vertical nested scroll of content.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeAsUpIndicator com.example.thienbao.myapplication:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #ActionBar_homeLayout com.example.thienbao.myapplication:homeLayout}</code></td><td>Specifies a layout to use for the "home" section of the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_icon com.example.thienbao.myapplication:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_indeterminateProgressStyle com.example.thienbao.myapplication:indeterminateProgressStyle}</code></td><td>Specifies a style resource to use for an indeterminate progress spinner.</td></tr>
+     * <tr><td><code>{@link #ActionBar_itemPadding com.example.thienbao.myapplication:itemPadding}</code></td><td>Specifies padding that should be applied to the left and right sides of
      * system-provided items in the bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_logo com.example.black.savemymoneyv3:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #ActionBar_navigationMode com.example.black.savemymoneyv3:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
-     * <tr><td><code>{@link #ActionBar_popupTheme com.example.black.savemymoneyv3:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #ActionBar_logo com.example.thienbao.myapplication:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #ActionBar_navigationMode com.example.thienbao.myapplication:navigationMode}</code></td><td>The type of navigation to use.</td></tr>
+     * <tr><td><code>{@link #ActionBar_popupTheme com.example.thienbao.myapplication:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.black.savemymoneyv3:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.black.savemymoneyv3:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitle com.example.black.savemymoneyv3:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.black.savemymoneyv3:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionBar_title com.example.black.savemymoneyv3:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.black.savemymoneyv3:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarPadding com.example.thienbao.myapplication:progressBarPadding}</code></td><td>Specifies the horizontal padding on either end for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_progressBarStyle com.example.thienbao.myapplication:progressBarStyle}</code></td><td>Specifies a style resource to use for an embedded progress bar.</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitle com.example.thienbao.myapplication:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #ActionBar_subtitleTextStyle com.example.thienbao.myapplication:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionBar_title com.example.thienbao.myapplication:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionBar_titleTextStyle com.example.thienbao.myapplication:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionBar_background
      * @see #ActionBar_backgroundSplit
@@ -7530,7 +7590,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:background
+     * @attr name com.example.thienbao.myapplication:background
      */
     public static final int ActionBar_background=0;
     /**
@@ -7546,7 +7606,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundSplit
+     * @attr name com.example.thienbao.myapplication:backgroundSplit
      */
     public static final int ActionBar_backgroundSplit=1;
     /**
@@ -7562,7 +7622,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundStacked
+     * @attr name com.example.thienbao.myapplication:backgroundStacked
      */
     public static final int ActionBar_backgroundStacked=2;
     /**
@@ -7577,7 +7637,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetEnd
+     * @attr name com.example.thienbao.myapplication:contentInsetEnd
      */
     public static final int ActionBar_contentInsetEnd=3;
     /**
@@ -7592,7 +7652,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetEndWithActions
+     * @attr name com.example.thienbao.myapplication:contentInsetEndWithActions
      */
     public static final int ActionBar_contentInsetEndWithActions=4;
     /**
@@ -7607,7 +7667,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetLeft
+     * @attr name com.example.thienbao.myapplication:contentInsetLeft
      */
     public static final int ActionBar_contentInsetLeft=5;
     /**
@@ -7622,7 +7682,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetRight
+     * @attr name com.example.thienbao.myapplication:contentInsetRight
      */
     public static final int ActionBar_contentInsetRight=6;
     /**
@@ -7637,7 +7697,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetStart
+     * @attr name com.example.thienbao.myapplication:contentInsetStart
      */
     public static final int ActionBar_contentInsetStart=7;
     /**
@@ -7652,7 +7712,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetStartWithNavigation
+     * @attr name com.example.thienbao.myapplication:contentInsetStartWithNavigation
      */
     public static final int ActionBar_contentInsetStartWithNavigation=8;
     /**
@@ -7665,7 +7725,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:customNavigationLayout
+     * @attr name com.example.thienbao.myapplication:customNavigationLayout
      */
     public static final int ActionBar_customNavigationLayout=9;
     /**
@@ -7688,7 +7748,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:displayOptions
+     * @attr name com.example.thienbao.myapplication:displayOptions
      */
     public static final int ActionBar_displayOptions=10;
     /**
@@ -7701,7 +7761,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:divider
+     * @attr name com.example.thienbao.myapplication:divider
      */
     public static final int ActionBar_divider=11;
     /**
@@ -7715,7 +7775,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int ActionBar_elevation=12;
     /**
@@ -7729,7 +7789,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:height
+     * @attr name com.example.thienbao.myapplication:height
      */
     public static final int ActionBar_height=13;
     /**
@@ -7740,7 +7800,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hideOnContentScroll
+     * @attr name com.example.thienbao.myapplication:hideOnContentScroll
      */
     public static final int ActionBar_hideOnContentScroll=14;
     /**
@@ -7753,7 +7813,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:homeAsUpIndicator
+     * @attr name com.example.thienbao.myapplication:homeAsUpIndicator
      */
     public static final int ActionBar_homeAsUpIndicator=15;
     /**
@@ -7766,7 +7826,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:homeLayout
+     * @attr name com.example.thienbao.myapplication:homeLayout
      */
     public static final int ActionBar_homeLayout=16;
     /**
@@ -7779,7 +7839,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:icon
+     * @attr name com.example.thienbao.myapplication:icon
      */
     public static final int ActionBar_icon=17;
     /**
@@ -7792,7 +7852,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:indeterminateProgressStyle
+     * @attr name com.example.thienbao.myapplication:indeterminateProgressStyle
      */
     public static final int ActionBar_indeterminateProgressStyle=18;
     /**
@@ -7807,7 +7867,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:itemPadding
+     * @attr name com.example.thienbao.myapplication:itemPadding
      */
     public static final int ActionBar_itemPadding=19;
     /**
@@ -7820,7 +7880,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:logo
+     * @attr name com.example.thienbao.myapplication:logo
      */
     public static final int ActionBar_logo=20;
     /**
@@ -7839,7 +7899,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:navigationMode
+     * @attr name com.example.thienbao.myapplication:navigationMode
      */
     public static final int ActionBar_navigationMode=21;
     /**
@@ -7853,7 +7913,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:popupTheme
+     * @attr name com.example.thienbao.myapplication:popupTheme
      */
     public static final int ActionBar_popupTheme=22;
     /**
@@ -7867,7 +7927,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:progressBarPadding
+     * @attr name com.example.thienbao.myapplication:progressBarPadding
      */
     public static final int ActionBar_progressBarPadding=23;
     /**
@@ -7880,7 +7940,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:progressBarStyle
+     * @attr name com.example.thienbao.myapplication:progressBarStyle
      */
     public static final int ActionBar_progressBarStyle=24;
     /**
@@ -7891,7 +7951,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:subtitle
+     * @attr name com.example.thienbao.myapplication:subtitle
      */
     public static final int ActionBar_subtitle=25;
     /**
@@ -7904,7 +7964,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:subtitleTextStyle
+     * @attr name com.example.thienbao.myapplication:subtitleTextStyle
      */
     public static final int ActionBar_subtitleTextStyle=26;
     /**
@@ -7915,7 +7975,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:title
+     * @attr name com.example.thienbao.myapplication:title
      */
     public static final int ActionBar_title=27;
     /**
@@ -7928,7 +7988,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:titleTextStyle
+     * @attr name com.example.thienbao.myapplication:titleTextStyle
      */
     public static final int ActionBar_titleTextStyle=28;
     /**
@@ -8010,12 +8070,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActionMode_background com.example.black.savemymoneyv3:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.black.savemymoneyv3:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
-     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.black.savemymoneyv3:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
-     * <tr><td><code>{@link #ActionMode_height com.example.black.savemymoneyv3:height}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.black.savemymoneyv3:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
-     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.black.savemymoneyv3:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_background com.example.thienbao.myapplication:background}</code></td><td>Specifies a background drawable for the action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_backgroundSplit com.example.thienbao.myapplication:backgroundSplit}</code></td><td>Specifies a background drawable for the bottom component of a split action bar.</td></tr>
+     * <tr><td><code>{@link #ActionMode_closeItemLayout com.example.thienbao.myapplication:closeItemLayout}</code></td><td>Specifies a layout to use for the "close" item at the starting edge.</td></tr>
+     * <tr><td><code>{@link #ActionMode_height com.example.thienbao.myapplication:height}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ActionMode_subtitleTextStyle com.example.thienbao.myapplication:subtitleTextStyle}</code></td><td>Specifies a style to use for subtitle text.</td></tr>
+     * <tr><td><code>{@link #ActionMode_titleTextStyle com.example.thienbao.myapplication:titleTextStyle}</code></td><td>Specifies a style to use for title text.</td></tr>
      * </table>
      * @see #ActionMode_background
      * @see #ActionMode_backgroundSplit
@@ -8038,7 +8098,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:background
+     * @attr name com.example.thienbao.myapplication:background
      */
     public static final int ActionMode_background=0;
     /**
@@ -8054,7 +8114,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundSplit
+     * @attr name com.example.thienbao.myapplication:backgroundSplit
      */
     public static final int ActionMode_backgroundSplit=1;
     /**
@@ -8067,7 +8127,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeItemLayout
+     * @attr name com.example.thienbao.myapplication:closeItemLayout
      */
     public static final int ActionMode_closeItemLayout=2;
     /**
@@ -8081,7 +8141,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:height
+     * @attr name com.example.thienbao.myapplication:height
      */
     public static final int ActionMode_height=3;
     /**
@@ -8094,7 +8154,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:subtitleTextStyle
+     * @attr name com.example.thienbao.myapplication:subtitleTextStyle
      */
     public static final int ActionMode_subtitleTextStyle=4;
     /**
@@ -8107,7 +8167,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:titleTextStyle
+     * @attr name com.example.thienbao.myapplication:titleTextStyle
      */
     public static final int ActionMode_titleTextStyle=5;
     /**
@@ -8117,8 +8177,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.black.savemymoneyv3:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
-     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.black.savemymoneyv3:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_expandActivityOverflowButtonDrawable com.example.thienbao.myapplication:expandActivityOverflowButtonDrawable}</code></td><td>The drawable to show in the button for expanding the activities overflow popup.</td></tr>
+     * <tr><td><code>{@link #ActivityChooserView_initialActivityCount com.example.thienbao.myapplication:initialActivityCount}</code></td><td>The maximal number of items initially shown in the activity list.</td></tr>
      * </table>
      * @see #ActivityChooserView_expandActivityOverflowButtonDrawable
      * @see #ActivityChooserView_initialActivityCount
@@ -8140,7 +8200,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:expandActivityOverflowButtonDrawable
+     * @attr name com.example.thienbao.myapplication:expandActivityOverflowButtonDrawable
      */
     public static final int ActivityChooserView_expandActivityOverflowButtonDrawable=0;
     /**
@@ -8151,7 +8211,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:initialActivityCount
+     * @attr name com.example.thienbao.myapplication:initialActivityCount
      */
     public static final int ActivityChooserView_initialActivityCount=1;
     /**
@@ -8162,13 +8222,13 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AlertDialog_android_layout android:layout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.example.black.savemymoneyv3:buttonIconDimen}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.black.savemymoneyv3:buttonPanelSideLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.black.savemymoneyv3:listItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_listLayout com.example.black.savemymoneyv3:listLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.black.savemymoneyv3:multiChoiceItemLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_showTitle com.example.black.savemymoneyv3:showTitle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.black.savemymoneyv3:singleChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonIconDimen com.example.thienbao.myapplication:buttonIconDimen}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_buttonPanelSideLayout com.example.thienbao.myapplication:buttonPanelSideLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listItemLayout com.example.thienbao.myapplication:listItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_listLayout com.example.thienbao.myapplication:listLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_multiChoiceItemLayout com.example.thienbao.myapplication:multiChoiceItemLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_showTitle com.example.thienbao.myapplication:showTitle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AlertDialog_singleChoiceItemLayout com.example.thienbao.myapplication:singleChoiceItemLayout}</code></td><td></td></tr>
      * </table>
      * @see #AlertDialog_android_layout
      * @see #AlertDialog_buttonIconDimen
@@ -8196,7 +8256,7 @@ public final class R {
      */
     public static final int AlertDialog_android_layout=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#buttonIconDimen}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#buttonIconDimen}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -8205,11 +8265,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:buttonIconDimen
+     * @attr name com.example.thienbao.myapplication:buttonIconDimen
      */
     public static final int AlertDialog_buttonIconDimen=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#buttonPanelSideLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#buttonPanelSideLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8217,11 +8277,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonPanelSideLayout
+     * @attr name com.example.thienbao.myapplication:buttonPanelSideLayout
      */
     public static final int AlertDialog_buttonPanelSideLayout=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#listItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#listItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8229,11 +8289,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listItemLayout
+     * @attr name com.example.thienbao.myapplication:listItemLayout
      */
     public static final int AlertDialog_listItemLayout=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#listLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#listLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8241,11 +8301,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listLayout
+     * @attr name com.example.thienbao.myapplication:listLayout
      */
     public static final int AlertDialog_listLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#multiChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#multiChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8253,21 +8313,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:multiChoiceItemLayout
+     * @attr name com.example.thienbao.myapplication:multiChoiceItemLayout
      */
     public static final int AlertDialog_multiChoiceItemLayout=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#showTitle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#showTitle}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:showTitle
+     * @attr name com.example.thienbao.myapplication:showTitle
      */
     public static final int AlertDialog_showTitle=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#singleChoiceItemLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#singleChoiceItemLayout}
      * attribute's value can be found in the {@link #AlertDialog} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8275,7 +8335,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:singleChoiceItemLayout
+     * @attr name com.example.thienbao.myapplication:singleChoiceItemLayout
      */
     public static final int AlertDialog_singleChoiceItemLayout=7;
     /**
@@ -8501,9 +8561,9 @@ public final class R {
      * <tr><td><code>{@link #AppBarLayout_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_touchscreenBlocksFocus android:touchscreenBlocksFocus}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppBarLayout_android_keyboardNavigationCluster android:keyboardNavigationCluster}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #AppBarLayout_expanded com.example.black.savemymoneyv3:expanded}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.example.black.savemymoneyv3:liftOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #AppBarLayout_expanded com.example.thienbao.myapplication:expanded}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_liftOnScroll com.example.thienbao.myapplication:liftOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_android_background
      * @see #AppBarLayout_android_touchscreenBlocksFocus
@@ -8562,27 +8622,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int AppBarLayout_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expanded}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expanded}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:expanded
+     * @attr name com.example.thienbao.myapplication:expanded
      */
     public static final int AppBarLayout_expanded=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#liftOnScroll}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#liftOnScroll}
      * attribute's value can be found in the {@link #AppBarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:liftOnScroll
+     * @attr name com.example.thienbao.myapplication:liftOnScroll
      */
     public static final int AppBarLayout_liftOnScroll=5;
     /**
@@ -8592,10 +8652,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.example.black.savemymoneyv3:state_collapsed}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.example.black.savemymoneyv3:state_collapsible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.example.black.savemymoneyv3:state_liftable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.example.black.savemymoneyv3:state_lifted}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsed com.example.thienbao.myapplication:state_collapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_collapsible com.example.thienbao.myapplication:state_collapsible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_liftable com.example.thienbao.myapplication:state_liftable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayoutStates_state_lifted com.example.thienbao.myapplication:state_lifted}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayoutStates_state_collapsed
      * @see #AppBarLayoutStates_state_collapsible
@@ -8606,43 +8666,43 @@ public final class R {
       0x7f0401f0, 0x7f0401f1, 0x7f0401f2, 0x7f0401f3
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#state_collapsed}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#state_collapsed}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:state_collapsed
+     * @attr name com.example.thienbao.myapplication:state_collapsed
      */
     public static final int AppBarLayoutStates_state_collapsed=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#state_collapsible}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#state_collapsible}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:state_collapsible
+     * @attr name com.example.thienbao.myapplication:state_collapsible
      */
     public static final int AppBarLayoutStates_state_collapsible=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#state_liftable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#state_liftable}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:state_liftable
+     * @attr name com.example.thienbao.myapplication:state_liftable
      */
     public static final int AppBarLayoutStates_state_liftable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#state_lifted}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#state_lifted}
      * attribute's value can be found in the {@link #AppBarLayoutStates} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:state_lifted
+     * @attr name com.example.thienbao.myapplication:state_lifted
      */
     public static final int AppBarLayoutStates_state_lifted=3;
     /**
@@ -8652,8 +8712,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.example.black.savemymoneyv3:layout_scrollFlags}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.example.black.savemymoneyv3:layout_scrollInterpolator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollFlags com.example.thienbao.myapplication:layout_scrollFlags}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppBarLayout_Layout_layout_scrollInterpolator com.example.thienbao.myapplication:layout_scrollInterpolator}</code></td><td></td></tr>
      * </table>
      * @see #AppBarLayout_Layout_layout_scrollFlags
      * @see #AppBarLayout_Layout_layout_scrollInterpolator
@@ -8662,7 +8722,7 @@ public final class R {
       0x7f040182, 0x7f040183
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_scrollFlags}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_scrollFlags}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -8679,11 +8739,11 @@ public final class R {
      * <tr><td>snapMargins</td><td>20</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_scrollFlags
+     * @attr name com.example.thienbao.myapplication:layout_scrollFlags
      */
     public static final int AppBarLayout_Layout_layout_scrollFlags=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_scrollInterpolator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_scrollInterpolator}
      * attribute's value can be found in the {@link #AppBarLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -8691,7 +8751,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_scrollInterpolator
+     * @attr name com.example.thienbao.myapplication:layout_scrollInterpolator
      */
     public static final int AppBarLayout_Layout_layout_scrollInterpolator=1;
     /**
@@ -8702,9 +8762,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatImageView_android_src android:src}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.black.savemymoneyv3:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tint com.example.black.savemymoneyv3:tint}</code></td><td>Tint to apply to the image source.</td></tr>
-     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.black.savemymoneyv3:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_srcCompat com.example.thienbao.myapplication:srcCompat}</code></td><td>Sets a drawable as the content of this ImageView.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tint com.example.thienbao.myapplication:tint}</code></td><td>Tint to apply to the image source.</td></tr>
+     * <tr><td><code>{@link #AppCompatImageView_tintMode com.example.thienbao.myapplication:tintMode}</code></td><td>Blending mode used to apply the image source tint.</td></tr>
      * </table>
      * @see #AppCompatImageView_android_src
      * @see #AppCompatImageView_srcCompat
@@ -8740,7 +8800,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:srcCompat
+     * @attr name com.example.thienbao.myapplication:srcCompat
      */
     public static final int AppCompatImageView_srcCompat=1;
     /**
@@ -8752,7 +8812,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tint
+     * @attr name com.example.thienbao.myapplication:tint
      */
     public static final int AppCompatImageView_tint=2;
     /**
@@ -8779,7 +8839,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tintMode
+     * @attr name com.example.thienbao.myapplication:tintMode
      */
     public static final int AppCompatImageView_tintMode=3;
     /**
@@ -8790,9 +8850,9 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatSeekBar_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.black.savemymoneyv3:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.black.savemymoneyv3:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.black.savemymoneyv3:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMark com.example.thienbao.myapplication:tickMark}</code></td><td>Drawable displayed at each progress position on a seekbar.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTint com.example.thienbao.myapplication:tickMarkTint}</code></td><td>Tint to apply to the tick mark drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatSeekBar_tickMarkTintMode com.example.thienbao.myapplication:tickMarkTintMode}</code></td><td>Blending mode used to apply the tick mark tint.</td></tr>
      * </table>
      * @see #AppCompatSeekBar_android_thumb
      * @see #AppCompatSeekBar_tickMark
@@ -8824,7 +8884,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tickMark
+     * @attr name com.example.thienbao.myapplication:tickMark
      */
     public static final int AppCompatSeekBar_tickMark=1;
     /**
@@ -8836,7 +8896,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tickMarkTint
+     * @attr name com.example.thienbao.myapplication:tickMarkTint
      */
     public static final int AppCompatSeekBar_tickMarkTint=2;
     /**
@@ -8863,7 +8923,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tickMarkTintMode
+     * @attr name com.example.thienbao.myapplication:tickMarkTintMode
      */
     public static final int AppCompatSeekBar_tickMarkTintMode=3;
     /**
@@ -9003,18 +9063,18 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTextView_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.black.savemymoneyv3:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.black.savemymoneyv3:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.black.savemymoneyv3:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMaxTextSize com.example.thienbao.myapplication:autoSizeMaxTextSize}</code></td><td>The maximum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeMinTextSize com.example.thienbao.myapplication:autoSizeMinTextSize}</code></td><td>The minimum text size constraint to be used when auto-sizing text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizePresetSizes com.example.thienbao.myapplication:autoSizePresetSizes}</code></td><td>Resource array of dimensions to be used in conjunction with
      * <code>autoSizeTextType</code> set to <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.black.savemymoneyv3:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeStepGranularity com.example.thienbao.myapplication:autoSizeStepGranularity}</code></td><td>Specify the auto-size step size if <code>autoSizeTextType</code> is set to
      * <code>uniform</code>.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.black.savemymoneyv3:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.example.black.savemymoneyv3:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.black.savemymoneyv3:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.example.black.savemymoneyv3:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.example.black.savemymoneyv3:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
-     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.black.savemymoneyv3:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_autoSizeTextType com.example.thienbao.myapplication:autoSizeTextType}</code></td><td>Specify the type of auto-size.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_firstBaselineToTopHeight com.example.thienbao.myapplication:firstBaselineToTopHeight}</code></td><td>Distance from the top of the TextView to the first text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_fontFamily com.example.thienbao.myapplication:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lastBaselineToBottomHeight com.example.thienbao.myapplication:lastBaselineToBottomHeight}</code></td><td>Distance from the bottom of the TextView to the last text baseline.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_lineHeight com.example.thienbao.myapplication:lineHeight}</code></td><td>Explicit height between lines of text.</td></tr>
+     * <tr><td><code>{@link #AppCompatTextView_textAllCaps com.example.thienbao.myapplication:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #AppCompatTextView_android_textAppearance
      * @see #AppCompatTextView_autoSizeMaxTextSize
@@ -9056,7 +9116,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:autoSizeMaxTextSize
+     * @attr name com.example.thienbao.myapplication:autoSizeMaxTextSize
      */
     public static final int AppCompatTextView_autoSizeMaxTextSize=1;
     /**
@@ -9070,7 +9130,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:autoSizeMinTextSize
+     * @attr name com.example.thienbao.myapplication:autoSizeMinTextSize
      */
     public static final int AppCompatTextView_autoSizeMinTextSize=2;
     /**
@@ -9085,7 +9145,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoSizePresetSizes
+     * @attr name com.example.thienbao.myapplication:autoSizePresetSizes
      */
     public static final int AppCompatTextView_autoSizePresetSizes=3;
     /**
@@ -9101,7 +9161,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:autoSizeStepGranularity
+     * @attr name com.example.thienbao.myapplication:autoSizeStepGranularity
      */
     public static final int AppCompatTextView_autoSizeStepGranularity=4;
     /**
@@ -9121,7 +9181,7 @@ public final class R {
      * container.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:autoSizeTextType
+     * @attr name com.example.thienbao.myapplication:autoSizeTextType
      */
     public static final int AppCompatTextView_autoSizeTextType=5;
     /**
@@ -9136,7 +9196,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:firstBaselineToTopHeight
+     * @attr name com.example.thienbao.myapplication:firstBaselineToTopHeight
      */
     public static final int AppCompatTextView_firstBaselineToTopHeight=6;
     /**
@@ -9147,7 +9207,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontFamily
+     * @attr name com.example.thienbao.myapplication:fontFamily
      */
     public static final int AppCompatTextView_fontFamily=7;
     /**
@@ -9162,7 +9222,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:lastBaselineToBottomHeight
+     * @attr name com.example.thienbao.myapplication:lastBaselineToBottomHeight
      */
     public static final int AppCompatTextView_lastBaselineToBottomHeight=8;
     /**
@@ -9177,7 +9237,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:lineHeight
+     * @attr name com.example.thienbao.myapplication:lineHeight
      */
     public static final int AppCompatTextView_lineHeight=9;
     /**
@@ -9192,7 +9252,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAllCaps
+     * @attr name com.example.thienbao.myapplication:textAllCaps
      */
     public static final int AppCompatTextView_textAllCaps=10;
     /**
@@ -9204,142 +9264,142 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowIsFloating android:windowIsFloating}</code></td><td></td></tr>
      * <tr><td><code>{@link #AppCompatTheme_android_windowAnimationStyle android:windowAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.black.savemymoneyv3:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.black.savemymoneyv3:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.black.savemymoneyv3:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #AppCompatTheme_actionBarDivider com.example.thienbao.myapplication:actionBarDivider}</code></td><td>Custom divider drawable to use for elements in the action bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarItemBackground com.example.thienbao.myapplication:actionBarItemBackground}</code></td><td>Custom item state list drawable background for action bar items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarPopupTheme com.example.thienbao.myapplication:actionBarPopupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.black.savemymoneyv3:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSize com.example.thienbao.myapplication:actionBarSize}</code></td><td>Size of the Action Bar, including the contextual
      * bar used to present Action Modes.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.black.savemymoneyv3:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.black.savemymoneyv3:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.black.savemymoneyv3:actionBarTabBarStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.black.savemymoneyv3:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.black.savemymoneyv3:actionBarTabTextStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.black.savemymoneyv3:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
+     * <tr><td><code>{@link #AppCompatTheme_actionBarSplitStyle com.example.thienbao.myapplication:actionBarSplitStyle}</code></td><td>Reference to a style for the split Action Bar.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarStyle com.example.thienbao.myapplication:actionBarStyle}</code></td><td>Reference to a style for the Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabBarStyle com.example.thienbao.myapplication:actionBarTabBarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabStyle com.example.thienbao.myapplication:actionBarTabStyle}</code></td><td>Default style for tabs within an action bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTabTextStyle com.example.thienbao.myapplication:actionBarTabTextStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionBarTheme com.example.thienbao.myapplication:actionBarTheme}</code></td><td>Reference to a theme that should be used to inflate the
      * action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.black.savemymoneyv3:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
+     * <tr><td><code>{@link #AppCompatTheme_actionBarWidgetTheme com.example.thienbao.myapplication:actionBarWidgetTheme}</code></td><td>Reference to a theme that should be used to inflate widgets
      * and layouts destined for the action bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.black.savemymoneyv3:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.black.savemymoneyv3:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.black.savemymoneyv3:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
+     * <tr><td><code>{@link #AppCompatTheme_actionButtonStyle com.example.thienbao.myapplication:actionButtonStyle}</code></td><td>Default action button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionDropDownStyle com.example.thienbao.myapplication:actionDropDownStyle}</code></td><td>Default ActionBar dropdown style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextAppearance com.example.thienbao.myapplication:actionMenuTextAppearance}</code></td><td>TextAppearance style that will be applied to text that
      * appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.black.savemymoneyv3:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.black.savemymoneyv3:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.black.savemymoneyv3:actionModeCloseButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.black.savemymoneyv3:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.black.savemymoneyv3:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.black.savemymoneyv3:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.black.savemymoneyv3:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.black.savemymoneyv3:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.black.savemymoneyv3:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.black.savemymoneyv3:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.black.savemymoneyv3:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.black.savemymoneyv3:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.black.savemymoneyv3:actionModeStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.black.savemymoneyv3:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.black.savemymoneyv3:actionOverflowButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.black.savemymoneyv3:actionOverflowMenuStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.black.savemymoneyv3:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.black.savemymoneyv3:alertDialogButtonGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.black.savemymoneyv3:alertDialogCenterButtons}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.black.savemymoneyv3:alertDialogStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.black.savemymoneyv3:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.black.savemymoneyv3:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.black.savemymoneyv3:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.black.savemymoneyv3:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.black.savemymoneyv3:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.black.savemymoneyv3:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.black.savemymoneyv3:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.black.savemymoneyv3:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.black.savemymoneyv3:buttonStyle}</code></td><td>Normal Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.black.savemymoneyv3:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.black.savemymoneyv3:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.black.savemymoneyv3:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.black.savemymoneyv3:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.black.savemymoneyv3:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.black.savemymoneyv3:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.black.savemymoneyv3:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.black.savemymoneyv3:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.black.savemymoneyv3:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.black.savemymoneyv3:colorError}</code></td><td>Color used for error states and things that need to be drawn to
+     * <tr><td><code>{@link #AppCompatTheme_actionMenuTextColor com.example.thienbao.myapplication:actionMenuTextColor}</code></td><td>Color for text that appears within action menu items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeBackground com.example.thienbao.myapplication:actionModeBackground}</code></td><td>Background drawable to use for action mode UI</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseButtonStyle com.example.thienbao.myapplication:actionModeCloseButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCloseDrawable com.example.thienbao.myapplication:actionModeCloseDrawable}</code></td><td>Drawable to use for the close action mode button</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCopyDrawable com.example.thienbao.myapplication:actionModeCopyDrawable}</code></td><td>Drawable to use for the Copy action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeCutDrawable com.example.thienbao.myapplication:actionModeCutDrawable}</code></td><td>Drawable to use for the Cut action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeFindDrawable com.example.thienbao.myapplication:actionModeFindDrawable}</code></td><td>Drawable to use for the Find action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePasteDrawable com.example.thienbao.myapplication:actionModePasteDrawable}</code></td><td>Drawable to use for the Paste action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModePopupWindowStyle com.example.thienbao.myapplication:actionModePopupWindowStyle}</code></td><td>PopupWindow style to use for action modes when showing as a window overlay.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSelectAllDrawable com.example.thienbao.myapplication:actionModeSelectAllDrawable}</code></td><td>Drawable to use for the Select all action button in Contextual Action Bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeShareDrawable com.example.thienbao.myapplication:actionModeShareDrawable}</code></td><td>Drawable to use for the Share action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeSplitBackground com.example.thienbao.myapplication:actionModeSplitBackground}</code></td><td>Background drawable to use for action mode UI in the lower split bar</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeStyle com.example.thienbao.myapplication:actionModeStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionModeWebSearchDrawable com.example.thienbao.myapplication:actionModeWebSearchDrawable}</code></td><td>Drawable to use for the Web Search action button in WebView selection action modes</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowButtonStyle com.example.thienbao.myapplication:actionOverflowButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_actionOverflowMenuStyle com.example.thienbao.myapplication:actionOverflowMenuStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_activityChooserViewStyle com.example.thienbao.myapplication:activityChooserViewStyle}</code></td><td>Default ActivityChooserView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogButtonGroupStyle com.example.thienbao.myapplication:alertDialogButtonGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogCenterButtons com.example.thienbao.myapplication:alertDialogCenterButtons}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogStyle com.example.thienbao.myapplication:alertDialogStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_alertDialogTheme com.example.thienbao.myapplication:alertDialogTheme}</code></td><td>Theme to use for alert dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_autoCompleteTextViewStyle com.example.thienbao.myapplication:autoCompleteTextViewStyle}</code></td><td>Default AutoCompleteTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_borderlessButtonStyle com.example.thienbao.myapplication:borderlessButtonStyle}</code></td><td>Style for buttons without an explicit border, often used in groups.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarButtonStyle com.example.thienbao.myapplication:buttonBarButtonStyle}</code></td><td>Style for buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNegativeButtonStyle com.example.thienbao.myapplication:buttonBarNegativeButtonStyle}</code></td><td>Style for the "negative" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarNeutralButtonStyle com.example.thienbao.myapplication:buttonBarNeutralButtonStyle}</code></td><td>Style for the "neutral" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarPositiveButtonStyle com.example.thienbao.myapplication:buttonBarPositiveButtonStyle}</code></td><td>Style for the "positive" buttons within button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonBarStyle com.example.thienbao.myapplication:buttonBarStyle}</code></td><td>Style for button bars</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyle com.example.thienbao.myapplication:buttonStyle}</code></td><td>Normal Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_buttonStyleSmall com.example.thienbao.myapplication:buttonStyleSmall}</code></td><td>Small Button style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkboxStyle com.example.thienbao.myapplication:checkboxStyle}</code></td><td>Default Checkbox style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_checkedTextViewStyle com.example.thienbao.myapplication:checkedTextViewStyle}</code></td><td>Default CheckedTextView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorAccent com.example.thienbao.myapplication:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorBackgroundFloating com.example.thienbao.myapplication:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorButtonNormal com.example.thienbao.myapplication:colorButtonNormal}</code></td><td>The color applied to framework buttons in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlActivated com.example.thienbao.myapplication:colorControlActivated}</code></td><td>The color applied to framework controls in their activated (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlHighlight com.example.thienbao.myapplication:colorControlHighlight}</code></td><td>The color applied to framework control highlights (ex.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorControlNormal com.example.thienbao.myapplication:colorControlNormal}</code></td><td>The color applied to framework controls in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorError com.example.thienbao.myapplication:colorError}</code></td><td>Color used for error states and things that need to be drawn to
      * the user's attention.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.black.savemymoneyv3:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.black.savemymoneyv3:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.black.savemymoneyv3:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.black.savemymoneyv3:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.example.black.savemymoneyv3:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.black.savemymoneyv3:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.black.savemymoneyv3:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.black.savemymoneyv3:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.black.savemymoneyv3:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.black.savemymoneyv3:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.black.savemymoneyv3:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.black.savemymoneyv3:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.black.savemymoneyv3:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.black.savemymoneyv3:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.black.savemymoneyv3:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.black.savemymoneyv3:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.black.savemymoneyv3:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.black.savemymoneyv3:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.black.savemymoneyv3:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.black.savemymoneyv3:listPopupWindowStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.black.savemymoneyv3:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.black.savemymoneyv3:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.black.savemymoneyv3:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.black.savemymoneyv3:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.black.savemymoneyv3:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.black.savemymoneyv3:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.black.savemymoneyv3:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.black.savemymoneyv3:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.black.savemymoneyv3:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.black.savemymoneyv3:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.black.savemymoneyv3:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.black.savemymoneyv3:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.black.savemymoneyv3:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.black.savemymoneyv3:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.black.savemymoneyv3:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.black.savemymoneyv3:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.black.savemymoneyv3:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimary com.example.thienbao.myapplication:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorPrimaryDark com.example.thienbao.myapplication:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_colorSwitchThumbNormal com.example.thienbao.myapplication:colorSwitchThumbNormal}</code></td><td>The color applied to framework switch thumbs in their normal state.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_controlBackground com.example.thienbao.myapplication:controlBackground}</code></td><td>The background used by framework controls.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogCornerRadius com.example.thienbao.myapplication:dialogCornerRadius}</code></td><td>Preferred corner radius of dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogPreferredPadding com.example.thienbao.myapplication:dialogPreferredPadding}</code></td><td>Preferred padding for dialog content.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dialogTheme com.example.thienbao.myapplication:dialogTheme}</code></td><td>Theme to use for dialogs spawned from this theme.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerHorizontal com.example.thienbao.myapplication:dividerHorizontal}</code></td><td>A drawable that may be used as a horizontal divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dividerVertical com.example.thienbao.myapplication:dividerVertical}</code></td><td>A drawable that may be used as a vertical divider between visual elements.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropDownListViewStyle com.example.thienbao.myapplication:dropDownListViewStyle}</code></td><td>ListPopupWindow compatibility</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_dropdownListPreferredItemHeight com.example.thienbao.myapplication:dropdownListPreferredItemHeight}</code></td><td>The preferred item height for dropdown lists.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextBackground com.example.thienbao.myapplication:editTextBackground}</code></td><td>EditText background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextColor com.example.thienbao.myapplication:editTextColor}</code></td><td>EditText text foreground color.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_editTextStyle com.example.thienbao.myapplication:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_homeAsUpIndicator com.example.thienbao.myapplication:homeAsUpIndicator}</code></td><td>Specifies a drawable to use for the 'home as up' indicator.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_imageButtonStyle com.example.thienbao.myapplication:imageButtonStyle}</code></td><td>ImageButton background drawable.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listChoiceBackgroundIndicator com.example.thienbao.myapplication:listChoiceBackgroundIndicator}</code></td><td>Drawable used as a background for selected list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listDividerAlertDialog com.example.thienbao.myapplication:listDividerAlertDialog}</code></td><td>The list divider used in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listMenuViewStyle com.example.thienbao.myapplication:listMenuViewStyle}</code></td><td>Default menu-style ListView style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPopupWindowStyle com.example.thienbao.myapplication:listPopupWindowStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeight com.example.thienbao.myapplication:listPreferredItemHeight}</code></td><td>The preferred list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightLarge com.example.thienbao.myapplication:listPreferredItemHeightLarge}</code></td><td>A larger, more robust list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemHeightSmall com.example.thienbao.myapplication:listPreferredItemHeightSmall}</code></td><td>A smaller, sleeker list item height.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingLeft com.example.thienbao.myapplication:listPreferredItemPaddingLeft}</code></td><td>The preferred padding along the left edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_listPreferredItemPaddingRight com.example.thienbao.myapplication:listPreferredItemPaddingRight}</code></td><td>The preferred padding along the right edge of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelBackground com.example.thienbao.myapplication:panelBackground}</code></td><td>The background of a panel when it is inset from the left and right edges of the screen.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListTheme com.example.thienbao.myapplication:panelMenuListTheme}</code></td><td>Default Panel Menu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_panelMenuListWidth com.example.thienbao.myapplication:panelMenuListWidth}</code></td><td>Default Panel Menu width.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupMenuStyle com.example.thienbao.myapplication:popupMenuStyle}</code></td><td>Default PopupMenu style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_popupWindowStyle com.example.thienbao.myapplication:popupWindowStyle}</code></td><td>Default PopupWindow style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_radioButtonStyle com.example.thienbao.myapplication:radioButtonStyle}</code></td><td>Default RadioButton style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyle com.example.thienbao.myapplication:ratingBarStyle}</code></td><td>Default RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleIndicator com.example.thienbao.myapplication:ratingBarStyleIndicator}</code></td><td>Indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_ratingBarStyleSmall com.example.thienbao.myapplication:ratingBarStyleSmall}</code></td><td>Small indicator RatingBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_searchViewStyle com.example.thienbao.myapplication:searchViewStyle}</code></td><td>Style for the search query widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_seekBarStyle com.example.thienbao.myapplication:seekBarStyle}</code></td><td>Default SeekBar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackground com.example.thienbao.myapplication:selectableItemBackground}</code></td><td>A style that may be applied to buttons or other selectable items
      * that should react to pressed and focus states, but that do not
      * have a clear visual border along the edges.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.black.savemymoneyv3:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.black.savemymoneyv3:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.black.savemymoneyv3:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.black.savemymoneyv3:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.black.savemymoneyv3:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.black.savemymoneyv3:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.black.savemymoneyv3:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.black.savemymoneyv3:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.black.savemymoneyv3:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.black.savemymoneyv3:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.black.savemymoneyv3:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.black.savemymoneyv3:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.black.savemymoneyv3:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.black.savemymoneyv3:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.black.savemymoneyv3:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.black.savemymoneyv3:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.black.savemymoneyv3:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.black.savemymoneyv3:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.example.black.savemymoneyv3:viewInflaterClass}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.black.savemymoneyv3:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
+     * <tr><td><code>{@link #AppCompatTheme_selectableItemBackgroundBorderless com.example.thienbao.myapplication:selectableItemBackgroundBorderless}</code></td><td>Background drawable for borderless standalone items that need focus/pressed states.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerDropDownItemStyle com.example.thienbao.myapplication:spinnerDropDownItemStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_spinnerStyle com.example.thienbao.myapplication:spinnerStyle}</code></td><td>Default Spinner style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_switchStyle com.example.thienbao.myapplication:switchStyle}</code></td><td>Default style for the Switch widget.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceLargePopupMenu com.example.thienbao.myapplication:textAppearanceLargePopupMenu}</code></td><td>Text color, typeface, size, and style for the text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItem com.example.thienbao.myapplication:textAppearanceListItem}</code></td><td>The preferred TextAppearance for the primary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSecondary com.example.thienbao.myapplication:textAppearanceListItemSecondary}</code></td><td>The preferred TextAppearance for the secondary text of list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceListItemSmall com.example.thienbao.myapplication:textAppearanceListItemSmall}</code></td><td>The preferred TextAppearance for the primary text of small list items.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearancePopupMenuHeader com.example.thienbao.myapplication:textAppearancePopupMenuHeader}</code></td><td>Text color, typeface, size, and style for header text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultSubtitle com.example.thienbao.myapplication:textAppearanceSearchResultSubtitle}</code></td><td>Text color, typeface, size, and style for system search result subtitle.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSearchResultTitle com.example.thienbao.myapplication:textAppearanceSearchResultTitle}</code></td><td>Text color, typeface, size, and style for system search result title.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textAppearanceSmallPopupMenu com.example.thienbao.myapplication:textAppearanceSmallPopupMenu}</code></td><td>Text color, typeface, size, and style for small text inside of a popup menu.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorAlertDialogListItem com.example.thienbao.myapplication:textColorAlertDialogListItem}</code></td><td>Color of list item text in alert dialogs.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_textColorSearchUrl com.example.thienbao.myapplication:textColorSearchUrl}</code></td><td>Text color for urls in search suggestions, used by things like global search</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarNavigationButtonStyle com.example.thienbao.myapplication:toolbarNavigationButtonStyle}</code></td><td>Default Toolar NavigationButtonStyle</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_toolbarStyle com.example.thienbao.myapplication:toolbarStyle}</code></td><td>Default Toolbar style.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipForegroundColor com.example.thienbao.myapplication:tooltipForegroundColor}</code></td><td>Foreground color to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_tooltipFrameBackground com.example.thienbao.myapplication:tooltipFrameBackground}</code></td><td>Background to use for tooltips</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_viewInflaterClass com.example.thienbao.myapplication:viewInflaterClass}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBar com.example.thienbao.myapplication:windowActionBar}</code></td><td>Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.black.savemymoneyv3:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
+     * <tr><td><code>{@link #AppCompatTheme_windowActionBarOverlay com.example.thienbao.myapplication:windowActionBarOverlay}</code></td><td>Flag indicating whether this window's Action Bar should overlay
      * application content.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.black.savemymoneyv3:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
+     * <tr><td><code>{@link #AppCompatTheme_windowActionModeOverlay com.example.thienbao.myapplication:windowActionModeOverlay}</code></td><td>Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.black.savemymoneyv3:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMajor com.example.thienbao.myapplication:windowFixedHeightMajor}</code></td><td>A fixed height for the window along the major axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.black.savemymoneyv3:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedHeightMinor com.example.thienbao.myapplication:windowFixedHeightMinor}</code></td><td>A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.black.savemymoneyv3:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMajor com.example.thienbao.myapplication:windowFixedWidthMajor}</code></td><td>A fixed width for the window along the major axis of the screen,
      * that is, when in landscape.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.black.savemymoneyv3:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
+     * <tr><td><code>{@link #AppCompatTheme_windowFixedWidthMinor com.example.thienbao.myapplication:windowFixedWidthMinor}</code></td><td>A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.black.savemymoneyv3:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMajor com.example.thienbao.myapplication:windowMinWidthMajor}</code></td><td>The minimum width the window is allowed to be, along the major
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.black.savemymoneyv3:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
+     * <tr><td><code>{@link #AppCompatTheme_windowMinWidthMinor com.example.thienbao.myapplication:windowMinWidthMinor}</code></td><td>The minimum width the window is allowed to be, along the minor
      * axis of the screen.</td></tr>
-     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.black.savemymoneyv3:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
+     * <tr><td><code>{@link #AppCompatTheme_windowNoTitle com.example.thienbao.myapplication:windowNoTitle}</code></td><td>Flag indicating whether there should be no title on this window.</td></tr>
      * </table>
      * @see #AppCompatTheme_android_windowIsFloating
      * @see #AppCompatTheme_android_windowAnimationStyle
@@ -9528,7 +9588,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarDivider
+     * @attr name com.example.thienbao.myapplication:actionBarDivider
      */
     public static final int AppCompatTheme_actionBarDivider=2;
     /**
@@ -9541,7 +9601,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarItemBackground
+     * @attr name com.example.thienbao.myapplication:actionBarItemBackground
      */
     public static final int AppCompatTheme_actionBarItemBackground=3;
     /**
@@ -9555,7 +9615,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarPopupTheme
+     * @attr name com.example.thienbao.myapplication:actionBarPopupTheme
      */
     public static final int AppCompatTheme_actionBarPopupTheme=4;
     /**
@@ -9578,7 +9638,7 @@ public final class R {
      * <tr><td>wrap_content</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarSize
+     * @attr name com.example.thienbao.myapplication:actionBarSize
      */
     public static final int AppCompatTheme_actionBarSize=5;
     /**
@@ -9594,7 +9654,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarSplitStyle
+     * @attr name com.example.thienbao.myapplication:actionBarSplitStyle
      */
     public static final int AppCompatTheme_actionBarSplitStyle=6;
     /**
@@ -9607,11 +9667,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarStyle
+     * @attr name com.example.thienbao.myapplication:actionBarStyle
      */
     public static final int AppCompatTheme_actionBarStyle=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionBarTabBarStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionBarTabBarStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9619,7 +9679,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarTabBarStyle
+     * @attr name com.example.thienbao.myapplication:actionBarTabBarStyle
      */
     public static final int AppCompatTheme_actionBarTabBarStyle=8;
     /**
@@ -9632,11 +9692,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarTabStyle
+     * @attr name com.example.thienbao.myapplication:actionBarTabStyle
      */
     public static final int AppCompatTheme_actionBarTabStyle=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionBarTabTextStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionBarTabTextStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9644,7 +9704,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarTabTextStyle
+     * @attr name com.example.thienbao.myapplication:actionBarTabTextStyle
      */
     public static final int AppCompatTheme_actionBarTabTextStyle=10;
     /**
@@ -9659,7 +9719,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarTheme
+     * @attr name com.example.thienbao.myapplication:actionBarTheme
      */
     public static final int AppCompatTheme_actionBarTheme=11;
     /**
@@ -9678,7 +9738,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionBarWidgetTheme
+     * @attr name com.example.thienbao.myapplication:actionBarWidgetTheme
      */
     public static final int AppCompatTheme_actionBarWidgetTheme=12;
     /**
@@ -9691,7 +9751,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionButtonStyle
+     * @attr name com.example.thienbao.myapplication:actionButtonStyle
      */
     public static final int AppCompatTheme_actionButtonStyle=13;
     /**
@@ -9704,7 +9764,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionDropDownStyle
+     * @attr name com.example.thienbao.myapplication:actionDropDownStyle
      */
     public static final int AppCompatTheme_actionDropDownStyle=14;
     /**
@@ -9718,7 +9778,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionMenuTextAppearance
+     * @attr name com.example.thienbao.myapplication:actionMenuTextAppearance
      */
     public static final int AppCompatTheme_actionMenuTextAppearance=15;
     /**
@@ -9734,7 +9794,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionMenuTextColor
+     * @attr name com.example.thienbao.myapplication:actionMenuTextColor
      */
     public static final int AppCompatTheme_actionMenuTextColor=16;
     /**
@@ -9747,11 +9807,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeBackground
+     * @attr name com.example.thienbao.myapplication:actionModeBackground
      */
     public static final int AppCompatTheme_actionModeBackground=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionModeCloseButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionModeCloseButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9759,7 +9819,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeCloseButtonStyle
+     * @attr name com.example.thienbao.myapplication:actionModeCloseButtonStyle
      */
     public static final int AppCompatTheme_actionModeCloseButtonStyle=18;
     /**
@@ -9772,7 +9832,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeCloseDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeCloseDrawable
      */
     public static final int AppCompatTheme_actionModeCloseDrawable=19;
     /**
@@ -9785,7 +9845,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeCopyDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeCopyDrawable
      */
     public static final int AppCompatTheme_actionModeCopyDrawable=20;
     /**
@@ -9798,7 +9858,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeCutDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeCutDrawable
      */
     public static final int AppCompatTheme_actionModeCutDrawable=21;
     /**
@@ -9811,7 +9871,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeFindDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeFindDrawable
      */
     public static final int AppCompatTheme_actionModeFindDrawable=22;
     /**
@@ -9824,7 +9884,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModePasteDrawable
+     * @attr name com.example.thienbao.myapplication:actionModePasteDrawable
      */
     public static final int AppCompatTheme_actionModePasteDrawable=23;
     /**
@@ -9837,7 +9897,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModePopupWindowStyle
+     * @attr name com.example.thienbao.myapplication:actionModePopupWindowStyle
      */
     public static final int AppCompatTheme_actionModePopupWindowStyle=24;
     /**
@@ -9850,7 +9910,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeSelectAllDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeSelectAllDrawable
      */
     public static final int AppCompatTheme_actionModeSelectAllDrawable=25;
     /**
@@ -9863,7 +9923,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeShareDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeShareDrawable
      */
     public static final int AppCompatTheme_actionModeShareDrawable=26;
     /**
@@ -9876,11 +9936,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeSplitBackground
+     * @attr name com.example.thienbao.myapplication:actionModeSplitBackground
      */
     public static final int AppCompatTheme_actionModeSplitBackground=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionModeStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionModeStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9888,7 +9948,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeStyle
+     * @attr name com.example.thienbao.myapplication:actionModeStyle
      */
     public static final int AppCompatTheme_actionModeStyle=28;
     /**
@@ -9901,11 +9961,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionModeWebSearchDrawable
+     * @attr name com.example.thienbao.myapplication:actionModeWebSearchDrawable
      */
     public static final int AppCompatTheme_actionModeWebSearchDrawable=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionOverflowButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionOverflowButtonStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9913,11 +9973,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionOverflowButtonStyle
+     * @attr name com.example.thienbao.myapplication:actionOverflowButtonStyle
      */
     public static final int AppCompatTheme_actionOverflowButtonStyle=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionOverflowMenuStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionOverflowMenuStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9925,7 +9985,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionOverflowMenuStyle
+     * @attr name com.example.thienbao.myapplication:actionOverflowMenuStyle
      */
     public static final int AppCompatTheme_actionOverflowMenuStyle=31;
     /**
@@ -9938,11 +9998,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:activityChooserViewStyle
+     * @attr name com.example.thienbao.myapplication:activityChooserViewStyle
      */
     public static final int AppCompatTheme_activityChooserViewStyle=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#alertDialogButtonGroupStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#alertDialogButtonGroupStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9950,21 +10010,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:alertDialogButtonGroupStyle
+     * @attr name com.example.thienbao.myapplication:alertDialogButtonGroupStyle
      */
     public static final int AppCompatTheme_alertDialogButtonGroupStyle=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#alertDialogCenterButtons}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#alertDialogCenterButtons}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:alertDialogCenterButtons
+     * @attr name com.example.thienbao.myapplication:alertDialogCenterButtons
      */
     public static final int AppCompatTheme_alertDialogCenterButtons=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#alertDialogStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#alertDialogStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -9972,7 +10032,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:alertDialogStyle
+     * @attr name com.example.thienbao.myapplication:alertDialogStyle
      */
     public static final int AppCompatTheme_alertDialogStyle=35;
     /**
@@ -9985,7 +10045,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:alertDialogTheme
+     * @attr name com.example.thienbao.myapplication:alertDialogTheme
      */
     public static final int AppCompatTheme_alertDialogTheme=36;
     /**
@@ -9998,7 +10058,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoCompleteTextViewStyle
+     * @attr name com.example.thienbao.myapplication:autoCompleteTextViewStyle
      */
     public static final int AppCompatTheme_autoCompleteTextViewStyle=37;
     /**
@@ -10011,7 +10071,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:borderlessButtonStyle
+     * @attr name com.example.thienbao.myapplication:borderlessButtonStyle
      */
     public static final int AppCompatTheme_borderlessButtonStyle=38;
     /**
@@ -10024,7 +10084,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonBarButtonStyle
+     * @attr name com.example.thienbao.myapplication:buttonBarButtonStyle
      */
     public static final int AppCompatTheme_buttonBarButtonStyle=39;
     /**
@@ -10037,7 +10097,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonBarNegativeButtonStyle
+     * @attr name com.example.thienbao.myapplication:buttonBarNegativeButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNegativeButtonStyle=40;
     /**
@@ -10050,7 +10110,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonBarNeutralButtonStyle
+     * @attr name com.example.thienbao.myapplication:buttonBarNeutralButtonStyle
      */
     public static final int AppCompatTheme_buttonBarNeutralButtonStyle=41;
     /**
@@ -10063,7 +10123,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonBarPositiveButtonStyle
+     * @attr name com.example.thienbao.myapplication:buttonBarPositiveButtonStyle
      */
     public static final int AppCompatTheme_buttonBarPositiveButtonStyle=42;
     /**
@@ -10076,7 +10136,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonBarStyle
+     * @attr name com.example.thienbao.myapplication:buttonBarStyle
      */
     public static final int AppCompatTheme_buttonBarStyle=43;
     /**
@@ -10089,7 +10149,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonStyle
+     * @attr name com.example.thienbao.myapplication:buttonStyle
      */
     public static final int AppCompatTheme_buttonStyle=44;
     /**
@@ -10102,7 +10162,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonStyleSmall
+     * @attr name com.example.thienbao.myapplication:buttonStyleSmall
      */
     public static final int AppCompatTheme_buttonStyleSmall=45;
     /**
@@ -10115,7 +10175,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkboxStyle
+     * @attr name com.example.thienbao.myapplication:checkboxStyle
      */
     public static final int AppCompatTheme_checkboxStyle=46;
     /**
@@ -10128,7 +10188,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkedTextViewStyle
+     * @attr name com.example.thienbao.myapplication:checkedTextViewStyle
      */
     public static final int AppCompatTheme_checkedTextViewStyle=47;
     /**
@@ -10141,7 +10201,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorAccent
+     * @attr name com.example.thienbao.myapplication:colorAccent
      */
     public static final int AppCompatTheme_colorAccent=48;
     /**
@@ -10153,7 +10213,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorBackgroundFloating
+     * @attr name com.example.thienbao.myapplication:colorBackgroundFloating
      */
     public static final int AppCompatTheme_colorBackgroundFloating=49;
     /**
@@ -10165,7 +10225,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorButtonNormal
+     * @attr name com.example.thienbao.myapplication:colorButtonNormal
      */
     public static final int AppCompatTheme_colorButtonNormal=50;
     /**
@@ -10177,7 +10237,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorControlActivated
+     * @attr name com.example.thienbao.myapplication:colorControlActivated
      */
     public static final int AppCompatTheme_colorControlActivated=51;
     /**
@@ -10189,7 +10249,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorControlHighlight
+     * @attr name com.example.thienbao.myapplication:colorControlHighlight
      */
     public static final int AppCompatTheme_colorControlHighlight=52;
     /**
@@ -10201,7 +10261,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorControlNormal
+     * @attr name com.example.thienbao.myapplication:colorControlNormal
      */
     public static final int AppCompatTheme_colorControlNormal=53;
     /**
@@ -10218,7 +10278,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorError
+     * @attr name com.example.thienbao.myapplication:colorError
      */
     public static final int AppCompatTheme_colorError=54;
     /**
@@ -10231,7 +10291,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorPrimary
+     * @attr name com.example.thienbao.myapplication:colorPrimary
      */
     public static final int AppCompatTheme_colorPrimary=55;
     /**
@@ -10244,7 +10304,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorPrimaryDark
+     * @attr name com.example.thienbao.myapplication:colorPrimaryDark
      */
     public static final int AppCompatTheme_colorPrimaryDark=56;
     /**
@@ -10256,7 +10316,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorSwitchThumbNormal
+     * @attr name com.example.thienbao.myapplication:colorSwitchThumbNormal
      */
     public static final int AppCompatTheme_colorSwitchThumbNormal=57;
     /**
@@ -10269,7 +10329,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:controlBackground
+     * @attr name com.example.thienbao.myapplication:controlBackground
      */
     public static final int AppCompatTheme_controlBackground=58;
     /**
@@ -10283,7 +10343,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:dialogCornerRadius
+     * @attr name com.example.thienbao.myapplication:dialogCornerRadius
      */
     public static final int AppCompatTheme_dialogCornerRadius=59;
     /**
@@ -10297,7 +10357,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:dialogPreferredPadding
+     * @attr name com.example.thienbao.myapplication:dialogPreferredPadding
      */
     public static final int AppCompatTheme_dialogPreferredPadding=60;
     /**
@@ -10310,7 +10370,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:dialogTheme
+     * @attr name com.example.thienbao.myapplication:dialogTheme
      */
     public static final int AppCompatTheme_dialogTheme=61;
     /**
@@ -10323,7 +10383,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:dividerHorizontal
+     * @attr name com.example.thienbao.myapplication:dividerHorizontal
      */
     public static final int AppCompatTheme_dividerHorizontal=62;
     /**
@@ -10336,7 +10396,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:dividerVertical
+     * @attr name com.example.thienbao.myapplication:dividerVertical
      */
     public static final int AppCompatTheme_dividerVertical=63;
     /**
@@ -10349,7 +10409,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:dropDownListViewStyle
+     * @attr name com.example.thienbao.myapplication:dropDownListViewStyle
      */
     public static final int AppCompatTheme_dropDownListViewStyle=64;
     /**
@@ -10363,7 +10423,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:dropdownListPreferredItemHeight
+     * @attr name com.example.thienbao.myapplication:dropdownListPreferredItemHeight
      */
     public static final int AppCompatTheme_dropdownListPreferredItemHeight=65;
     /**
@@ -10376,7 +10436,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editTextBackground
+     * @attr name com.example.thienbao.myapplication:editTextBackground
      */
     public static final int AppCompatTheme_editTextBackground=66;
     /**
@@ -10392,7 +10452,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editTextColor
+     * @attr name com.example.thienbao.myapplication:editTextColor
      */
     public static final int AppCompatTheme_editTextColor=67;
     /**
@@ -10405,7 +10465,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editTextStyle
+     * @attr name com.example.thienbao.myapplication:editTextStyle
      */
     public static final int AppCompatTheme_editTextStyle=68;
     /**
@@ -10418,7 +10478,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:homeAsUpIndicator
+     * @attr name com.example.thienbao.myapplication:homeAsUpIndicator
      */
     public static final int AppCompatTheme_homeAsUpIndicator=69;
     /**
@@ -10431,7 +10491,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:imageButtonStyle
+     * @attr name com.example.thienbao.myapplication:imageButtonStyle
      */
     public static final int AppCompatTheme_imageButtonStyle=70;
     /**
@@ -10444,7 +10504,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listChoiceBackgroundIndicator
+     * @attr name com.example.thienbao.myapplication:listChoiceBackgroundIndicator
      */
     public static final int AppCompatTheme_listChoiceBackgroundIndicator=71;
     /**
@@ -10457,7 +10517,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listDividerAlertDialog
+     * @attr name com.example.thienbao.myapplication:listDividerAlertDialog
      */
     public static final int AppCompatTheme_listDividerAlertDialog=72;
     /**
@@ -10470,11 +10530,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listMenuViewStyle
+     * @attr name com.example.thienbao.myapplication:listMenuViewStyle
      */
     public static final int AppCompatTheme_listMenuViewStyle=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#listPopupWindowStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#listPopupWindowStyle}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -10482,7 +10542,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:listPopupWindowStyle
+     * @attr name com.example.thienbao.myapplication:listPopupWindowStyle
      */
     public static final int AppCompatTheme_listPopupWindowStyle=74;
     /**
@@ -10496,7 +10556,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:listPreferredItemHeight
+     * @attr name com.example.thienbao.myapplication:listPreferredItemHeight
      */
     public static final int AppCompatTheme_listPreferredItemHeight=75;
     /**
@@ -10510,7 +10570,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:listPreferredItemHeightLarge
+     * @attr name com.example.thienbao.myapplication:listPreferredItemHeightLarge
      */
     public static final int AppCompatTheme_listPreferredItemHeightLarge=76;
     /**
@@ -10524,7 +10584,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:listPreferredItemHeightSmall
+     * @attr name com.example.thienbao.myapplication:listPreferredItemHeightSmall
      */
     public static final int AppCompatTheme_listPreferredItemHeightSmall=77;
     /**
@@ -10538,7 +10598,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:listPreferredItemPaddingLeft
+     * @attr name com.example.thienbao.myapplication:listPreferredItemPaddingLeft
      */
     public static final int AppCompatTheme_listPreferredItemPaddingLeft=78;
     /**
@@ -10552,7 +10612,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:listPreferredItemPaddingRight
+     * @attr name com.example.thienbao.myapplication:listPreferredItemPaddingRight
      */
     public static final int AppCompatTheme_listPreferredItemPaddingRight=79;
     /**
@@ -10565,7 +10625,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:panelBackground
+     * @attr name com.example.thienbao.myapplication:panelBackground
      */
     public static final int AppCompatTheme_panelBackground=80;
     /**
@@ -10578,7 +10638,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:panelMenuListTheme
+     * @attr name com.example.thienbao.myapplication:panelMenuListTheme
      */
     public static final int AppCompatTheme_panelMenuListTheme=81;
     /**
@@ -10592,7 +10652,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:panelMenuListWidth
+     * @attr name com.example.thienbao.myapplication:panelMenuListWidth
      */
     public static final int AppCompatTheme_panelMenuListWidth=82;
     /**
@@ -10605,7 +10665,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:popupMenuStyle
+     * @attr name com.example.thienbao.myapplication:popupMenuStyle
      */
     public static final int AppCompatTheme_popupMenuStyle=83;
     /**
@@ -10618,7 +10678,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:popupWindowStyle
+     * @attr name com.example.thienbao.myapplication:popupWindowStyle
      */
     public static final int AppCompatTheme_popupWindowStyle=84;
     /**
@@ -10631,7 +10691,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:radioButtonStyle
+     * @attr name com.example.thienbao.myapplication:radioButtonStyle
      */
     public static final int AppCompatTheme_radioButtonStyle=85;
     /**
@@ -10644,7 +10704,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:ratingBarStyle
+     * @attr name com.example.thienbao.myapplication:ratingBarStyle
      */
     public static final int AppCompatTheme_ratingBarStyle=86;
     /**
@@ -10657,7 +10717,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:ratingBarStyleIndicator
+     * @attr name com.example.thienbao.myapplication:ratingBarStyleIndicator
      */
     public static final int AppCompatTheme_ratingBarStyleIndicator=87;
     /**
@@ -10670,7 +10730,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:ratingBarStyleSmall
+     * @attr name com.example.thienbao.myapplication:ratingBarStyleSmall
      */
     public static final int AppCompatTheme_ratingBarStyleSmall=88;
     /**
@@ -10683,7 +10743,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:searchViewStyle
+     * @attr name com.example.thienbao.myapplication:searchViewStyle
      */
     public static final int AppCompatTheme_searchViewStyle=89;
     /**
@@ -10696,7 +10756,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:seekBarStyle
+     * @attr name com.example.thienbao.myapplication:seekBarStyle
      */
     public static final int AppCompatTheme_seekBarStyle=90;
     /**
@@ -10711,7 +10771,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:selectableItemBackground
+     * @attr name com.example.thienbao.myapplication:selectableItemBackground
      */
     public static final int AppCompatTheme_selectableItemBackground=91;
     /**
@@ -10724,7 +10784,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:selectableItemBackgroundBorderless
+     * @attr name com.example.thienbao.myapplication:selectableItemBackgroundBorderless
      */
     public static final int AppCompatTheme_selectableItemBackgroundBorderless=92;
     /**
@@ -10737,7 +10797,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:spinnerDropDownItemStyle
+     * @attr name com.example.thienbao.myapplication:spinnerDropDownItemStyle
      */
     public static final int AppCompatTheme_spinnerDropDownItemStyle=93;
     /**
@@ -10750,7 +10810,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:spinnerStyle
+     * @attr name com.example.thienbao.myapplication:spinnerStyle
      */
     public static final int AppCompatTheme_spinnerStyle=94;
     /**
@@ -10763,7 +10823,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:switchStyle
+     * @attr name com.example.thienbao.myapplication:switchStyle
      */
     public static final int AppCompatTheme_switchStyle=95;
     /**
@@ -10776,7 +10836,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceLargePopupMenu
+     * @attr name com.example.thienbao.myapplication:textAppearanceLargePopupMenu
      */
     public static final int AppCompatTheme_textAppearanceLargePopupMenu=96;
     /**
@@ -10789,7 +10849,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceListItem
+     * @attr name com.example.thienbao.myapplication:textAppearanceListItem
      */
     public static final int AppCompatTheme_textAppearanceListItem=97;
     /**
@@ -10802,7 +10862,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceListItemSecondary
+     * @attr name com.example.thienbao.myapplication:textAppearanceListItemSecondary
      */
     public static final int AppCompatTheme_textAppearanceListItemSecondary=98;
     /**
@@ -10815,7 +10875,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceListItemSmall
+     * @attr name com.example.thienbao.myapplication:textAppearanceListItemSmall
      */
     public static final int AppCompatTheme_textAppearanceListItemSmall=99;
     /**
@@ -10828,7 +10888,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearancePopupMenuHeader
+     * @attr name com.example.thienbao.myapplication:textAppearancePopupMenuHeader
      */
     public static final int AppCompatTheme_textAppearancePopupMenuHeader=100;
     /**
@@ -10841,7 +10901,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceSearchResultSubtitle
+     * @attr name com.example.thienbao.myapplication:textAppearanceSearchResultSubtitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultSubtitle=101;
     /**
@@ -10854,7 +10914,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceSearchResultTitle
+     * @attr name com.example.thienbao.myapplication:textAppearanceSearchResultTitle
      */
     public static final int AppCompatTheme_textAppearanceSearchResultTitle=102;
     /**
@@ -10867,7 +10927,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceSmallPopupMenu
+     * @attr name com.example.thienbao.myapplication:textAppearanceSmallPopupMenu
      */
     public static final int AppCompatTheme_textAppearanceSmallPopupMenu=103;
     /**
@@ -10883,7 +10943,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textColorAlertDialogListItem
+     * @attr name com.example.thienbao.myapplication:textColorAlertDialogListItem
      */
     public static final int AppCompatTheme_textColorAlertDialogListItem=104;
     /**
@@ -10899,7 +10959,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textColorSearchUrl
+     * @attr name com.example.thienbao.myapplication:textColorSearchUrl
      */
     public static final int AppCompatTheme_textColorSearchUrl=105;
     /**
@@ -10912,7 +10972,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:toolbarNavigationButtonStyle
+     * @attr name com.example.thienbao.myapplication:toolbarNavigationButtonStyle
      */
     public static final int AppCompatTheme_toolbarNavigationButtonStyle=106;
     /**
@@ -10925,7 +10985,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:toolbarStyle
+     * @attr name com.example.thienbao.myapplication:toolbarStyle
      */
     public static final int AppCompatTheme_toolbarStyle=107;
     /**
@@ -10941,7 +11001,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tooltipForegroundColor
+     * @attr name com.example.thienbao.myapplication:tooltipForegroundColor
      */
     public static final int AppCompatTheme_tooltipForegroundColor=108;
     /**
@@ -10954,17 +11014,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tooltipFrameBackground
+     * @attr name com.example.thienbao.myapplication:tooltipFrameBackground
      */
     public static final int AppCompatTheme_tooltipFrameBackground=109;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#viewInflaterClass}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#viewInflaterClass}
      * attribute's value can be found in the {@link #AppCompatTheme} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:viewInflaterClass
+     * @attr name com.example.thienbao.myapplication:viewInflaterClass
      */
     public static final int AppCompatTheme_viewInflaterClass=110;
     /**
@@ -10976,7 +11036,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:windowActionBar
+     * @attr name com.example.thienbao.myapplication:windowActionBar
      */
     public static final int AppCompatTheme_windowActionBar=111;
     /**
@@ -10989,7 +11049,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:windowActionBarOverlay
+     * @attr name com.example.thienbao.myapplication:windowActionBarOverlay
      */
     public static final int AppCompatTheme_windowActionBarOverlay=112;
     /**
@@ -11001,7 +11061,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:windowActionModeOverlay
+     * @attr name com.example.thienbao.myapplication:windowActionModeOverlay
      */
     public static final int AppCompatTheme_windowActionModeOverlay=113;
     /**
@@ -11021,7 +11081,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowFixedHeightMajor
+     * @attr name com.example.thienbao.myapplication:windowFixedHeightMajor
      */
     public static final int AppCompatTheme_windowFixedHeightMajor=114;
     /**
@@ -11041,7 +11101,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowFixedHeightMinor
+     * @attr name com.example.thienbao.myapplication:windowFixedHeightMinor
      */
     public static final int AppCompatTheme_windowFixedHeightMinor=115;
     /**
@@ -11061,7 +11121,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowFixedWidthMajor
+     * @attr name com.example.thienbao.myapplication:windowFixedWidthMajor
      */
     public static final int AppCompatTheme_windowFixedWidthMajor=116;
     /**
@@ -11081,7 +11141,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowFixedWidthMinor
+     * @attr name com.example.thienbao.myapplication:windowFixedWidthMinor
      */
     public static final int AppCompatTheme_windowFixedWidthMinor=117;
     /**
@@ -11102,7 +11162,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowMinWidthMajor
+     * @attr name com.example.thienbao.myapplication:windowMinWidthMajor
      */
     public static final int AppCompatTheme_windowMinWidthMajor=118;
     /**
@@ -11123,7 +11183,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:windowMinWidthMinor
+     * @attr name com.example.thienbao.myapplication:windowMinWidthMinor
      */
     public static final int AppCompatTheme_windowMinWidthMinor=119;
     /**
@@ -11134,7 +11194,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:windowNoTitle
+     * @attr name com.example.thienbao.myapplication:windowNoTitle
      */
     public static final int AppCompatTheme_windowNoTitle=120;
     /**
@@ -11144,18 +11204,18 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_audiolayoutId com.example.black.savemymoneyv3:audiolayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_blogsLayoutId com.example.black.savemymoneyv3:blogsLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_imagelayoutId com.example.black.savemymoneyv3:imagelayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_pdflayoutId com.example.black.savemymoneyv3:pdflayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_portletItemName com.example.black.savemymoneyv3:portletItemName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_videolayoutId com.example.black.savemymoneyv3:videolayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetDisplayScreenlet_webDisplayLayoutId com.example.black.savemymoneyv3:webDisplayLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_audiolayoutId com.example.thienbao.myapplication:audiolayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_blogsLayoutId com.example.thienbao.myapplication:blogsLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_imagelayoutId com.example.thienbao.myapplication:imagelayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_pdflayoutId com.example.thienbao.myapplication:pdflayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_portletItemName com.example.thienbao.myapplication:portletItemName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_videolayoutId com.example.thienbao.myapplication:videolayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetDisplayScreenlet_webDisplayLayoutId com.example.thienbao.myapplication:webDisplayLayoutId}</code></td><td></td></tr>
      * </table>
      * @see #AssetDisplayScreenlet_audiolayoutId
      * @see #AssetDisplayScreenlet_autoLoad
@@ -11176,7 +11236,7 @@ public final class R {
       0x7f0401b9, 0x7f0401bf, 0x7f040261, 0x7f040264
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#audiolayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#audiolayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11184,21 +11244,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:audiolayoutId
+     * @attr name com.example.thienbao.myapplication:audiolayoutId
      */
     public static final int AssetDisplayScreenlet_audiolayoutId=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int AssetDisplayScreenlet_autoLoad=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#blogsLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#blogsLayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11206,41 +11266,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:blogsLayoutId
+     * @attr name com.example.thienbao.myapplication:blogsLayoutId
      */
     public static final int AssetDisplayScreenlet_blogsLayoutId=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int AssetDisplayScreenlet_className=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int AssetDisplayScreenlet_classPK=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int AssetDisplayScreenlet_entryId=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#imagelayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#imagelayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11248,11 +11308,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:imagelayoutId
+     * @attr name com.example.thienbao.myapplication:imagelayoutId
      */
     public static final int AssetDisplayScreenlet_imagelayoutId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11260,11 +11320,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int AssetDisplayScreenlet_layoutId=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pdflayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pdflayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11272,21 +11332,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pdflayoutId
+     * @attr name com.example.thienbao.myapplication:pdflayoutId
      */
     public static final int AssetDisplayScreenlet_pdflayoutId=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#portletItemName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#portletItemName}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:portletItemName
+     * @attr name com.example.thienbao.myapplication:portletItemName
      */
     public static final int AssetDisplayScreenlet_portletItemName=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#videolayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#videolayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11294,11 +11354,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:videolayoutId
+     * @attr name com.example.thienbao.myapplication:videolayoutId
      */
     public static final int AssetDisplayScreenlet_videolayoutId=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#webDisplayLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#webDisplayLayoutId}
      * attribute's value can be found in the {@link #AssetDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11306,7 +11366,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:webDisplayLayoutId
+     * @attr name com.example.thienbao.myapplication:webDisplayLayoutId
      */
     public static final int AssetDisplayScreenlet_webDisplayLayoutId=11;
     /**
@@ -11316,16 +11376,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_classNameId com.example.black.savemymoneyv3:classNameId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_firstPageSize com.example.black.savemymoneyv3:firstPageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_groupId com.example.black.savemymoneyv3:groupId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_labelFields com.example.black.savemymoneyv3:labelFields}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_obcClassName com.example.black.savemymoneyv3:obcClassName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_pageSize com.example.black.savemymoneyv3:pageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AssetListScreenlet_portletItemName com.example.black.savemymoneyv3:portletItemName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_classNameId com.example.thienbao.myapplication:classNameId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_firstPageSize com.example.thienbao.myapplication:firstPageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_groupId com.example.thienbao.myapplication:groupId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_labelFields com.example.thienbao.myapplication:labelFields}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_obcClassName com.example.thienbao.myapplication:obcClassName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_pageSize com.example.thienbao.myapplication:pageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AssetListScreenlet_portletItemName com.example.thienbao.myapplication:portletItemName}</code></td><td></td></tr>
      * </table>
      * @see #AssetListScreenlet_autoLoad
      * @see #AssetListScreenlet_cachePolicy
@@ -11344,17 +11404,17 @@ public final class R {
       0x7f0401b0, 0x7f0401bf
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int AssetListScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11369,50 +11429,50 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int AssetListScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classNameId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classNameId}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classNameId
+     * @attr name com.example.thienbao.myapplication:classNameId
      */
     public static final int AssetListScreenlet_classNameId=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#firstPageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#firstPageSize}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:firstPageSize
+     * @attr name com.example.thienbao.myapplication:firstPageSize
      */
     public static final int AssetListScreenlet_firstPageSize=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#groupId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#groupId}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:groupId
+     * @attr name com.example.thienbao.myapplication:groupId
      */
     public static final int AssetListScreenlet_groupId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelFields}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelFields}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:labelFields
+     * @attr name com.example.thienbao.myapplication:labelFields
      */
     public static final int AssetListScreenlet_labelFields=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11420,36 +11480,36 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int AssetListScreenlet_layoutId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#obcClassName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#obcClassName}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:obcClassName
+     * @attr name com.example.thienbao.myapplication:obcClassName
      */
     public static final int AssetListScreenlet_obcClassName=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pageSize}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pageSize
+     * @attr name com.example.thienbao.myapplication:pageSize
      */
     public static final int AssetListScreenlet_pageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#portletItemName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#portletItemName}
      * attribute's value can be found in the {@link #AssetListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:portletItemName
+     * @attr name com.example.thienbao.myapplication:portletItemName
      */
     public static final int AssetListScreenlet_portletItemName=9;
     /**
@@ -11459,11 +11519,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #AudioDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AudioDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AudioDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AudioDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #AudioDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AudioDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AudioDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AudioDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AudioDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #AudioDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #AudioDisplayScreenlet_autoLoad
      * @see #AudioDisplayScreenlet_className
@@ -11476,47 +11536,47 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #AudioDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int AudioDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #AudioDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int AudioDisplayScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #AudioDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int AudioDisplayScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #AudioDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int AudioDisplayScreenlet_entryId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #AudioDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11524,7 +11584,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int AudioDisplayScreenlet_layoutId=4;
     /**
@@ -11534,11 +11594,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BlogsEntryDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #BlogsEntryDisplayScreenlet_autoLoad
      * @see #BlogsEntryDisplayScreenlet_className
@@ -11551,47 +11611,47 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #BlogsEntryDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int BlogsEntryDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #BlogsEntryDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int BlogsEntryDisplayScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #BlogsEntryDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int BlogsEntryDisplayScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #BlogsEntryDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int BlogsEntryDisplayScreenlet_entryId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #BlogsEntryDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11599,7 +11659,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int BlogsEntryDisplayScreenlet_layoutId=4;
     /**
@@ -11609,12 +11669,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.example.black.savemymoneyv3:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.example.black.savemymoneyv3:fabAlignmentMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.example.black.savemymoneyv3:fabCradleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.example.black.savemymoneyv3:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.example.black.savemymoneyv3:fabCradleVerticalOffset}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.example.black.savemymoneyv3:hideOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_backgroundTint com.example.thienbao.myapplication:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabAlignmentMode com.example.thienbao.myapplication:fabAlignmentMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleMargin com.example.thienbao.myapplication:fabCradleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleRoundedCornerRadius com.example.thienbao.myapplication:fabCradleRoundedCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_fabCradleVerticalOffset com.example.thienbao.myapplication:fabCradleVerticalOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomAppBar_hideOnScroll com.example.thienbao.myapplication:hideOnScroll}</code></td><td></td></tr>
      * </table>
      * @see #BottomAppBar_backgroundTint
      * @see #BottomAppBar_fabAlignmentMode
@@ -11636,11 +11696,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTint
+     * @attr name com.example.thienbao.myapplication:backgroundTint
      */
     public static final int BottomAppBar_backgroundTint=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabAlignmentMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabAlignmentMode}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11653,11 +11713,11 @@ public final class R {
      * <tr><td>end</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:fabAlignmentMode
+     * @attr name com.example.thienbao.myapplication:fabAlignmentMode
      */
     public static final int BottomAppBar_fabAlignmentMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabCradleMargin}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabCradleMargin}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11666,11 +11726,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:fabCradleMargin
+     * @attr name com.example.thienbao.myapplication:fabCradleMargin
      */
     public static final int BottomAppBar_fabCradleMargin=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabCradleRoundedCornerRadius}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabCradleRoundedCornerRadius}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11679,11 +11739,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:fabCradleRoundedCornerRadius
+     * @attr name com.example.thienbao.myapplication:fabCradleRoundedCornerRadius
      */
     public static final int BottomAppBar_fabCradleRoundedCornerRadius=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabCradleVerticalOffset}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabCradleVerticalOffset}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11692,17 +11752,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:fabCradleVerticalOffset
+     * @attr name com.example.thienbao.myapplication:fabCradleVerticalOffset
      */
     public static final int BottomAppBar_fabCradleVerticalOffset=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hideOnScroll}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hideOnScroll}
      * attribute's value can be found in the {@link #BottomAppBar} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hideOnScroll
+     * @attr name com.example.thienbao.myapplication:hideOnScroll
      */
     public static final int BottomAppBar_hideOnScroll=5;
     /**
@@ -11712,16 +11772,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomNavigationView_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.example.black.savemymoneyv3:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.example.black.savemymoneyv3:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.example.black.savemymoneyv3:itemIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.example.black.savemymoneyv3:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.example.black.savemymoneyv3:itemTextAppearanceActive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.example.black.savemymoneyv3:itemTextAppearanceInactive}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.example.black.savemymoneyv3:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.example.black.savemymoneyv3:labelVisibilityMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomNavigationView_menu com.example.black.savemymoneyv3:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemBackground com.example.thienbao.myapplication:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemHorizontalTranslationEnabled com.example.thienbao.myapplication:itemHorizontalTranslationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconSize com.example.thienbao.myapplication:itemIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemIconTint com.example.thienbao.myapplication:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceActive com.example.thienbao.myapplication:itemTextAppearanceActive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextAppearanceInactive com.example.thienbao.myapplication:itemTextAppearanceInactive}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_itemTextColor com.example.thienbao.myapplication:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_labelVisibilityMode com.example.thienbao.myapplication:labelVisibilityMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomNavigationView_menu com.example.thienbao.myapplication:menu}</code></td><td></td></tr>
      * </table>
      * @see #BottomNavigationView_elevation
      * @see #BottomNavigationView_itemBackground
@@ -11750,11 +11810,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int BottomNavigationView_elevation=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemBackground}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11762,21 +11822,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemBackground
+     * @attr name com.example.thienbao.myapplication:itemBackground
      */
     public static final int BottomNavigationView_itemBackground=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemHorizontalTranslationEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemHorizontalTranslationEnabled}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemHorizontalTranslationEnabled
+     * @attr name com.example.thienbao.myapplication:itemHorizontalTranslationEnabled
      */
     public static final int BottomNavigationView_itemHorizontalTranslationEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemIconSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemIconSize}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11785,22 +11845,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:itemIconSize
+     * @attr name com.example.thienbao.myapplication:itemIconSize
      */
     public static final int BottomNavigationView_itemIconSize=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemIconTint
+     * @attr name com.example.thienbao.myapplication:itemIconTint
      */
     public static final int BottomNavigationView_itemIconTint=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemTextAppearanceActive}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemTextAppearanceActive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11808,11 +11868,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemTextAppearanceActive
+     * @attr name com.example.thienbao.myapplication:itemTextAppearanceActive
      */
     public static final int BottomNavigationView_itemTextAppearanceActive=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemTextAppearanceInactive}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemTextAppearanceInactive}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11820,22 +11880,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemTextAppearanceInactive
+     * @attr name com.example.thienbao.myapplication:itemTextAppearanceInactive
      */
     public static final int BottomNavigationView_itemTextAppearanceInactive=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemTextColor
+     * @attr name com.example.thienbao.myapplication:itemTextColor
      */
     public static final int BottomNavigationView_itemTextColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelVisibilityMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelVisibilityMode}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11850,11 +11910,11 @@ public final class R {
      * <tr><td>unlabeled</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:labelVisibilityMode
+     * @attr name com.example.thienbao.myapplication:labelVisibilityMode
      */
     public static final int BottomNavigationView_labelVisibilityMode=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#menu}
      * attribute's value can be found in the {@link #BottomNavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -11862,7 +11922,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:menu
+     * @attr name com.example.thienbao.myapplication:menu
      */
     public static final int BottomNavigationView_menu=9;
     /**
@@ -11872,10 +11932,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.example.black.savemymoneyv3:behavior_fitToContents}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.example.black.savemymoneyv3:behavior_hideable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.example.black.savemymoneyv3:behavior_peekHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.example.black.savemymoneyv3:behavior_skipCollapsed}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_fitToContents com.example.thienbao.myapplication:behavior_fitToContents}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_hideable com.example.thienbao.myapplication:behavior_hideable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_peekHeight com.example.thienbao.myapplication:behavior_peekHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #BottomSheetBehavior_Layout_behavior_skipCollapsed com.example.thienbao.myapplication:behavior_skipCollapsed}</code></td><td></td></tr>
      * </table>
      * @see #BottomSheetBehavior_Layout_behavior_fitToContents
      * @see #BottomSheetBehavior_Layout_behavior_hideable
@@ -11886,27 +11946,27 @@ public final class R {
       0x7f040043, 0x7f040044, 0x7f040046, 0x7f040047
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_fitToContents}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_fitToContents}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_fitToContents
+     * @attr name com.example.thienbao.myapplication:behavior_fitToContents
      */
     public static final int BottomSheetBehavior_Layout_behavior_fitToContents=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_hideable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_hideable}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_hideable
+     * @attr name com.example.thienbao.myapplication:behavior_hideable
      */
     public static final int BottomSheetBehavior_Layout_behavior_hideable=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_peekHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_peekHeight}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -11923,17 +11983,17 @@ public final class R {
      * <tr><td>auto</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_peekHeight
+     * @attr name com.example.thienbao.myapplication:behavior_peekHeight
      */
     public static final int BottomSheetBehavior_Layout_behavior_peekHeight=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_skipCollapsed}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_skipCollapsed}
      * attribute's value can be found in the {@link #BottomSheetBehavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_skipCollapsed
+     * @attr name com.example.thienbao.myapplication:behavior_skipCollapsed
      */
     public static final int BottomSheetBehavior_Layout_behavior_skipCollapsed=3;
     /**
@@ -11943,7 +12003,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.black.savemymoneyv3:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
+     * <tr><td><code>{@link #ButtonBarLayout_allowStacking com.example.thienbao.myapplication:allowStacking}</code></td><td>Whether to automatically stack the buttons when there is not
      * enough space to lay them out side-by-side.</td></tr>
      * </table>
      * @see #ButtonBarLayout_allowStacking
@@ -11960,7 +12020,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:allowStacking
+     * @attr name com.example.thienbao.myapplication:allowStacking
      */
     public static final int ButtonBarLayout_allowStacking=0;
     /**
@@ -11970,10 +12030,10 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CacheScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CacheScreenlet_groupId com.example.black.savemymoneyv3:groupId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CacheScreenlet_locale com.example.black.savemymoneyv3:locale}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CacheScreenlet_userId com.example.black.savemymoneyv3:userId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CacheScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CacheScreenlet_groupId com.example.thienbao.myapplication:groupId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CacheScreenlet_locale com.example.thienbao.myapplication:locale}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CacheScreenlet_userId com.example.thienbao.myapplication:userId}</code></td><td></td></tr>
      * </table>
      * @see #CacheScreenlet_cachePolicy
      * @see #CacheScreenlet_groupId
@@ -11984,7 +12044,7 @@ public final class R {
       0x7f040065, 0x7f040113, 0x7f040192, 0x7f04025f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #CacheScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -11999,37 +12059,37 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int CacheScreenlet_cachePolicy=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#groupId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#groupId}
      * attribute's value can be found in the {@link #CacheScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:groupId
+     * @attr name com.example.thienbao.myapplication:groupId
      */
     public static final int CacheScreenlet_groupId=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#locale}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#locale}
      * attribute's value can be found in the {@link #CacheScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:locale
+     * @attr name com.example.thienbao.myapplication:locale
      */
     public static final int CacheScreenlet_locale=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#userId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#userId}
      * attribute's value can be found in the {@link #CacheScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:userId
+     * @attr name com.example.thienbao.myapplication:userId
      */
     public static final int CacheScreenlet_userId=3;
     /**
@@ -12041,17 +12101,17 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CardView_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #CardView_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CardView_cardBackgroundColor com.example.black.savemymoneyv3:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardCornerRadius com.example.black.savemymoneyv3:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardElevation com.example.black.savemymoneyv3:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardMaxElevation com.example.black.savemymoneyv3:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.black.savemymoneyv3:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
-     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.black.savemymoneyv3:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPadding com.example.black.savemymoneyv3:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingBottom com.example.black.savemymoneyv3:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingLeft com.example.black.savemymoneyv3:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingRight com.example.black.savemymoneyv3:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
-     * <tr><td><code>{@link #CardView_contentPaddingTop com.example.black.savemymoneyv3:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardBackgroundColor com.example.thienbao.myapplication:cardBackgroundColor}</code></td><td>Background color for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardCornerRadius com.example.thienbao.myapplication:cardCornerRadius}</code></td><td>Corner radius for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardElevation com.example.thienbao.myapplication:cardElevation}</code></td><td>Elevation for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardMaxElevation com.example.thienbao.myapplication:cardMaxElevation}</code></td><td>Maximum Elevation for CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_cardPreventCornerOverlap com.example.thienbao.myapplication:cardPreventCornerOverlap}</code></td><td>Add padding to CardView on v20 and before to prevent intersections between the Card content and rounded corners.</td></tr>
+     * <tr><td><code>{@link #CardView_cardUseCompatPadding com.example.thienbao.myapplication:cardUseCompatPadding}</code></td><td>Add padding in API v21+ as well to have the same measurements with previous versions.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPadding com.example.thienbao.myapplication:contentPadding}</code></td><td>Inner padding between the edges of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingBottom com.example.thienbao.myapplication:contentPaddingBottom}</code></td><td>Inner padding between the bottom edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingLeft com.example.thienbao.myapplication:contentPaddingLeft}</code></td><td>Inner padding between the left edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingRight com.example.thienbao.myapplication:contentPaddingRight}</code></td><td>Inner padding between the right edge of the Card and children of the CardView.</td></tr>
+     * <tr><td><code>{@link #CardView_contentPaddingTop com.example.thienbao.myapplication:contentPaddingTop}</code></td><td>Inner padding between the top edge of the Card and children of the CardView.</td></tr>
      * </table>
      * @see #CardView_android_minWidth
      * @see #CardView_android_minHeight
@@ -12110,7 +12170,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:cardBackgroundColor
+     * @attr name com.example.thienbao.myapplication:cardBackgroundColor
      */
     public static final int CardView_cardBackgroundColor=2;
     /**
@@ -12124,7 +12184,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:cardCornerRadius
+     * @attr name com.example.thienbao.myapplication:cardCornerRadius
      */
     public static final int CardView_cardCornerRadius=3;
     /**
@@ -12138,7 +12198,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:cardElevation
+     * @attr name com.example.thienbao.myapplication:cardElevation
      */
     public static final int CardView_cardElevation=4;
     /**
@@ -12152,7 +12212,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:cardMaxElevation
+     * @attr name com.example.thienbao.myapplication:cardMaxElevation
      */
     public static final int CardView_cardMaxElevation=5;
     /**
@@ -12163,7 +12223,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:cardPreventCornerOverlap
+     * @attr name com.example.thienbao.myapplication:cardPreventCornerOverlap
      */
     public static final int CardView_cardPreventCornerOverlap=6;
     /**
@@ -12174,7 +12234,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:cardUseCompatPadding
+     * @attr name com.example.thienbao.myapplication:cardUseCompatPadding
      */
     public static final int CardView_cardUseCompatPadding=7;
     /**
@@ -12188,7 +12248,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentPadding
+     * @attr name com.example.thienbao.myapplication:contentPadding
      */
     public static final int CardView_contentPadding=8;
     /**
@@ -12202,7 +12262,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentPaddingBottom
+     * @attr name com.example.thienbao.myapplication:contentPaddingBottom
      */
     public static final int CardView_contentPaddingBottom=9;
     /**
@@ -12216,7 +12276,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentPaddingLeft
+     * @attr name com.example.thienbao.myapplication:contentPaddingLeft
      */
     public static final int CardView_contentPaddingLeft=10;
     /**
@@ -12230,7 +12290,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentPaddingRight
+     * @attr name com.example.thienbao.myapplication:contentPaddingRight
      */
     public static final int CardView_contentPaddingRight=11;
     /**
@@ -12244,7 +12304,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentPaddingTop
+     * @attr name com.example.thienbao.myapplication:contentPaddingTop
      */
     public static final int CardView_contentPaddingTop=12;
     /**
@@ -12259,35 +12319,35 @@ public final class R {
      * <tr><td><code>{@link #Chip_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_text android:text}</code></td><td></td></tr>
      * <tr><td><code>{@link #Chip_android_checkable android:checkable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIcon com.example.black.savemymoneyv3:checkedIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconEnabled com.example.black.savemymoneyv3:checkedIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_checkedIconVisible com.example.black.savemymoneyv3:checkedIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipBackgroundColor com.example.black.savemymoneyv3:chipBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipCornerRadius com.example.black.savemymoneyv3:chipCornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipEndPadding com.example.black.savemymoneyv3:chipEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIcon com.example.black.savemymoneyv3:chipIcon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconEnabled com.example.black.savemymoneyv3:chipIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconSize com.example.black.savemymoneyv3:chipIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconTint com.example.black.savemymoneyv3:chipIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipIconVisible com.example.black.savemymoneyv3:chipIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipMinHeight com.example.black.savemymoneyv3:chipMinHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStartPadding com.example.black.savemymoneyv3:chipStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeColor com.example.black.savemymoneyv3:chipStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_chipStrokeWidth com.example.black.savemymoneyv3:chipStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIcon com.example.black.savemymoneyv3:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEnabled com.example.black.savemymoneyv3:closeIconEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconEndPadding com.example.black.savemymoneyv3:closeIconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconSize com.example.black.savemymoneyv3:closeIconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconStartPadding com.example.black.savemymoneyv3:closeIconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconTint com.example.black.savemymoneyv3:closeIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_closeIconVisible com.example.black.savemymoneyv3:closeIconVisible}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_hideMotionSpec com.example.black.savemymoneyv3:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconEndPadding com.example.black.savemymoneyv3:iconEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_iconStartPadding com.example.black.savemymoneyv3:iconStartPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_rippleColor com.example.black.savemymoneyv3:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_showMotionSpec com.example.black.savemymoneyv3:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textEndPadding com.example.black.savemymoneyv3:textEndPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Chip_textStartPadding com.example.black.savemymoneyv3:textStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIcon com.example.thienbao.myapplication:checkedIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconEnabled com.example.thienbao.myapplication:checkedIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_checkedIconVisible com.example.thienbao.myapplication:checkedIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipBackgroundColor com.example.thienbao.myapplication:chipBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipCornerRadius com.example.thienbao.myapplication:chipCornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipEndPadding com.example.thienbao.myapplication:chipEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIcon com.example.thienbao.myapplication:chipIcon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconEnabled com.example.thienbao.myapplication:chipIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconSize com.example.thienbao.myapplication:chipIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconTint com.example.thienbao.myapplication:chipIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipIconVisible com.example.thienbao.myapplication:chipIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipMinHeight com.example.thienbao.myapplication:chipMinHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStartPadding com.example.thienbao.myapplication:chipStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeColor com.example.thienbao.myapplication:chipStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_chipStrokeWidth com.example.thienbao.myapplication:chipStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIcon com.example.thienbao.myapplication:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEnabled com.example.thienbao.myapplication:closeIconEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconEndPadding com.example.thienbao.myapplication:closeIconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconSize com.example.thienbao.myapplication:closeIconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconStartPadding com.example.thienbao.myapplication:closeIconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconTint com.example.thienbao.myapplication:closeIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_closeIconVisible com.example.thienbao.myapplication:closeIconVisible}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_hideMotionSpec com.example.thienbao.myapplication:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconEndPadding com.example.thienbao.myapplication:iconEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_iconStartPadding com.example.thienbao.myapplication:iconStartPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_rippleColor com.example.thienbao.myapplication:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_showMotionSpec com.example.thienbao.myapplication:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textEndPadding com.example.thienbao.myapplication:textEndPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Chip_textStartPadding com.example.thienbao.myapplication:textStartPadding}</code></td><td></td></tr>
      * </table>
      * @see #Chip_android_textAppearance
      * @see #Chip_android_ellipsize
@@ -12401,7 +12461,7 @@ public final class R {
      */
     public static final int Chip_android_checkable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#checkedIcon}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#checkedIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12409,42 +12469,42 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkedIcon
+     * @attr name com.example.thienbao.myapplication:checkedIcon
      */
     public static final int Chip_checkedIcon=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#checkedIconEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#checkedIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkedIconEnabled
+     * @attr name com.example.thienbao.myapplication:checkedIconEnabled
      */
     public static final int Chip_checkedIconEnabled=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#checkedIconVisible}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#checkedIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkedIconVisible
+     * @attr name com.example.thienbao.myapplication:checkedIconVisible
      */
     public static final int Chip_checkedIconVisible=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipBackgroundColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipBackgroundColor
+     * @attr name com.example.thienbao.myapplication:chipBackgroundColor
      */
     public static final int Chip_chipBackgroundColor=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipCornerRadius}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipCornerRadius}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12453,11 +12513,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipCornerRadius
+     * @attr name com.example.thienbao.myapplication:chipCornerRadius
      */
     public static final int Chip_chipCornerRadius=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipEndPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12466,11 +12526,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipEndPadding
+     * @attr name com.example.thienbao.myapplication:chipEndPadding
      */
     public static final int Chip_chipEndPadding=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipIcon}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipIcon}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12478,21 +12538,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipIcon
+     * @attr name com.example.thienbao.myapplication:chipIcon
      */
     public static final int Chip_chipIcon=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipIconEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipIconEnabled
+     * @attr name com.example.thienbao.myapplication:chipIconEnabled
      */
     public static final int Chip_chipIconEnabled=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipIconSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12501,32 +12561,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipIconSize
+     * @attr name com.example.thienbao.myapplication:chipIconSize
      */
     public static final int Chip_chipIconSize=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipIconTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipIconTint
+     * @attr name com.example.thienbao.myapplication:chipIconTint
      */
     public static final int Chip_chipIconTint=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipIconVisible}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipIconVisible
+     * @attr name com.example.thienbao.myapplication:chipIconVisible
      */
     public static final int Chip_chipIconVisible=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipMinHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipMinHeight}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12535,11 +12595,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipMinHeight
+     * @attr name com.example.thienbao.myapplication:chipMinHeight
      */
     public static final int Chip_chipMinHeight=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipStartPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12548,22 +12608,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipStartPadding
+     * @attr name com.example.thienbao.myapplication:chipStartPadding
      */
     public static final int Chip_chipStartPadding=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipStrokeColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipStrokeColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipStrokeColor
+     * @attr name com.example.thienbao.myapplication:chipStrokeColor
      */
     public static final int Chip_chipStrokeColor=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipStrokeWidth}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12572,7 +12632,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipStrokeWidth
+     * @attr name com.example.thienbao.myapplication:chipStrokeWidth
      */
     public static final int Chip_chipStrokeWidth=19;
     /**
@@ -12585,21 +12645,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeIcon
+     * @attr name com.example.thienbao.myapplication:closeIcon
      */
     public static final int Chip_closeIcon=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconEnabled}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconEnabled
+     * @attr name com.example.thienbao.myapplication:closeIconEnabled
      */
     public static final int Chip_closeIconEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconEndPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12608,11 +12668,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconEndPadding
+     * @attr name com.example.thienbao.myapplication:closeIconEndPadding
      */
     public static final int Chip_closeIconEndPadding=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconSize}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12621,11 +12681,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconSize
+     * @attr name com.example.thienbao.myapplication:closeIconSize
      */
     public static final int Chip_closeIconSize=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconStartPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12634,32 +12694,32 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconStartPadding
+     * @attr name com.example.thienbao.myapplication:closeIconStartPadding
      */
     public static final int Chip_closeIconStartPadding=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconTint}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconTint
+     * @attr name com.example.thienbao.myapplication:closeIconTint
      */
     public static final int Chip_closeIconTint=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#closeIconVisible}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#closeIconVisible}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeIconVisible
+     * @attr name com.example.thienbao.myapplication:closeIconVisible
      */
     public static final int Chip_closeIconVisible=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12667,11 +12727,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hideMotionSpec
+     * @attr name com.example.thienbao.myapplication:hideMotionSpec
      */
     public static final int Chip_hideMotionSpec=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#iconEndPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#iconEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12680,11 +12740,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:iconEndPadding
+     * @attr name com.example.thienbao.myapplication:iconEndPadding
      */
     public static final int Chip_iconEndPadding=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#iconStartPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#iconStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12693,22 +12753,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:iconStartPadding
+     * @attr name com.example.thienbao.myapplication:iconStartPadding
      */
     public static final int Chip_iconStartPadding=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#rippleColor}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:rippleColor
+     * @attr name com.example.thienbao.myapplication:rippleColor
      */
     public static final int Chip_rippleColor=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12716,11 +12776,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:showMotionSpec
+     * @attr name com.example.thienbao.myapplication:showMotionSpec
      */
     public static final int Chip_showMotionSpec=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textEndPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textEndPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12729,11 +12789,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:textEndPadding
+     * @attr name com.example.thienbao.myapplication:textEndPadding
      */
     public static final int Chip_textEndPadding=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textStartPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textStartPadding}
      * attribute's value can be found in the {@link #Chip} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12742,7 +12802,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:textStartPadding
+     * @attr name com.example.thienbao.myapplication:textStartPadding
      */
     public static final int Chip_textStartPadding=33;
     /**
@@ -12752,12 +12812,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ChipGroup_checkedChip com.example.black.savemymoneyv3:checkedChip}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacing com.example.black.savemymoneyv3:chipSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.example.black.savemymoneyv3:chipSpacingHorizontal}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.example.black.savemymoneyv3:chipSpacingVertical}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleLine com.example.black.savemymoneyv3:singleLine}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ChipGroup_singleSelection com.example.black.savemymoneyv3:singleSelection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_checkedChip com.example.thienbao.myapplication:checkedChip}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacing com.example.thienbao.myapplication:chipSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingHorizontal com.example.thienbao.myapplication:chipSpacingHorizontal}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_chipSpacingVertical com.example.thienbao.myapplication:chipSpacingVertical}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleLine com.example.thienbao.myapplication:singleLine}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ChipGroup_singleSelection com.example.thienbao.myapplication:singleSelection}</code></td><td></td></tr>
      * </table>
      * @see #ChipGroup_checkedChip
      * @see #ChipGroup_chipSpacing
@@ -12771,7 +12831,7 @@ public final class R {
       0x7f0401e3, 0x7f0401e5
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#checkedChip}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#checkedChip}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12779,11 +12839,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkedChip
+     * @attr name com.example.thienbao.myapplication:checkedChip
      */
     public static final int ChipGroup_checkedChip=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipSpacing}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipSpacing}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12792,11 +12852,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipSpacing
+     * @attr name com.example.thienbao.myapplication:chipSpacing
      */
     public static final int ChipGroup_chipSpacing=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipSpacingHorizontal}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipSpacingHorizontal}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12805,11 +12865,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipSpacingHorizontal
+     * @attr name com.example.thienbao.myapplication:chipSpacingHorizontal
      */
     public static final int ChipGroup_chipSpacingHorizontal=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipSpacingVertical}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipSpacingVertical}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12818,27 +12878,27 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:chipSpacingVertical
+     * @attr name com.example.thienbao.myapplication:chipSpacingVertical
      */
     public static final int ChipGroup_chipSpacingVertical=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#singleLine}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#singleLine}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:singleLine
+     * @attr name com.example.thienbao.myapplication:singleLine
      */
     public static final int ChipGroup_singleLine=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#singleSelection}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#singleSelection}
      * attribute's value can be found in the {@link #ChipGroup} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:singleSelection
+     * @attr name com.example.thienbao.myapplication:singleSelection
      */
     public static final int ChipGroup_singleSelection=5;
     /**
@@ -12848,22 +12908,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.black.savemymoneyv3:collapsedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.black.savemymoneyv3:collapsedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.black.savemymoneyv3:contentScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.black.savemymoneyv3:expandedTitleGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.black.savemymoneyv3:expandedTitleMargin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.black.savemymoneyv3:expandedTitleMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.black.savemymoneyv3:expandedTitleMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.black.savemymoneyv3:expandedTitleMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.black.savemymoneyv3:expandedTitleMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.black.savemymoneyv3:expandedTitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.example.black.savemymoneyv3:scrimAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.example.black.savemymoneyv3:scrimVisibleHeightTrigger}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.black.savemymoneyv3:statusBarScrim}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.black.savemymoneyv3:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.black.savemymoneyv3:titleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.black.savemymoneyv3:toolbarId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleGravity com.example.thienbao.myapplication:collapsedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_collapsedTitleTextAppearance com.example.thienbao.myapplication:collapsedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_contentScrim com.example.thienbao.myapplication:contentScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleGravity com.example.thienbao.myapplication:expandedTitleGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMargin com.example.thienbao.myapplication:expandedTitleMargin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginBottom com.example.thienbao.myapplication:expandedTitleMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginEnd com.example.thienbao.myapplication:expandedTitleMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginStart com.example.thienbao.myapplication:expandedTitleMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleMarginTop com.example.thienbao.myapplication:expandedTitleMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_expandedTitleTextAppearance com.example.thienbao.myapplication:expandedTitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimAnimationDuration com.example.thienbao.myapplication:scrimAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_scrimVisibleHeightTrigger com.example.thienbao.myapplication:scrimVisibleHeightTrigger}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_statusBarScrim com.example.thienbao.myapplication:statusBarScrim}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_title com.example.thienbao.myapplication:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_titleEnabled com.example.thienbao.myapplication:titleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_toolbarId com.example.thienbao.myapplication:toolbarId}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_collapsedTitleGravity
      * @see #CollapsingToolbarLayout_collapsedTitleTextAppearance
@@ -12889,7 +12949,7 @@ public final class R {
       0x7f0401f5, 0x7f040247, 0x7f040248, 0x7f040252
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#collapsedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#collapsedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12910,11 +12970,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:collapsedTitleGravity
+     * @attr name com.example.thienbao.myapplication:collapsedTitleGravity
      */
     public static final int CollapsingToolbarLayout_collapsedTitleGravity=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#collapsedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#collapsedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -12922,22 +12982,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:collapsedTitleTextAppearance
+     * @attr name com.example.thienbao.myapplication:collapsedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_collapsedTitleTextAppearance=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#contentScrim}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#contentScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:contentScrim
+     * @attr name com.example.thienbao.myapplication:contentScrim
      */
     public static final int CollapsingToolbarLayout_contentScrim=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleGravity}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -12958,11 +13018,11 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleGravity
+     * @attr name com.example.thienbao.myapplication:expandedTitleGravity
      */
     public static final int CollapsingToolbarLayout_expandedTitleGravity=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleMargin}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleMargin}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12971,11 +13031,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleMargin
+     * @attr name com.example.thienbao.myapplication:expandedTitleMargin
      */
     public static final int CollapsingToolbarLayout_expandedTitleMargin=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleMarginBottom}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12984,11 +13044,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleMarginBottom
+     * @attr name com.example.thienbao.myapplication:expandedTitleMarginBottom
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginBottom=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleMarginEnd}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -12997,11 +13057,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleMarginEnd
+     * @attr name com.example.thienbao.myapplication:expandedTitleMarginEnd
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginEnd=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleMarginStart}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13010,11 +13070,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleMarginStart
+     * @attr name com.example.thienbao.myapplication:expandedTitleMarginStart
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginStart=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleMarginTop}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13023,11 +13083,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleMarginTop
+     * @attr name com.example.thienbao.myapplication:expandedTitleMarginTop
      */
     public static final int CollapsingToolbarLayout_expandedTitleMarginTop=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#expandedTitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#expandedTitleTextAppearance}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13035,20 +13095,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:expandedTitleTextAppearance
+     * @attr name com.example.thienbao.myapplication:expandedTitleTextAppearance
      */
     public static final int CollapsingToolbarLayout_expandedTitleTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#scrimAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#scrimAnimationDuration}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:scrimAnimationDuration
+     * @attr name com.example.thienbao.myapplication:scrimAnimationDuration
      */
     public static final int CollapsingToolbarLayout_scrimAnimationDuration=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#scrimVisibleHeightTrigger}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#scrimVisibleHeightTrigger}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13057,42 +13117,42 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:scrimVisibleHeightTrigger
+     * @attr name com.example.thienbao.myapplication:scrimVisibleHeightTrigger
      */
     public static final int CollapsingToolbarLayout_scrimVisibleHeightTrigger=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#statusBarScrim}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#statusBarScrim}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:statusBarScrim
+     * @attr name com.example.thienbao.myapplication:statusBarScrim
      */
     public static final int CollapsingToolbarLayout_statusBarScrim=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#title}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:title
+     * @attr name com.example.thienbao.myapplication:title
      */
     public static final int CollapsingToolbarLayout_title=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#titleEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#titleEnabled}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:titleEnabled
+     * @attr name com.example.thienbao.myapplication:titleEnabled
      */
     public static final int CollapsingToolbarLayout_titleEnabled=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#toolbarId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#toolbarId}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13100,7 +13160,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:toolbarId
+     * @attr name com.example.thienbao.myapplication:toolbarId
      */
     public static final int CollapsingToolbarLayout_toolbarId=15;
     /**
@@ -13110,8 +13170,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.example.black.savemymoneyv3:layout_collapseMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.example.black.savemymoneyv3:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseMode com.example.thienbao.myapplication:layout_collapseMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier com.example.thienbao.myapplication:layout_collapseParallaxMultiplier}</code></td><td></td></tr>
      * </table>
      * @see #CollapsingToolbarLayout_Layout_layout_collapseMode
      * @see #CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier
@@ -13120,7 +13180,7 @@ public final class R {
       0x7f04014b, 0x7f04014c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_collapseMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_collapseMode}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13134,16 +13194,16 @@ public final class R {
      * <tr><td>pin</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_collapseMode
+     * @attr name com.example.thienbao.myapplication:layout_collapseMode
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseMode=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_collapseParallaxMultiplier}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_collapseParallaxMultiplier}
      * attribute's value can be found in the {@link #CollapsingToolbarLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_collapseParallaxMultiplier
+     * @attr name com.example.thienbao.myapplication:layout_collapseParallaxMultiplier
      */
     public static final int CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier=1;
     /**
@@ -13155,7 +13215,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_color android:color}</code></td><td></td></tr>
      * <tr><td><code>{@link #ColorStateListItem_android_alpha android:alpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.black.savemymoneyv3:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
+     * <tr><td><code>{@link #ColorStateListItem_alpha com.example.thienbao.myapplication:alpha}</code></td><td>Alpha multiplier applied to the base color.</td></tr>
      * </table>
      * @see #ColorStateListItem_android_color
      * @see #ColorStateListItem_android_alpha
@@ -13192,7 +13252,7 @@ public final class R {
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:alpha
+     * @attr name com.example.thienbao.myapplication:alpha
      */
     public static final int ColorStateListItem_alpha=2;
     /**
@@ -13202,9 +13262,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CommentAddScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentAddScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentAddScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentAddScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentAddScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentAddScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #CommentAddScreenlet_className
      * @see #CommentAddScreenlet_classPK
@@ -13214,27 +13274,27 @@ public final class R {
       0x7f040088, 0x7f04008a, 0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #CommentAddScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int CommentAddScreenlet_className=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #CommentAddScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int CommentAddScreenlet_classPK=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #CommentAddScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13242,7 +13302,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int CommentAddScreenlet_layoutId=2;
     /**
@@ -13252,11 +13312,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CommentDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentDisplayScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentDisplayScreenlet_commentId com.example.black.savemymoneyv3:commentId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentDisplayScreenlet_editable com.example.black.savemymoneyv3:editable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentDisplayScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentDisplayScreenlet_commentId com.example.thienbao.myapplication:commentId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentDisplayScreenlet_editable com.example.thienbao.myapplication:editable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #CommentDisplayScreenlet_autoLoad
      * @see #CommentDisplayScreenlet_cachePolicy
@@ -13269,17 +13329,17 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #CommentDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int CommentDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #CommentDisplayScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13294,31 +13354,31 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int CommentDisplayScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#commentId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#commentId}
      * attribute's value can be found in the {@link #CommentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:commentId
+     * @attr name com.example.thienbao.myapplication:commentId
      */
     public static final int CommentDisplayScreenlet_commentId=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#editable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#editable}
      * attribute's value can be found in the {@link #CommentDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editable
+     * @attr name com.example.thienbao.myapplication:editable
      */
     public static final int CommentDisplayScreenlet_editable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #CommentDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13326,7 +13386,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int CommentDisplayScreenlet_layoutId=4;
     /**
@@ -13336,15 +13396,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_editable com.example.black.savemymoneyv3:editable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_firstPageSize com.example.black.savemymoneyv3:firstPageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_labelFields com.example.black.savemymoneyv3:labelFields}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CommentListScreenlet_pageSize com.example.black.savemymoneyv3:pageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_editable com.example.thienbao.myapplication:editable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_firstPageSize com.example.thienbao.myapplication:firstPageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_labelFields com.example.thienbao.myapplication:labelFields}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CommentListScreenlet_pageSize com.example.thienbao.myapplication:pageSize}</code></td><td></td></tr>
      * </table>
      * @see #CommentListScreenlet_autoLoad
      * @see #CommentListScreenlet_cachePolicy
@@ -13362,17 +13422,17 @@ public final class R {
       0x7f0401b0
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int CommentListScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13387,60 +13447,60 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int CommentListScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int CommentListScreenlet_className=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int CommentListScreenlet_classPK=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#editable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#editable}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editable
+     * @attr name com.example.thienbao.myapplication:editable
      */
     public static final int CommentListScreenlet_editable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#firstPageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#firstPageSize}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:firstPageSize
+     * @attr name com.example.thienbao.myapplication:firstPageSize
      */
     public static final int CommentListScreenlet_firstPageSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelFields}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelFields}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:labelFields
+     * @attr name com.example.thienbao.myapplication:labelFields
      */
     public static final int CommentListScreenlet_labelFields=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -13448,16 +13508,16 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int CommentListScreenlet_layoutId=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pageSize}
      * attribute's value can be found in the {@link #CommentListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pageSize
+     * @attr name com.example.thienbao.myapplication:pageSize
      */
     public static final int CommentListScreenlet_pageSize=8;
     /**
@@ -13467,21 +13527,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarBackgroundColor com.example.black.savemymoneyv3:compactCalendarBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayBackgroundColor com.example.black.savemymoneyv3:compactCalendarCurrentDayBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayIndicatorStyle com.example.black.savemymoneyv3:compactCalendarCurrentDayIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayTextColor com.example.black.savemymoneyv3:compactCalendarCurrentDayTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayBackgroundColor com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayIndicatorStyle com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayTextColor com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarDisplayOtherMonthDays com.example.black.savemymoneyv3:compactCalendarDisplayOtherMonthDays}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarEventIndicatorStyle com.example.black.savemymoneyv3:compactCalendarEventIndicatorStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarMultiEventIndicatorColor com.example.black.savemymoneyv3:compactCalendarMultiEventIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarOtherMonthDaysTextColor com.example.black.savemymoneyv3:compactCalendarOtherMonthDaysTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarShouldSelectFirstDayOfMonthOnScroll com.example.black.savemymoneyv3:compactCalendarShouldSelectFirstDayOfMonthOnScroll}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTargetHeight com.example.black.savemymoneyv3:compactCalendarTargetHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTextColor com.example.black.savemymoneyv3:compactCalendarTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTextSize com.example.black.savemymoneyv3:compactCalendarTextSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarBackgroundColor com.example.thienbao.myapplication:compactCalendarBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayBackgroundColor com.example.thienbao.myapplication:compactCalendarCurrentDayBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayIndicatorStyle com.example.thienbao.myapplication:compactCalendarCurrentDayIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentDayTextColor com.example.thienbao.myapplication:compactCalendarCurrentDayTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayBackgroundColor com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayIndicatorStyle com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarCurrentSelectedDayTextColor com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarDisplayOtherMonthDays com.example.thienbao.myapplication:compactCalendarDisplayOtherMonthDays}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarEventIndicatorStyle com.example.thienbao.myapplication:compactCalendarEventIndicatorStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarMultiEventIndicatorColor com.example.thienbao.myapplication:compactCalendarMultiEventIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarOtherMonthDaysTextColor com.example.thienbao.myapplication:compactCalendarOtherMonthDaysTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarShouldSelectFirstDayOfMonthOnScroll com.example.thienbao.myapplication:compactCalendarShouldSelectFirstDayOfMonthOnScroll}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTargetHeight com.example.thienbao.myapplication:compactCalendarTargetHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTextColor com.example.thienbao.myapplication:compactCalendarTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CompactCalendarView_compactCalendarTextSize com.example.thienbao.myapplication:compactCalendarTextSize}</code></td><td></td></tr>
      * </table>
      * @see #CompactCalendarView_compactCalendarBackgroundColor
      * @see #CompactCalendarView_compactCalendarCurrentDayBackgroundColor
@@ -13506,29 +13566,29 @@ public final class R {
       0x7f0400b2, 0x7f0400b3, 0x7f0400b4
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarBackgroundColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarBackgroundColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarBackgroundColor
      */
     public static final int CompactCalendarView_compactCalendarBackgroundColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentDayBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentDayBackgroundColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentDayBackgroundColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentDayBackgroundColor
      */
     public static final int CompactCalendarView_compactCalendarCurrentDayBackgroundColor=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentDayIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentDayIndicatorStyle}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13541,33 +13601,33 @@ public final class R {
      * <tr><td>no_fill_large_indicator</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentDayIndicatorStyle
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentDayIndicatorStyle
      */
     public static final int CompactCalendarView_compactCalendarCurrentDayIndicatorStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentDayTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentDayTextColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentDayTextColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentDayTextColor
      */
     public static final int CompactCalendarView_compactCalendarCurrentDayTextColor=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentSelectedDayBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentSelectedDayBackgroundColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayBackgroundColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayBackgroundColor
      */
     public static final int CompactCalendarView_compactCalendarCurrentSelectedDayBackgroundColor=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentSelectedDayIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentSelectedDayIndicatorStyle}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13580,32 +13640,32 @@ public final class R {
      * <tr><td>no_fill_large_indicator</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayIndicatorStyle
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayIndicatorStyle
      */
     public static final int CompactCalendarView_compactCalendarCurrentSelectedDayIndicatorStyle=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarCurrentSelectedDayTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarCurrentSelectedDayTextColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarCurrentSelectedDayTextColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarCurrentSelectedDayTextColor
      */
     public static final int CompactCalendarView_compactCalendarCurrentSelectedDayTextColor=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarDisplayOtherMonthDays}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarDisplayOtherMonthDays}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarDisplayOtherMonthDays
+     * @attr name com.example.thienbao.myapplication:compactCalendarDisplayOtherMonthDays
      */
     public static final int CompactCalendarView_compactCalendarDisplayOtherMonthDays=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarEventIndicatorStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarEventIndicatorStyle}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -13619,43 +13679,43 @@ public final class R {
      * <tr><td>small_indicator</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarEventIndicatorStyle
+     * @attr name com.example.thienbao.myapplication:compactCalendarEventIndicatorStyle
      */
     public static final int CompactCalendarView_compactCalendarEventIndicatorStyle=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarMultiEventIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarMultiEventIndicatorColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarMultiEventIndicatorColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarMultiEventIndicatorColor
      */
     public static final int CompactCalendarView_compactCalendarMultiEventIndicatorColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarOtherMonthDaysTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarOtherMonthDaysTextColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarOtherMonthDaysTextColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarOtherMonthDaysTextColor
      */
     public static final int CompactCalendarView_compactCalendarOtherMonthDaysTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarShouldSelectFirstDayOfMonthOnScroll}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarShouldSelectFirstDayOfMonthOnScroll}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarShouldSelectFirstDayOfMonthOnScroll
+     * @attr name com.example.thienbao.myapplication:compactCalendarShouldSelectFirstDayOfMonthOnScroll
      */
     public static final int CompactCalendarView_compactCalendarShouldSelectFirstDayOfMonthOnScroll=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarTargetHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarTargetHeight}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13664,22 +13724,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarTargetHeight
+     * @attr name com.example.thienbao.myapplication:compactCalendarTargetHeight
      */
     public static final int CompactCalendarView_compactCalendarTargetHeight=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarTextColor}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarTextColor
+     * @attr name com.example.thienbao.myapplication:compactCalendarTextColor
      */
     public static final int CompactCalendarView_compactCalendarTextColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#compactCalendarTextSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#compactCalendarTextSize}
      * attribute's value can be found in the {@link #CompactCalendarView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -13688,7 +13748,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:compactCalendarTextSize
+     * @attr name com.example.thienbao.myapplication:compactCalendarTextSize
      */
     public static final int CompactCalendarView_compactCalendarTextSize=14;
     /**
@@ -13699,8 +13759,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CompoundButton_android_button android:button}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.black.savemymoneyv3:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
-     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.black.savemymoneyv3:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTint com.example.thienbao.myapplication:buttonTint}</code></td><td>Tint to apply to the button drawable.</td></tr>
+     * <tr><td><code>{@link #CompoundButton_buttonTintMode com.example.thienbao.myapplication:buttonTintMode}</code></td><td>Blending mode used to apply the button tint.</td></tr>
      * </table>
      * @see #CompoundButton_android_button
      * @see #CompoundButton_buttonTint
@@ -13730,7 +13790,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:buttonTint
+     * @attr name com.example.thienbao.myapplication:buttonTint
      */
     public static final int CompoundButton_buttonTint=1;
     /**
@@ -13757,7 +13817,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:buttonTintMode
+     * @attr name com.example.thienbao.myapplication:buttonTintMode
      */
     public static final int CompoundButton_buttonTintMode=2;
     /**
@@ -13772,61 +13832,61 @@ public final class R {
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_maxHeight android:maxHeight}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minWidth android:minWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintLayout_Layout_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.example.black.savemymoneyv3:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.example.black.savemymoneyv3:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.example.black.savemymoneyv3:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.black.savemymoneyv3:constraintSet}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.example.black.savemymoneyv3:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.example.black.savemymoneyv3:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.example.black.savemymoneyv3:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.black.savemymoneyv3:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.black.savemymoneyv3:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.black.savemymoneyv3:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.black.savemymoneyv3:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.black.savemymoneyv3:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.example.black.savemymoneyv3:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.example.black.savemymoneyv3:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.example.black.savemymoneyv3:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.black.savemymoneyv3:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.black.savemymoneyv3:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.black.savemymoneyv3:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.black.savemymoneyv3:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.black.savemymoneyv3:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.black.savemymoneyv3:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.black.savemymoneyv3:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.black.savemymoneyv3:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.black.savemymoneyv3:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.example.black.savemymoneyv3:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.black.savemymoneyv3:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.black.savemymoneyv3:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.black.savemymoneyv3:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.black.savemymoneyv3:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.black.savemymoneyv3:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.black.savemymoneyv3:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.black.savemymoneyv3:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.black.savemymoneyv3:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.black.savemymoneyv3:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.black.savemymoneyv3:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.black.savemymoneyv3:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.black.savemymoneyv3:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.black.savemymoneyv3:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.black.savemymoneyv3:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.black.savemymoneyv3:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.black.savemymoneyv3:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.black.savemymoneyv3:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.black.savemymoneyv3:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.black.savemymoneyv3:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.black.savemymoneyv3:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.example.black.savemymoneyv3:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.black.savemymoneyv3:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.black.savemymoneyv3:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.black.savemymoneyv3:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.black.savemymoneyv3:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.black.savemymoneyv3:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.black.savemymoneyv3:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.black.savemymoneyv3:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.black.savemymoneyv3:layout_goneMarginTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.black.savemymoneyv3:layout_optimizationLevel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierAllowsGoneWidgets com.example.thienbao.myapplication:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_barrierDirection com.example.thienbao.myapplication:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_chainUseRtl com.example.thienbao.myapplication:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraintSet com.example.thienbao.myapplication:constraintSet}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_constraint_referenced_ids com.example.thienbao.myapplication:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedHeight com.example.thienbao.myapplication:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constrainedWidth com.example.thienbao.myapplication:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_creator com.example.thienbao.myapplication:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf com.example.thienbao.myapplication:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_creator com.example.thienbao.myapplication:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toBottomOf com.example.thienbao.myapplication:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintBottom_toTopOf com.example.thienbao.myapplication:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircle com.example.thienbao.myapplication:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleAngle com.example.thienbao.myapplication:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintCircleRadius com.example.thienbao.myapplication:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintDimensionRatio com.example.thienbao.myapplication:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toEndOf com.example.thienbao.myapplication:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintEnd_toStartOf com.example.thienbao.myapplication:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_begin com.example.thienbao.myapplication:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_end com.example.thienbao.myapplication:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintGuide_percent com.example.thienbao.myapplication:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_default com.example.thienbao.myapplication:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_max com.example.thienbao.myapplication:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_min com.example.thienbao.myapplication:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHeight_percent com.example.thienbao.myapplication:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_bias com.example.thienbao.myapplication:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle com.example.thienbao.myapplication:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintHorizontal_weight com.example.thienbao.myapplication:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_creator com.example.thienbao.myapplication:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toLeftOf com.example.thienbao.myapplication:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintLeft_toRightOf com.example.thienbao.myapplication:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_creator com.example.thienbao.myapplication:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toLeftOf com.example.thienbao.myapplication:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintRight_toRightOf com.example.thienbao.myapplication:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toEndOf com.example.thienbao.myapplication:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintStart_toStartOf com.example.thienbao.myapplication:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_creator com.example.thienbao.myapplication:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toBottomOf com.example.thienbao.myapplication:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintTop_toTopOf com.example.thienbao.myapplication:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_bias com.example.thienbao.myapplication:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_chainStyle com.example.thienbao.myapplication:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintVertical_weight com.example.thienbao.myapplication:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_default com.example.thienbao.myapplication:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_max com.example.thienbao.myapplication:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_min com.example.thienbao.myapplication:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_constraintWidth_percent com.example.thienbao.myapplication:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteX com.example.thienbao.myapplication:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_editor_absoluteY com.example.thienbao.myapplication:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginBottom com.example.thienbao.myapplication:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginEnd com.example.thienbao.myapplication:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginLeft com.example.thienbao.myapplication:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginRight com.example.thienbao.myapplication:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginStart com.example.thienbao.myapplication:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_goneMarginTop com.example.thienbao.myapplication:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_Layout_layout_optimizationLevel com.example.thienbao.myapplication:layout_optimizationLevel}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_Layout_android_orientation
      * @see #ConstraintLayout_Layout_android_maxWidth
@@ -13976,17 +14036,17 @@ public final class R {
      */
     public static final int ConstraintLayout_Layout_android_minHeight=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:barrierAllowsGoneWidgets
+     * @attr name com.example.thienbao.myapplication:barrierAllowsGoneWidgets
      */
     public static final int ConstraintLayout_Layout_barrierAllowsGoneWidgets=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14003,21 +14063,21 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:barrierDirection
+     * @attr name com.example.thienbao.myapplication:barrierDirection
      */
     public static final int ConstraintLayout_Layout_barrierDirection=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chainUseRtl
+     * @attr name com.example.thienbao.myapplication:chainUseRtl
      */
     public static final int ConstraintLayout_Layout_chainUseRtl=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#constraintSet}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#constraintSet}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14025,50 +14085,50 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:constraintSet
+     * @attr name com.example.thienbao.myapplication:constraintSet
      */
     public static final int ConstraintLayout_Layout_constraintSet=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:constraint_referenced_ids
+     * @attr name com.example.thienbao.myapplication:constraint_referenced_ids
      */
     public static final int ConstraintLayout_Layout_constraint_referenced_ids=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constrainedHeight
+     * @attr name com.example.thienbao.myapplication:layout_constrainedHeight
      */
     public static final int ConstraintLayout_Layout_layout_constrainedHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constrainedWidth
+     * @attr name com.example.thienbao.myapplication:layout_constrainedWidth
      */
     public static final int ConstraintLayout_Layout_layout_constrainedWidth=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBaseline_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintBaseline_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_creator=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14084,20 +14144,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBaseline_toBaselineOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBaseline_toBaselineOf=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_creator=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14113,11 +14173,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_toBottomOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toBottomOf=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14133,11 +14193,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_toTopOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintBottom_toTopOf=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14145,20 +14205,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircle
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircleAngle
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircleAngle
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleAngle=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14167,21 +14227,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircleRadius
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircleRadius
      */
     public static final int ConstraintLayout_Layout_layout_constraintCircleRadius=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintDimensionRatio
+     * @attr name com.example.thienbao.myapplication:layout_constraintDimensionRatio
      */
     public static final int ConstraintLayout_Layout_layout_constraintDimensionRatio=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14197,11 +14257,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintEnd_toEndOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toEndOf=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14217,11 +14277,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintEnd_toStartOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintEnd_toStartOf=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14230,11 +14290,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_begin
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_begin
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_begin=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14243,20 +14303,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_end
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_end
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_end=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintGuide_percent=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14270,11 +14330,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_default
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_default=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14291,11 +14351,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_max
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_max=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14312,29 +14372,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_min
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_min=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintHeight_percent=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_bias
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_bias=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14348,29 +14408,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_chainStyle
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_chainStyle=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_weight
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintHorizontal_weight=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14386,11 +14446,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_toLeftOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toLeftOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14406,20 +14466,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_toRightOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintLeft_toRightOf=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_creator=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14435,11 +14495,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_toLeftOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toLeftOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14455,11 +14515,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_toRightOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_toRightOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintRight_toRightOf=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14475,11 +14535,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintStart_toEndOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintStart_toEndOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toEndOf=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14495,20 +14555,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintStart_toStartOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintStart_toStartOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintStart_toStartOf=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_creator
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_creator=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14524,11 +14584,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_toBottomOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toBottomOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14544,20 +14604,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_toTopOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_toTopOf
      */
     public static final int ConstraintLayout_Layout_layout_constraintTop_toTopOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_bias
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_bias
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_bias=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14571,20 +14631,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_chainStyle
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_chainStyle=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_weight
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_weight
      */
     public static final int ConstraintLayout_Layout_layout_constraintVertical_weight=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14598,11 +14658,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_default
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_default
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14619,11 +14679,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_max
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_max
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14640,20 +14700,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_min
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_min
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_percent
      */
     public static final int ConstraintLayout_Layout_layout_constraintWidth_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14662,11 +14722,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_editor_absoluteX
+     * @attr name com.example.thienbao.myapplication:layout_editor_absoluteX
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteX=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14675,11 +14735,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_editor_absoluteY
+     * @attr name com.example.thienbao.myapplication:layout_editor_absoluteY
      */
     public static final int ConstraintLayout_Layout_layout_editor_absoluteY=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14688,11 +14748,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginBottom
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginBottom
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginBottom=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14701,11 +14761,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginEnd
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginEnd
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginEnd=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14714,11 +14774,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginLeft
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginLeft
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginLeft=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14727,11 +14787,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginRight
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginRight
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginRight=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14740,11 +14800,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginStart
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginStart
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginStart=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -14753,11 +14813,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginTop
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginTop
      */
     public static final int ConstraintLayout_Layout_layout_goneMarginTop=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_optimizationLevel}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_optimizationLevel}
      * attribute's value can be found in the {@link #ConstraintLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -14775,7 +14835,7 @@ public final class R {
      * <tr><td>standard</td><td>7</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_optimizationLevel
+     * @attr name com.example.thienbao.myapplication:layout_optimizationLevel
      */
     public static final int ConstraintLayout_Layout_layout_optimizationLevel=59;
     /**
@@ -14785,8 +14845,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.example.black.savemymoneyv3:content}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.example.black.savemymoneyv3:emptyVisibility}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_content com.example.thienbao.myapplication:content}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintLayout_placeholder_emptyVisibility com.example.thienbao.myapplication:emptyVisibility}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintLayout_placeholder_content
      * @see #ConstraintLayout_placeholder_emptyVisibility
@@ -14795,7 +14855,7 @@ public final class R {
       0x7f0400b8, 0x7f0400e4
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#content}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#content}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -14803,11 +14863,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:content
+     * @attr name com.example.thienbao.myapplication:content
      */
     public static final int ConstraintLayout_placeholder_content=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#emptyVisibility}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#emptyVisibility}
      * attribute's value can be found in the {@link #ConstraintLayout_placeholder} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -14820,7 +14880,7 @@ public final class R {
      * <tr><td>invisible</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:emptyVisibility
+     * @attr name com.example.thienbao.myapplication:emptyVisibility
      */
     public static final int ConstraintLayout_placeholder_emptyVisibility=1;
     /**
@@ -14857,59 +14917,59 @@ public final class R {
      * <tr><td><code>{@link #ConstraintSet_android_layout_marginEnd android:layout_marginEnd}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_translationZ android:translationZ}</code></td><td></td></tr>
      * <tr><td><code>{@link #ConstraintSet_android_elevation android:elevation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.example.black.savemymoneyv3:barrierAllowsGoneWidgets}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.example.black.savemymoneyv3:barrierDirection}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.example.black.savemymoneyv3:chainUseRtl}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.example.black.savemymoneyv3:constraint_referenced_ids}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.example.black.savemymoneyv3:layout_constrainedHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.example.black.savemymoneyv3:layout_constrainedWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.black.savemymoneyv3:layout_constraintBaseline_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.black.savemymoneyv3:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.black.savemymoneyv3:layout_constraintBottom_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.black.savemymoneyv3:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.black.savemymoneyv3:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.example.black.savemymoneyv3:layout_constraintCircle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.example.black.savemymoneyv3:layout_constraintCircleAngle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.example.black.savemymoneyv3:layout_constraintCircleRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.black.savemymoneyv3:layout_constraintDimensionRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.black.savemymoneyv3:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.black.savemymoneyv3:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.black.savemymoneyv3:layout_constraintGuide_begin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.black.savemymoneyv3:layout_constraintGuide_end}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.black.savemymoneyv3:layout_constraintGuide_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.black.savemymoneyv3:layout_constraintHeight_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.black.savemymoneyv3:layout_constraintHeight_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.black.savemymoneyv3:layout_constraintHeight_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.example.black.savemymoneyv3:layout_constraintHeight_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.black.savemymoneyv3:layout_constraintHorizontal_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.black.savemymoneyv3:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.black.savemymoneyv3:layout_constraintHorizontal_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.black.savemymoneyv3:layout_constraintLeft_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.black.savemymoneyv3:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.black.savemymoneyv3:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.black.savemymoneyv3:layout_constraintRight_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.black.savemymoneyv3:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.black.savemymoneyv3:layout_constraintRight_toRightOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.black.savemymoneyv3:layout_constraintStart_toEndOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.black.savemymoneyv3:layout_constraintStart_toStartOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.black.savemymoneyv3:layout_constraintTop_creator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.black.savemymoneyv3:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.black.savemymoneyv3:layout_constraintTop_toTopOf}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.black.savemymoneyv3:layout_constraintVertical_bias}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.black.savemymoneyv3:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.black.savemymoneyv3:layout_constraintVertical_weight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.black.savemymoneyv3:layout_constraintWidth_default}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.black.savemymoneyv3:layout_constraintWidth_max}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.black.savemymoneyv3:layout_constraintWidth_min}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.example.black.savemymoneyv3:layout_constraintWidth_percent}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.black.savemymoneyv3:layout_editor_absoluteX}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.black.savemymoneyv3:layout_editor_absoluteY}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.black.savemymoneyv3:layout_goneMarginBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.black.savemymoneyv3:layout_goneMarginEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.black.savemymoneyv3:layout_goneMarginLeft}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.black.savemymoneyv3:layout_goneMarginRight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.black.savemymoneyv3:layout_goneMarginStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.black.savemymoneyv3:layout_goneMarginTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierAllowsGoneWidgets com.example.thienbao.myapplication:barrierAllowsGoneWidgets}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_barrierDirection com.example.thienbao.myapplication:barrierDirection}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_chainUseRtl com.example.thienbao.myapplication:chainUseRtl}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_constraint_referenced_ids com.example.thienbao.myapplication:constraint_referenced_ids}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedHeight com.example.thienbao.myapplication:layout_constrainedHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constrainedWidth com.example.thienbao.myapplication:layout_constrainedWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_creator com.example.thienbao.myapplication:layout_constraintBaseline_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBaseline_toBaselineOf com.example.thienbao.myapplication:layout_constraintBaseline_toBaselineOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_creator com.example.thienbao.myapplication:layout_constraintBottom_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toBottomOf com.example.thienbao.myapplication:layout_constraintBottom_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintBottom_toTopOf com.example.thienbao.myapplication:layout_constraintBottom_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircle com.example.thienbao.myapplication:layout_constraintCircle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleAngle com.example.thienbao.myapplication:layout_constraintCircleAngle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintCircleRadius com.example.thienbao.myapplication:layout_constraintCircleRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintDimensionRatio com.example.thienbao.myapplication:layout_constraintDimensionRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toEndOf com.example.thienbao.myapplication:layout_constraintEnd_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintEnd_toStartOf com.example.thienbao.myapplication:layout_constraintEnd_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_begin com.example.thienbao.myapplication:layout_constraintGuide_begin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_end com.example.thienbao.myapplication:layout_constraintGuide_end}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintGuide_percent com.example.thienbao.myapplication:layout_constraintGuide_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_default com.example.thienbao.myapplication:layout_constraintHeight_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_max com.example.thienbao.myapplication:layout_constraintHeight_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_min com.example.thienbao.myapplication:layout_constraintHeight_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHeight_percent com.example.thienbao.myapplication:layout_constraintHeight_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_bias com.example.thienbao.myapplication:layout_constraintHorizontal_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_chainStyle com.example.thienbao.myapplication:layout_constraintHorizontal_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintHorizontal_weight com.example.thienbao.myapplication:layout_constraintHorizontal_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_creator com.example.thienbao.myapplication:layout_constraintLeft_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toLeftOf com.example.thienbao.myapplication:layout_constraintLeft_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintLeft_toRightOf com.example.thienbao.myapplication:layout_constraintLeft_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_creator com.example.thienbao.myapplication:layout_constraintRight_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toLeftOf com.example.thienbao.myapplication:layout_constraintRight_toLeftOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintRight_toRightOf com.example.thienbao.myapplication:layout_constraintRight_toRightOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toEndOf com.example.thienbao.myapplication:layout_constraintStart_toEndOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintStart_toStartOf com.example.thienbao.myapplication:layout_constraintStart_toStartOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_creator com.example.thienbao.myapplication:layout_constraintTop_creator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toBottomOf com.example.thienbao.myapplication:layout_constraintTop_toBottomOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintTop_toTopOf com.example.thienbao.myapplication:layout_constraintTop_toTopOf}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_bias com.example.thienbao.myapplication:layout_constraintVertical_bias}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_chainStyle com.example.thienbao.myapplication:layout_constraintVertical_chainStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintVertical_weight com.example.thienbao.myapplication:layout_constraintVertical_weight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_default com.example.thienbao.myapplication:layout_constraintWidth_default}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_max com.example.thienbao.myapplication:layout_constraintWidth_max}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_min com.example.thienbao.myapplication:layout_constraintWidth_min}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_constraintWidth_percent com.example.thienbao.myapplication:layout_constraintWidth_percent}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteX com.example.thienbao.myapplication:layout_editor_absoluteX}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_editor_absoluteY com.example.thienbao.myapplication:layout_editor_absoluteY}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginBottom com.example.thienbao.myapplication:layout_goneMarginBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginEnd com.example.thienbao.myapplication:layout_goneMarginEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginLeft com.example.thienbao.myapplication:layout_goneMarginLeft}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginRight com.example.thienbao.myapplication:layout_goneMarginRight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginStart com.example.thienbao.myapplication:layout_goneMarginStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ConstraintSet_layout_goneMarginTop com.example.thienbao.myapplication:layout_goneMarginTop}</code></td><td></td></tr>
      * </table>
      * @see #ConstraintSet_android_orientation
      * @see #ConstraintSet_android_id
@@ -15370,17 +15430,17 @@ public final class R {
      */
     public static final int ConstraintSet_android_elevation=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#barrierAllowsGoneWidgets}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#barrierAllowsGoneWidgets}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:barrierAllowsGoneWidgets
+     * @attr name com.example.thienbao.myapplication:barrierAllowsGoneWidgets
      */
     public static final int ConstraintSet_barrierAllowsGoneWidgets=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#barrierDirection}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#barrierDirection}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15397,60 +15457,60 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:barrierDirection
+     * @attr name com.example.thienbao.myapplication:barrierDirection
      */
     public static final int ConstraintSet_barrierDirection=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chainUseRtl}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chainUseRtl}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chainUseRtl
+     * @attr name com.example.thienbao.myapplication:chainUseRtl
      */
     public static final int ConstraintSet_chainUseRtl=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#constraint_referenced_ids}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#constraint_referenced_ids}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:constraint_referenced_ids
+     * @attr name com.example.thienbao.myapplication:constraint_referenced_ids
      */
     public static final int ConstraintSet_constraint_referenced_ids=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constrainedHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constrainedHeight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constrainedHeight
+     * @attr name com.example.thienbao.myapplication:layout_constrainedHeight
      */
     public static final int ConstraintSet_layout_constrainedHeight=31;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constrainedWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constrainedWidth}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constrainedWidth
+     * @attr name com.example.thienbao.myapplication:layout_constrainedWidth
      */
     public static final int ConstraintSet_layout_constrainedWidth=32;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBaseline_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBaseline_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBaseline_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintBaseline_creator
      */
     public static final int ConstraintSet_layout_constraintBaseline_creator=33;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBaseline_toBaselineOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBaseline_toBaselineOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15466,20 +15526,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBaseline_toBaselineOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBaseline_toBaselineOf
      */
     public static final int ConstraintSet_layout_constraintBaseline_toBaselineOf=34;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_creator
      */
     public static final int ConstraintSet_layout_constraintBottom_creator=35;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15495,11 +15555,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_toBottomOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toBottomOf=36;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintBottom_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintBottom_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15515,11 +15575,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintBottom_toTopOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintBottom_toTopOf
      */
     public static final int ConstraintSet_layout_constraintBottom_toTopOf=37;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15527,20 +15587,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircle
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircle
      */
     public static final int ConstraintSet_layout_constraintCircle=38;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircleAngle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircleAngle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircleAngle
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircleAngle
      */
     public static final int ConstraintSet_layout_constraintCircleAngle=39;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintCircleRadius}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintCircleRadius}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15549,21 +15609,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintCircleRadius
+     * @attr name com.example.thienbao.myapplication:layout_constraintCircleRadius
      */
     public static final int ConstraintSet_layout_constraintCircleRadius=40;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintDimensionRatio}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintDimensionRatio}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintDimensionRatio
+     * @attr name com.example.thienbao.myapplication:layout_constraintDimensionRatio
      */
     public static final int ConstraintSet_layout_constraintDimensionRatio=41;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintEnd_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintEnd_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15579,11 +15639,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintEnd_toEndOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintEnd_toEndOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toEndOf=42;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintEnd_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintEnd_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15599,11 +15659,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintEnd_toStartOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintEnd_toStartOf
      */
     public static final int ConstraintSet_layout_constraintEnd_toStartOf=43;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_begin}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_begin}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15612,11 +15672,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_begin
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_begin
      */
     public static final int ConstraintSet_layout_constraintGuide_begin=44;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_end}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_end}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15625,20 +15685,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_end
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_end
      */
     public static final int ConstraintSet_layout_constraintGuide_end=45;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintGuide_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintGuide_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintGuide_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintGuide_percent
      */
     public static final int ConstraintSet_layout_constraintGuide_percent=46;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_default}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15652,11 +15712,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_default
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_default
      */
     public static final int ConstraintSet_layout_constraintHeight_default=47;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_max}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15673,11 +15733,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_max
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_max
      */
     public static final int ConstraintSet_layout_constraintHeight_max=48;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_min}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -15694,29 +15754,29 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_min
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_min
      */
     public static final int ConstraintSet_layout_constraintHeight_min=49;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHeight_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHeight_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHeight_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintHeight_percent
      */
     public static final int ConstraintSet_layout_constraintHeight_percent=50;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_bias}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_bias
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_bias
      */
     public static final int ConstraintSet_layout_constraintHorizontal_bias=51;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15730,29 +15790,29 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_chainStyle
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_chainStyle
      */
     public static final int ConstraintSet_layout_constraintHorizontal_chainStyle=52;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintHorizontal_weight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintHorizontal_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintHorizontal_weight
+     * @attr name com.example.thienbao.myapplication:layout_constraintHorizontal_weight
      */
     public static final int ConstraintSet_layout_constraintHorizontal_weight=53;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_creator
      */
     public static final int ConstraintSet_layout_constraintLeft_creator=54;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15768,11 +15828,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_toLeftOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toLeftOf=55;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintLeft_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintLeft_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15788,20 +15848,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintLeft_toRightOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintLeft_toRightOf
      */
     public static final int ConstraintSet_layout_constraintLeft_toRightOf=56;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_creator
      */
     public static final int ConstraintSet_layout_constraintRight_creator=57;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_toLeftOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_toLeftOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15817,11 +15877,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_toLeftOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_toLeftOf
      */
     public static final int ConstraintSet_layout_constraintRight_toLeftOf=58;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintRight_toRightOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintRight_toRightOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15837,11 +15897,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintRight_toRightOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintRight_toRightOf
      */
     public static final int ConstraintSet_layout_constraintRight_toRightOf=59;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintStart_toEndOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintStart_toEndOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15857,11 +15917,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintStart_toEndOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintStart_toEndOf
      */
     public static final int ConstraintSet_layout_constraintStart_toEndOf=60;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintStart_toStartOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintStart_toStartOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15877,20 +15937,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintStart_toStartOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintStart_toStartOf
      */
     public static final int ConstraintSet_layout_constraintStart_toStartOf=61;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_creator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_creator}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_creator
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_creator
      */
     public static final int ConstraintSet_layout_constraintTop_creator=62;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_toBottomOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_toBottomOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15906,11 +15966,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_toBottomOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_toBottomOf
      */
     public static final int ConstraintSet_layout_constraintTop_toBottomOf=63;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintTop_toTopOf}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintTop_toTopOf}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -15926,20 +15986,20 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintTop_toTopOf
+     * @attr name com.example.thienbao.myapplication:layout_constraintTop_toTopOf
      */
     public static final int ConstraintSet_layout_constraintTop_toTopOf=64;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_bias}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_bias}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_bias
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_bias
      */
     public static final int ConstraintSet_layout_constraintVertical_bias=65;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_chainStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_chainStyle}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15953,20 +16013,20 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_chainStyle
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_chainStyle
      */
     public static final int ConstraintSet_layout_constraintVertical_chainStyle=66;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintVertical_weight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintVertical_weight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintVertical_weight
+     * @attr name com.example.thienbao.myapplication:layout_constraintVertical_weight
      */
     public static final int ConstraintSet_layout_constraintVertical_weight=67;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_default}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_default}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -15980,11 +16040,11 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_default
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_default
      */
     public static final int ConstraintSet_layout_constraintWidth_default=68;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_max}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_max}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16001,11 +16061,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_max
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_max
      */
     public static final int ConstraintSet_layout_constraintWidth_max=69;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_min}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_min}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16022,20 +16082,20 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_min
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_min
      */
     public static final int ConstraintSet_layout_constraintWidth_min=70;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_constraintWidth_percent}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_constraintWidth_percent}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_constraintWidth_percent
+     * @attr name com.example.thienbao.myapplication:layout_constraintWidth_percent
      */
     public static final int ConstraintSet_layout_constraintWidth_percent=71;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_editor_absoluteX}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_editor_absoluteX}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16044,11 +16104,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_editor_absoluteX
+     * @attr name com.example.thienbao.myapplication:layout_editor_absoluteX
      */
     public static final int ConstraintSet_layout_editor_absoluteX=72;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_editor_absoluteY}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_editor_absoluteY}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16057,11 +16117,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_editor_absoluteY
+     * @attr name com.example.thienbao.myapplication:layout_editor_absoluteY
      */
     public static final int ConstraintSet_layout_editor_absoluteY=73;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginBottom}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginBottom}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16070,11 +16130,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginBottom
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginBottom
      */
     public static final int ConstraintSet_layout_goneMarginBottom=74;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginEnd}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16083,11 +16143,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginEnd
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginEnd
      */
     public static final int ConstraintSet_layout_goneMarginEnd=75;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginLeft}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginLeft}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16096,11 +16156,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginLeft
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginLeft
      */
     public static final int ConstraintSet_layout_goneMarginLeft=76;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginRight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginRight}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16109,11 +16169,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginRight
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginRight
      */
     public static final int ConstraintSet_layout_goneMarginRight=77;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginStart}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16122,11 +16182,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginStart
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginStart
      */
     public static final int ConstraintSet_layout_goneMarginStart=78;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layout_goneMarginTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_goneMarginTop}
      * attribute's value can be found in the {@link #ConstraintSet} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -16135,7 +16195,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:layout_goneMarginTop
+     * @attr name com.example.thienbao.myapplication:layout_goneMarginTop
      */
     public static final int ConstraintSet_layout_goneMarginTop=79;
     /**
@@ -16145,9 +16205,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.black.savemymoneyv3:keylines}</code></td><td>A reference to an array of integers representing the
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.thienbao.myapplication:keylines}</code></td><td>A reference to an array of integers representing the
      * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.black.savemymoneyv3:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.thienbao.myapplication:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -16169,7 +16229,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:keylines
+     * @attr name com.example.thienbao.myapplication:keylines
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
@@ -16185,7 +16245,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:statusBarBackground
+     * @attr name com.example.thienbao.myapplication:statusBarBackground
      */
     public static final int CoordinatorLayout_statusBarBackground=1;
     /**
@@ -16196,15 +16256,15 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.black.savemymoneyv3:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.black.savemymoneyv3:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.thienbao.myapplication:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.thienbao.myapplication:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
      * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.black.savemymoneyv3:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.thienbao.myapplication:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
      * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.black.savemymoneyv3:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.black.savemymoneyv3:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.thienbao.myapplication:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.thienbao.myapplication:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
      * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.black.savemymoneyv3:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.thienbao.myapplication:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -16257,7 +16317,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_anchor
+     * @attr name com.example.thienbao.myapplication:layout_anchor
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
@@ -16294,7 +16354,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_anchorGravity
+     * @attr name com.example.thienbao.myapplication:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
@@ -16306,7 +16366,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:layout_behavior
+     * @attr name com.example.thienbao.myapplication:layout_behavior
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
@@ -16330,7 +16390,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_dodgeInsetEdges
+     * @attr name com.example.thienbao.myapplication:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
@@ -16354,7 +16414,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:layout_insetEdge
+     * @attr name com.example.thienbao.myapplication:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
@@ -16366,7 +16426,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout_keyline
+     * @attr name com.example.thienbao.myapplication:layout_keyline
      */
     public static final int CoordinatorLayout_Layout_layout_keyline=6;
     /**
@@ -16376,28 +16436,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_autoScrollOnValidation com.example.black.savemymoneyv3:autoScrollOnValidation}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_checkboxFieldLayoutId com.example.black.savemymoneyv3:checkboxFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_dateFieldLayoutId com.example.black.savemymoneyv3:dateFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_documentFieldLayoutId com.example.black.savemymoneyv3:documentFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_filePrefix com.example.black.savemymoneyv3:filePrefix}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_folderId com.example.black.savemymoneyv3:folderId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_geoFieldLayoutId com.example.black.savemymoneyv3:geoFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_groupId com.example.black.savemymoneyv3:groupId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_numberFieldLayoutId com.example.black.savemymoneyv3:numberFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_radioFieldLayoutId com.example.black.savemymoneyv3:radioFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_recordId com.example.black.savemymoneyv3:recordId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_recordSetId com.example.black.savemymoneyv3:recordSetId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_repositoryId com.example.black.savemymoneyv3:repositoryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_selectFieldLayoutId com.example.black.savemymoneyv3:selectFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_structureId com.example.black.savemymoneyv3:structureId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_textAreaFieldLayoutId com.example.black.savemymoneyv3:textAreaFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_textFieldLayoutId com.example.black.savemymoneyv3:textFieldLayoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_updateEnabled com.example.black.savemymoneyv3:updateEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLFormScreenlet_userId com.example.black.savemymoneyv3:userId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_autoScrollOnValidation com.example.thienbao.myapplication:autoScrollOnValidation}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_checkboxFieldLayoutId com.example.thienbao.myapplication:checkboxFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_dateFieldLayoutId com.example.thienbao.myapplication:dateFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_documentFieldLayoutId com.example.thienbao.myapplication:documentFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_filePrefix com.example.thienbao.myapplication:filePrefix}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_folderId com.example.thienbao.myapplication:folderId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_geoFieldLayoutId com.example.thienbao.myapplication:geoFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_groupId com.example.thienbao.myapplication:groupId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_numberFieldLayoutId com.example.thienbao.myapplication:numberFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_radioFieldLayoutId com.example.thienbao.myapplication:radioFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_recordId com.example.thienbao.myapplication:recordId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_recordSetId com.example.thienbao.myapplication:recordSetId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_repositoryId com.example.thienbao.myapplication:repositoryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_selectFieldLayoutId com.example.thienbao.myapplication:selectFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_structureId com.example.thienbao.myapplication:structureId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_textAreaFieldLayoutId com.example.thienbao.myapplication:textAreaFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_textFieldLayoutId com.example.thienbao.myapplication:textFieldLayoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_updateEnabled com.example.thienbao.myapplication:updateEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLFormScreenlet_userId com.example.thienbao.myapplication:userId}</code></td><td></td></tr>
      * </table>
      * @see #DDLFormScreenlet_autoLoad
      * @see #DDLFormScreenlet_autoScrollOnValidation
@@ -16431,27 +16491,27 @@ public final class R {
       0x7f04025d, 0x7f04025f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int DDLFormScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoScrollOnValidation}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoScrollOnValidation}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoScrollOnValidation
+     * @attr name com.example.thienbao.myapplication:autoScrollOnValidation
      */
     public static final int DDLFormScreenlet_autoScrollOnValidation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16466,11 +16526,11 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int DDLFormScreenlet_cachePolicy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#checkboxFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#checkboxFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16478,11 +16538,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:checkboxFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:checkboxFieldLayoutId
      */
     public static final int DDLFormScreenlet_checkboxFieldLayoutId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#dateFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#dateFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16490,11 +16550,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:dateFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:dateFieldLayoutId
      */
     public static final int DDLFormScreenlet_dateFieldLayoutId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#documentFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#documentFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16502,31 +16562,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:documentFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:documentFieldLayoutId
      */
     public static final int DDLFormScreenlet_documentFieldLayoutId=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#filePrefix}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#filePrefix}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:filePrefix
+     * @attr name com.example.thienbao.myapplication:filePrefix
      */
     public static final int DDLFormScreenlet_filePrefix=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#folderId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#folderId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:folderId
+     * @attr name com.example.thienbao.myapplication:folderId
      */
     public static final int DDLFormScreenlet_folderId=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#geoFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#geoFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16534,21 +16594,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:geoFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:geoFieldLayoutId
      */
     public static final int DDLFormScreenlet_geoFieldLayoutId=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#groupId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#groupId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:groupId
+     * @attr name com.example.thienbao.myapplication:groupId
      */
     public static final int DDLFormScreenlet_groupId=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16556,11 +16616,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int DDLFormScreenlet_layoutId=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#numberFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#numberFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16568,11 +16628,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:numberFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:numberFieldLayoutId
      */
     public static final int DDLFormScreenlet_numberFieldLayoutId=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#radioFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#radioFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16580,41 +16640,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:radioFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:radioFieldLayoutId
      */
     public static final int DDLFormScreenlet_radioFieldLayoutId=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#recordId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#recordId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:recordId
+     * @attr name com.example.thienbao.myapplication:recordId
      */
     public static final int DDLFormScreenlet_recordId=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#recordSetId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#recordSetId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:recordSetId
+     * @attr name com.example.thienbao.myapplication:recordSetId
      */
     public static final int DDLFormScreenlet_recordSetId=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#repositoryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#repositoryId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:repositoryId
+     * @attr name com.example.thienbao.myapplication:repositoryId
      */
     public static final int DDLFormScreenlet_repositoryId=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#selectFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#selectFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16622,21 +16682,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:selectFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:selectFieldLayoutId
      */
     public static final int DDLFormScreenlet_selectFieldLayoutId=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#structureId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#structureId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:structureId
+     * @attr name com.example.thienbao.myapplication:structureId
      */
     public static final int DDLFormScreenlet_structureId=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAreaFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAreaFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16644,11 +16704,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAreaFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:textAreaFieldLayoutId
      */
     public static final int DDLFormScreenlet_textAreaFieldLayoutId=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textFieldLayoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textFieldLayoutId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16656,27 +16716,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textFieldLayoutId
+     * @attr name com.example.thienbao.myapplication:textFieldLayoutId
      */
     public static final int DDLFormScreenlet_textFieldLayoutId=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#updateEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#updateEnabled}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:updateEnabled
+     * @attr name com.example.thienbao.myapplication:updateEnabled
      */
     public static final int DDLFormScreenlet_updateEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#userId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#userId}
      * attribute's value can be found in the {@link #DDLFormScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:userId
+     * @attr name com.example.thienbao.myapplication:userId
      */
     public static final int DDLFormScreenlet_userId=21;
     /**
@@ -16686,15 +16746,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_firstPageSize com.example.black.savemymoneyv3:firstPageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_labelFields com.example.black.savemymoneyv3:labelFields}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_obcClassName com.example.black.savemymoneyv3:obcClassName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_pageSize com.example.black.savemymoneyv3:pageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_recordSetId com.example.black.savemymoneyv3:recordSetId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DDLListScreenlet_userId com.example.black.savemymoneyv3:userId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_firstPageSize com.example.thienbao.myapplication:firstPageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_labelFields com.example.thienbao.myapplication:labelFields}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_obcClassName com.example.thienbao.myapplication:obcClassName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_pageSize com.example.thienbao.myapplication:pageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_recordSetId com.example.thienbao.myapplication:recordSetId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DDLListScreenlet_userId com.example.thienbao.myapplication:userId}</code></td><td></td></tr>
      * </table>
      * @see #DDLListScreenlet_autoLoad
      * @see #DDLListScreenlet_cachePolicy
@@ -16712,17 +16772,17 @@ public final class R {
       0x7f04025f
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int DDLListScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -16737,30 +16797,30 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int DDLListScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#firstPageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#firstPageSize}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:firstPageSize
+     * @attr name com.example.thienbao.myapplication:firstPageSize
      */
     public static final int DDLListScreenlet_firstPageSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelFields}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelFields}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:labelFields
+     * @attr name com.example.thienbao.myapplication:labelFields
      */
     public static final int DDLListScreenlet_labelFields=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16768,46 +16828,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int DDLListScreenlet_layoutId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#obcClassName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#obcClassName}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:obcClassName
+     * @attr name com.example.thienbao.myapplication:obcClassName
      */
     public static final int DDLListScreenlet_obcClassName=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pageSize}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pageSize
+     * @attr name com.example.thienbao.myapplication:pageSize
      */
     public static final int DDLListScreenlet_pageSize=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#recordSetId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#recordSetId}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:recordSetId
+     * @attr name com.example.thienbao.myapplication:recordSetId
      */
     public static final int DDLListScreenlet_recordSetId=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#userId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#userId}
      * attribute's value can be found in the {@link #DDLListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:userId
+     * @attr name com.example.thienbao.myapplication:userId
      */
     public static final int DDLListScreenlet_userId=8;
     /**
@@ -16817,8 +16877,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.black.savemymoneyv3:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.black.savemymoneyv3:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetDialogTheme com.example.thienbao.myapplication:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #DesignTheme_bottomSheetStyle com.example.thienbao.myapplication:bottomSheetStyle}</code></td><td></td></tr>
      * </table>
      * @see #DesignTheme_bottomSheetDialogTheme
      * @see #DesignTheme_bottomSheetStyle
@@ -16827,7 +16887,7 @@ public final class R {
       0x7f04004d, 0x7f04004e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16835,11 +16895,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:bottomSheetDialogTheme
+     * @attr name com.example.thienbao.myapplication:bottomSheetDialogTheme
      */
     public static final int DesignTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #DesignTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -16847,7 +16907,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:bottomSheetStyle
+     * @attr name com.example.thienbao.myapplication:bottomSheetStyle
      */
     public static final int DesignTheme_bottomSheetStyle=1;
     /**
@@ -16857,14 +16917,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.black.savemymoneyv3:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.black.savemymoneyv3:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.black.savemymoneyv3:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.black.savemymoneyv3:color}</code></td><td>The drawing color for the bars</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.black.savemymoneyv3:drawableSize}</code></td><td>The total size of the drawable</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.black.savemymoneyv3:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.black.savemymoneyv3:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
-     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.black.savemymoneyv3:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowHeadLength com.example.thienbao.myapplication:arrowHeadLength}</code></td><td>The length of the arrow head when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_arrowShaftLength com.example.thienbao.myapplication:arrowShaftLength}</code></td><td>The length of the shaft when formed to make an arrow</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_barLength com.example.thienbao.myapplication:barLength}</code></td><td>The length of the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_color com.example.thienbao.myapplication:color}</code></td><td>The drawing color for the bars</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_drawableSize com.example.thienbao.myapplication:drawableSize}</code></td><td>The total size of the drawable</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_gapBetweenBars com.example.thienbao.myapplication:gapBetweenBars}</code></td><td>The max gap between the bars when they are parallel to each other</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_spinBars com.example.thienbao.myapplication:spinBars}</code></td><td>Whether bars should rotate or not during transition</td></tr>
+     * <tr><td><code>{@link #DrawerArrowToggle_thickness com.example.thienbao.myapplication:thickness}</code></td><td>The thickness (stroke size) for the bar paint</td></tr>
      * </table>
      * @see #DrawerArrowToggle_arrowHeadLength
      * @see #DrawerArrowToggle_arrowShaftLength
@@ -16890,7 +16950,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:arrowHeadLength
+     * @attr name com.example.thienbao.myapplication:arrowHeadLength
      */
     public static final int DrawerArrowToggle_arrowHeadLength=0;
     /**
@@ -16904,7 +16964,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:arrowShaftLength
+     * @attr name com.example.thienbao.myapplication:arrowShaftLength
      */
     public static final int DrawerArrowToggle_arrowShaftLength=1;
     /**
@@ -16918,7 +16978,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:barLength
+     * @attr name com.example.thienbao.myapplication:barLength
      */
     public static final int DrawerArrowToggle_barLength=2;
     /**
@@ -16930,7 +16990,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:color
+     * @attr name com.example.thienbao.myapplication:color
      */
     public static final int DrawerArrowToggle_color=3;
     /**
@@ -16944,7 +17004,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:drawableSize
+     * @attr name com.example.thienbao.myapplication:drawableSize
      */
     public static final int DrawerArrowToggle_drawableSize=4;
     /**
@@ -16958,7 +17018,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:gapBetweenBars
+     * @attr name com.example.thienbao.myapplication:gapBetweenBars
      */
     public static final int DrawerArrowToggle_gapBetweenBars=5;
     /**
@@ -16969,7 +17029,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:spinBars
+     * @attr name com.example.thienbao.myapplication:spinBars
      */
     public static final int DrawerArrowToggle_spinBars=6;
     /**
@@ -16983,7 +17043,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:thickness
+     * @attr name com.example.thienbao.myapplication:thickness
      */
     public static final int DrawerArrowToggle_thickness=7;
     /**
@@ -16993,19 +17053,19 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.black.savemymoneyv3:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.black.savemymoneyv3:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.black.savemymoneyv3:borderWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.example.black.savemymoneyv3:fabCustomSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_fabSize com.example.black.savemymoneyv3:fabSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.example.black.savemymoneyv3:hideMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.example.black.savemymoneyv3:hoveredFocusedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.example.black.savemymoneyv3:maxImageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.black.savemymoneyv3:pressedTranslationZ}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.black.savemymoneyv3:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.example.black.savemymoneyv3:showMotionSpec}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.black.savemymoneyv3:useCompatPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTint com.example.thienbao.myapplication:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_backgroundTintMode com.example.thienbao.myapplication:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_borderWidth com.example.thienbao.myapplication:borderWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabCustomSize com.example.thienbao.myapplication:fabCustomSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_fabSize com.example.thienbao.myapplication:fabSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hideMotionSpec com.example.thienbao.myapplication:hideMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_hoveredFocusedTranslationZ com.example.thienbao.myapplication:hoveredFocusedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_maxImageSize com.example.thienbao.myapplication:maxImageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_pressedTranslationZ com.example.thienbao.myapplication:pressedTranslationZ}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_rippleColor com.example.thienbao.myapplication:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_showMotionSpec com.example.thienbao.myapplication:showMotionSpec}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_useCompatPadding com.example.thienbao.myapplication:useCompatPadding}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_backgroundTint
      * @see #FloatingActionButton_backgroundTintMode
@@ -17036,7 +17096,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTint
+     * @attr name com.example.thienbao.myapplication:backgroundTint
      */
     public static final int FloatingActionButton_backgroundTint=0;
     /**
@@ -17063,11 +17123,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTintMode
+     * @attr name com.example.thienbao.myapplication:backgroundTintMode
      */
     public static final int FloatingActionButton_backgroundTintMode=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#borderWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#borderWidth}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17076,7 +17136,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:borderWidth
+     * @attr name com.example.thienbao.myapplication:borderWidth
      */
     public static final int FloatingActionButton_borderWidth=2;
     /**
@@ -17090,11 +17150,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int FloatingActionButton_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabCustomSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabCustomSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17103,11 +17163,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:fabCustomSize
+     * @attr name com.example.thienbao.myapplication:fabCustomSize
      */
     public static final int FloatingActionButton_fabCustomSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fabSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fabSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17121,11 +17181,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:fabSize
+     * @attr name com.example.thienbao.myapplication:fabSize
      */
     public static final int FloatingActionButton_fabSize=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hideMotionSpec}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hideMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17133,11 +17193,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hideMotionSpec
+     * @attr name com.example.thienbao.myapplication:hideMotionSpec
      */
     public static final int FloatingActionButton_hideMotionSpec=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hoveredFocusedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hoveredFocusedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17146,11 +17206,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:hoveredFocusedTranslationZ
+     * @attr name com.example.thienbao.myapplication:hoveredFocusedTranslationZ
      */
     public static final int FloatingActionButton_hoveredFocusedTranslationZ=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#maxImageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#maxImageSize}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17159,11 +17219,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:maxImageSize
+     * @attr name com.example.thienbao.myapplication:maxImageSize
      */
     public static final int FloatingActionButton_maxImageSize=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pressedTranslationZ}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pressedTranslationZ}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17172,22 +17232,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:pressedTranslationZ
+     * @attr name com.example.thienbao.myapplication:pressedTranslationZ
      */
     public static final int FloatingActionButton_pressedTranslationZ=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#rippleColor}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:rippleColor
+     * @attr name com.example.thienbao.myapplication:rippleColor
      */
     public static final int FloatingActionButton_rippleColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#showMotionSpec}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#showMotionSpec}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17195,17 +17255,17 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:showMotionSpec
+     * @attr name com.example.thienbao.myapplication:showMotionSpec
      */
     public static final int FloatingActionButton_showMotionSpec=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#useCompatPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#useCompatPadding}
      * attribute's value can be found in the {@link #FloatingActionButton} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:useCompatPadding
+     * @attr name com.example.thienbao.myapplication:useCompatPadding
      */
     public static final int FloatingActionButton_useCompatPadding=12;
     /**
@@ -17215,7 +17275,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.example.black.savemymoneyv3:behavior_autoHide}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FloatingActionButton_Behavior_Layout_behavior_autoHide com.example.thienbao.myapplication:behavior_autoHide}</code></td><td></td></tr>
      * </table>
      * @see #FloatingActionButton_Behavior_Layout_behavior_autoHide
      */
@@ -17223,13 +17283,13 @@ public final class R {
       0x7f040042
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_autoHide}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_autoHide}
      * attribute's value can be found in the {@link #FloatingActionButton_Behavior_Layout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_autoHide
+     * @attr name com.example.thienbao.myapplication:behavior_autoHide
      */
     public static final int FloatingActionButton_Behavior_Layout_behavior_autoHide=0;
     /**
@@ -17239,8 +17299,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FlowLayout_itemSpacing com.example.black.savemymoneyv3:itemSpacing}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FlowLayout_lineSpacing com.example.black.savemymoneyv3:lineSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_itemSpacing com.example.thienbao.myapplication:itemSpacing}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FlowLayout_lineSpacing com.example.thienbao.myapplication:lineSpacing}</code></td><td></td></tr>
      * </table>
      * @see #FlowLayout_itemSpacing
      * @see #FlowLayout_lineSpacing
@@ -17249,7 +17309,7 @@ public final class R {
       0x7f04013b, 0x7f040186
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemSpacing}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17258,11 +17318,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:itemSpacing
+     * @attr name com.example.thienbao.myapplication:itemSpacing
      */
     public static final int FlowLayout_itemSpacing=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#lineSpacing}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#lineSpacing}
      * attribute's value can be found in the {@link #FlowLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17271,7 +17331,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:lineSpacing
+     * @attr name com.example.thienbao.myapplication:lineSpacing
      */
     public static final int FlowLayout_lineSpacing=1;
     /**
@@ -17281,12 +17341,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.black.savemymoneyv3:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.black.savemymoneyv3:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.black.savemymoneyv3:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.black.savemymoneyv3:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.black.savemymoneyv3:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.black.savemymoneyv3:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.thienbao.myapplication:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.thienbao.myapplication:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.thienbao.myapplication:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.thienbao.myapplication:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.thienbao.myapplication:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.thienbao.myapplication:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -17307,7 +17367,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderAuthority
+     * @attr name com.example.thienbao.myapplication:fontProviderAuthority
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
@@ -17324,7 +17384,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderCerts
+     * @attr name com.example.thienbao.myapplication:fontProviderCerts
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
@@ -17356,7 +17416,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderFetchStrategy
+     * @attr name com.example.thienbao.myapplication:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
@@ -17375,7 +17435,7 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderFetchTimeout
+     * @attr name com.example.thienbao.myapplication:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
@@ -17387,7 +17447,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderPackage
+     * @attr name com.example.thienbao.myapplication:fontProviderPackage
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
@@ -17399,7 +17459,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontProviderQuery
+     * @attr name com.example.thienbao.myapplication:fontProviderQuery
      */
     public static final int FontFamily_fontProviderQuery=5;
     /**
@@ -17414,11 +17474,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.black.savemymoneyv3:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.black.savemymoneyv3:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.example.black.savemymoneyv3:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.black.savemymoneyv3:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.example.black.savemymoneyv3:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.example.thienbao.myapplication:font}</code></td><td>The reference to the font file to be used.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.thienbao.myapplication:fontStyle}</code></td><td>The style of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.example.thienbao.myapplication:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.thienbao.myapplication:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.example.thienbao.myapplication:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -17505,7 +17565,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:font
+     * @attr name com.example.thienbao.myapplication:font
      */
     public static final int FontFamilyFont_font=5;
     /**
@@ -17525,7 +17585,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:fontStyle
+     * @attr name com.example.thienbao.myapplication:fontStyle
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
@@ -17539,7 +17599,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontVariationSettings
+     * @attr name com.example.thienbao.myapplication:fontVariationSettings
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
@@ -17553,7 +17613,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fontWeight
+     * @attr name com.example.thienbao.myapplication:fontWeight
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
@@ -17564,7 +17624,7 @@ public final class R {
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:ttcIndex
+     * @attr name com.example.thienbao.myapplication:ttcIndex
      */
     public static final int FontFamilyFont_ttcIndex=9;
     /**
@@ -17576,7 +17636,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foreground android:foreground}</code></td><td></td></tr>
      * <tr><td><code>{@link #ForegroundLinearLayout_android_foregroundGravity android:foregroundGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.black.savemymoneyv3:foregroundInsidePadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForegroundLinearLayout_foregroundInsidePadding com.example.thienbao.myapplication:foregroundInsidePadding}</code></td><td></td></tr>
      * </table>
      * @see #ForegroundLinearLayout_android_foreground
      * @see #ForegroundLinearLayout_android_foregroundGravity
@@ -17628,13 +17688,13 @@ public final class R {
      */
     public static final int ForegroundLinearLayout_android_foregroundGravity=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#foregroundInsidePadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#foregroundInsidePadding}
      * attribute's value can be found in the {@link #ForegroundLinearLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:foregroundInsidePadding
+     * @attr name com.example.thienbao.myapplication:foregroundInsidePadding
      */
     public static final int ForegroundLinearLayout_foregroundInsidePadding=2;
     /**
@@ -17644,11 +17704,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ForgotPasswordScreenlet_anonymousApiPassword com.example.black.savemymoneyv3:anonymousApiPassword}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForgotPasswordScreenlet_anonymousApiUserName com.example.black.savemymoneyv3:anonymousApiUserName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForgotPasswordScreenlet_basicAuthMethod com.example.black.savemymoneyv3:basicAuthMethod}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForgotPasswordScreenlet_companyId com.example.black.savemymoneyv3:companyId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ForgotPasswordScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForgotPasswordScreenlet_anonymousApiPassword com.example.thienbao.myapplication:anonymousApiPassword}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForgotPasswordScreenlet_anonymousApiUserName com.example.thienbao.myapplication:anonymousApiUserName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForgotPasswordScreenlet_basicAuthMethod com.example.thienbao.myapplication:basicAuthMethod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForgotPasswordScreenlet_companyId com.example.thienbao.myapplication:companyId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ForgotPasswordScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #ForgotPasswordScreenlet_anonymousApiPassword
      * @see #ForgotPasswordScreenlet_anonymousApiUserName
@@ -17661,27 +17721,27 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#anonymousApiPassword}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#anonymousApiPassword}
      * attribute's value can be found in the {@link #ForgotPasswordScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:anonymousApiPassword
+     * @attr name com.example.thienbao.myapplication:anonymousApiPassword
      */
     public static final int ForgotPasswordScreenlet_anonymousApiPassword=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#anonymousApiUserName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#anonymousApiUserName}
      * attribute's value can be found in the {@link #ForgotPasswordScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:anonymousApiUserName
+     * @attr name com.example.thienbao.myapplication:anonymousApiUserName
      */
     public static final int ForgotPasswordScreenlet_anonymousApiUserName=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#basicAuthMethod}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#basicAuthMethod}
      * attribute's value can be found in the {@link #ForgotPasswordScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -17695,21 +17755,21 @@ public final class R {
      * <tr><td>user_id</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:basicAuthMethod
+     * @attr name com.example.thienbao.myapplication:basicAuthMethod
      */
     public static final int ForgotPasswordScreenlet_basicAuthMethod=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#companyId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#companyId}
      * attribute's value can be found in the {@link #ForgotPasswordScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:companyId
+     * @attr name com.example.thienbao.myapplication:companyId
      */
     public static final int ForgotPasswordScreenlet_companyId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #ForgotPasswordScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -17717,7 +17777,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int ForgotPasswordScreenlet_layoutId=4;
     /**
@@ -17970,14 +18030,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_imageScaleType com.example.black.savemymoneyv3:imageScaleType}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_placeholder com.example.black.savemymoneyv3:placeholder}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageDisplayScreenlet_placeholderScaleType com.example.black.savemymoneyv3:placeholderScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_imageScaleType com.example.thienbao.myapplication:imageScaleType}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_placeholder com.example.thienbao.myapplication:placeholder}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageDisplayScreenlet_placeholderScaleType com.example.thienbao.myapplication:placeholderScaleType}</code></td><td></td></tr>
      * </table>
      * @see #ImageDisplayScreenlet_autoLoad
      * @see #ImageDisplayScreenlet_className
@@ -17993,47 +18053,47 @@ public final class R {
       0x7f04012e, 0x7f040146, 0x7f0401ba, 0x7f0401bb
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int ImageDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int ImageDisplayScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int ImageDisplayScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int ImageDisplayScreenlet_entryId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#imageScaleType}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#imageScaleType}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18052,11 +18112,11 @@ public final class R {
      * <tr><td>MATRIX</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:imageScaleType
+     * @attr name com.example.thienbao.myapplication:imageScaleType
      */
     public static final int ImageDisplayScreenlet_imageScaleType=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18064,11 +18124,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int ImageDisplayScreenlet_layoutId=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#placeholder}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#placeholder}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18076,11 +18136,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:placeholder
+     * @attr name com.example.thienbao.myapplication:placeholder
      */
     public static final int ImageDisplayScreenlet_placeholder=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#placeholderScaleType}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#placeholderScaleType}
      * attribute's value can be found in the {@link #ImageDisplayScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18099,7 +18159,7 @@ public final class R {
      * <tr><td>MATRIX</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:placeholderScaleType
+     * @attr name com.example.thienbao.myapplication:placeholderScaleType
      */
     public static final int ImageDisplayScreenlet_placeholderScaleType=7;
     /**
@@ -18109,12 +18169,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_firstPageSize com.example.black.savemymoneyv3:firstPageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_folderId com.example.black.savemymoneyv3:folderId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_mimeTypes com.example.black.savemymoneyv3:mimeTypes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_pageSize com.example.black.savemymoneyv3:pageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ImageGalleryScreenlet_repositoryId com.example.black.savemymoneyv3:repositoryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_firstPageSize com.example.thienbao.myapplication:firstPageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_folderId com.example.thienbao.myapplication:folderId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_mimeTypes com.example.thienbao.myapplication:mimeTypes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_pageSize com.example.thienbao.myapplication:pageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ImageGalleryScreenlet_repositoryId com.example.thienbao.myapplication:repositoryId}</code></td><td></td></tr>
      * </table>
      * @see #ImageGalleryScreenlet_cachePolicy
      * @see #ImageGalleryScreenlet_firstPageSize
@@ -18128,7 +18188,7 @@ public final class R {
       0x7f0401b0, 0x7f0401ce
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18143,55 +18203,55 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int ImageGalleryScreenlet_cachePolicy=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#firstPageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#firstPageSize}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:firstPageSize
+     * @attr name com.example.thienbao.myapplication:firstPageSize
      */
     public static final int ImageGalleryScreenlet_firstPageSize=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#folderId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#folderId}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:folderId
+     * @attr name com.example.thienbao.myapplication:folderId
      */
     public static final int ImageGalleryScreenlet_folderId=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#mimeTypes}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#mimeTypes}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:mimeTypes
+     * @attr name com.example.thienbao.myapplication:mimeTypes
      */
     public static final int ImageGalleryScreenlet_mimeTypes=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pageSize}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pageSize
+     * @attr name com.example.thienbao.myapplication:pageSize
      */
     public static final int ImageGalleryScreenlet_pageSize=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#repositoryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#repositoryId}
      * attribute's value can be found in the {@link #ImageGalleryScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:repositoryId
+     * @attr name com.example.thienbao.myapplication:repositoryId
      */
     public static final int ImageGalleryScreenlet_repositoryId=5;
     /**
@@ -18237,11 +18297,11 @@ public final class R {
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAligned android:baselineAligned}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_baselineAlignedChildIndex android:baselineAlignedChildIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #LinearLayoutCompat_android_weightSum android:weightSum}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.black.savemymoneyv3:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.black.savemymoneyv3:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.black.savemymoneyv3:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
+     * <tr><td><code>{@link #LinearLayoutCompat_divider com.example.thienbao.myapplication:divider}</code></td><td>Specifies the drawable used for item dividers.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_dividerPadding com.example.thienbao.myapplication:dividerPadding}</code></td><td>Size of padding on either end of a divider.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_measureWithLargestChild com.example.thienbao.myapplication:measureWithLargestChild}</code></td><td>When set to true, all children with a weight will be considered having
      * the minimum size of the largest child.</td></tr>
-     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.black.savemymoneyv3:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
+     * <tr><td><code>{@link #LinearLayoutCompat_showDividers com.example.thienbao.myapplication:showDividers}</code></td><td>Setting for which dividers to show.</td></tr>
      * </table>
      * @see #LinearLayoutCompat_android_gravity
      * @see #LinearLayoutCompat_android_orientation
@@ -18356,7 +18416,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:divider
+     * @attr name com.example.thienbao.myapplication:divider
      */
     public static final int LinearLayoutCompat_divider=5;
     /**
@@ -18370,7 +18430,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:dividerPadding
+     * @attr name com.example.thienbao.myapplication:dividerPadding
      */
     public static final int LinearLayoutCompat_dividerPadding=6;
     /**
@@ -18383,7 +18443,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:measureWithLargestChild
+     * @attr name com.example.thienbao.myapplication:measureWithLargestChild
      */
     public static final int LinearLayoutCompat_measureWithLargestChild=7;
     /**
@@ -18403,7 +18463,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:showDividers
+     * @attr name com.example.thienbao.myapplication:showDividers
      */
     public static final int LinearLayoutCompat_showDividers=8;
     /**
@@ -18561,9 +18621,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.black.savemymoneyv3:circleCrop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.black.savemymoneyv3:imageAspectRatio}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.black.savemymoneyv3:imageAspectRatioAdjust}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_circleCrop com.example.thienbao.myapplication:circleCrop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatio com.example.thienbao.myapplication:imageAspectRatio}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoadingImageView_imageAspectRatioAdjust com.example.thienbao.myapplication:imageAspectRatioAdjust}</code></td><td></td></tr>
      * </table>
      * @see #LoadingImageView_circleCrop
      * @see #LoadingImageView_imageAspectRatio
@@ -18573,26 +18633,26 @@ public final class R {
       0x7f040087, 0x7f04012b, 0x7f04012c
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#circleCrop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#circleCrop}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:circleCrop
+     * @attr name com.example.thienbao.myapplication:circleCrop
      */
     public static final int LoadingImageView_circleCrop=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#imageAspectRatio}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#imageAspectRatio}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:imageAspectRatio
+     * @attr name com.example.thienbao.myapplication:imageAspectRatio
      */
     public static final int LoadingImageView_imageAspectRatio=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#imageAspectRatioAdjust}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#imageAspectRatioAdjust}
      * attribute's value can be found in the {@link #LoadingImageView} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18606,7 +18666,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:imageAspectRatioAdjust
+     * @attr name com.example.thienbao.myapplication:imageAspectRatioAdjust
      */
     public static final int LoadingImageView_imageAspectRatioAdjust=2;
     /**
@@ -18616,17 +18676,17 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #LoginScreenlet_basicAuthMethod com.example.black.savemymoneyv3:basicAuthMethod}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_companyId com.example.black.savemymoneyv3:companyId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_cookieExpirationTime com.example.black.savemymoneyv3:cookieExpirationTime}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_credentialsStorage com.example.black.savemymoneyv3:credentialsStorage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_loginMode com.example.black.savemymoneyv3:loginMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_oauth2ClientId com.example.black.savemymoneyv3:oauth2ClientId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_oauth2ClientSecret com.example.black.savemymoneyv3:oauth2ClientSecret}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_oauth2Redirect com.example.black.savemymoneyv3:oauth2Redirect}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_oauth2Scopes com.example.black.savemymoneyv3:oauth2Scopes}</code></td><td></td></tr>
-     * <tr><td><code>{@link #LoginScreenlet_shouldHandleCookieExpiration com.example.black.savemymoneyv3:shouldHandleCookieExpiration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_basicAuthMethod com.example.thienbao.myapplication:basicAuthMethod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_companyId com.example.thienbao.myapplication:companyId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_cookieExpirationTime com.example.thienbao.myapplication:cookieExpirationTime}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_credentialsStorage com.example.thienbao.myapplication:credentialsStorage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_loginMode com.example.thienbao.myapplication:loginMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_oauth2ClientId com.example.thienbao.myapplication:oauth2ClientId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_oauth2ClientSecret com.example.thienbao.myapplication:oauth2ClientSecret}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_oauth2Redirect com.example.thienbao.myapplication:oauth2Redirect}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_oauth2Scopes com.example.thienbao.myapplication:oauth2Scopes}</code></td><td></td></tr>
+     * <tr><td><code>{@link #LoginScreenlet_shouldHandleCookieExpiration com.example.thienbao.myapplication:shouldHandleCookieExpiration}</code></td><td></td></tr>
      * </table>
      * @see #LoginScreenlet_basicAuthMethod
      * @see #LoginScreenlet_companyId
@@ -18646,7 +18706,7 @@ public final class R {
       0x7f0401a8, 0x7f0401a9, 0x7f0401dc
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#basicAuthMethod}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#basicAuthMethod}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18660,30 +18720,30 @@ public final class R {
      * <tr><td>user_id</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:basicAuthMethod
+     * @attr name com.example.thienbao.myapplication:basicAuthMethod
      */
     public static final int LoginScreenlet_basicAuthMethod=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#companyId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#companyId}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:companyId
+     * @attr name com.example.thienbao.myapplication:companyId
      */
     public static final int LoginScreenlet_companyId=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cookieExpirationTime}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cookieExpirationTime}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:cookieExpirationTime
+     * @attr name com.example.thienbao.myapplication:cookieExpirationTime
      */
     public static final int LoginScreenlet_cookieExpirationTime=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#credentialsStorage}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#credentialsStorage}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18697,11 +18757,11 @@ public final class R {
      * <tr><td>shared_preferences</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:credentialsStorage
+     * @attr name com.example.thienbao.myapplication:credentialsStorage
      */
     public static final int LoginScreenlet_credentialsStorage=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18709,11 +18769,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int LoginScreenlet_layoutId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#loginMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#loginMode}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -18728,57 +18788,57 @@ public final class R {
      * <tr><td>oauth2UsernameAndPassword</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:loginMode
+     * @attr name com.example.thienbao.myapplication:loginMode
      */
     public static final int LoginScreenlet_loginMode=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#oauth2ClientId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#oauth2ClientId}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:oauth2ClientId
+     * @attr name com.example.thienbao.myapplication:oauth2ClientId
      */
     public static final int LoginScreenlet_oauth2ClientId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#oauth2ClientSecret}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#oauth2ClientSecret}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:oauth2ClientSecret
+     * @attr name com.example.thienbao.myapplication:oauth2ClientSecret
      */
     public static final int LoginScreenlet_oauth2ClientSecret=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#oauth2Redirect}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#oauth2Redirect}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:oauth2Redirect
+     * @attr name com.example.thienbao.myapplication:oauth2Redirect
      */
     public static final int LoginScreenlet_oauth2Redirect=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#oauth2Scopes}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#oauth2Scopes}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:oauth2Scopes
+     * @attr name com.example.thienbao.myapplication:oauth2Scopes
      */
     public static final int LoginScreenlet_oauth2Scopes=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#shouldHandleCookieExpiration}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#shouldHandleCookieExpiration}
      * attribute's value can be found in the {@link #LoginScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:shouldHandleCookieExpiration
+     * @attr name com.example.thienbao.myapplication:shouldHandleCookieExpiration
      */
     public static final int LoginScreenlet_shouldHandleCookieExpiration=10;
     /**
@@ -18792,18 +18852,18 @@ public final class R {
      * <tr><td><code>{@link #MaterialButton_android_insetRight android:insetRight}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetTop android:insetTop}</code></td><td></td></tr>
      * <tr><td><code>{@link #MaterialButton_android_insetBottom android:insetBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTint com.example.black.savemymoneyv3:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.example.black.savemymoneyv3:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_cornerRadius com.example.black.savemymoneyv3:cornerRadius}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_icon com.example.black.savemymoneyv3:icon}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconGravity com.example.black.savemymoneyv3:iconGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconPadding com.example.black.savemymoneyv3:iconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconSize com.example.black.savemymoneyv3:iconSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTint com.example.black.savemymoneyv3:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_iconTintMode com.example.black.savemymoneyv3:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MaterialButton_rippleColor com.example.black.savemymoneyv3:rippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeColor com.example.black.savemymoneyv3:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialButton_strokeWidth com.example.black.savemymoneyv3:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTint com.example.thienbao.myapplication:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_backgroundTintMode com.example.thienbao.myapplication:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_cornerRadius com.example.thienbao.myapplication:cornerRadius}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_icon com.example.thienbao.myapplication:icon}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconGravity com.example.thienbao.myapplication:iconGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconPadding com.example.thienbao.myapplication:iconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconSize com.example.thienbao.myapplication:iconSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTint com.example.thienbao.myapplication:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_iconTintMode com.example.thienbao.myapplication:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MaterialButton_rippleColor com.example.thienbao.myapplication:rippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeColor com.example.thienbao.myapplication:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialButton_strokeWidth com.example.thienbao.myapplication:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialButton_android_insetLeft
      * @see #MaterialButton_android_insetRight
@@ -18905,7 +18965,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTint
+     * @attr name com.example.thienbao.myapplication:backgroundTint
      */
     public static final int MaterialButton_backgroundTint=4;
     /**
@@ -18932,11 +18992,11 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTintMode
+     * @attr name com.example.thienbao.myapplication:backgroundTintMode
      */
     public static final int MaterialButton_backgroundTintMode=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cornerRadius}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cornerRadius}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18945,11 +19005,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:cornerRadius
+     * @attr name com.example.thienbao.myapplication:cornerRadius
      */
     public static final int MaterialButton_cornerRadius=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#icon}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#icon}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -18957,11 +19017,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:icon
+     * @attr name com.example.thienbao.myapplication:icon
      */
     public static final int MaterialButton_icon=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#iconGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#iconGravity}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -18974,11 +19034,11 @@ public final class R {
      * <tr><td>textStart</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:iconGravity
+     * @attr name com.example.thienbao.myapplication:iconGravity
      */
     public static final int MaterialButton_iconGravity=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#iconPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#iconPadding}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -18987,11 +19047,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:iconPadding
+     * @attr name com.example.thienbao.myapplication:iconPadding
      */
     public static final int MaterialButton_iconPadding=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#iconSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#iconSize}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19000,7 +19060,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:iconSize
+     * @attr name com.example.thienbao.myapplication:iconSize
      */
     public static final int MaterialButton_iconSize=10;
     /**
@@ -19012,7 +19072,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:iconTint
+     * @attr name com.example.thienbao.myapplication:iconTint
      */
     public static final int MaterialButton_iconTint=11;
     /**
@@ -19039,33 +19099,33 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:iconTintMode
+     * @attr name com.example.thienbao.myapplication:iconTintMode
      */
     public static final int MaterialButton_iconTintMode=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#rippleColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#rippleColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:rippleColor
+     * @attr name com.example.thienbao.myapplication:rippleColor
      */
     public static final int MaterialButton_rippleColor=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:strokeColor
+     * @attr name com.example.thienbao.myapplication:strokeColor
      */
     public static final int MaterialButton_strokeColor=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialButton} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19074,7 +19134,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:strokeWidth
+     * @attr name com.example.thienbao.myapplication:strokeWidth
      */
     public static final int MaterialButton_strokeWidth=15;
     /**
@@ -19084,8 +19144,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeColor com.example.black.savemymoneyv3:strokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.example.black.savemymoneyv3:strokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeColor com.example.thienbao.myapplication:strokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialCardView_strokeWidth com.example.thienbao.myapplication:strokeWidth}</code></td><td></td></tr>
      * </table>
      * @see #MaterialCardView_strokeColor
      * @see #MaterialCardView_strokeWidth
@@ -19094,18 +19154,18 @@ public final class R {
       0x7f0401f6, 0x7f0401f7
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#strokeColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#strokeColor}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:strokeColor
+     * @attr name com.example.thienbao.myapplication:strokeColor
      */
     public static final int MaterialCardView_strokeColor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#strokeWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#strokeWidth}
      * attribute's value can be found in the {@link #MaterialCardView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -19114,7 +19174,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:strokeWidth
+     * @attr name com.example.thienbao.myapplication:strokeWidth
      */
     public static final int MaterialCardView_strokeWidth=1;
     /**
@@ -19124,38 +19184,38 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.example.black.savemymoneyv3:bottomSheetDialogTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.example.black.savemymoneyv3:bottomSheetStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.example.black.savemymoneyv3:chipGroupStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.example.black.savemymoneyv3:chipStandaloneStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.example.black.savemymoneyv3:chipStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.example.black.savemymoneyv3:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.example.black.savemymoneyv3:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.example.black.savemymoneyv3:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.example.black.savemymoneyv3:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.example.black.savemymoneyv3:colorSecondary}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.example.black.savemymoneyv3:editTextStyle}</code></td><td>Default EditText style.</td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.example.black.savemymoneyv3:floatingActionButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.example.black.savemymoneyv3:materialButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.example.black.savemymoneyv3:materialCardViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.example.black.savemymoneyv3:navigationViewStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.example.black.savemymoneyv3:scrimBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.example.black.savemymoneyv3:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.example.black.savemymoneyv3:tabStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.example.black.savemymoneyv3:textAppearanceBody1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.example.black.savemymoneyv3:textAppearanceBody2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.example.black.savemymoneyv3:textAppearanceButton}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.example.black.savemymoneyv3:textAppearanceCaption}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.example.black.savemymoneyv3:textAppearanceHeadline1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.example.black.savemymoneyv3:textAppearanceHeadline2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.example.black.savemymoneyv3:textAppearanceHeadline3}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.example.black.savemymoneyv3:textAppearanceHeadline4}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.example.black.savemymoneyv3:textAppearanceHeadline5}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.example.black.savemymoneyv3:textAppearanceHeadline6}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.example.black.savemymoneyv3:textAppearanceOverline}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.example.black.savemymoneyv3:textAppearanceSubtitle1}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.example.black.savemymoneyv3:textAppearanceSubtitle2}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.example.black.savemymoneyv3:textInputStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetDialogTheme com.example.thienbao.myapplication:bottomSheetDialogTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_bottomSheetStyle com.example.thienbao.myapplication:bottomSheetStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipGroupStyle com.example.thienbao.myapplication:chipGroupStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStandaloneStyle com.example.thienbao.myapplication:chipStandaloneStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_chipStyle com.example.thienbao.myapplication:chipStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorAccent com.example.thienbao.myapplication:colorAccent}</code></td><td>Bright complement to the primary branding color.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorBackgroundFloating com.example.thienbao.myapplication:colorBackgroundFloating}</code></td><td>Default color of background imagery for floating components, ex.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimary com.example.thienbao.myapplication:colorPrimary}</code></td><td>The primary branding color for the app.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorPrimaryDark com.example.thienbao.myapplication:colorPrimaryDark}</code></td><td>Dark variant of the primary branding color.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_colorSecondary com.example.thienbao.myapplication:colorSecondary}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_editTextStyle com.example.thienbao.myapplication:editTextStyle}</code></td><td>Default EditText style.</td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_floatingActionButtonStyle com.example.thienbao.myapplication:floatingActionButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialButtonStyle com.example.thienbao.myapplication:materialButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_materialCardViewStyle com.example.thienbao.myapplication:materialCardViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_navigationViewStyle com.example.thienbao.myapplication:navigationViewStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_scrimBackground com.example.thienbao.myapplication:scrimBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_snackbarButtonStyle com.example.thienbao.myapplication:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_tabStyle com.example.thienbao.myapplication:tabStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody1 com.example.thienbao.myapplication:textAppearanceBody1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceBody2 com.example.thienbao.myapplication:textAppearanceBody2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceButton com.example.thienbao.myapplication:textAppearanceButton}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceCaption com.example.thienbao.myapplication:textAppearanceCaption}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline1 com.example.thienbao.myapplication:textAppearanceHeadline1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline2 com.example.thienbao.myapplication:textAppearanceHeadline2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline3 com.example.thienbao.myapplication:textAppearanceHeadline3}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline4 com.example.thienbao.myapplication:textAppearanceHeadline4}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline5 com.example.thienbao.myapplication:textAppearanceHeadline5}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceHeadline6 com.example.thienbao.myapplication:textAppearanceHeadline6}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceOverline com.example.thienbao.myapplication:textAppearanceOverline}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle1 com.example.thienbao.myapplication:textAppearanceSubtitle1}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textAppearanceSubtitle2 com.example.thienbao.myapplication:textAppearanceSubtitle2}</code></td><td></td></tr>
+     * <tr><td><code>{@link #MaterialComponentsTheme_textInputStyle com.example.thienbao.myapplication:textInputStyle}</code></td><td></td></tr>
      * </table>
      * @see #MaterialComponentsTheme_bottomSheetDialogTheme
      * @see #MaterialComponentsTheme_bottomSheetStyle
@@ -19201,7 +19261,7 @@ public final class R {
       0x7f04022e, 0x7f040233, 0x7f040234, 0x7f04023a
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#bottomSheetDialogTheme}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#bottomSheetDialogTheme}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19209,11 +19269,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:bottomSheetDialogTheme
+     * @attr name com.example.thienbao.myapplication:bottomSheetDialogTheme
      */
     public static final int MaterialComponentsTheme_bottomSheetDialogTheme=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#bottomSheetStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#bottomSheetStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19221,11 +19281,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:bottomSheetStyle
+     * @attr name com.example.thienbao.myapplication:bottomSheetStyle
      */
     public static final int MaterialComponentsTheme_bottomSheetStyle=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipGroupStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipGroupStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19233,11 +19293,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipGroupStyle
+     * @attr name com.example.thienbao.myapplication:chipGroupStyle
      */
     public static final int MaterialComponentsTheme_chipGroupStyle=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipStandaloneStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipStandaloneStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19245,11 +19305,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipStandaloneStyle
+     * @attr name com.example.thienbao.myapplication:chipStandaloneStyle
      */
     public static final int MaterialComponentsTheme_chipStandaloneStyle=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#chipStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#chipStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19257,7 +19317,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:chipStyle
+     * @attr name com.example.thienbao.myapplication:chipStyle
      */
     public static final int MaterialComponentsTheme_chipStyle=4;
     /**
@@ -19270,7 +19330,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorAccent
+     * @attr name com.example.thienbao.myapplication:colorAccent
      */
     public static final int MaterialComponentsTheme_colorAccent=5;
     /**
@@ -19282,7 +19342,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorBackgroundFloating
+     * @attr name com.example.thienbao.myapplication:colorBackgroundFloating
      */
     public static final int MaterialComponentsTheme_colorBackgroundFloating=6;
     /**
@@ -19295,7 +19355,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorPrimary
+     * @attr name com.example.thienbao.myapplication:colorPrimary
      */
     public static final int MaterialComponentsTheme_colorPrimary=7;
     /**
@@ -19308,18 +19368,18 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorPrimaryDark
+     * @attr name com.example.thienbao.myapplication:colorPrimaryDark
      */
     public static final int MaterialComponentsTheme_colorPrimaryDark=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#colorSecondary}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#colorSecondary}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:colorSecondary
+     * @attr name com.example.thienbao.myapplication:colorSecondary
      */
     public static final int MaterialComponentsTheme_colorSecondary=9;
     /**
@@ -19332,11 +19392,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editTextStyle
+     * @attr name com.example.thienbao.myapplication:editTextStyle
      */
     public static final int MaterialComponentsTheme_editTextStyle=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#floatingActionButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#floatingActionButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19362,11 +19422,11 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      *
-     * @attr name com.example.black.savemymoneyv3:floatingActionButtonStyle
+     * @attr name com.example.thienbao.myapplication:floatingActionButtonStyle
      */
     public static final int MaterialComponentsTheme_floatingActionButtonStyle=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#materialButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#materialButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19374,11 +19434,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:materialButtonStyle
+     * @attr name com.example.thienbao.myapplication:materialButtonStyle
      */
     public static final int MaterialComponentsTheme_materialButtonStyle=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#materialCardViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#materialCardViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19386,11 +19446,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:materialCardViewStyle
+     * @attr name com.example.thienbao.myapplication:materialCardViewStyle
      */
     public static final int MaterialComponentsTheme_materialCardViewStyle=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#navigationViewStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#navigationViewStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19398,11 +19458,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:navigationViewStyle
+     * @attr name com.example.thienbao.myapplication:navigationViewStyle
      */
     public static final int MaterialComponentsTheme_navigationViewStyle=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#scrimBackground}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#scrimBackground}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19413,11 +19473,11 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:scrimBackground
+     * @attr name com.example.thienbao.myapplication:scrimBackground
      */
     public static final int MaterialComponentsTheme_scrimBackground=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19425,11 +19485,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:snackbarButtonStyle
+     * @attr name com.example.thienbao.myapplication:snackbarButtonStyle
      */
     public static final int MaterialComponentsTheme_snackbarButtonStyle=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19437,11 +19497,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabStyle
+     * @attr name com.example.thienbao.myapplication:tabStyle
      */
     public static final int MaterialComponentsTheme_tabStyle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceBody1}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceBody1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19449,11 +19509,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceBody1
+     * @attr name com.example.thienbao.myapplication:textAppearanceBody1
      */
     public static final int MaterialComponentsTheme_textAppearanceBody1=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceBody2}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceBody2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19461,11 +19521,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceBody2
+     * @attr name com.example.thienbao.myapplication:textAppearanceBody2
      */
     public static final int MaterialComponentsTheme_textAppearanceBody2=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceButton}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceButton}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19473,11 +19533,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceButton
+     * @attr name com.example.thienbao.myapplication:textAppearanceButton
      */
     public static final int MaterialComponentsTheme_textAppearanceButton=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceCaption}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceCaption}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19485,11 +19545,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceCaption
+     * @attr name com.example.thienbao.myapplication:textAppearanceCaption
      */
     public static final int MaterialComponentsTheme_textAppearanceCaption=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline1}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19497,11 +19557,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline1
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline1
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline1=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline2}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19509,11 +19569,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline2
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline2
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline2=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline3}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline3}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19521,11 +19581,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline3
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline3
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline3=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline4}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline4}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19533,11 +19593,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline4
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline4
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline4=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline5}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline5}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19545,11 +19605,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline5
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline5
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline5=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceHeadline6}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceHeadline6}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19557,11 +19617,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceHeadline6
+     * @attr name com.example.thienbao.myapplication:textAppearanceHeadline6
      */
     public static final int MaterialComponentsTheme_textAppearanceHeadline6=27;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceOverline}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceOverline}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19569,11 +19629,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceOverline
+     * @attr name com.example.thienbao.myapplication:textAppearanceOverline
      */
     public static final int MaterialComponentsTheme_textAppearanceOverline=28;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceSubtitle1}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceSubtitle1}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19581,11 +19641,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceSubtitle1
+     * @attr name com.example.thienbao.myapplication:textAppearanceSubtitle1
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle1=29;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textAppearanceSubtitle2}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textAppearanceSubtitle2}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19593,11 +19653,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAppearanceSubtitle2
+     * @attr name com.example.thienbao.myapplication:textAppearanceSubtitle2
      */
     public static final int MaterialComponentsTheme_textAppearanceSubtitle2=30;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#textInputStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#textInputStyle}
      * attribute's value can be found in the {@link #MaterialComponentsTheme} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -19605,7 +19665,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textInputStyle
+     * @attr name com.example.thienbao.myapplication:textInputStyle
      */
     public static final int MaterialComponentsTheme_textInputStyle=31;
     /**
@@ -19739,18 +19799,18 @@ public final class R {
      * <tr><td><code>{@link #MenuItem_android_numericShortcut android:numericShortcut}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_checkable android:checkable}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuItem_android_onClick android:onClick}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuItem_actionLayout com.example.black.savemymoneyv3:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.black.savemymoneyv3:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
+     * <tr><td><code>{@link #MenuItem_actionLayout com.example.thienbao.myapplication:actionLayout}</code></td><td>An optional layout to be used as an action view.</td></tr>
+     * <tr><td><code>{@link #MenuItem_actionProviderClass com.example.thienbao.myapplication:actionProviderClass}</code></td><td>The name of an optional ActionProvider class to instantiate an action view
      * and perform operations such as default action for that menu item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.black.savemymoneyv3:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
+     * <tr><td><code>{@link #MenuItem_actionViewClass com.example.thienbao.myapplication:actionViewClass}</code></td><td>The name of an optional View class to instantiate and use as an
      * action view.</td></tr>
-     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.black.savemymoneyv3:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_contentDescription com.example.black.savemymoneyv3:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTint com.example.black.savemymoneyv3:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
-     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.black.savemymoneyv3:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
-     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.black.savemymoneyv3:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
-     * <tr><td><code>{@link #MenuItem_showAsAction com.example.black.savemymoneyv3:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
-     * <tr><td><code>{@link #MenuItem_tooltipText com.example.black.savemymoneyv3:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_alphabeticModifiers com.example.thienbao.myapplication:alphabeticModifiers}</code></td><td>The alphabetic modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_contentDescription com.example.thienbao.myapplication:contentDescription}</code></td><td>The content description associated with the item.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTint com.example.thienbao.myapplication:iconTint}</code></td><td>Tint to apply to the icon.</td></tr>
+     * <tr><td><code>{@link #MenuItem_iconTintMode com.example.thienbao.myapplication:iconTintMode}</code></td><td>Blending mode used to apply the icon tint.</td></tr>
+     * <tr><td><code>{@link #MenuItem_numericModifiers com.example.thienbao.myapplication:numericModifiers}</code></td><td>The numeric modifier key.</td></tr>
+     * <tr><td><code>{@link #MenuItem_showAsAction com.example.thienbao.myapplication:showAsAction}</code></td><td>How this item should display in the Action Bar, if present.</td></tr>
+     * <tr><td><code>{@link #MenuItem_tooltipText com.example.thienbao.myapplication:tooltipText}</code></td><td>The tooltip text associated with the item.</td></tr>
      * </table>
      * @see #MenuItem_android_icon
      * @see #MenuItem_android_enabled
@@ -19959,7 +20019,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionLayout
+     * @attr name com.example.thienbao.myapplication:actionLayout
      */
     public static final int MenuItem_actionLayout=13;
     /**
@@ -19973,7 +20033,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:actionProviderClass
+     * @attr name com.example.thienbao.myapplication:actionProviderClass
      */
     public static final int MenuItem_actionProviderClass=14;
     /**
@@ -19986,7 +20046,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:actionViewClass
+     * @attr name com.example.thienbao.myapplication:actionViewClass
      */
     public static final int MenuItem_actionViewClass=15;
     /**
@@ -20009,7 +20069,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:alphabeticModifiers
+     * @attr name com.example.thienbao.myapplication:alphabeticModifiers
      */
     public static final int MenuItem_alphabeticModifiers=16;
     /**
@@ -20020,7 +20080,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:contentDescription
+     * @attr name com.example.thienbao.myapplication:contentDescription
      */
     public static final int MenuItem_contentDescription=17;
     /**
@@ -20032,7 +20092,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:iconTint
+     * @attr name com.example.thienbao.myapplication:iconTint
      */
     public static final int MenuItem_iconTint=18;
     /**
@@ -20059,7 +20119,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:iconTintMode
+     * @attr name com.example.thienbao.myapplication:iconTintMode
      */
     public static final int MenuItem_iconTintMode=19;
     /**
@@ -20082,7 +20142,7 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:numericModifiers
+     * @attr name com.example.thienbao.myapplication:numericModifiers
      */
     public static final int MenuItem_numericModifiers=20;
     /**
@@ -20112,7 +20172,7 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:showAsAction
+     * @attr name com.example.thienbao.myapplication:showAsAction
      */
     public static final int MenuItem_showAsAction=21;
     /**
@@ -20123,7 +20183,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:tooltipText
+     * @attr name com.example.thienbao.myapplication:tooltipText
      */
     public static final int MenuItem_tooltipText=22;
     /**
@@ -20140,8 +20200,8 @@ public final class R {
      * <tr><td><code>{@link #MenuView_android_headerBackground android:headerBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemBackground android:itemBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #MenuView_android_itemIconDisabledAlpha android:itemIconDisabledAlpha}</code></td><td></td></tr>
-     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.black.savemymoneyv3:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
-     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.black.savemymoneyv3:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
+     * <tr><td><code>{@link #MenuView_preserveIconSpacing com.example.thienbao.myapplication:preserveIconSpacing}</code></td><td>Whether space should be reserved in layout when an icon is missing.</td></tr>
+     * <tr><td><code>{@link #MenuView_subMenuArrow com.example.thienbao.myapplication:subMenuArrow}</code></td><td>Drawable for the arrow icon indicating a particular item is a submenu.</td></tr>
      * </table>
      * @see #MenuView_android_windowAnimationStyle
      * @see #MenuView_android_itemTextAppearance
@@ -20260,7 +20320,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:preserveIconSpacing
+     * @attr name com.example.thienbao.myapplication:preserveIconSpacing
      */
     public static final int MenuView_preserveIconSpacing=7;
     /**
@@ -20273,7 +20333,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:subMenuArrow
+     * @attr name com.example.thienbao.myapplication:subMenuArrow
      */
     public static final int MenuView_subMenuArrow=8;
     /**
@@ -20283,7 +20343,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ModalProgressBar_actionViewId com.example.black.savemymoneyv3:actionViewId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ModalProgressBar_actionViewId com.example.thienbao.myapplication:actionViewId}</code></td><td></td></tr>
      * </table>
      * @see #ModalProgressBar_actionViewId
      */
@@ -20291,7 +20351,7 @@ public final class R {
       0x7f040021
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#actionViewId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#actionViewId}
      * attribute's value can be found in the {@link #ModalProgressBar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20299,7 +20359,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:actionViewId
+     * @attr name com.example.thienbao.myapplication:actionViewId
      */
     public static final int ModalProgressBar_actionViewId=0;
     /**
@@ -20312,15 +20372,15 @@ public final class R {
      * <tr><td><code>{@link #NavigationView_android_background android:background}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_fitsSystemWindows android:fitsSystemWindows}</code></td><td></td></tr>
      * <tr><td><code>{@link #NavigationView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #NavigationView_headerLayout com.example.black.savemymoneyv3:headerLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemBackground com.example.black.savemymoneyv3:itemBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.example.black.savemymoneyv3:itemHorizontalPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconPadding com.example.black.savemymoneyv3:itemIconPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemIconTint com.example.black.savemymoneyv3:itemIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.black.savemymoneyv3:itemTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_itemTextColor com.example.black.savemymoneyv3:itemTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #NavigationView_menu com.example.black.savemymoneyv3:menu}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #NavigationView_headerLayout com.example.thienbao.myapplication:headerLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemBackground com.example.thienbao.myapplication:itemBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemHorizontalPadding com.example.thienbao.myapplication:itemHorizontalPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconPadding com.example.thienbao.myapplication:itemIconPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemIconTint com.example.thienbao.myapplication:itemIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextAppearance com.example.thienbao.myapplication:itemTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_itemTextColor com.example.thienbao.myapplication:itemTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #NavigationView_menu com.example.thienbao.myapplication:menu}</code></td><td></td></tr>
      * </table>
      * @see #NavigationView_android_background
      * @see #NavigationView_android_fitsSystemWindows
@@ -20389,11 +20449,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int NavigationView_elevation=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#headerLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#headerLayout}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20401,11 +20461,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:headerLayout
+     * @attr name com.example.thienbao.myapplication:headerLayout
      */
     public static final int NavigationView_headerLayout=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemBackground}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemBackground}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20413,11 +20473,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemBackground
+     * @attr name com.example.thienbao.myapplication:itemBackground
      */
     public static final int NavigationView_itemBackground=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemHorizontalPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemHorizontalPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -20426,11 +20486,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:itemHorizontalPadding
+     * @attr name com.example.thienbao.myapplication:itemHorizontalPadding
      */
     public static final int NavigationView_itemHorizontalPadding=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemIconPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemIconPadding}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -20439,22 +20499,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:itemIconPadding
+     * @attr name com.example.thienbao.myapplication:itemIconPadding
      */
     public static final int NavigationView_itemIconPadding=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemIconTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemIconTint}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemIconTint
+     * @attr name com.example.thienbao.myapplication:itemIconTint
      */
     public static final int NavigationView_itemIconTint=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemTextAppearance}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20462,22 +20522,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemTextAppearance
+     * @attr name com.example.thienbao.myapplication:itemTextAppearance
      */
     public static final int NavigationView_itemTextAppearance=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#itemTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#itemTextColor}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:itemTextColor
+     * @attr name com.example.thienbao.myapplication:itemTextColor
      */
     public static final int NavigationView_itemTextColor=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#menu}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#menu}
      * attribute's value can be found in the {@link #NavigationView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20485,7 +20545,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:menu
+     * @attr name com.example.thienbao.myapplication:menu
      */
     public static final int NavigationView_menu=11;
     /**
@@ -20495,11 +20555,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PdfDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PdfDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PdfDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PdfDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PdfDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PdfDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PdfDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PdfDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PdfDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #PdfDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #PdfDisplayScreenlet_autoLoad
      * @see #PdfDisplayScreenlet_className
@@ -20512,47 +20572,47 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #PdfDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int PdfDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #PdfDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int PdfDisplayScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #PdfDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int PdfDisplayScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #PdfDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int PdfDisplayScreenlet_entryId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #PdfDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20560,7 +20620,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int PdfDisplayScreenlet_layoutId=4;
     /**
@@ -20572,7 +20632,7 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #PopupWindow_android_popupAnimationStyle android:popupAnimationStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.black.savemymoneyv3:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
+     * <tr><td><code>{@link #PopupWindow_overlapAnchor com.example.thienbao.myapplication:overlapAnchor}</code></td><td>Whether the popup window should overlap its anchor view.</td></tr>
      * </table>
      * @see #PopupWindow_android_popupBackground
      * @see #PopupWindow_android_popupAnimationStyle
@@ -20616,7 +20676,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:overlapAnchor
+     * @attr name com.example.thienbao.myapplication:overlapAnchor
      */
     public static final int PopupWindow_overlapAnchor=2;
     /**
@@ -20626,7 +20686,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.black.savemymoneyv3:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
+     * <tr><td><code>{@link #PopupWindowBackgroundState_state_above_anchor com.example.thienbao.myapplication:state_above_anchor}</code></td><td>State identifier indicating the popup will be above the anchor.</td></tr>
      * </table>
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
@@ -20641,7 +20701,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:state_above_anchor
+     * @attr name com.example.thienbao.myapplication:state_above_anchor
      */
     public static final int PopupWindowBackgroundState_state_above_anchor=0;
     /**
@@ -20651,12 +20711,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RatingScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RatingScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RatingScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RatingScreenlet_editable com.example.black.savemymoneyv3:editable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RatingScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RatingScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_editable com.example.thienbao.myapplication:editable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RatingScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #RatingScreenlet_autoLoad
      * @see #RatingScreenlet_className
@@ -20670,57 +20730,57 @@ public final class R {
       0x7f0400e7, 0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int RatingScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int RatingScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int RatingScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#editable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#editable}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editable
+     * @attr name com.example.thienbao.myapplication:editable
      */
     public static final int RatingScreenlet_editable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int RatingScreenlet_entryId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #RatingScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20728,7 +20788,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int RatingScreenlet_layoutId=5;
     /**
@@ -20738,8 +20798,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.black.savemymoneyv3:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
-     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.black.savemymoneyv3:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingBottomNoButtons com.example.thienbao.myapplication:paddingBottomNoButtons}</code></td><td>Bottom padding to use when no buttons are present.</td></tr>
+     * <tr><td><code>{@link #RecycleListView_paddingTopNoTitle com.example.thienbao.myapplication:paddingTopNoTitle}</code></td><td>Top padding to use when no title is present.</td></tr>
      * </table>
      * @see #RecycleListView_paddingBottomNoButtons
      * @see #RecycleListView_paddingTopNoTitle
@@ -20758,7 +20818,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:paddingBottomNoButtons
+     * @attr name com.example.thienbao.myapplication:paddingBottomNoButtons
      */
     public static final int RecycleListView_paddingBottomNoButtons=0;
     /**
@@ -20772,7 +20832,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:paddingTopNoTitle
+     * @attr name com.example.thienbao.myapplication:paddingTopNoTitle
      */
     public static final int RecycleListView_paddingTopNoTitle=1;
     /**
@@ -20784,15 +20844,15 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #RecyclerView_android_orientation android:orientation}</code></td><td></td></tr>
      * <tr><td><code>{@link #RecyclerView_android_descendantFocusability android:descendantFocusability}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.example.black.savemymoneyv3:fastScrollEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.example.black.savemymoneyv3:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.example.black.savemymoneyv3:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.example.black.savemymoneyv3:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.example.black.savemymoneyv3:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.black.savemymoneyv3:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
-     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.black.savemymoneyv3:reverseLayout}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_spanCount com.example.black.savemymoneyv3:spanCount}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.black.savemymoneyv3:stackFromEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollEnabled com.example.thienbao.myapplication:fastScrollEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalThumbDrawable com.example.thienbao.myapplication:fastScrollHorizontalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollHorizontalTrackDrawable com.example.thienbao.myapplication:fastScrollHorizontalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalThumbDrawable com.example.thienbao.myapplication:fastScrollVerticalThumbDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_fastScrollVerticalTrackDrawable com.example.thienbao.myapplication:fastScrollVerticalTrackDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_layoutManager com.example.thienbao.myapplication:layoutManager}</code></td><td>Class name of the Layout Manager to be used.</td></tr>
+     * <tr><td><code>{@link #RecyclerView_reverseLayout com.example.thienbao.myapplication:reverseLayout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_spanCount com.example.thienbao.myapplication:spanCount}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerView_stackFromEnd com.example.thienbao.myapplication:stackFromEnd}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerView_android_orientation
      * @see #RecyclerView_android_descendantFocusability
@@ -20847,17 +20907,17 @@ public final class R {
      */
     public static final int RecyclerView_android_descendantFocusability=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fastScrollEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fastScrollEnabled}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fastScrollEnabled
+     * @attr name com.example.thienbao.myapplication:fastScrollEnabled
      */
     public static final int RecyclerView_fastScrollEnabled=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fastScrollHorizontalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fastScrollHorizontalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20865,11 +20925,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fastScrollHorizontalThumbDrawable
+     * @attr name com.example.thienbao.myapplication:fastScrollHorizontalThumbDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalThumbDrawable=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fastScrollHorizontalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fastScrollHorizontalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20877,11 +20937,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fastScrollHorizontalTrackDrawable
+     * @attr name com.example.thienbao.myapplication:fastScrollHorizontalTrackDrawable
      */
     public static final int RecyclerView_fastScrollHorizontalTrackDrawable=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fastScrollVerticalThumbDrawable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fastScrollVerticalThumbDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20889,11 +20949,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fastScrollVerticalThumbDrawable
+     * @attr name com.example.thienbao.myapplication:fastScrollVerticalThumbDrawable
      */
     public static final int RecyclerView_fastScrollVerticalThumbDrawable=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#fastScrollVerticalTrackDrawable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fastScrollVerticalTrackDrawable}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -20901,7 +20961,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:fastScrollVerticalTrackDrawable
+     * @attr name com.example.thienbao.myapplication:fastScrollVerticalTrackDrawable
      */
     public static final int RecyclerView_fastScrollVerticalTrackDrawable=6;
     /**
@@ -20920,36 +20980,36 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:layoutManager
+     * @attr name com.example.thienbao.myapplication:layoutManager
      */
     public static final int RecyclerView_layoutManager=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#reverseLayout}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#reverseLayout}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:reverseLayout
+     * @attr name com.example.thienbao.myapplication:reverseLayout
      */
     public static final int RecyclerView_reverseLayout=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#spanCount}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#spanCount}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:spanCount
+     * @attr name com.example.thienbao.myapplication:spanCount
      */
     public static final int RecyclerView_spanCount=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#stackFromEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#stackFromEnd}
      * attribute's value can be found in the {@link #RecyclerView} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:stackFromEnd
+     * @attr name com.example.thienbao.myapplication:stackFromEnd
      */
     public static final int RecyclerView_stackFromEnd=10;
     /**
@@ -20959,9 +21019,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #RecyclerViewPager_flingFactor com.example.black.savemymoneyv3:flingFactor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerViewPager_singlePageFling com.example.black.savemymoneyv3:singlePageFling}</code></td><td></td></tr>
-     * <tr><td><code>{@link #RecyclerViewPager_triggerOffset com.example.black.savemymoneyv3:triggerOffset}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerViewPager_flingFactor com.example.thienbao.myapplication:flingFactor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerViewPager_singlePageFling com.example.thienbao.myapplication:singlePageFling}</code></td><td></td></tr>
+     * <tr><td><code>{@link #RecyclerViewPager_triggerOffset com.example.thienbao.myapplication:triggerOffset}</code></td><td></td></tr>
      * </table>
      * @see #RecyclerViewPager_flingFactor
      * @see #RecyclerViewPager_singlePageFling
@@ -20971,31 +21031,31 @@ public final class R {
       0x7f040101, 0x7f0401e4, 0x7f04025b
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#flingFactor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#flingFactor}
      * attribute's value can be found in the {@link #RecyclerViewPager} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:flingFactor
+     * @attr name com.example.thienbao.myapplication:flingFactor
      */
     public static final int RecyclerViewPager_flingFactor=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#singlePageFling}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#singlePageFling}
      * attribute's value can be found in the {@link #RecyclerViewPager} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:singlePageFling
+     * @attr name com.example.thienbao.myapplication:singlePageFling
      */
     public static final int RecyclerViewPager_singlePageFling=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#triggerOffset}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#triggerOffset}
      * attribute's value can be found in the {@link #RecyclerViewPager} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:triggerOffset
+     * @attr name com.example.thienbao.myapplication:triggerOffset
      */
     public static final int RecyclerViewPager_triggerOffset=2;
     /**
@@ -21005,7 +21065,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.black.savemymoneyv3:insetForeground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrimInsetsFrameLayout_insetForeground com.example.thienbao.myapplication:insetForeground}</code></td><td></td></tr>
      * </table>
      * @see #ScrimInsetsFrameLayout_insetForeground
      */
@@ -21013,7 +21073,7 @@ public final class R {
       0x7f040132
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#insetForeground}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#insetForeground}
      * attribute's value can be found in the {@link #ScrimInsetsFrameLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21024,7 +21084,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:insetForeground
+     * @attr name com.example.thienbao.myapplication:insetForeground
      */
     public static final int ScrimInsetsFrameLayout_insetForeground=0;
     /**
@@ -21034,7 +21094,7 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.example.black.savemymoneyv3:behavior_overlapTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ScrollingViewBehavior_Layout_behavior_overlapTop com.example.thienbao.myapplication:behavior_overlapTop}</code></td><td></td></tr>
      * </table>
      * @see #ScrollingViewBehavior_Layout_behavior_overlapTop
      */
@@ -21042,7 +21102,7 @@ public final class R {
       0x7f040045
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#behavior_overlapTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#behavior_overlapTop}
      * attribute's value can be found in the {@link #ScrollingViewBehavior_Layout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21051,7 +21111,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:behavior_overlapTop
+     * @attr name com.example.thienbao.myapplication:behavior_overlapTop
      */
     public static final int ScrollingViewBehavior_Layout_behavior_overlapTop=0;
     /**
@@ -21065,20 +21125,20 @@ public final class R {
      * <tr><td><code>{@link #SearchView_android_maxWidth android:maxWidth}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_inputType android:inputType}</code></td><td></td></tr>
      * <tr><td><code>{@link #SearchView_android_imeOptions android:imeOptions}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SearchView_closeIcon com.example.black.savemymoneyv3:closeIcon}</code></td><td>Close button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_commitIcon com.example.black.savemymoneyv3:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
-     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.black.savemymoneyv3:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
+     * <tr><td><code>{@link #SearchView_closeIcon com.example.thienbao.myapplication:closeIcon}</code></td><td>Close button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_commitIcon com.example.thienbao.myapplication:commitIcon}</code></td><td>Commit icon shown in the query suggestion row</td></tr>
+     * <tr><td><code>{@link #SearchView_defaultQueryHint com.example.thienbao.myapplication:defaultQueryHint}</code></td><td>Default query hint used when {@code queryHint} is undefined and
      * the search view's {@code SearchableInfo} does not provide a hint.</td></tr>
-     * <tr><td><code>{@link #SearchView_goIcon com.example.black.savemymoneyv3:goIcon}</code></td><td>Go button icon</td></tr>
-     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.black.savemymoneyv3:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
-     * <tr><td><code>{@link #SearchView_layout com.example.black.savemymoneyv3:layout}</code></td><td>The layout to use for the search view.</td></tr>
-     * <tr><td><code>{@link #SearchView_queryBackground com.example.black.savemymoneyv3:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
-     * <tr><td><code>{@link #SearchView_queryHint com.example.black.savemymoneyv3:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
-     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.black.savemymoneyv3:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
-     * <tr><td><code>{@link #SearchView_searchIcon com.example.black.savemymoneyv3:searchIcon}</code></td><td>Search icon</td></tr>
-     * <tr><td><code>{@link #SearchView_submitBackground com.example.black.savemymoneyv3:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
-     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.black.savemymoneyv3:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
-     * <tr><td><code>{@link #SearchView_voiceIcon com.example.black.savemymoneyv3:voiceIcon}</code></td><td>Voice button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_goIcon com.example.thienbao.myapplication:goIcon}</code></td><td>Go button icon</td></tr>
+     * <tr><td><code>{@link #SearchView_iconifiedByDefault com.example.thienbao.myapplication:iconifiedByDefault}</code></td><td>The default state of the SearchView.</td></tr>
+     * <tr><td><code>{@link #SearchView_layout com.example.thienbao.myapplication:layout}</code></td><td>The layout to use for the search view.</td></tr>
+     * <tr><td><code>{@link #SearchView_queryBackground com.example.thienbao.myapplication:queryBackground}</code></td><td>Background for the section containing the search query</td></tr>
+     * <tr><td><code>{@link #SearchView_queryHint com.example.thienbao.myapplication:queryHint}</code></td><td>An optional user-defined query hint string to be displayed in the empty query field.</td></tr>
+     * <tr><td><code>{@link #SearchView_searchHintIcon com.example.thienbao.myapplication:searchHintIcon}</code></td><td>Search icon displayed as a text field hint</td></tr>
+     * <tr><td><code>{@link #SearchView_searchIcon com.example.thienbao.myapplication:searchIcon}</code></td><td>Search icon</td></tr>
+     * <tr><td><code>{@link #SearchView_submitBackground com.example.thienbao.myapplication:submitBackground}</code></td><td>Background for the section containing the action (e.g.</td></tr>
+     * <tr><td><code>{@link #SearchView_suggestionRowLayout com.example.thienbao.myapplication:suggestionRowLayout}</code></td><td>Layout for query suggestion rows</td></tr>
+     * <tr><td><code>{@link #SearchView_voiceIcon com.example.thienbao.myapplication:voiceIcon}</code></td><td>Voice button icon</td></tr>
      * </table>
      * @see #SearchView_android_focusable
      * @see #SearchView_android_maxWidth
@@ -21228,7 +21288,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:closeIcon
+     * @attr name com.example.thienbao.myapplication:closeIcon
      */
     public static final int SearchView_closeIcon=4;
     /**
@@ -21241,7 +21301,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:commitIcon
+     * @attr name com.example.thienbao.myapplication:commitIcon
      */
     public static final int SearchView_commitIcon=5;
     /**
@@ -21253,7 +21313,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:defaultQueryHint
+     * @attr name com.example.thienbao.myapplication:defaultQueryHint
      */
     public static final int SearchView_defaultQueryHint=6;
     /**
@@ -21266,7 +21326,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:goIcon
+     * @attr name com.example.thienbao.myapplication:goIcon
      */
     public static final int SearchView_goIcon=7;
     /**
@@ -21278,7 +21338,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:iconifiedByDefault
+     * @attr name com.example.thienbao.myapplication:iconifiedByDefault
      */
     public static final int SearchView_iconifiedByDefault=8;
     /**
@@ -21291,7 +21351,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layout
+     * @attr name com.example.thienbao.myapplication:layout
      */
     public static final int SearchView_layout=9;
     /**
@@ -21304,7 +21364,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:queryBackground
+     * @attr name com.example.thienbao.myapplication:queryBackground
      */
     public static final int SearchView_queryBackground=10;
     /**
@@ -21315,7 +21375,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:queryHint
+     * @attr name com.example.thienbao.myapplication:queryHint
      */
     public static final int SearchView_queryHint=11;
     /**
@@ -21328,7 +21388,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:searchHintIcon
+     * @attr name com.example.thienbao.myapplication:searchHintIcon
      */
     public static final int SearchView_searchHintIcon=12;
     /**
@@ -21341,7 +21401,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:searchIcon
+     * @attr name com.example.thienbao.myapplication:searchIcon
      */
     public static final int SearchView_searchIcon=13;
     /**
@@ -21354,7 +21414,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:submitBackground
+     * @attr name com.example.thienbao.myapplication:submitBackground
      */
     public static final int SearchView_submitBackground=14;
     /**
@@ -21367,7 +21427,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:suggestionRowLayout
+     * @attr name com.example.thienbao.myapplication:suggestionRowLayout
      */
     public static final int SearchView_suggestionRowLayout=15;
     /**
@@ -21380,7 +21440,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:voiceIcon
+     * @attr name com.example.thienbao.myapplication:voiceIcon
      */
     public static final int SearchView_voiceIcon=16;
     /**
@@ -21390,9 +21450,9 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignInButton_buttonSize com.example.black.savemymoneyv3:buttonSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_colorScheme com.example.black.savemymoneyv3:colorScheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignInButton_scopeUris com.example.black.savemymoneyv3:scopeUris}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_buttonSize com.example.thienbao.myapplication:buttonSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_colorScheme com.example.thienbao.myapplication:colorScheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignInButton_scopeUris com.example.thienbao.myapplication:scopeUris}</code></td><td></td></tr>
      * </table>
      * @see #SignInButton_buttonSize
      * @see #SignInButton_colorScheme
@@ -21402,7 +21462,7 @@ public final class R {
       0x7f040060, 0x7f0400a1, 0x7f0401d1
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#buttonSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#buttonSize}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21420,11 +21480,11 @@ public final class R {
      * <tr><td>wide</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:buttonSize
+     * @attr name com.example.thienbao.myapplication:buttonSize
      */
     public static final int SignInButton_buttonSize=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#colorScheme}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#colorScheme}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21442,11 +21502,11 @@ public final class R {
      * <tr><td>light</td><td>1</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:colorScheme
+     * @attr name com.example.thienbao.myapplication:colorScheme
      */
     public static final int SignInButton_colorScheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#scopeUris}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#scopeUris}
      * attribute's value can be found in the {@link #SignInButton} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21456,7 +21516,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:scopeUris
+     * @attr name com.example.thienbao.myapplication:scopeUris
      */
     public static final int SignInButton_scopeUris=2;
     /**
@@ -21466,13 +21526,13 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_anonymousApiPassword com.example.black.savemymoneyv3:anonymousApiPassword}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_anonymousApiUserName com.example.black.savemymoneyv3:anonymousApiUserName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_autoLogin com.example.black.savemymoneyv3:autoLogin}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_basicAuthMethod com.example.black.savemymoneyv3:basicAuthMethod}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_companyId com.example.black.savemymoneyv3:companyId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_credentialsStorage com.example.black.savemymoneyv3:credentialsStorage}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SignUpScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_anonymousApiPassword com.example.thienbao.myapplication:anonymousApiPassword}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_anonymousApiUserName com.example.thienbao.myapplication:anonymousApiUserName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_autoLogin com.example.thienbao.myapplication:autoLogin}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_basicAuthMethod com.example.thienbao.myapplication:basicAuthMethod}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_companyId com.example.thienbao.myapplication:companyId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_credentialsStorage com.example.thienbao.myapplication:credentialsStorage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SignUpScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #SignUpScreenlet_anonymousApiPassword
      * @see #SignUpScreenlet_anonymousApiUserName
@@ -21487,37 +21547,37 @@ public final class R {
       0x7f0400b5, 0x7f0400ce, 0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#anonymousApiPassword}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#anonymousApiPassword}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:anonymousApiPassword
+     * @attr name com.example.thienbao.myapplication:anonymousApiPassword
      */
     public static final int SignUpScreenlet_anonymousApiPassword=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#anonymousApiUserName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#anonymousApiUserName}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:anonymousApiUserName
+     * @attr name com.example.thienbao.myapplication:anonymousApiUserName
      */
     public static final int SignUpScreenlet_anonymousApiUserName=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLogin}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLogin}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLogin
+     * @attr name com.example.thienbao.myapplication:autoLogin
      */
     public static final int SignUpScreenlet_autoLogin=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#basicAuthMethod}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#basicAuthMethod}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -21531,21 +21591,21 @@ public final class R {
      * <tr><td>user_id</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:basicAuthMethod
+     * @attr name com.example.thienbao.myapplication:basicAuthMethod
      */
     public static final int SignUpScreenlet_basicAuthMethod=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#companyId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#companyId}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:companyId
+     * @attr name com.example.thienbao.myapplication:companyId
      */
     public static final int SignUpScreenlet_companyId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#credentialsStorage}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#credentialsStorage}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -21559,11 +21619,11 @@ public final class R {
      * <tr><td>shared_preferences</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:credentialsStorage
+     * @attr name com.example.thienbao.myapplication:credentialsStorage
      */
     public static final int SignUpScreenlet_credentialsStorage=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #SignUpScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21571,7 +21631,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int SignUpScreenlet_layoutId=6;
     /**
@@ -21581,8 +21641,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.example.black.savemymoneyv3:snackbarButtonStyle}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Snackbar_snackbarStyle com.example.black.savemymoneyv3:snackbarStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarButtonStyle com.example.thienbao.myapplication:snackbarButtonStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Snackbar_snackbarStyle com.example.thienbao.myapplication:snackbarStyle}</code></td><td></td></tr>
      * </table>
      * @see #Snackbar_snackbarButtonStyle
      * @see #Snackbar_snackbarStyle
@@ -21591,7 +21651,7 @@ public final class R {
       0x7f0401e6, 0x7f0401e7
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#snackbarButtonStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#snackbarButtonStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21599,11 +21659,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:snackbarButtonStyle
+     * @attr name com.example.thienbao.myapplication:snackbarButtonStyle
      */
     public static final int Snackbar_snackbarButtonStyle=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#snackbarStyle}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#snackbarStyle}
      * attribute's value can be found in the {@link #Snackbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -21611,7 +21671,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:snackbarStyle
+     * @attr name com.example.thienbao.myapplication:snackbarStyle
      */
     public static final int Snackbar_snackbarStyle=1;
     /**
@@ -21622,8 +21682,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #SnackbarLayout_android_maxWidth android:maxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_elevation com.example.black.savemymoneyv3:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
-     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.black.savemymoneyv3:maxActionInlineWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_elevation com.example.thienbao.myapplication:elevation}</code></td><td>Elevation for the action bar itself</td></tr>
+     * <tr><td><code>{@link #SnackbarLayout_maxActionInlineWidth com.example.thienbao.myapplication:maxActionInlineWidth}</code></td><td></td></tr>
      * </table>
      * @see #SnackbarLayout_android_maxWidth
      * @see #SnackbarLayout_elevation
@@ -21656,11 +21716,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:elevation
+     * @attr name com.example.thienbao.myapplication:elevation
      */
     public static final int SnackbarLayout_elevation=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#maxActionInlineWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#maxActionInlineWidth}
      * attribute's value can be found in the {@link #SnackbarLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -21669,7 +21729,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:maxActionInlineWidth
+     * @attr name com.example.thienbao.myapplication:maxActionInlineWidth
      */
     public static final int SnackbarLayout_maxActionInlineWidth=2;
     /**
@@ -21683,7 +21743,7 @@ public final class R {
      * <tr><td><code>{@link #Spinner_android_popupBackground android:popupBackground}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_prompt android:prompt}</code></td><td></td></tr>
      * <tr><td><code>{@link #Spinner_android_dropDownWidth android:dropDownWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Spinner_popupTheme com.example.black.savemymoneyv3:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Spinner_popupTheme com.example.thienbao.myapplication:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
      * </table>
      * @see #Spinner_android_entries
@@ -21772,7 +21832,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:popupTheme
+     * @attr name com.example.thienbao.myapplication:popupTheme
      */
     public static final int Spinner_popupTheme=4;
     /**
@@ -21912,17 +21972,17 @@ public final class R {
      * <tr><td><code>{@link #SwitchCompat_android_textOn android:textOn}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_textOff android:textOff}</code></td><td></td></tr>
      * <tr><td><code>{@link #SwitchCompat_android_thumb android:thumb}</code></td><td></td></tr>
-     * <tr><td><code>{@link #SwitchCompat_showText com.example.black.savemymoneyv3:showText}</code></td><td>Whether to draw on/off text.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.black.savemymoneyv3:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.black.savemymoneyv3:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.black.savemymoneyv3:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.black.savemymoneyv3:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.black.savemymoneyv3:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.black.savemymoneyv3:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.black.savemymoneyv3:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_track com.example.black.savemymoneyv3:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.black.savemymoneyv3:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
-     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.black.savemymoneyv3:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_showText com.example.thienbao.myapplication:showText}</code></td><td>Whether to draw on/off text.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_splitTrack com.example.thienbao.myapplication:splitTrack}</code></td><td>Whether to split the track and leave a gap for the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchMinWidth com.example.thienbao.myapplication:switchMinWidth}</code></td><td>Minimum width for the switch component</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchPadding com.example.thienbao.myapplication:switchPadding}</code></td><td>Minimum space between the switch and caption text</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_switchTextAppearance com.example.thienbao.myapplication:switchTextAppearance}</code></td><td>TextAppearance style for text displayed on the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTextPadding com.example.thienbao.myapplication:thumbTextPadding}</code></td><td>Amount of padding on either side of text within the switch thumb.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTint com.example.thienbao.myapplication:thumbTint}</code></td><td>Tint to apply to the thumb drawable.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_thumbTintMode com.example.thienbao.myapplication:thumbTintMode}</code></td><td>Blending mode used to apply the thumb tint.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_track com.example.thienbao.myapplication:track}</code></td><td>Drawable to use as the "track" that the switch thumb slides within.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTint com.example.thienbao.myapplication:trackTint}</code></td><td>Tint to apply to the track.</td></tr>
+     * <tr><td><code>{@link #SwitchCompat_trackTintMode com.example.thienbao.myapplication:trackTintMode}</code></td><td>Blending mode used to apply the track tint.</td></tr>
      * </table>
      * @see #SwitchCompat_android_textOn
      * @see #SwitchCompat_android_textOff
@@ -21988,7 +22048,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:showText
+     * @attr name com.example.thienbao.myapplication:showText
      */
     public static final int SwitchCompat_showText=3;
     /**
@@ -21999,7 +22059,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:splitTrack
+     * @attr name com.example.thienbao.myapplication:splitTrack
      */
     public static final int SwitchCompat_splitTrack=4;
     /**
@@ -22013,7 +22073,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:switchMinWidth
+     * @attr name com.example.thienbao.myapplication:switchMinWidth
      */
     public static final int SwitchCompat_switchMinWidth=5;
     /**
@@ -22027,7 +22087,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:switchPadding
+     * @attr name com.example.thienbao.myapplication:switchPadding
      */
     public static final int SwitchCompat_switchPadding=6;
     /**
@@ -22040,7 +22100,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:switchTextAppearance
+     * @attr name com.example.thienbao.myapplication:switchTextAppearance
      */
     public static final int SwitchCompat_switchTextAppearance=7;
     /**
@@ -22054,7 +22114,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:thumbTextPadding
+     * @attr name com.example.thienbao.myapplication:thumbTextPadding
      */
     public static final int SwitchCompat_thumbTextPadding=8;
     /**
@@ -22066,7 +22126,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:thumbTint
+     * @attr name com.example.thienbao.myapplication:thumbTint
      */
     public static final int SwitchCompat_thumbTint=9;
     /**
@@ -22093,7 +22153,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:thumbTintMode
+     * @attr name com.example.thienbao.myapplication:thumbTintMode
      */
     public static final int SwitchCompat_thumbTintMode=10;
     /**
@@ -22106,7 +22166,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:track
+     * @attr name com.example.thienbao.myapplication:track
      */
     public static final int SwitchCompat_track=11;
     /**
@@ -22118,7 +22178,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:trackTint
+     * @attr name com.example.thienbao.myapplication:trackTint
      */
     public static final int SwitchCompat_trackTint=12;
     /**
@@ -22145,7 +22205,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:trackTintMode
+     * @attr name com.example.thienbao.myapplication:trackTintMode
      */
     public static final int SwitchCompat_trackTintMode=13;
     /**
@@ -22207,31 +22267,31 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #TabLayout_tabBackground com.example.black.savemymoneyv3:tabBackground}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabContentStart com.example.black.savemymoneyv3:tabContentStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabGravity com.example.black.savemymoneyv3:tabGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTint com.example.black.savemymoneyv3:tabIconTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.example.black.savemymoneyv3:tabIconTintMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicator com.example.black.savemymoneyv3:tabIndicator}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.example.black.savemymoneyv3:tabIndicatorAnimationDuration}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.black.savemymoneyv3:tabIndicatorColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.example.black.savemymoneyv3:tabIndicatorFullWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.example.black.savemymoneyv3:tabIndicatorGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.black.savemymoneyv3:tabIndicatorHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.example.black.savemymoneyv3:tabInlineLabel}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.black.savemymoneyv3:tabMaxWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMinWidth com.example.black.savemymoneyv3:tabMinWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabMode com.example.black.savemymoneyv3:tabMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPadding com.example.black.savemymoneyv3:tabPadding}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.black.savemymoneyv3:tabPaddingBottom}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.black.savemymoneyv3:tabPaddingEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.black.savemymoneyv3:tabPaddingStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.black.savemymoneyv3:tabPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabRippleColor com.example.black.savemymoneyv3:tabRippleColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.black.savemymoneyv3:tabSelectedTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.black.savemymoneyv3:tabTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabTextColor com.example.black.savemymoneyv3:tabTextColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.example.black.savemymoneyv3:tabUnboundedRipple}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabBackground com.example.thienbao.myapplication:tabBackground}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabContentStart com.example.thienbao.myapplication:tabContentStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabGravity com.example.thienbao.myapplication:tabGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTint com.example.thienbao.myapplication:tabIconTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIconTintMode com.example.thienbao.myapplication:tabIconTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicator com.example.thienbao.myapplication:tabIndicator}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorAnimationDuration com.example.thienbao.myapplication:tabIndicatorAnimationDuration}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorColor com.example.thienbao.myapplication:tabIndicatorColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorFullWidth com.example.thienbao.myapplication:tabIndicatorFullWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorGravity com.example.thienbao.myapplication:tabIndicatorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabIndicatorHeight com.example.thienbao.myapplication:tabIndicatorHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabInlineLabel com.example.thienbao.myapplication:tabInlineLabel}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMaxWidth com.example.thienbao.myapplication:tabMaxWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMinWidth com.example.thienbao.myapplication:tabMinWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabMode com.example.thienbao.myapplication:tabMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPadding com.example.thienbao.myapplication:tabPadding}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingBottom com.example.thienbao.myapplication:tabPaddingBottom}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingEnd com.example.thienbao.myapplication:tabPaddingEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingStart com.example.thienbao.myapplication:tabPaddingStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabPaddingTop com.example.thienbao.myapplication:tabPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabRippleColor com.example.thienbao.myapplication:tabRippleColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabSelectedTextColor com.example.thienbao.myapplication:tabSelectedTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextAppearance com.example.thienbao.myapplication:tabTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabTextColor com.example.thienbao.myapplication:tabTextColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TabLayout_tabUnboundedRipple com.example.thienbao.myapplication:tabUnboundedRipple}</code></td><td></td></tr>
      * </table>
      * @see #TabLayout_tabBackground
      * @see #TabLayout_tabContentStart
@@ -22269,7 +22329,7 @@ public final class R {
       0x7f04021d
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabBackground}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabBackground}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -22277,11 +22337,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabBackground
+     * @attr name com.example.thienbao.myapplication:tabBackground
      */
     public static final int TabLayout_tabBackground=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabContentStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabContentStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22290,11 +22350,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabContentStart
+     * @attr name com.example.thienbao.myapplication:tabContentStart
      */
     public static final int TabLayout_tabContentStart=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -22307,22 +22367,22 @@ public final class R {
      * <tr><td>fill</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tabGravity
+     * @attr name com.example.thienbao.myapplication:tabGravity
      */
     public static final int TabLayout_tabGravity=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIconTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIconTint}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabIconTint
+     * @attr name com.example.thienbao.myapplication:tabIconTint
      */
     public static final int TabLayout_tabIconTint=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIconTintMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIconTintMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -22339,11 +22399,11 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tabIconTintMode
+     * @attr name com.example.thienbao.myapplication:tabIconTintMode
      */
     public static final int TabLayout_tabIconTintMode=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicator}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicator}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -22351,41 +22411,41 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicator
+     * @attr name com.example.thienbao.myapplication:tabIndicator
      */
     public static final int TabLayout_tabIndicator=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicatorAnimationDuration}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicatorAnimationDuration}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicatorAnimationDuration
+     * @attr name com.example.thienbao.myapplication:tabIndicatorAnimationDuration
      */
     public static final int TabLayout_tabIndicatorAnimationDuration=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicatorColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicatorColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicatorColor
+     * @attr name com.example.thienbao.myapplication:tabIndicatorColor
      */
     public static final int TabLayout_tabIndicatorColor=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicatorFullWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicatorFullWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicatorFullWidth
+     * @attr name com.example.thienbao.myapplication:tabIndicatorFullWidth
      */
     public static final int TabLayout_tabIndicatorFullWidth=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicatorGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicatorGravity}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -22400,11 +22460,11 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicatorGravity
+     * @attr name com.example.thienbao.myapplication:tabIndicatorGravity
      */
     public static final int TabLayout_tabIndicatorGravity=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabIndicatorHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabIndicatorHeight}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22413,21 +22473,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabIndicatorHeight
+     * @attr name com.example.thienbao.myapplication:tabIndicatorHeight
      */
     public static final int TabLayout_tabIndicatorHeight=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabInlineLabel}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabInlineLabel}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabInlineLabel
+     * @attr name com.example.thienbao.myapplication:tabInlineLabel
      */
     public static final int TabLayout_tabInlineLabel=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabMaxWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabMaxWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22436,11 +22496,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabMaxWidth
+     * @attr name com.example.thienbao.myapplication:tabMaxWidth
      */
     public static final int TabLayout_tabMaxWidth=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabMinWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabMinWidth}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22449,11 +22509,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabMinWidth
+     * @attr name com.example.thienbao.myapplication:tabMinWidth
      */
     public static final int TabLayout_tabMinWidth=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabMode}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -22466,11 +22526,11 @@ public final class R {
      * <tr><td>scrollable</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:tabMode
+     * @attr name com.example.thienbao.myapplication:tabMode
      */
     public static final int TabLayout_tabMode=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabPadding}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabPadding}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22479,11 +22539,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabPadding
+     * @attr name com.example.thienbao.myapplication:tabPadding
      */
     public static final int TabLayout_tabPadding=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabPaddingBottom}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabPaddingBottom}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22492,11 +22552,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabPaddingBottom
+     * @attr name com.example.thienbao.myapplication:tabPaddingBottom
      */
     public static final int TabLayout_tabPaddingBottom=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabPaddingEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabPaddingEnd}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22505,11 +22565,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabPaddingEnd
+     * @attr name com.example.thienbao.myapplication:tabPaddingEnd
      */
     public static final int TabLayout_tabPaddingEnd=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabPaddingStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabPaddingStart}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22518,11 +22578,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabPaddingStart
+     * @attr name com.example.thienbao.myapplication:tabPaddingStart
      */
     public static final int TabLayout_tabPaddingStart=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabPaddingTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabPaddingTop}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22531,33 +22591,33 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:tabPaddingTop
+     * @attr name com.example.thienbao.myapplication:tabPaddingTop
      */
     public static final int TabLayout_tabPaddingTop=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabRippleColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabRippleColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabRippleColor
+     * @attr name com.example.thienbao.myapplication:tabRippleColor
      */
     public static final int TabLayout_tabRippleColor=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabSelectedTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabSelectedTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabSelectedTextColor
+     * @attr name com.example.thienbao.myapplication:tabSelectedTextColor
      */
     public static final int TabLayout_tabSelectedTextColor=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabTextAppearance}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -22565,28 +22625,28 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabTextAppearance
+     * @attr name com.example.thienbao.myapplication:tabTextAppearance
      */
     public static final int TabLayout_tabTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabTextColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabTextColor}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabTextColor
+     * @attr name com.example.thienbao.myapplication:tabTextColor
      */
     public static final int TabLayout_tabTextColor=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#tabUnboundedRipple}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#tabUnboundedRipple}
      * attribute's value can be found in the {@link #TabLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:tabUnboundedRipple
+     * @attr name com.example.thienbao.myapplication:tabUnboundedRipple
      */
     public static final int TabLayout_tabUnboundedRipple=24;
     /**
@@ -22607,8 +22667,8 @@ public final class R {
      * <tr><td><code>{@link #TextAppearance_android_shadowDy android:shadowDy}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_shadowRadius android:shadowRadius}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextAppearance_android_fontFamily android:fontFamily}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.black.savemymoneyv3:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
-     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.black.savemymoneyv3:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_fontFamily com.example.thienbao.myapplication:fontFamily}</code></td><td>The attribute for the font family.</td></tr>
+     * <tr><td><code>{@link #TextAppearance_textAllCaps com.example.thienbao.myapplication:textAllCaps}</code></td><td>Present the text in ALL CAPS.</td></tr>
      * </table>
      * @see #TextAppearance_android_textSize
      * @see #TextAppearance_android_typeface
@@ -22781,7 +22841,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:fontFamily
+     * @attr name com.example.thienbao.myapplication:fontFamily
      */
     public static final int TextAppearance_fontFamily=11;
     /**
@@ -22796,7 +22856,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:textAllCaps
+     * @attr name com.example.thienbao.myapplication:textAllCaps
      */
     public static final int TextAppearance_textAllCaps=12;
     /**
@@ -22808,32 +22868,32 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #TextInputLayout_android_textColorHint android:textColorHint}</code></td><td></td></tr>
      * <tr><td><code>{@link #TextInputLayout_android_hint android:hint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.example.black.savemymoneyv3:boxBackgroundColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.example.black.savemymoneyv3:boxBackgroundMode}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.example.black.savemymoneyv3:boxCollapsedPaddingTop}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.example.black.savemymoneyv3:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.example.black.savemymoneyv3:boxCornerRadiusBottomStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.example.black.savemymoneyv3:boxCornerRadiusTopEnd}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.example.black.savemymoneyv3:boxCornerRadiusTopStart}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.example.black.savemymoneyv3:boxStrokeColor}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.example.black.savemymoneyv3:boxStrokeWidth}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.black.savemymoneyv3:counterEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.black.savemymoneyv3:counterMaxLength}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.black.savemymoneyv3:counterOverflowTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.black.savemymoneyv3:counterTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.black.savemymoneyv3:errorEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.black.savemymoneyv3:errorTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperText com.example.black.savemymoneyv3:helperText}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.example.black.savemymoneyv3:helperTextEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.example.black.savemymoneyv3:helperTextTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.black.savemymoneyv3:hintAnimationEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.black.savemymoneyv3:hintEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.black.savemymoneyv3:hintTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.example.black.savemymoneyv3:passwordToggleContentDescription}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.example.black.savemymoneyv3:passwordToggleDrawable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.example.black.savemymoneyv3:passwordToggleEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.example.black.savemymoneyv3:passwordToggleTint}</code></td><td></td></tr>
-     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.example.black.savemymoneyv3:passwordToggleTintMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundColor com.example.thienbao.myapplication:boxBackgroundColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxBackgroundMode com.example.thienbao.myapplication:boxBackgroundMode}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCollapsedPaddingTop com.example.thienbao.myapplication:boxCollapsedPaddingTop}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomEnd com.example.thienbao.myapplication:boxCornerRadiusBottomEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusBottomStart com.example.thienbao.myapplication:boxCornerRadiusBottomStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopEnd com.example.thienbao.myapplication:boxCornerRadiusTopEnd}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxCornerRadiusTopStart com.example.thienbao.myapplication:boxCornerRadiusTopStart}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeColor com.example.thienbao.myapplication:boxStrokeColor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_boxStrokeWidth com.example.thienbao.myapplication:boxStrokeWidth}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterEnabled com.example.thienbao.myapplication:counterEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterMaxLength com.example.thienbao.myapplication:counterMaxLength}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterOverflowTextAppearance com.example.thienbao.myapplication:counterOverflowTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_counterTextAppearance com.example.thienbao.myapplication:counterTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorEnabled com.example.thienbao.myapplication:errorEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_errorTextAppearance com.example.thienbao.myapplication:errorTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperText com.example.thienbao.myapplication:helperText}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextEnabled com.example.thienbao.myapplication:helperTextEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_helperTextTextAppearance com.example.thienbao.myapplication:helperTextTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintAnimationEnabled com.example.thienbao.myapplication:hintAnimationEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintEnabled com.example.thienbao.myapplication:hintEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_hintTextAppearance com.example.thienbao.myapplication:hintTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleContentDescription com.example.thienbao.myapplication:passwordToggleContentDescription}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleDrawable com.example.thienbao.myapplication:passwordToggleDrawable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleEnabled com.example.thienbao.myapplication:passwordToggleEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTint com.example.thienbao.myapplication:passwordToggleTint}</code></td><td></td></tr>
+     * <tr><td><code>{@link #TextInputLayout_passwordToggleTintMode com.example.thienbao.myapplication:passwordToggleTintMode}</code></td><td></td></tr>
      * </table>
      * @see #TextInputLayout_android_textColorHint
      * @see #TextInputLayout_android_hint
@@ -22899,18 +22959,18 @@ public final class R {
      */
     public static final int TextInputLayout_android_hint=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxBackgroundColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxBackgroundColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:boxBackgroundColor
+     * @attr name com.example.thienbao.myapplication:boxBackgroundColor
      */
     public static final int TextInputLayout_boxBackgroundColor=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxBackgroundMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxBackgroundMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -22924,11 +22984,11 @@ public final class R {
      * <tr><td>outline</td><td>2</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:boxBackgroundMode
+     * @attr name com.example.thienbao.myapplication:boxBackgroundMode
      */
     public static final int TextInputLayout_boxBackgroundMode=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxCollapsedPaddingTop}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxCollapsedPaddingTop}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22937,11 +22997,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxCollapsedPaddingTop
+     * @attr name com.example.thienbao.myapplication:boxCollapsedPaddingTop
      */
     public static final int TextInputLayout_boxCollapsedPaddingTop=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxCornerRadiusBottomEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxCornerRadiusBottomEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22950,11 +23010,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxCornerRadiusBottomEnd
+     * @attr name com.example.thienbao.myapplication:boxCornerRadiusBottomEnd
      */
     public static final int TextInputLayout_boxCornerRadiusBottomEnd=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxCornerRadiusBottomStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxCornerRadiusBottomStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22963,11 +23023,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxCornerRadiusBottomStart
+     * @attr name com.example.thienbao.myapplication:boxCornerRadiusBottomStart
      */
     public static final int TextInputLayout_boxCornerRadiusBottomStart=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxCornerRadiusTopEnd}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxCornerRadiusTopEnd}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22976,11 +23036,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxCornerRadiusTopEnd
+     * @attr name com.example.thienbao.myapplication:boxCornerRadiusTopEnd
      */
     public static final int TextInputLayout_boxCornerRadiusTopEnd=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxCornerRadiusTopStart}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxCornerRadiusTopStart}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -22989,22 +23049,22 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxCornerRadiusTopStart
+     * @attr name com.example.thienbao.myapplication:boxCornerRadiusTopStart
      */
     public static final int TextInputLayout_boxCornerRadiusTopStart=8;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxStrokeColor}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxStrokeColor}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:boxStrokeColor
+     * @attr name com.example.thienbao.myapplication:boxStrokeColor
      */
     public static final int TextInputLayout_boxStrokeColor=9;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#boxStrokeWidth}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#boxStrokeWidth}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -23013,30 +23073,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:boxStrokeWidth
+     * @attr name com.example.thienbao.myapplication:boxStrokeWidth
      */
     public static final int TextInputLayout_boxStrokeWidth=10;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#counterEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#counterEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:counterEnabled
+     * @attr name com.example.thienbao.myapplication:counterEnabled
      */
     public static final int TextInputLayout_counterEnabled=11;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#counterMaxLength}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#counterMaxLength}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:counterMaxLength
+     * @attr name com.example.thienbao.myapplication:counterMaxLength
      */
     public static final int TextInputLayout_counterMaxLength=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#counterOverflowTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#counterOverflowTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23044,11 +23104,11 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:counterOverflowTextAppearance
+     * @attr name com.example.thienbao.myapplication:counterOverflowTextAppearance
      */
     public static final int TextInputLayout_counterOverflowTextAppearance=13;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#counterTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#counterTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23056,21 +23116,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:counterTextAppearance
+     * @attr name com.example.thienbao.myapplication:counterTextAppearance
      */
     public static final int TextInputLayout_counterTextAppearance=14;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#errorEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#errorEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:errorEnabled
+     * @attr name com.example.thienbao.myapplication:errorEnabled
      */
     public static final int TextInputLayout_errorEnabled=15;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#errorTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#errorTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23078,31 +23138,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:errorTextAppearance
+     * @attr name com.example.thienbao.myapplication:errorTextAppearance
      */
     public static final int TextInputLayout_errorTextAppearance=16;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#helperText}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#helperText}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:helperText
+     * @attr name com.example.thienbao.myapplication:helperText
      */
     public static final int TextInputLayout_helperText=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#helperTextEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#helperTextEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:helperTextEnabled
+     * @attr name com.example.thienbao.myapplication:helperTextEnabled
      */
     public static final int TextInputLayout_helperTextEnabled=18;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#helperTextTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#helperTextTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23110,31 +23170,31 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:helperTextTextAppearance
+     * @attr name com.example.thienbao.myapplication:helperTextTextAppearance
      */
     public static final int TextInputLayout_helperTextTextAppearance=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hintAnimationEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hintAnimationEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hintAnimationEnabled
+     * @attr name com.example.thienbao.myapplication:hintAnimationEnabled
      */
     public static final int TextInputLayout_hintAnimationEnabled=20;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hintEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hintEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hintEnabled
+     * @attr name com.example.thienbao.myapplication:hintEnabled
      */
     public static final int TextInputLayout_hintEnabled=21;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#hintTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#hintTextAppearance}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23142,21 +23202,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:hintTextAppearance
+     * @attr name com.example.thienbao.myapplication:hintTextAppearance
      */
     public static final int TextInputLayout_hintTextAppearance=22;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#passwordToggleContentDescription}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#passwordToggleContentDescription}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:passwordToggleContentDescription
+     * @attr name com.example.thienbao.myapplication:passwordToggleContentDescription
      */
     public static final int TextInputLayout_passwordToggleContentDescription=23;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#passwordToggleDrawable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#passwordToggleDrawable}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23164,32 +23224,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:passwordToggleDrawable
+     * @attr name com.example.thienbao.myapplication:passwordToggleDrawable
      */
     public static final int TextInputLayout_passwordToggleDrawable=24;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#passwordToggleEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#passwordToggleEnabled}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:passwordToggleEnabled
+     * @attr name com.example.thienbao.myapplication:passwordToggleEnabled
      */
     public static final int TextInputLayout_passwordToggleEnabled=25;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#passwordToggleTint}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#passwordToggleTint}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:passwordToggleTint
+     * @attr name com.example.thienbao.myapplication:passwordToggleTint
      */
     public static final int TextInputLayout_passwordToggleTint=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#passwordToggleTintMode}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#passwordToggleTintMode}
      * attribute's value can be found in the {@link #TextInputLayout} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -23205,7 +23265,7 @@ public final class R {
      * <tr><td>src_over</td><td>3</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:passwordToggleTintMode
+     * @attr name com.example.thienbao.myapplication:passwordToggleTintMode
      */
     public static final int TextInputLayout_passwordToggleTintMode=27;
     /**
@@ -23216,8 +23276,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ThemeEnforcement_android_textAppearance android:textAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.example.black.savemymoneyv3:enforceMaterialTheme}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.example.black.savemymoneyv3:enforceTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceMaterialTheme com.example.thienbao.myapplication:enforceMaterialTheme}</code></td><td></td></tr>
+     * <tr><td><code>{@link #ThemeEnforcement_enforceTextAppearance com.example.thienbao.myapplication:enforceTextAppearance}</code></td><td></td></tr>
      * </table>
      * @see #ThemeEnforcement_android_textAppearance
      * @see #ThemeEnforcement_enforceMaterialTheme
@@ -23239,23 +23299,23 @@ public final class R {
      */
     public static final int ThemeEnforcement_android_textAppearance=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#enforceMaterialTheme}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#enforceMaterialTheme}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:enforceMaterialTheme
+     * @attr name com.example.thienbao.myapplication:enforceMaterialTheme
      */
     public static final int ThemeEnforcement_enforceMaterialTheme=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#enforceTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#enforceTextAppearance}
      * attribute's value can be found in the {@link #ThemeEnforcement} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:enforceTextAppearance
+     * @attr name com.example.thienbao.myapplication:enforceTextAppearance
      */
     public static final int ThemeEnforcement_enforceTextAppearance=2;
     /**
@@ -23267,40 +23327,40 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #Toolbar_android_gravity android:gravity}</code></td><td></td></tr>
      * <tr><td><code>{@link #Toolbar_android_minHeight android:minHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.black.savemymoneyv3:buttonGravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.black.savemymoneyv3:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.black.savemymoneyv3:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.black.savemymoneyv3:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.black.savemymoneyv3:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
+     * <tr><td><code>{@link #Toolbar_buttonGravity com.example.thienbao.myapplication:buttonGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseContentDescription com.example.thienbao.myapplication:collapseContentDescription}</code></td><td>Text to set as the content description for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_collapseIcon com.example.thienbao.myapplication:collapseIcon}</code></td><td>Icon drawable to use for the collapse button.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEnd com.example.thienbao.myapplication:contentInsetEnd}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetEndWithActions com.example.thienbao.myapplication:contentInsetEndWithActions}</code></td><td>Minimum inset for content views within a bar when actions from a menu
      * are present.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.black.savemymoneyv3:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.black.savemymoneyv3:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.black.savemymoneyv3:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.black.savemymoneyv3:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
+     * <tr><td><code>{@link #Toolbar_contentInsetLeft com.example.thienbao.myapplication:contentInsetLeft}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetRight com.example.thienbao.myapplication:contentInsetRight}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStart com.example.thienbao.myapplication:contentInsetStart}</code></td><td>Minimum inset for content views within a bar.</td></tr>
+     * <tr><td><code>{@link #Toolbar_contentInsetStartWithNavigation com.example.thienbao.myapplication:contentInsetStartWithNavigation}</code></td><td>Minimum inset for content views within a bar when a navigation button
      * is present, such as the Up button.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logo com.example.black.savemymoneyv3:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
-     * <tr><td><code>{@link #Toolbar_logoDescription com.example.black.savemymoneyv3:logoDescription}</code></td><td>A content description string to describe the appearance of the
+     * <tr><td><code>{@link #Toolbar_logo com.example.thienbao.myapplication:logo}</code></td><td>Specifies the drawable used for the application logo.</td></tr>
+     * <tr><td><code>{@link #Toolbar_logoDescription com.example.thienbao.myapplication:logoDescription}</code></td><td>A content description string to describe the appearance of the
      * associated logo image.</td></tr>
-     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.black.savemymoneyv3:maxButtonHeight}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.black.savemymoneyv3:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
+     * <tr><td><code>{@link #Toolbar_maxButtonHeight com.example.thienbao.myapplication:maxButtonHeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_navigationContentDescription com.example.thienbao.myapplication:navigationContentDescription}</code></td><td>Text to set as the content description for the navigation button
      * located at the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.black.savemymoneyv3:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
+     * <tr><td><code>{@link #Toolbar_navigationIcon com.example.thienbao.myapplication:navigationIcon}</code></td><td>Icon drawable to use for the navigation button located at
      * the start of the toolbar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_popupTheme com.example.black.savemymoneyv3:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
+     * <tr><td><code>{@link #Toolbar_popupTheme com.example.thienbao.myapplication:popupTheme}</code></td><td>Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitle com.example.black.savemymoneyv3:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.black.savemymoneyv3:subtitleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.black.savemymoneyv3:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
-     * <tr><td><code>{@link #Toolbar_title com.example.black.savemymoneyv3:title}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargin com.example.black.savemymoneyv3:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
+     * <tr><td><code>{@link #Toolbar_subtitle com.example.thienbao.myapplication:subtitle}</code></td><td>Specifies subtitle text used for navigationMode="normal"</td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextAppearance com.example.thienbao.myapplication:subtitleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_subtitleTextColor com.example.thienbao.myapplication:subtitleTextColor}</code></td><td>A color to apply to the subtitle string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_title com.example.thienbao.myapplication:title}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargin com.example.thienbao.myapplication:titleMargin}</code></td><td>Specifies extra space on the left, start, right and end sides
      * of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.black.savemymoneyv3:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.black.savemymoneyv3:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.black.savemymoneyv3:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.black.savemymoneyv3:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleMargins com.example.black.savemymoneyv3:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.black.savemymoneyv3:titleTextAppearance}</code></td><td></td></tr>
-     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.black.savemymoneyv3:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginBottom com.example.thienbao.myapplication:titleMarginBottom}</code></td><td>Specifies extra space on the bottom side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginEnd com.example.thienbao.myapplication:titleMarginEnd}</code></td><td>Specifies extra space on the end side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginStart com.example.thienbao.myapplication:titleMarginStart}</code></td><td>Specifies extra space on the start side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMarginTop com.example.thienbao.myapplication:titleMarginTop}</code></td><td>Specifies extra space on the top side of the toolbar's title.</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleMargins com.example.thienbao.myapplication:titleMargins}</code></td><td>{@deprecated Use titleMargin}</td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextAppearance com.example.thienbao.myapplication:titleTextAppearance}</code></td><td></td></tr>
+     * <tr><td><code>{@link #Toolbar_titleTextColor com.example.thienbao.myapplication:titleTextColor}</code></td><td>A color to apply to the title string.</td></tr>
      * </table>
      * @see #Toolbar_android_gravity
      * @see #Toolbar_android_minHeight
@@ -23386,7 +23446,7 @@ public final class R {
      */
     public static final int Toolbar_android_minHeight=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#buttonGravity}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#buttonGravity}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -23399,7 +23459,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:buttonGravity
+     * @attr name com.example.thienbao.myapplication:buttonGravity
      */
     public static final int Toolbar_buttonGravity=2;
     /**
@@ -23410,7 +23470,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:collapseContentDescription
+     * @attr name com.example.thienbao.myapplication:collapseContentDescription
      */
     public static final int Toolbar_collapseContentDescription=3;
     /**
@@ -23423,7 +23483,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:collapseIcon
+     * @attr name com.example.thienbao.myapplication:collapseIcon
      */
     public static final int Toolbar_collapseIcon=4;
     /**
@@ -23438,7 +23498,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetEnd
+     * @attr name com.example.thienbao.myapplication:contentInsetEnd
      */
     public static final int Toolbar_contentInsetEnd=5;
     /**
@@ -23453,7 +23513,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetEndWithActions
+     * @attr name com.example.thienbao.myapplication:contentInsetEndWithActions
      */
     public static final int Toolbar_contentInsetEndWithActions=6;
     /**
@@ -23468,7 +23528,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetLeft
+     * @attr name com.example.thienbao.myapplication:contentInsetLeft
      */
     public static final int Toolbar_contentInsetLeft=7;
     /**
@@ -23483,7 +23543,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetRight
+     * @attr name com.example.thienbao.myapplication:contentInsetRight
      */
     public static final int Toolbar_contentInsetRight=8;
     /**
@@ -23498,7 +23558,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetStart
+     * @attr name com.example.thienbao.myapplication:contentInsetStart
      */
     public static final int Toolbar_contentInsetStart=9;
     /**
@@ -23513,7 +23573,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:contentInsetStartWithNavigation
+     * @attr name com.example.thienbao.myapplication:contentInsetStartWithNavigation
      */
     public static final int Toolbar_contentInsetStartWithNavigation=10;
     /**
@@ -23527,7 +23587,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:logo
+     * @attr name com.example.thienbao.myapplication:logo
      */
     public static final int Toolbar_logo=11;
     /**
@@ -23539,11 +23599,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:logoDescription
+     * @attr name com.example.thienbao.myapplication:logoDescription
      */
     public static final int Toolbar_logoDescription=12;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#maxButtonHeight}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#maxButtonHeight}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -23552,7 +23612,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:maxButtonHeight
+     * @attr name com.example.thienbao.myapplication:maxButtonHeight
      */
     public static final int Toolbar_maxButtonHeight=13;
     /**
@@ -23564,7 +23624,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:navigationContentDescription
+     * @attr name com.example.thienbao.myapplication:navigationContentDescription
      */
     public static final int Toolbar_navigationContentDescription=14;
     /**
@@ -23578,7 +23638,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:navigationIcon
+     * @attr name com.example.thienbao.myapplication:navigationIcon
      */
     public static final int Toolbar_navigationIcon=15;
     /**
@@ -23592,7 +23652,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:popupTheme
+     * @attr name com.example.thienbao.myapplication:popupTheme
      */
     public static final int Toolbar_popupTheme=16;
     /**
@@ -23603,11 +23663,11 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:subtitle
+     * @attr name com.example.thienbao.myapplication:subtitle
      */
     public static final int Toolbar_subtitle=17;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#subtitleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#subtitleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23615,7 +23675,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:subtitleTextAppearance
+     * @attr name com.example.thienbao.myapplication:subtitleTextAppearance
      */
     public static final int Toolbar_subtitleTextAppearance=18;
     /**
@@ -23627,17 +23687,17 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:subtitleTextColor
+     * @attr name com.example.thienbao.myapplication:subtitleTextColor
      */
     public static final int Toolbar_subtitleTextColor=19;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#title}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#title}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:title
+     * @attr name com.example.thienbao.myapplication:title
      */
     public static final int Toolbar_title=20;
     /**
@@ -23652,7 +23712,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMargin
+     * @attr name com.example.thienbao.myapplication:titleMargin
      */
     public static final int Toolbar_titleMargin=21;
     /**
@@ -23668,7 +23728,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMarginBottom
+     * @attr name com.example.thienbao.myapplication:titleMarginBottom
      */
     public static final int Toolbar_titleMarginBottom=22;
     /**
@@ -23684,7 +23744,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMarginEnd
+     * @attr name com.example.thienbao.myapplication:titleMarginEnd
      */
     public static final int Toolbar_titleMarginEnd=23;
     /**
@@ -23700,7 +23760,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMarginStart
+     * @attr name com.example.thienbao.myapplication:titleMarginStart
      */
     public static final int Toolbar_titleMarginStart=24;
     /**
@@ -23716,7 +23776,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMarginTop
+     * @attr name com.example.thienbao.myapplication:titleMarginTop
      */
     public static final int Toolbar_titleMarginTop=25;
     /**
@@ -23730,12 +23790,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:titleMargins
+     * @attr name com.example.thienbao.myapplication:titleMargins
      */
     @Deprecated
     public static final int Toolbar_titleMargins=26;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#titleTextAppearance}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#titleTextAppearance}
      * attribute's value can be found in the {@link #Toolbar} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23743,7 +23803,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:titleTextAppearance
+     * @attr name com.example.thienbao.myapplication:titleTextAppearance
      */
     public static final int Toolbar_titleTextAppearance=27;
     /**
@@ -23755,7 +23815,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:titleTextColor
+     * @attr name com.example.thienbao.myapplication:titleTextColor
      */
     public static final int Toolbar_titleTextColor=28;
     /**
@@ -23765,14 +23825,14 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_editable com.example.black.savemymoneyv3:editable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_male com.example.black.savemymoneyv3:male}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_portraitId com.example.black.savemymoneyv3:portraitId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_userId com.example.black.savemymoneyv3:userId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #UserPortraitScreenlet_uuid com.example.black.savemymoneyv3:uuid}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_editable com.example.thienbao.myapplication:editable}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_male com.example.thienbao.myapplication:male}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_portraitId com.example.thienbao.myapplication:portraitId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_userId com.example.thienbao.myapplication:userId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #UserPortraitScreenlet_uuid com.example.thienbao.myapplication:uuid}</code></td><td></td></tr>
      * </table>
      * @see #UserPortraitScreenlet_autoLoad
      * @see #UserPortraitScreenlet_cachePolicy
@@ -23788,17 +23848,17 @@ public final class R {
       0x7f040196, 0x7f0401c0, 0x7f04025f, 0x7f040260
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int UserPortraitScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -23813,21 +23873,21 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int UserPortraitScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#editable}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#editable}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:editable
+     * @attr name com.example.thienbao.myapplication:editable
      */
     public static final int UserPortraitScreenlet_editable=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23835,47 +23895,47 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int UserPortraitScreenlet_layoutId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#male}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#male}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:male
+     * @attr name com.example.thienbao.myapplication:male
      */
     public static final int UserPortraitScreenlet_male=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#portraitId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#portraitId}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:portraitId
+     * @attr name com.example.thienbao.myapplication:portraitId
      */
     public static final int UserPortraitScreenlet_portraitId=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#userId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#userId}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:userId
+     * @attr name com.example.thienbao.myapplication:userId
      */
     public static final int UserPortraitScreenlet_userId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#uuid}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#uuid}
      * attribute's value can be found in the {@link #UserPortraitScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:uuid
+     * @attr name com.example.thienbao.myapplication:uuid
      */
     public static final int UserPortraitScreenlet_uuid=7;
     /**
@@ -23885,11 +23945,11 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #VideoDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #VideoDisplayScreenlet_className com.example.black.savemymoneyv3:className}</code></td><td></td></tr>
-     * <tr><td><code>{@link #VideoDisplayScreenlet_classPK com.example.black.savemymoneyv3:classPK}</code></td><td></td></tr>
-     * <tr><td><code>{@link #VideoDisplayScreenlet_entryId com.example.black.savemymoneyv3:entryId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #VideoDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoDisplayScreenlet_className com.example.thienbao.myapplication:className}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoDisplayScreenlet_classPK com.example.thienbao.myapplication:classPK}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoDisplayScreenlet_entryId com.example.thienbao.myapplication:entryId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #VideoDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #VideoDisplayScreenlet_autoLoad
      * @see #VideoDisplayScreenlet_className
@@ -23902,47 +23962,47 @@ public final class R {
       0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #VideoDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int VideoDisplayScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#className}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#className}
      * attribute's value can be found in the {@link #VideoDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:className
+     * @attr name com.example.thienbao.myapplication:className
      */
     public static final int VideoDisplayScreenlet_className=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#classPK}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#classPK}
      * attribute's value can be found in the {@link #VideoDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:classPK
+     * @attr name com.example.thienbao.myapplication:classPK
      */
     public static final int VideoDisplayScreenlet_classPK=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#entryId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#entryId}
      * attribute's value can be found in the {@link #VideoDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:entryId
+     * @attr name com.example.thienbao.myapplication:entryId
      */
     public static final int VideoDisplayScreenlet_entryId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #VideoDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -23950,7 +24010,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int VideoDisplayScreenlet_layoutId=4;
     /**
@@ -23962,9 +24022,9 @@ public final class R {
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #View_android_theme android:theme}</code></td><td></td></tr>
      * <tr><td><code>{@link #View_android_focusable android:focusable}</code></td><td></td></tr>
-     * <tr><td><code>{@link #View_paddingEnd com.example.black.savemymoneyv3:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_paddingStart com.example.black.savemymoneyv3:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
-     * <tr><td><code>{@link #View_theme com.example.black.savemymoneyv3:theme}</code></td><td>Deprecated.</td></tr>
+     * <tr><td><code>{@link #View_paddingEnd com.example.thienbao.myapplication:paddingEnd}</code></td><td>Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_paddingStart com.example.thienbao.myapplication:paddingStart}</code></td><td>Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.</td></tr>
+     * <tr><td><code>{@link #View_theme com.example.thienbao.myapplication:theme}</code></td><td>Deprecated.</td></tr>
      * </table>
      * @see #View_android_theme
      * @see #View_android_focusable
@@ -24026,7 +24086,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:paddingEnd
+     * @attr name com.example.thienbao.myapplication:paddingEnd
      */
     public static final int View_paddingEnd=2;
     /**
@@ -24040,7 +24100,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      *
-     * @attr name com.example.black.savemymoneyv3:paddingStart
+     * @attr name com.example.thienbao.myapplication:paddingStart
      */
     public static final int View_paddingStart=3;
     /**
@@ -24053,7 +24113,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:theme
+     * @attr name com.example.thienbao.myapplication:theme
      */
     public static final int View_theme=4;
     /**
@@ -24064,8 +24124,8 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #ViewBackgroundHelper_android_background android:background}</code></td><td></td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.black.savemymoneyv3:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
-     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.black.savemymoneyv3:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTint com.example.thienbao.myapplication:backgroundTint}</code></td><td>Tint to apply to the background.</td></tr>
+     * <tr><td><code>{@link #ViewBackgroundHelper_backgroundTintMode com.example.thienbao.myapplication:backgroundTintMode}</code></td><td>Blending mode used to apply the background tint.</td></tr>
      * </table>
      * @see #ViewBackgroundHelper_android_background
      * @see #ViewBackgroundHelper_backgroundTint
@@ -24098,7 +24158,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTint
+     * @attr name com.example.thienbao.myapplication:backgroundTint
      */
     public static final int ViewBackgroundHelper_backgroundTint=1;
     /**
@@ -24125,7 +24185,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:backgroundTintMode
+     * @attr name com.example.thienbao.myapplication:backgroundTintMode
      */
     public static final int ViewBackgroundHelper_backgroundTintMode=2;
     /**
@@ -24193,15 +24253,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_articleId com.example.black.savemymoneyv3:articleId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_groupId com.example.black.savemymoneyv3:groupId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_javascriptEnabled com.example.black.savemymoneyv3:javascriptEnabled}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_labelFields com.example.black.savemymoneyv3:labelFields}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_structureId com.example.black.savemymoneyv3:structureId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentDisplayScreenlet_templateId com.example.black.savemymoneyv3:templateId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_articleId com.example.thienbao.myapplication:articleId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_groupId com.example.thienbao.myapplication:groupId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_javascriptEnabled com.example.thienbao.myapplication:javascriptEnabled}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_labelFields com.example.thienbao.myapplication:labelFields}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_structureId com.example.thienbao.myapplication:structureId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentDisplayScreenlet_templateId com.example.thienbao.myapplication:templateId}</code></td><td></td></tr>
      * </table>
      * @see #WebContentDisplayScreenlet_articleId
      * @see #WebContentDisplayScreenlet_autoLoad
@@ -24219,27 +24279,27 @@ public final class R {
       0x7f04021e
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#articleId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#articleId}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:articleId
+     * @attr name com.example.thienbao.myapplication:articleId
      */
     public static final int WebContentDisplayScreenlet_articleId=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int WebContentDisplayScreenlet_autoLoad=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -24254,41 +24314,41 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int WebContentDisplayScreenlet_cachePolicy=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#groupId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#groupId}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:groupId
+     * @attr name com.example.thienbao.myapplication:groupId
      */
     public static final int WebContentDisplayScreenlet_groupId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#javascriptEnabled}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#javascriptEnabled}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:javascriptEnabled
+     * @attr name com.example.thienbao.myapplication:javascriptEnabled
      */
     public static final int WebContentDisplayScreenlet_javascriptEnabled=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelFields}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelFields}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:labelFields
+     * @attr name com.example.thienbao.myapplication:labelFields
      */
     public static final int WebContentDisplayScreenlet_labelFields=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -24296,27 +24356,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int WebContentDisplayScreenlet_layoutId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#structureId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#structureId}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:structureId
+     * @attr name com.example.thienbao.myapplication:structureId
      */
     public static final int WebContentDisplayScreenlet_structureId=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#templateId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#templateId}
      * attribute's value can be found in the {@link #WebContentDisplayScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:templateId
+     * @attr name com.example.thienbao.myapplication:templateId
      */
     public static final int WebContentDisplayScreenlet_templateId=8;
     /**
@@ -24326,15 +24386,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_cachePolicy com.example.black.savemymoneyv3:cachePolicy}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_firstPageSize com.example.black.savemymoneyv3:firstPageSize}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_folderId com.example.black.savemymoneyv3:folderId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_groupId com.example.black.savemymoneyv3:groupId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_labelFields com.example.black.savemymoneyv3:labelFields}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_obcClassName com.example.black.savemymoneyv3:obcClassName}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebContentListScreenlet_pageSize com.example.black.savemymoneyv3:pageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_cachePolicy com.example.thienbao.myapplication:cachePolicy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_firstPageSize com.example.thienbao.myapplication:firstPageSize}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_folderId com.example.thienbao.myapplication:folderId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_groupId com.example.thienbao.myapplication:groupId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_labelFields com.example.thienbao.myapplication:labelFields}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_obcClassName com.example.thienbao.myapplication:obcClassName}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebContentListScreenlet_pageSize com.example.thienbao.myapplication:pageSize}</code></td><td></td></tr>
      * </table>
      * @see #WebContentListScreenlet_autoLoad
      * @see #WebContentListScreenlet_cachePolicy
@@ -24352,17 +24412,17 @@ public final class R {
       0x7f0401b0
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int WebContentListScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#cachePolicy}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#cachePolicy}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>Must be one of the following constant values.</p>
@@ -24377,50 +24437,50 @@ public final class R {
      * <tr><td>REMOTE_ONLY</td><td>0</td><td></td></tr>
      * </table>
      *
-     * @attr name com.example.black.savemymoneyv3:cachePolicy
+     * @attr name com.example.thienbao.myapplication:cachePolicy
      */
     public static final int WebContentListScreenlet_cachePolicy=1;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#firstPageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#firstPageSize}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:firstPageSize
+     * @attr name com.example.thienbao.myapplication:firstPageSize
      */
     public static final int WebContentListScreenlet_firstPageSize=2;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#folderId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#folderId}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:folderId
+     * @attr name com.example.thienbao.myapplication:folderId
      */
     public static final int WebContentListScreenlet_folderId=3;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#groupId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#groupId}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:groupId
+     * @attr name com.example.thienbao.myapplication:groupId
      */
     public static final int WebContentListScreenlet_groupId=4;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#labelFields}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#labelFields}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:labelFields
+     * @attr name com.example.thienbao.myapplication:labelFields
      */
     public static final int WebContentListScreenlet_labelFields=5;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -24428,26 +24488,26 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int WebContentListScreenlet_layoutId=6;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#obcClassName}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#obcClassName}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      *
-     * @attr name com.example.black.savemymoneyv3:obcClassName
+     * @attr name com.example.thienbao.myapplication:obcClassName
      */
     public static final int WebContentListScreenlet_obcClassName=7;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#pageSize}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#pageSize}
      * attribute's value can be found in the {@link #WebContentListScreenlet} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:pageSize
+     * @attr name com.example.thienbao.myapplication:pageSize
      */
     public static final int WebContentListScreenlet_pageSize=8;
     /**
@@ -24457,8 +24517,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #WebScreenlet_autoLoad com.example.black.savemymoneyv3:autoLoad}</code></td><td></td></tr>
-     * <tr><td><code>{@link #WebScreenlet_layoutId com.example.black.savemymoneyv3:layoutId}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebScreenlet_autoLoad com.example.thienbao.myapplication:autoLoad}</code></td><td></td></tr>
+     * <tr><td><code>{@link #WebScreenlet_layoutId com.example.thienbao.myapplication:layoutId}</code></td><td></td></tr>
      * </table>
      * @see #WebScreenlet_autoLoad
      * @see #WebScreenlet_layoutId
@@ -24467,17 +24527,17 @@ public final class R {
       0x7f040031, 0x7f040146
     };
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#autoLoad}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#autoLoad}
      * attribute's value can be found in the {@link #WebScreenlet} array.
      *
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      *
-     * @attr name com.example.black.savemymoneyv3:autoLoad
+     * @attr name com.example.thienbao.myapplication:autoLoad
      */
     public static final int WebScreenlet_autoLoad=0;
     /**
-     * <p>This symbol is the offset where the {@link com.example.black.savemymoneyv3.R.attr#layoutId}
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layoutId}
      * attribute's value can be found in the {@link #WebScreenlet} array.
      *
      * <p>May be a reference to another resource, in the form
@@ -24485,7 +24545,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      *
-     * @attr name com.example.black.savemymoneyv3:layoutId
+     * @attr name com.example.thienbao.myapplication:layoutId
      */
     public static final int WebScreenlet_layoutId=1;
   }

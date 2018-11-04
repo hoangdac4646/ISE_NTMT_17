@@ -38,7 +38,6 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
         if(getSupportActionBar() !=null) {
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         }
-        navigationView.setCheckedItem(R.id.ad_danhmuc);
         navigationView.setCheckedItem(R.id.ad_deal);
         navigationView.setCheckedItem(R.id.ad_user);
         navigationView.setCheckedItem(R.id.ad_phanhoi);
@@ -57,12 +56,8 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
 
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        if(item.getItemId()==R.id.ad_danhmuc) {
-          // ReadTaiKhoan(url_read);
 
-
-        }
-        else  if(item.getItemId()==R.id.ad_phanhoi) {
+          if(item.getItemId()==R.id.ad_phanhoi) {
             QlFeedback_fragment qlTaiKhoan_fragment = new QlFeedback_fragment();
             android.app.FragmentManager fragmentManager  = getFragmentManager();
             android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -85,6 +80,9 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
            fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
             fragmentTransaction.commit();
             return true;
+        }
+        else if(item.getItemId()==R.id.ad_logout){
+            finish();
         }
         return false;
     }

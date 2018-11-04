@@ -65,10 +65,10 @@ public class Plan_Fragment extends Fragment implements View.OnClickListener, Com
     private ListPlanAdapter adapter;
     private SimpleDateFormat dateFormatForMonth = new SimpleDateFormat("MMM - yyyy", Locale.getDefault());
     private ArrayList<DuDinh> plans;
-    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataPlan.php";
+    private final String url = "https://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataPlan.php";
     private  Handler handler = new Handler();
     private String username;
-    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataPlan.php";
+    private final String urldelete = "https://ludicrous-disaster.hostingerapp.com/Delete%20Data/deleteDataPlan.php";
     private ProgressBar planPregress;
     public Plan_Fragment() {
 

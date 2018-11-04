@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="7"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:gravity="center"
+        android:layout_weight="1"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin cá nhân" />
+<LinearLayout
+    android:layout_marginTop="10dp"
+    android:orientation="vertical"
+    android:layout_weight="4"
+    android:layout_width="match_parent"
+    android:layout_height="0dp">
+    <TextView
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tài khoản" />
+
+    <EditText
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:background="@drawable/drawable_vienbutton"
+        android:id="@+id/edt_CHuser1"
+        android:focusable="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+       />
+
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mật khẩu" />
+
+    <EditText
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@drawable/drawable_vienbutton"
+        android:id="@+id/edt_CHpass1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="textPersonName"
+        />
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Họ tên" />
+
+    <EditText
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@drawable/drawable_vienbutton"
+        android:id="@+id/edt_CHten1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="text"
+        />
+    <TextView
+        android:textColor="@color/colorBlack"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại" />
+
+    <EditText
+        android:focusable="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@drawable/drawable_vienbutton"
+        android:id="@+id/edt_CHsdt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12"
+        android:inputType="number"
+      />
+</LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <Button
+            android:text="Đồng ý"
+            android:id="@+id/btn_CHOke1"
+            android:background="@drawable/drawable_vienbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -62,8 +62,8 @@ public class WalletInfoActivity extends AppCompatActivity implements View.OnClic
     private  ProgressDialog mprogress;
     private TypedArray imgs;
     private Handler handler = new Handler();
-    private final String url = "https://ludicrous-disaster.000webhostapp.com/Get%20Data/getDataAction.php";
-    private final String urldelete = "https://ludicrous-disaster.000webhostapp.com/Delete%20Data/deleteDataAction.php";
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Get%20Data/getDataAction.php";
+    private final String urldelete = "http://ludicrous-disaster.hostingerapp.com/Delete%20Data/deleteDataAction.php";
     private ProgressBar walletProgress;
 
     @Override

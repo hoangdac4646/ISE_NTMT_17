@@ -42,7 +42,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
     private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
     private ImageView icon;
     private int pos = 0;
-    private final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataWallet.php";
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataWallet.php";
     private TypedArray imgs;
     private String username;
     private ProgressBar progressBar2;

@@ -36,7 +36,7 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
     private Toolbar mtoolbar;
     private String ngaykt;
     private ProgressBar AP_progressbar;
-    private final String url = "https://ludicrous-disaster.000webhostapp.com/Put%20Data/insertDataPlan.php";
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataPlan.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
