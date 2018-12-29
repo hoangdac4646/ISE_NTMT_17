@@ -2,140 +2,122 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="HOT_WARM"
+    build-mode="COLD"
     density="420dpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.1"
-    timestamp="1546089001792"
-    token="-303141960281733716"
-    verifier="COMPATIBLE" >
+    timestamp="1546092108557"
+    token="-5264403183921468278"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="830" />
+        duration="1994" />
     <task
         name="instant-run-dex"
-        duration="21" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="75" />
+        duration="27" />
     <task
         name="verifier"
-        duration="11" />
+        duration="101" />
 
     <artifact
-        location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+        location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1546082685993"
+        timestamp="1546090918648"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1546082930089"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1546091411541"
+        verifier="R_CLASS_CHANGE" >
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-            type="SPLIT" />
-        <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1546087879599"
-        verifier="CLASS_ADDED" >
-        <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1546088127615"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1546092108557"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="HOT_WARM"
-        timestamp="1546089001792"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\resources\instant-run\debug\resources-debug.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\black\Desktop\SaveMyMoneyV3\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
+            location="E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

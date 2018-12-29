@@ -2185,8 +2185,6 @@ public final class R {
      */
     public static final int folderId=0x7f040122;
     /**
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2199,17 +2197,11 @@ public final class R {
      */
     public static final int fontFamily=0x7f040124;
     /**
-     * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderAuthority=0x7f040125;
     /**
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2217,34 +2209,18 @@ public final class R {
      */
     public static final int fontProviderCerts=0x7f040126;
     /**
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchStrategy=0x7f040127;
     /**
-     * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2252,29 +2228,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      */
     public static final int fontProviderFetchTimeout=0x7f040128;
     /**
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderPackage=0x7f040129;
     /**
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontProviderQuery=0x7f04012a;
     /**
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
@@ -2287,20 +2255,11 @@ public final class R {
      */
     public static final int fontStyle=0x7f04012b;
     /**
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
     public static final int fontVariationSettings=0x7f04012c;
     /**
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int fontWeight=0x7f04012d;
@@ -2661,11 +2620,6 @@ public final class R {
      */
     public static final int javascriptEnabled=0x7f04015c;
     /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2711,7 +2665,6 @@ public final class R {
      */
     public static final int layoutManager=0x7f040162;
     /**
-     * The id of an anchor view that this view should position relative to.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -2719,40 +2672,30 @@ public final class R {
      */
     public static final int layout_anchor=0x7f040163;
     /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_anchorGravity=0x7f040164;
     /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
@@ -3184,21 +3127,20 @@ public final class R {
      */
     public static final int layout_constraintWidth_percent=0x7f040190;
     /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_dodgeInsetEdges=0x7f040191;
@@ -3282,28 +3224,23 @@ public final class R {
      */
     public static final int layout_goneMarginTop=0x7f04019c;
     /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
      * <p>Must be one of the following constant values.</p>
      * <table>
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
     public static final int layout_insetEdge=0x7f04019d;
     /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int layout_keyline=0x7f04019e;
@@ -3349,7 +3286,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -4133,7 +4070,6 @@ public final class R {
      */
     public static final int state_collapsible=0x7f040212;
     /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
@@ -4942,8 +4878,6 @@ public final class R {
      */
     public static final int triggerOffset=0x7f04027a;
     /**
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
     public static final int ttcIndex=0x7f04027b;
@@ -5951,554 +5885,553 @@ public final class R {
     public static final int action_mode_bar=0x7f09002b;
     public static final int action_mode_bar_stub=0x7f09002c;
     public static final int action_mode_close_button=0x7f09002d;
-    public static final int action_settings=0x7f09002e;
-    public static final int action_text=0x7f09002f;
-    public static final int actions=0x7f090030;
-    public static final int activity_chooser_view_content=0x7f090031;
-    public static final int ad_deal=0x7f090032;
-    public static final int ad_logout=0x7f090033;
-    public static final int ad_phanhoi=0x7f090034;
-    public static final int ad_user=0x7f090035;
-    public static final int add=0x7f090036;
-    public static final int adjust_height=0x7f090037;
-    public static final int adjust_width=0x7f090038;
-    public static final int alertTitle=0x7f090039;
-    public static final int all=0x7f09003a;
-    public static final int always=0x7f09003b;
-    public static final int arrow=0x7f09003c;
-    public static final int article_body=0x7f09003d;
-    public static final int async=0x7f09003e;
-    public static final int auto=0x7f09003f;
-    public static final int averageRatingBar=0x7f090040;
-    public static final int barchar=0x7f090041;
-    public static final int barrier=0x7f090042;
-    public static final int basic=0x7f090043;
-    public static final int basic_authentication_login=0x7f090044;
-    public static final int beginning=0x7f090045;
-    public static final int blocking=0x7f090046;
-    public static final int borrow_linear=0x7f090047;
-    public static final int bottom=0x7f090048;
-    public static final int bottom_navigation=0x7f090049;
-    public static final int btnXoaTk=0x7f09004a;
-    public static final int btn_CHOke=0x7f09004b;
-    public static final int btn_CHOke1=0x7f09004c;
-    public static final int btn_CHcannel=0x7f09004d;
-    public static final int btn_ChinhHuy=0x7f09004e;
-    public static final int btn_ChinhSualuu=0x7f09004f;
-    public static final int btn_GD=0x7f090050;
-    public static final int btn_Nap=0x7f090051;
-    public static final int btn_adChinhSua=0x7f090052;
-    public static final int btn_dangnhap=0x7f090053;
-    public static final int btn_dongyThem=0x7f090054;
-    public static final int btn_gui=0x7f090055;
-    public static final int btn_huy=0x7f090056;
-    public static final int btn_them_BA=0x7f090057;
-    public static final int btn_them_DD=0x7f090058;
-    public static final int btn_themhotdeal=0x7f090059;
-    public static final int btn_xacnhan=0x7f09005a;
-    public static final int btn_xacnhan_AW=0x7f09005b;
-    public static final int btn_yes_AB=0x7f09005c;
-    public static final int btn_yes_dd=0x7f09005d;
-    public static final int buttonPanel=0x7f09005e;
-    public static final int cancel_action=0x7f09005f;
-    public static final int center=0x7f090060;
-    public static final int center_horizontal=0x7f090061;
-    public static final int center_vertical=0x7f090062;
-    public static final int chains=0x7f090063;
-    public static final int check_remember=0x7f090064;
-    public static final int checkbox=0x7f090065;
-    public static final int chronometer=0x7f090066;
-    public static final int clip_horizontal=0x7f090067;
-    public static final int clip_vertical=0x7f090068;
-    public static final int collapseActionView=0x7f090069;
-    public static final int collection_recycler_view=0x7f09006a;
-    public static final int column_label_edit_text=0x7f09006b;
-    public static final int comment_add=0x7f09006c;
-    public static final int comment_add_separator=0x7f09006d;
-    public static final int comment_body=0x7f09006e;
-    public static final int comment_body_group=0x7f09006f;
-    public static final int comment_buttons=0x7f090070;
-    public static final int comment_create_date=0x7f090071;
-    public static final int comment_delete_or_cancel=0x7f090072;
-    public static final int comment_display_content=0x7f090073;
-    public static final int comment_edit_body=0x7f090074;
-    public static final int comment_edit_or_confirm=0x7f090075;
-    public static final int comment_edited=0x7f090076;
-    public static final int comment_empty_list=0x7f090077;
-    public static final int comment_send=0x7f090078;
-    public static final int comment_separator=0x7f090079;
-    public static final int comment_user_name=0x7f09007a;
-    public static final int comment_user_portrait=0x7f09007b;
-    public static final int comment_view=0x7f09007c;
-    public static final int compactcalendar_view=0x7f09007d;
-    public static final int container=0x7f09007e;
-    public static final int content=0x7f09007f;
-    public static final int contentPanel=0x7f090080;
-    public static final int cookie=0x7f090081;
-    public static final int coordinator=0x7f090082;
-    public static final int create_date=0x7f090083;
-    public static final int creator_avatar=0x7f090084;
-    public static final int custom=0x7f090085;
-    public static final int customPanel=0x7f090086;
-    public static final int dark=0x7f090087;
-    public static final int ddlfields_container=0x7f090088;
-    public static final int ddlform_loading_screen_progress_bar=0x7f090089;
-    public static final int ddlform_progress_bar=0x7f09008a;
-    public static final int ddmfields_container=0x7f09008b;
-    public static final int ddmfields_linear_container=0x7f09008c;
-    public static final int decor_content_parent=0x7f09008d;
-    public static final int default_activity_button=0x7f09008e;
-    public static final int default_dialog_edit_text=0x7f09008f;
-    public static final int default_list=0x7f090090;
-    public static final int default_progress_view_text=0x7f090091;
-    public static final int description_text_view=0x7f090092;
-    public static final int design_bottom_sheet=0x7f090093;
-    public static final int design_menu_item_action_area=0x7f090094;
-    public static final int design_menu_item_action_area_stub=0x7f090095;
-    public static final int design_menu_item_text=0x7f090096;
-    public static final int design_navigation_view=0x7f090097;
-    public static final int detailed_image=0x7f090098;
-    public static final int dimensions=0x7f090099;
-    public static final int direct=0x7f09009a;
-    public static final int disableHome=0x7f09009b;
-    public static final int dissatisfied_button=0x7f09009c;
-    public static final int dissatisfied_label=0x7f09009d;
-    public static final int dmm_page_container=0x7f09009e;
-    public static final int dotsLayout=0x7f09009f;
-    public static final int draw_layout=0x7f0900a0;
-    public static final int drawer_layout=0x7f0900a1;
-    public static final int edit_query=0x7f0900a2;
-    public static final int edit_themanh=0x7f0900a3;
-    public static final int edit_themlink=0x7f0900a4;
-    public static final int edtDate_AB=0x7f0900a5;
-    public static final int edtMoney_AB=0x7f0900a6;
-    public static final int edtName_AB=0x7f0900a7;
-    public static final int edt_CHpass=0x7f0900a8;
-    public static final int edt_CHpass1=0x7f0900a9;
-    public static final int edt_CHsdt=0x7f0900aa;
-    public static final int edt_CHsdt1=0x7f0900ab;
-    public static final int edt_CHten=0x7f0900ac;
-    public static final int edt_CHten1=0x7f0900ad;
-    public static final int edt_CHuser=0x7f0900ae;
-    public static final int edt_CHuser1=0x7f0900af;
-    public static final int edt_ChinhSuaTen=0x7f0900b0;
-    public static final int edt_TienNap=0x7f0900b1;
-    public static final int edt_dateinit=0x7f0900b2;
-    public static final int edt_ghichu_AW=0x7f0900b3;
-    public static final int edt_ghichu_DD=0x7f0900b4;
-    public static final int edt_hoten=0x7f0900b5;
-    public static final int edt_kinhphi=0x7f0900b6;
-    public static final int edt_money=0x7f0900b7;
-    public static final int edt_name=0x7f0900b8;
-    public static final int edt_ngayNap=0x7f0900b9;
-    public static final int edt_ngaydd=0x7f0900ba;
-    public static final int edt_pass=0x7f0900bb;
-    public static final int edt_pass1=0x7f0900bc;
-    public static final int edt_pass2=0x7f0900bd;
-    public static final int edt_sdt=0x7f0900be;
-    public static final int edt_ten=0x7f0900bf;
-    public static final int edt_tiendoi=0x7f0900c0;
-    public static final int email=0x7f0900c1;
-    public static final int emoji_1_button=0x7f0900c2;
-    public static final int emoji_1_label=0x7f0900c3;
-    public static final int emoji_2_button=0x7f0900c4;
-    public static final int emoji_2_label=0x7f0900c5;
-    public static final int emoji_3_button=0x7f0900c6;
-    public static final int emoji_3_label=0x7f0900c7;
-    public static final int emoji_4_button=0x7f0900c8;
-    public static final int emoji_4_label=0x7f0900c9;
-    public static final int end=0x7f0900ca;
-    public static final int end_padder=0x7f0900cb;
-    public static final int enterAlways=0x7f0900cc;
-    public static final int enterAlwaysCollapsed=0x7f0900cd;
-    public static final int exitUntilCollapsed=0x7f0900ce;
-    public static final int expand_activities_button=0x7f0900cf;
-    public static final int expanded_menu=0x7f0900d0;
-    public static final int feddback_toolbar=0x7f0900d1;
-    public static final int feedback_mes=0x7f0900d2;
-    public static final int feedback_noidung=0x7f0900d3;
-    public static final int feedback_tk=0x7f0900d4;
-    public static final int fill=0x7f0900d5;
-    public static final int fill_horizontal=0x7f0900d6;
-    public static final int fill_large_indicator=0x7f0900d7;
-    public static final int fill_vertical=0x7f0900d8;
-    public static final int filled=0x7f0900d9;
-    public static final int fixed=0x7f0900da;
-    public static final int forever=0x7f0900db;
-    public static final int form_footer=0x7f0900dc;
-    public static final int gallery_item_image=0x7f0900dd;
-    public static final int ghost_view=0x7f0900de;
-    public static final int gone=0x7f0900df;
-    public static final int grid_hotdeal=0x7f0900e0;
-    public static final int group_divider=0x7f0900e1;
-    public static final int groups=0x7f0900e2;
-    public static final int headline=0x7f0900e3;
-    public static final int headline_text_view=0x7f0900e4;
-    public static final int home=0x7f0900e5;
-    public static final int homeAsUp=0x7f0900e6;
-    public static final int home_linear=0x7f0900e7;
-    public static final int homeprogress=0x7f0900e8;
-    public static final int ic_changes=0x7f0900e9;
-    public static final int icon=0x7f0900ea;
-    public static final int icon_group=0x7f0900eb;
-    public static final int icon_only=0x7f0900ec;
-    public static final int icons=0x7f0900ed;
-    public static final int ifRoom=0x7f0900ee;
-    public static final int image=0x7f0900ef;
-    public static final int imageView=0x7f0900f0;
-    public static final int imageView2=0x7f0900f1;
-    public static final int imageView3=0x7f0900f2;
-    public static final int imageView4=0x7f0900f3;
-    public static final int image_view=0x7f0900f4;
-    public static final int imgIcon_CT=0x7f0900f5;
-    public static final int img_Icon_BA=0x7f0900f6;
-    public static final int img_NgoaiTeQG=0x7f0900f7;
-    public static final int img_doitien=0x7f0900f8;
-    public static final int img_exchange2ben=0x7f0900f9;
-    public static final int img_hotdeal=0x7f0900fa;
-    public static final int img_icon_walleadd=0x7f0900fb;
-    public static final int img_icon_walletinfo=0x7f0900fc;
-    public static final int img_reset=0x7f0900fd;
-    public static final int img_slide=0x7f0900fe;
-    public static final int info=0x7f0900ff;
-    public static final int inner_screenlet_container=0x7f090100;
-    public static final int invisible=0x7f090101;
-    public static final int italic=0x7f090102;
-    public static final int item_touch_helper_previous_elevation=0x7f090103;
-    public static final int labeled=0x7f090104;
-    public static final int largeLabel=0x7f090105;
-    public static final int left=0x7f090106;
-    public static final int liferay_asset_progress_horizontal=0x7f090107;
-    public static final int liferay_asset_progress_number=0x7f090108;
-    public static final int liferay_asset_title=0x7f090109;
-    public static final int liferay_audio_asset=0x7f09010a;
-    public static final int liferay_audio_image_background=0x7f09010b;
-    public static final int liferay_audio_message=0x7f09010c;
-    public static final int liferay_audio_title=0x7f09010d;
-    public static final int liferay_blog_content=0x7f09010e;
-    public static final int liferay_blog_date=0x7f09010f;
-    public static final int liferay_blog_image=0x7f090110;
-    public static final int liferay_blog_subtitle=0x7f090111;
-    public static final int liferay_blog_title=0x7f090112;
-    public static final int liferay_blog_userinfo=0x7f090113;
-    public static final int liferay_blog_username=0x7f090114;
-    public static final int liferay_ddl_custom_rating=0x7f090115;
-    public static final int liferay_ddl_edit_text=0x7f090116;
-    public static final int liferay_ddl_label=0x7f090117;
-    public static final int liferay_ddl_switch=0x7f090118;
-    public static final int liferay_ddm_form_view=0x7f090119;
-    public static final int liferay_ddm_grid=0x7f09011a;
-    public static final int liferay_ddm_hint=0x7f09011b;
-    public static final int liferay_ddm_label=0x7f09011c;
-    public static final int liferay_dialog_select_file=0x7f09011d;
-    public static final int liferay_dialog_select_file_form=0x7f09011e;
-    public static final int liferay_dialog_select_gallery=0x7f09011f;
-    public static final int liferay_dialog_select_gallery_video=0x7f090120;
-    public static final int liferay_dialog_take_photo=0x7f090121;
-    public static final int liferay_dialog_take_photo_form=0x7f090122;
-    public static final int liferay_dialog_take_video=0x7f090123;
-    public static final int liferay_dialog_take_video_form=0x7f090124;
-    public static final int liferay_dialog_title=0x7f090125;
-    public static final int liferay_document_progress=0x7f090126;
-    public static final int liferay_email_address=0x7f090127;
-    public static final int liferay_first_name=0x7f090128;
-    public static final int liferay_forgot_button=0x7f090129;
-    public static final int liferay_forgot_login=0x7f09012a;
-    public static final int liferay_form_back=0x7f09012b;
-    public static final int liferay_form_submit=0x7f09012c;
-    public static final int liferay_gallery_upload_description=0x7f09012d;
-    public static final int liferay_gallery_upload_image=0x7f09012e;
-    public static final int liferay_gallery_upload_title=0x7f09012f;
-    public static final int liferay_go_to_page=0x7f090130;
-    public static final int liferay_go_to_page_submit=0x7f090131;
-    public static final int liferay_image_asset=0x7f090132;
-    public static final int liferay_last_name=0x7f090133;
-    public static final int liferay_latitude_edit_text=0x7f090134;
-    public static final int liferay_linear_buttons=0x7f090135;
-    public static final int liferay_list_screenlet=0x7f090136;
-    public static final int liferay_list_title=0x7f090137;
-    public static final int liferay_login=0x7f090138;
-    public static final int liferay_login_button=0x7f090139;
-    public static final int liferay_longitude_edit_text=0x7f09013a;
-    public static final int liferay_modal_progress=0x7f09013b;
-    public static final int liferay_multipage_progress=0x7f09013c;
-    public static final int liferay_next_page=0x7f09013d;
-    public static final int liferay_pager=0x7f09013e;
-    public static final int liferay_password=0x7f09013f;
-    public static final int liferay_pdf_renderer=0x7f090140;
-    public static final int liferay_portlet_progress=0x7f090141;
-    public static final int liferay_portrait=0x7f090142;
-    public static final int liferay_portrait_progress=0x7f090143;
-    public static final int liferay_previous_page=0x7f090144;
-    public static final int liferay_progress=0x7f090145;
-    public static final int liferay_rating_content=0x7f090146;
-    public static final int liferay_rating_progress=0x7f090147;
-    public static final int liferay_recycler_list=0x7f090148;
-    public static final int liferay_repeatable_field_add=0x7f090149;
-    public static final int liferay_repeatable_field_label=0x7f09014a;
-    public static final int liferay_repeatable_field_remove=0x7f09014b;
-    public static final int liferay_replace_image=0x7f09014c;
-    public static final int liferay_sign_up_button=0x7f09014d;
-    public static final int liferay_submit_container=0x7f09014e;
-    public static final int liferay_video_asset=0x7f09014f;
-    public static final int liferay_video_message=0x7f090150;
-    public static final int liferay_webview=0x7f090151;
-    public static final int liferay_webview_progress=0x7f090152;
-    public static final int light=0x7f090153;
-    public static final int likeCountLabel=0x7f090154;
-    public static final int likeRatingButton=0x7f090155;
-    public static final int line1=0x7f090156;
-    public static final int line3=0x7f090157;
-    public static final int linear_layout_multiple_checkbox=0x7f090158;
-    public static final int listMode=0x7f090159;
-    public static final int list_action=0x7f09015a;
-    public static final int list_borrow=0x7f09015b;
-    public static final int list_chitieu=0x7f09015c;
-    public static final int list_icon=0x7f09015d;
-    public static final int list_item=0x7f09015e;
-    public static final int list_plan=0x7f09015f;
-    public static final int lsv_feedback=0x7f090160;
-    public static final int lv_hotdeal=0x7f090161;
-    public static final int masked=0x7f090162;
-    public static final int media_actions=0x7f090163;
-    public static final int menu_convert=0x7f090164;
-    public static final int menu_hotdeal=0x7f090165;
-    public static final int menu_vaymuon=0x7f090166;
-    public static final int message=0x7f090167;
-    public static final int middle=0x7f090168;
-    public static final int mini=0x7f090169;
-    public static final int mtoolbar_AB=0x7f09016a;
-    public static final int mtoolbar_AW=0x7f09016b;
-    public static final int mtoolbar_BA=0x7f09016c;
-    public static final int mtrl_child_content_container=0x7f09016d;
-    public static final int mtrl_internal_children_alpha_tag=0x7f09016e;
-    public static final int multipage_scroll_view=0x7f09016f;
-    public static final int multiply=0x7f090170;
-    public static final int nav_aboutus=0x7f090171;
-    public static final int nav_add=0x7f090172;
-    public static final int nav_feelback=0x7f090173;
-    public static final int nav_home=0x7f090174;
-    public static final int nav_logout=0x7f090175;
-    public static final int nav_more=0x7f090176;
-    public static final int nav_plan=0x7f090177;
-    public static final int nav_report=0x7f090178;
-    public static final int nav_thaydoithongtin=0x7f090179;
-    public static final int nav_thongtincanhan=0x7f09017a;
-    public static final int nav_view=0x7f09017b;
-    public static final int navigation_header_container=0x7f09017c;
-    public static final int negativeRatingButton=0x7f09017d;
-    public static final int negativeRatingCount=0x7f09017e;
-    public static final int neutral_button=0x7f09017f;
-    public static final int neutral_label=0x7f090180;
-    public static final int never=0x7f090181;
-    public static final int ngoaite_toolbar=0x7f090182;
-    public static final int no_fill_large_indicator=0x7f090183;
-    public static final int none=0x7f090184;
-    public static final int normal=0x7f090185;
-    public static final int notification_background=0x7f090186;
-    public static final int notification_main_column=0x7f090187;
-    public static final int notification_main_column_container=0x7f090188;
-    public static final int oauth2Redirect=0x7f090189;
-    public static final int oauth2UsernameAndPassword=0x7f09018a;
-    public static final int oauth2_authentication_login=0x7f09018b;
-    public static final int outline=0x7f09018c;
-    public static final int packed=0x7f09018d;
-    public static final int parallax=0x7f09018e;
-    public static final int parent=0x7f09018f;
-    public static final int parentPanel=0x7f090190;
-    public static final int parent_matrix=0x7f090191;
-    public static final int percent=0x7f090192;
-    public static final int person_birthDate=0x7f090193;
-    public static final int person_email=0x7f090194;
-    public static final int person_icon_birth_date=0x7f090195;
-    public static final int person_icon_email=0x7f090196;
-    public static final int person_icon_job_title=0x7f090197;
-    public static final int person_icon_name=0x7f090198;
-    public static final int person_job_title=0x7f090199;
-    public static final int person_name=0x7f09019a;
-    public static final int pin=0x7f09019b;
-    public static final int planPregress=0x7f09019c;
-    public static final int positiveRatingButton=0x7f09019d;
-    public static final int positiveRatingCount=0x7f09019e;
-    public static final int progressBar=0x7f09019f;
-    public static final int progressBar2=0x7f0901a0;
-    public static final int progressBar3=0x7f0901a1;
-    public static final int progress_bar_default=0x7f0901a2;
-    public static final int progress_circular=0x7f0901a3;
-    public static final int progress_horizontal=0x7f0901a4;
-    public static final int progress_modal_container=0x7f0901a5;
-    public static final int progress_text_view=0x7f0901a6;
-    public static final int progress_view_cancel_button=0x7f0901a7;
-    public static final int progress_view_image=0x7f0901a8;
-    public static final int progress_view_progressbar=0x7f0901a9;
-    public static final int radio=0x7f0901aa;
-    public static final int radioGroup2=0x7f0901ab;
-    public static final int radio_group=0x7f0901ac;
-    public static final int ratingBar=0x7f0901ad;
-    public static final int ratingBar2=0x7f0901ae;
-    public static final int rbn_chovay=0x7f0901af;
-    public static final int rbn_muontien=0x7f0901b0;
-    public static final int rcv_result=0x7f0901b1;
-    public static final int rdb_khachHang=0x7f0901b2;
-    public static final int rdb_quanli=0x7f0901b3;
-    public static final int recycler_container=0x7f0901b4;
-    public static final int right=0x7f0901b5;
-    public static final int right_icon=0x7f0901b6;
-    public static final int right_side=0x7f0901b7;
-    public static final int row_label_edit_text=0x7f0901b8;
-    public static final int rvp_fragment_container=0x7f0901b9;
-    public static final int satisfied_button=0x7f0901ba;
-    public static final int satisfied_label=0x7f0901bb;
-    public static final int save_image_matrix=0x7f0901bc;
-    public static final int save_non_transition_alpha=0x7f0901bd;
-    public static final int save_scale_type=0x7f0901be;
-    public static final int screen=0x7f0901bf;
-    public static final int screen_name=0x7f0901c0;
-    public static final int scroll=0x7f0901c1;
-    public static final int scrollIndicatorDown=0x7f0901c2;
-    public static final int scrollIndicatorUp=0x7f0901c3;
-    public static final int scrollView=0x7f0901c4;
-    public static final int scrollable=0x7f0901c5;
-    public static final int search_badge=0x7f0901c6;
-    public static final int search_bar=0x7f0901c7;
-    public static final int search_button=0x7f0901c8;
-    public static final int search_close_btn=0x7f0901c9;
-    public static final int search_edit_frame=0x7f0901ca;
-    public static final int search_go_btn=0x7f0901cb;
-    public static final int search_mag_icon=0x7f0901cc;
-    public static final int search_plate=0x7f0901cd;
-    public static final int search_src_text=0x7f0901ce;
-    public static final int search_voice_btn=0x7f0901cf;
-    public static final int select_dialog_listview=0x7f0901d0;
-    public static final int selected=0x7f0901d1;
-    public static final int shared_preferences=0x7f0901d2;
-    public static final int shortcut=0x7f0901d3;
-    public static final int showCustom=0x7f0901d4;
-    public static final int showHome=0x7f0901d5;
-    public static final int showTitle=0x7f0901d6;
-    public static final int show_m_y=0x7f0901d7;
-    public static final int slideViewPager=0x7f0901d8;
-    public static final int smallLabel=0x7f0901d9;
-    public static final int small_indicator=0x7f0901da;
-    public static final int snackbar_action=0x7f0901db;
-    public static final int snackbar_text=0x7f0901dc;
-    public static final int snap=0x7f0901dd;
-    public static final int sp_chuyen1=0x7f0901de;
-    public static final int sp_chuyen2=0x7f0901df;
-    public static final int spacer=0x7f0901e0;
-    public static final int split_action_bar=0x7f0901e1;
-    public static final int spread=0x7f0901e2;
-    public static final int spread_inside=0x7f0901e3;
-    public static final int src_atop=0x7f0901e4;
-    public static final int src_in=0x7f0901e5;
-    public static final int src_over=0x7f0901e6;
-    public static final int standard=0x7f0901e7;
-    public static final int start=0x7f0901e8;
-    public static final int status_bar_latest_event_content=0x7f0901e9;
-    public static final int stretch=0x7f0901ea;
-    public static final int submenuarrow=0x7f0901eb;
-    public static final int submit_area=0x7f0901ec;
-    public static final int tabMode=0x7f0901ed;
-    public static final int tag_transition_group=0x7f0901ee;
-    public static final int tag_unhandled_key_event_manager=0x7f0901ef;
-    public static final int tag_unhandled_key_listeners=0x7f0901f0;
-    public static final int text=0x7f0901f1;
-    public static final int text2=0x7f0901f2;
-    public static final int textSpacerNoButtons=0x7f0901f3;
-    public static final int textSpacerNoTitle=0x7f0901f4;
-    public static final int textView=0x7f0901f5;
-    public static final int textView1=0x7f0901f6;
-    public static final int textView2=0x7f0901f7;
-    public static final int textView3=0x7f0901f8;
-    public static final int textView4=0x7f0901f9;
-    public static final int textView5=0x7f0901fa;
-    public static final int textView7=0x7f0901fb;
-    public static final int textView8=0x7f0901fc;
-    public static final int text_input_password_toggle=0x7f0901fd;
-    public static final int text_text_view=0x7f0901fe;
-    public static final int textinput_counter=0x7f0901ff;
-    public static final int textinput_error=0x7f090200;
-    public static final int textinput_helper_text=0x7f090201;
-    public static final int thing_id=0x7f090202;
-    public static final int thing_name=0x7f090203;
-    public static final int thing_row=0x7f090204;
-    public static final int thing_screenlet=0x7f090205;
-    public static final int thing_type=0x7f090206;
-    public static final int time=0x7f090207;
-    public static final int title=0x7f090208;
-    public static final int titleDividerNoCustom=0x7f090209;
-    public static final int title_template=0x7f09020a;
-    public static final int toolbar=0x7f09020b;
-    public static final int toolbar_1=0x7f09020c;
-    public static final int toolbar_AP=0x7f09020d;
-    public static final int toolbar_WF=0x7f09020e;
-    public static final int top=0x7f09020f;
-    public static final int topPanel=0x7f090210;
-    public static final int totalCountTextView=0x7f090211;
-    public static final int touch_outside=0x7f090212;
-    public static final int transition_current_scene=0x7f090213;
-    public static final int transition_layout_save=0x7f090214;
-    public static final int transition_position=0x7f090215;
-    public static final int transition_scene_layoutid_cache=0x7f090216;
-    public static final int transition_transform=0x7f090217;
-    public static final int tv_NgoaiTeTenQg=0x7f090218;
-    public static final int tv_NgoaiTemieuta=0x7f090219;
-    public static final int tv_adTenUser=0x7f09021a;
-    public static final int tv_admk=0x7f09021b;
-    public static final int tv_adnumber=0x7f09021c;
-    public static final int tv_adtk=0x7f09021d;
-    public static final int tv_advitri=0x7f09021e;
-    public static final int tv_chi=0x7f09021f;
-    public static final int tv_dangki=0x7f090220;
-    public static final int tv_giatri1=0x7f090221;
-    public static final int tv_giatri2=0x7f090222;
-    public static final int tv_tentk=0x7f090223;
-    public static final int tv_thu=0x7f090224;
-    public static final int tv_tiensaukhichuyen=0x7f090225;
-    public static final int tv_tientrckhichuyen=0x7f090226;
-    public static final int txtDate_AW=0x7f090227;
-    public static final int txtDate_BA=0x7f090228;
-    public static final int txtDate_WF=0x7f090229;
-    public static final int txtMoney_AW=0x7f09022a;
-    public static final int txtMoney_BA=0x7f09022b;
-    public static final int txtMoney_CT=0x7f09022c;
-    public static final int txtMoney_WF=0x7f09022d;
-    public static final int txtName_AW=0x7f09022e;
-    public static final int txtName_BA=0x7f09022f;
-    public static final int txtName_CT=0x7f090230;
-    public static final int txtName_WF=0x7f090231;
-    public static final int txtSumBorrow=0x7f090232;
-    public static final int txtSumLent=0x7f090233;
-    public static final int txt_date_L=0x7f090234;
-    public static final int txt_ghichu_DD=0x7f090235;
-    public static final int txt_ghichu_L=0x7f090236;
-    public static final int txt_kinhphi=0x7f090237;
-    public static final int txt_money_L=0x7f090238;
-    public static final int txt_sum_money_main=0x7f090239;
-    public static final int uniform=0x7f09023a;
-    public static final int unlabeled=0x7f09023b;
-    public static final int up=0x7f09023c;
-    public static final int useLogo=0x7f09023d;
-    public static final int userRatingBar=0x7f09023e;
-    public static final int user_id=0x7f09023f;
-    public static final int user_portrait_screenlet=0x7f090240;
-    public static final int very_dissatisfied_button=0x7f090241;
-    public static final int very_dissatisfied_label=0x7f090242;
-    public static final int very_satisfied_button=0x7f090243;
-    public static final int very_satisfied_label=0x7f090244;
-    public static final int view_offset_helper=0x7f090245;
-    public static final int visible=0x7f090246;
-    public static final int walletProgress=0x7f090247;
-    public static final int web_content_field=0x7f090248;
-    public static final int wide=0x7f090249;
-    public static final int withText=0x7f09024a;
-    public static final int workflow_asset_title=0x7f09024b;
-    public static final int workflow_date_created=0x7f09024c;
-    public static final int workflow_is_pending=0x7f09024d;
-    public static final int workflow_status=0x7f09024e;
-    public static final int workflow_type=0x7f09024f;
-    public static final int wrap=0x7f090250;
-    public static final int wrap_content=0x7f090251;
+    public static final int action_text=0x7f09002e;
+    public static final int actions=0x7f09002f;
+    public static final int activity_chooser_view_content=0x7f090030;
+    public static final int ad_deal=0x7f090031;
+    public static final int ad_logout=0x7f090032;
+    public static final int ad_phanhoi=0x7f090033;
+    public static final int ad_user=0x7f090034;
+    public static final int add=0x7f090035;
+    public static final int adjust_height=0x7f090036;
+    public static final int adjust_width=0x7f090037;
+    public static final int alertTitle=0x7f090038;
+    public static final int all=0x7f090039;
+    public static final int always=0x7f09003a;
+    public static final int arrow=0x7f09003b;
+    public static final int article_body=0x7f09003c;
+    public static final int async=0x7f09003d;
+    public static final int auto=0x7f09003e;
+    public static final int averageRatingBar=0x7f09003f;
+    public static final int barchar=0x7f090040;
+    public static final int barrier=0x7f090041;
+    public static final int basic=0x7f090042;
+    public static final int basic_authentication_login=0x7f090043;
+    public static final int beginning=0x7f090044;
+    public static final int blocking=0x7f090045;
+    public static final int borrow_linear=0x7f090046;
+    public static final int bottom=0x7f090047;
+    public static final int bottom_navigation=0x7f090048;
+    public static final int btnXoaTk=0x7f090049;
+    public static final int btn_CHOke=0x7f09004a;
+    public static final int btn_CHOke1=0x7f09004b;
+    public static final int btn_CHcannel=0x7f09004c;
+    public static final int btn_ChinhHuy=0x7f09004d;
+    public static final int btn_ChinhSualuu=0x7f09004e;
+    public static final int btn_GD=0x7f09004f;
+    public static final int btn_Nap=0x7f090050;
+    public static final int btn_adChinhSua=0x7f090051;
+    public static final int btn_dangnhap=0x7f090052;
+    public static final int btn_dongyThem=0x7f090053;
+    public static final int btn_gui=0x7f090054;
+    public static final int btn_huy=0x7f090055;
+    public static final int btn_them_BA=0x7f090056;
+    public static final int btn_them_DD=0x7f090057;
+    public static final int btn_themhotdeal=0x7f090058;
+    public static final int btn_xacnhan=0x7f090059;
+    public static final int btn_xacnhan_AW=0x7f09005a;
+    public static final int btn_yes_AB=0x7f09005b;
+    public static final int btn_yes_dd=0x7f09005c;
+    public static final int buttonPanel=0x7f09005d;
+    public static final int cancel_action=0x7f09005e;
+    public static final int center=0x7f09005f;
+    public static final int center_horizontal=0x7f090060;
+    public static final int center_vertical=0x7f090061;
+    public static final int chains=0x7f090062;
+    public static final int check_remember=0x7f090063;
+    public static final int checkbox=0x7f090064;
+    public static final int chronometer=0x7f090065;
+    public static final int clip_horizontal=0x7f090066;
+    public static final int clip_vertical=0x7f090067;
+    public static final int collapseActionView=0x7f090068;
+    public static final int collection_recycler_view=0x7f090069;
+    public static final int column_label_edit_text=0x7f09006a;
+    public static final int comment_add=0x7f09006b;
+    public static final int comment_add_separator=0x7f09006c;
+    public static final int comment_body=0x7f09006d;
+    public static final int comment_body_group=0x7f09006e;
+    public static final int comment_buttons=0x7f09006f;
+    public static final int comment_create_date=0x7f090070;
+    public static final int comment_delete_or_cancel=0x7f090071;
+    public static final int comment_display_content=0x7f090072;
+    public static final int comment_edit_body=0x7f090073;
+    public static final int comment_edit_or_confirm=0x7f090074;
+    public static final int comment_edited=0x7f090075;
+    public static final int comment_empty_list=0x7f090076;
+    public static final int comment_send=0x7f090077;
+    public static final int comment_separator=0x7f090078;
+    public static final int comment_user_name=0x7f090079;
+    public static final int comment_user_portrait=0x7f09007a;
+    public static final int comment_view=0x7f09007b;
+    public static final int compactcalendar_view=0x7f09007c;
+    public static final int container=0x7f09007d;
+    public static final int content=0x7f09007e;
+    public static final int contentPanel=0x7f09007f;
+    public static final int cookie=0x7f090080;
+    public static final int coordinator=0x7f090081;
+    public static final int create_date=0x7f090082;
+    public static final int creator_avatar=0x7f090083;
+    public static final int custom=0x7f090084;
+    public static final int customPanel=0x7f090085;
+    public static final int dark=0x7f090086;
+    public static final int ddlfields_container=0x7f090087;
+    public static final int ddlform_loading_screen_progress_bar=0x7f090088;
+    public static final int ddlform_progress_bar=0x7f090089;
+    public static final int ddmfields_container=0x7f09008a;
+    public static final int ddmfields_linear_container=0x7f09008b;
+    public static final int decor_content_parent=0x7f09008c;
+    public static final int default_activity_button=0x7f09008d;
+    public static final int default_dialog_edit_text=0x7f09008e;
+    public static final int default_list=0x7f09008f;
+    public static final int default_progress_view_text=0x7f090090;
+    public static final int description_text_view=0x7f090091;
+    public static final int design_bottom_sheet=0x7f090092;
+    public static final int design_menu_item_action_area=0x7f090093;
+    public static final int design_menu_item_action_area_stub=0x7f090094;
+    public static final int design_menu_item_text=0x7f090095;
+    public static final int design_navigation_view=0x7f090096;
+    public static final int detailed_image=0x7f090097;
+    public static final int dimensions=0x7f090098;
+    public static final int direct=0x7f090099;
+    public static final int disableHome=0x7f09009a;
+    public static final int dissatisfied_button=0x7f09009b;
+    public static final int dissatisfied_label=0x7f09009c;
+    public static final int dmm_page_container=0x7f09009d;
+    public static final int dotsLayout=0x7f09009e;
+    public static final int draw_layout=0x7f09009f;
+    public static final int drawer_layout=0x7f0900a0;
+    public static final int edit_query=0x7f0900a1;
+    public static final int edit_themanh=0x7f0900a2;
+    public static final int edit_themlink=0x7f0900a3;
+    public static final int edtDate_AB=0x7f0900a4;
+    public static final int edtMoney_AB=0x7f0900a5;
+    public static final int edtName_AB=0x7f0900a6;
+    public static final int edt_CHpass=0x7f0900a7;
+    public static final int edt_CHpass1=0x7f0900a8;
+    public static final int edt_CHsdt=0x7f0900a9;
+    public static final int edt_CHsdt1=0x7f0900aa;
+    public static final int edt_CHten=0x7f0900ab;
+    public static final int edt_CHten1=0x7f0900ac;
+    public static final int edt_CHuser=0x7f0900ad;
+    public static final int edt_CHuser1=0x7f0900ae;
+    public static final int edt_ChinhSuaTen=0x7f0900af;
+    public static final int edt_TienNap=0x7f0900b0;
+    public static final int edt_dateinit=0x7f0900b1;
+    public static final int edt_ghichu_AW=0x7f0900b2;
+    public static final int edt_ghichu_DD=0x7f0900b3;
+    public static final int edt_hoten=0x7f0900b4;
+    public static final int edt_kinhphi=0x7f0900b5;
+    public static final int edt_money=0x7f0900b6;
+    public static final int edt_name=0x7f0900b7;
+    public static final int edt_ngayNap=0x7f0900b8;
+    public static final int edt_ngaydd=0x7f0900b9;
+    public static final int edt_pass=0x7f0900ba;
+    public static final int edt_pass1=0x7f0900bb;
+    public static final int edt_pass2=0x7f0900bc;
+    public static final int edt_sdt=0x7f0900bd;
+    public static final int edt_ten=0x7f0900be;
+    public static final int edt_tiendoi=0x7f0900bf;
+    public static final int email=0x7f0900c0;
+    public static final int emoji_1_button=0x7f0900c1;
+    public static final int emoji_1_label=0x7f0900c2;
+    public static final int emoji_2_button=0x7f0900c3;
+    public static final int emoji_2_label=0x7f0900c4;
+    public static final int emoji_3_button=0x7f0900c5;
+    public static final int emoji_3_label=0x7f0900c6;
+    public static final int emoji_4_button=0x7f0900c7;
+    public static final int emoji_4_label=0x7f0900c8;
+    public static final int end=0x7f0900c9;
+    public static final int end_padder=0x7f0900ca;
+    public static final int enterAlways=0x7f0900cb;
+    public static final int enterAlwaysCollapsed=0x7f0900cc;
+    public static final int exitUntilCollapsed=0x7f0900cd;
+    public static final int expand_activities_button=0x7f0900ce;
+    public static final int expanded_menu=0x7f0900cf;
+    public static final int feddback_toolbar=0x7f0900d0;
+    public static final int feedback_mes=0x7f0900d1;
+    public static final int feedback_noidung=0x7f0900d2;
+    public static final int feedback_tk=0x7f0900d3;
+    public static final int fill=0x7f0900d4;
+    public static final int fill_horizontal=0x7f0900d5;
+    public static final int fill_large_indicator=0x7f0900d6;
+    public static final int fill_vertical=0x7f0900d7;
+    public static final int filled=0x7f0900d8;
+    public static final int fixed=0x7f0900d9;
+    public static final int forever=0x7f0900da;
+    public static final int form_footer=0x7f0900db;
+    public static final int gallery_item_image=0x7f0900dc;
+    public static final int ghost_view=0x7f0900dd;
+    public static final int gone=0x7f0900de;
+    public static final int grid_hotdeal=0x7f0900df;
+    public static final int group_divider=0x7f0900e0;
+    public static final int groups=0x7f0900e1;
+    public static final int headline=0x7f0900e2;
+    public static final int headline_text_view=0x7f0900e3;
+    public static final int home=0x7f0900e4;
+    public static final int homeAsUp=0x7f0900e5;
+    public static final int home_linear=0x7f0900e6;
+    public static final int homeprogress=0x7f0900e7;
+    public static final int ic_changes=0x7f0900e8;
+    public static final int icon=0x7f0900e9;
+    public static final int icon_group=0x7f0900ea;
+    public static final int icon_only=0x7f0900eb;
+    public static final int icons=0x7f0900ec;
+    public static final int ifRoom=0x7f0900ed;
+    public static final int image=0x7f0900ee;
+    public static final int imageView=0x7f0900ef;
+    public static final int imageView2=0x7f0900f0;
+    public static final int imageView3=0x7f0900f1;
+    public static final int imageView4=0x7f0900f2;
+    public static final int image_view=0x7f0900f3;
+    public static final int imgIcon_CT=0x7f0900f4;
+    public static final int img_Icon_BA=0x7f0900f5;
+    public static final int img_NgoaiTeQG=0x7f0900f6;
+    public static final int img_doitien=0x7f0900f7;
+    public static final int img_exchange2ben=0x7f0900f8;
+    public static final int img_hotdeal=0x7f0900f9;
+    public static final int img_icon_walleadd=0x7f0900fa;
+    public static final int img_icon_walletinfo=0x7f0900fb;
+    public static final int img_reset=0x7f0900fc;
+    public static final int img_slide=0x7f0900fd;
+    public static final int info=0x7f0900fe;
+    public static final int inner_screenlet_container=0x7f0900ff;
+    public static final int invisible=0x7f090100;
+    public static final int italic=0x7f090101;
+    public static final int item_touch_helper_previous_elevation=0x7f090102;
+    public static final int labeled=0x7f090103;
+    public static final int largeLabel=0x7f090104;
+    public static final int left=0x7f090105;
+    public static final int liferay_asset_progress_horizontal=0x7f090106;
+    public static final int liferay_asset_progress_number=0x7f090107;
+    public static final int liferay_asset_title=0x7f090108;
+    public static final int liferay_audio_asset=0x7f090109;
+    public static final int liferay_audio_image_background=0x7f09010a;
+    public static final int liferay_audio_message=0x7f09010b;
+    public static final int liferay_audio_title=0x7f09010c;
+    public static final int liferay_blog_content=0x7f09010d;
+    public static final int liferay_blog_date=0x7f09010e;
+    public static final int liferay_blog_image=0x7f09010f;
+    public static final int liferay_blog_subtitle=0x7f090110;
+    public static final int liferay_blog_title=0x7f090111;
+    public static final int liferay_blog_userinfo=0x7f090112;
+    public static final int liferay_blog_username=0x7f090113;
+    public static final int liferay_ddl_custom_rating=0x7f090114;
+    public static final int liferay_ddl_edit_text=0x7f090115;
+    public static final int liferay_ddl_label=0x7f090116;
+    public static final int liferay_ddl_switch=0x7f090117;
+    public static final int liferay_ddm_form_view=0x7f090118;
+    public static final int liferay_ddm_grid=0x7f090119;
+    public static final int liferay_ddm_hint=0x7f09011a;
+    public static final int liferay_ddm_label=0x7f09011b;
+    public static final int liferay_dialog_select_file=0x7f09011c;
+    public static final int liferay_dialog_select_file_form=0x7f09011d;
+    public static final int liferay_dialog_select_gallery=0x7f09011e;
+    public static final int liferay_dialog_select_gallery_video=0x7f09011f;
+    public static final int liferay_dialog_take_photo=0x7f090120;
+    public static final int liferay_dialog_take_photo_form=0x7f090121;
+    public static final int liferay_dialog_take_video=0x7f090122;
+    public static final int liferay_dialog_take_video_form=0x7f090123;
+    public static final int liferay_dialog_title=0x7f090124;
+    public static final int liferay_document_progress=0x7f090125;
+    public static final int liferay_email_address=0x7f090126;
+    public static final int liferay_first_name=0x7f090127;
+    public static final int liferay_forgot_button=0x7f090128;
+    public static final int liferay_forgot_login=0x7f090129;
+    public static final int liferay_form_back=0x7f09012a;
+    public static final int liferay_form_submit=0x7f09012b;
+    public static final int liferay_gallery_upload_description=0x7f09012c;
+    public static final int liferay_gallery_upload_image=0x7f09012d;
+    public static final int liferay_gallery_upload_title=0x7f09012e;
+    public static final int liferay_go_to_page=0x7f09012f;
+    public static final int liferay_go_to_page_submit=0x7f090130;
+    public static final int liferay_image_asset=0x7f090131;
+    public static final int liferay_last_name=0x7f090132;
+    public static final int liferay_latitude_edit_text=0x7f090133;
+    public static final int liferay_linear_buttons=0x7f090134;
+    public static final int liferay_list_screenlet=0x7f090135;
+    public static final int liferay_list_title=0x7f090136;
+    public static final int liferay_login=0x7f090137;
+    public static final int liferay_login_button=0x7f090138;
+    public static final int liferay_longitude_edit_text=0x7f090139;
+    public static final int liferay_modal_progress=0x7f09013a;
+    public static final int liferay_multipage_progress=0x7f09013b;
+    public static final int liferay_next_page=0x7f09013c;
+    public static final int liferay_pager=0x7f09013d;
+    public static final int liferay_password=0x7f09013e;
+    public static final int liferay_pdf_renderer=0x7f09013f;
+    public static final int liferay_portlet_progress=0x7f090140;
+    public static final int liferay_portrait=0x7f090141;
+    public static final int liferay_portrait_progress=0x7f090142;
+    public static final int liferay_previous_page=0x7f090143;
+    public static final int liferay_progress=0x7f090144;
+    public static final int liferay_rating_content=0x7f090145;
+    public static final int liferay_rating_progress=0x7f090146;
+    public static final int liferay_recycler_list=0x7f090147;
+    public static final int liferay_repeatable_field_add=0x7f090148;
+    public static final int liferay_repeatable_field_label=0x7f090149;
+    public static final int liferay_repeatable_field_remove=0x7f09014a;
+    public static final int liferay_replace_image=0x7f09014b;
+    public static final int liferay_sign_up_button=0x7f09014c;
+    public static final int liferay_submit_container=0x7f09014d;
+    public static final int liferay_video_asset=0x7f09014e;
+    public static final int liferay_video_message=0x7f09014f;
+    public static final int liferay_webview=0x7f090150;
+    public static final int liferay_webview_progress=0x7f090151;
+    public static final int light=0x7f090152;
+    public static final int likeCountLabel=0x7f090153;
+    public static final int likeRatingButton=0x7f090154;
+    public static final int line1=0x7f090155;
+    public static final int line3=0x7f090156;
+    public static final int linear_layout_multiple_checkbox=0x7f090157;
+    public static final int listMode=0x7f090158;
+    public static final int list_action=0x7f090159;
+    public static final int list_borrow=0x7f09015a;
+    public static final int list_chitieu=0x7f09015b;
+    public static final int list_icon=0x7f09015c;
+    public static final int list_item=0x7f09015d;
+    public static final int list_plan=0x7f09015e;
+    public static final int lsv_feedback=0x7f09015f;
+    public static final int lv_hotdeal=0x7f090160;
+    public static final int masked=0x7f090161;
+    public static final int media_actions=0x7f090162;
+    public static final int menu_convert=0x7f090163;
+    public static final int menu_hotdeal=0x7f090164;
+    public static final int menu_vaymuon=0x7f090165;
+    public static final int message=0x7f090166;
+    public static final int middle=0x7f090167;
+    public static final int mini=0x7f090168;
+    public static final int mtoolbar_AB=0x7f090169;
+    public static final int mtoolbar_AW=0x7f09016a;
+    public static final int mtoolbar_BA=0x7f09016b;
+    public static final int mtrl_child_content_container=0x7f09016c;
+    public static final int mtrl_internal_children_alpha_tag=0x7f09016d;
+    public static final int multipage_scroll_view=0x7f09016e;
+    public static final int multiply=0x7f09016f;
+    public static final int nav_aboutus=0x7f090170;
+    public static final int nav_add=0x7f090171;
+    public static final int nav_feelback=0x7f090172;
+    public static final int nav_home=0x7f090173;
+    public static final int nav_logout=0x7f090174;
+    public static final int nav_more=0x7f090175;
+    public static final int nav_plan=0x7f090176;
+    public static final int nav_report=0x7f090177;
+    public static final int nav_thaydoithongtin=0x7f090178;
+    public static final int nav_thongtincanhan=0x7f090179;
+    public static final int nav_view=0x7f09017a;
+    public static final int navigation_header_container=0x7f09017b;
+    public static final int negativeRatingButton=0x7f09017c;
+    public static final int negativeRatingCount=0x7f09017d;
+    public static final int neutral_button=0x7f09017e;
+    public static final int neutral_label=0x7f09017f;
+    public static final int never=0x7f090180;
+    public static final int ngoaite_toolbar=0x7f090181;
+    public static final int no_fill_large_indicator=0x7f090182;
+    public static final int none=0x7f090183;
+    public static final int normal=0x7f090184;
+    public static final int notification_background=0x7f090185;
+    public static final int notification_main_column=0x7f090186;
+    public static final int notification_main_column_container=0x7f090187;
+    public static final int oauth2Redirect=0x7f090188;
+    public static final int oauth2UsernameAndPassword=0x7f090189;
+    public static final int oauth2_authentication_login=0x7f09018a;
+    public static final int outline=0x7f09018b;
+    public static final int packed=0x7f09018c;
+    public static final int parallax=0x7f09018d;
+    public static final int parent=0x7f09018e;
+    public static final int parentPanel=0x7f09018f;
+    public static final int parent_matrix=0x7f090190;
+    public static final int percent=0x7f090191;
+    public static final int person_birthDate=0x7f090192;
+    public static final int person_email=0x7f090193;
+    public static final int person_icon_birth_date=0x7f090194;
+    public static final int person_icon_email=0x7f090195;
+    public static final int person_icon_job_title=0x7f090196;
+    public static final int person_icon_name=0x7f090197;
+    public static final int person_job_title=0x7f090198;
+    public static final int person_name=0x7f090199;
+    public static final int pin=0x7f09019a;
+    public static final int planPregress=0x7f09019b;
+    public static final int positiveRatingButton=0x7f09019c;
+    public static final int positiveRatingCount=0x7f09019d;
+    public static final int progressBar=0x7f09019e;
+    public static final int progressBar2=0x7f09019f;
+    public static final int progressBar3=0x7f0901a0;
+    public static final int progress_bar_default=0x7f0901a1;
+    public static final int progress_circular=0x7f0901a2;
+    public static final int progress_horizontal=0x7f0901a3;
+    public static final int progress_modal_container=0x7f0901a4;
+    public static final int progress_text_view=0x7f0901a5;
+    public static final int progress_view_cancel_button=0x7f0901a6;
+    public static final int progress_view_image=0x7f0901a7;
+    public static final int progress_view_progressbar=0x7f0901a8;
+    public static final int radio=0x7f0901a9;
+    public static final int radioGroup2=0x7f0901aa;
+    public static final int radio_group=0x7f0901ab;
+    public static final int ratingBar=0x7f0901ac;
+    public static final int ratingBar2=0x7f0901ad;
+    public static final int rbn_chovay=0x7f0901ae;
+    public static final int rbn_muontien=0x7f0901af;
+    public static final int rcv_result=0x7f0901b0;
+    public static final int rdb_khachHang=0x7f0901b1;
+    public static final int rdb_quanli=0x7f0901b2;
+    public static final int recycler_container=0x7f0901b3;
+    public static final int right=0x7f0901b4;
+    public static final int right_icon=0x7f0901b5;
+    public static final int right_side=0x7f0901b6;
+    public static final int row_label_edit_text=0x7f0901b7;
+    public static final int rvp_fragment_container=0x7f0901b8;
+    public static final int satisfied_button=0x7f0901b9;
+    public static final int satisfied_label=0x7f0901ba;
+    public static final int save_image_matrix=0x7f0901bb;
+    public static final int save_non_transition_alpha=0x7f0901bc;
+    public static final int save_scale_type=0x7f0901bd;
+    public static final int screen=0x7f0901be;
+    public static final int screen_name=0x7f0901bf;
+    public static final int scroll=0x7f0901c0;
+    public static final int scrollIndicatorDown=0x7f0901c1;
+    public static final int scrollIndicatorUp=0x7f0901c2;
+    public static final int scrollView=0x7f0901c3;
+    public static final int scrollable=0x7f0901c4;
+    public static final int search_badge=0x7f0901c5;
+    public static final int search_bar=0x7f0901c6;
+    public static final int search_button=0x7f0901c7;
+    public static final int search_close_btn=0x7f0901c8;
+    public static final int search_edit_frame=0x7f0901c9;
+    public static final int search_go_btn=0x7f0901ca;
+    public static final int search_mag_icon=0x7f0901cb;
+    public static final int search_plate=0x7f0901cc;
+    public static final int search_src_text=0x7f0901cd;
+    public static final int search_voice_btn=0x7f0901ce;
+    public static final int select_dialog_listview=0x7f0901cf;
+    public static final int selected=0x7f0901d0;
+    public static final int shared_preferences=0x7f0901d1;
+    public static final int shortcut=0x7f0901d2;
+    public static final int showCustom=0x7f0901d3;
+    public static final int showHome=0x7f0901d4;
+    public static final int showTitle=0x7f0901d5;
+    public static final int show_m_y=0x7f0901d6;
+    public static final int slideViewPager=0x7f0901d7;
+    public static final int smallLabel=0x7f0901d8;
+    public static final int small_indicator=0x7f0901d9;
+    public static final int snackbar_action=0x7f0901da;
+    public static final int snackbar_text=0x7f0901db;
+    public static final int snap=0x7f0901dc;
+    public static final int sp_chuyen1=0x7f0901dd;
+    public static final int sp_chuyen2=0x7f0901de;
+    public static final int spacer=0x7f0901df;
+    public static final int split_action_bar=0x7f0901e0;
+    public static final int spread=0x7f0901e1;
+    public static final int spread_inside=0x7f0901e2;
+    public static final int src_atop=0x7f0901e3;
+    public static final int src_in=0x7f0901e4;
+    public static final int src_over=0x7f0901e5;
+    public static final int standard=0x7f0901e6;
+    public static final int start=0x7f0901e7;
+    public static final int status_bar_latest_event_content=0x7f0901e8;
+    public static final int stretch=0x7f0901e9;
+    public static final int submenuarrow=0x7f0901ea;
+    public static final int submit_area=0x7f0901eb;
+    public static final int tabMode=0x7f0901ec;
+    public static final int tag_transition_group=0x7f0901ed;
+    public static final int tag_unhandled_key_event_manager=0x7f0901ee;
+    public static final int tag_unhandled_key_listeners=0x7f0901ef;
+    public static final int text=0x7f0901f0;
+    public static final int text2=0x7f0901f1;
+    public static final int textSpacerNoButtons=0x7f0901f2;
+    public static final int textSpacerNoTitle=0x7f0901f3;
+    public static final int textView=0x7f0901f4;
+    public static final int textView1=0x7f0901f5;
+    public static final int textView2=0x7f0901f6;
+    public static final int textView3=0x7f0901f7;
+    public static final int textView4=0x7f0901f8;
+    public static final int textView5=0x7f0901f9;
+    public static final int textView7=0x7f0901fa;
+    public static final int textView8=0x7f0901fb;
+    public static final int text_input_password_toggle=0x7f0901fc;
+    public static final int text_text_view=0x7f0901fd;
+    public static final int textinput_counter=0x7f0901fe;
+    public static final int textinput_error=0x7f0901ff;
+    public static final int textinput_helper_text=0x7f090200;
+    public static final int thing_id=0x7f090201;
+    public static final int thing_name=0x7f090202;
+    public static final int thing_row=0x7f090203;
+    public static final int thing_screenlet=0x7f090204;
+    public static final int thing_type=0x7f090205;
+    public static final int time=0x7f090206;
+    public static final int title=0x7f090207;
+    public static final int titleDividerNoCustom=0x7f090208;
+    public static final int title_template=0x7f090209;
+    public static final int toolbar=0x7f09020a;
+    public static final int toolbar_1=0x7f09020b;
+    public static final int toolbar_AP=0x7f09020c;
+    public static final int toolbar_WF=0x7f09020d;
+    public static final int top=0x7f09020e;
+    public static final int topPanel=0x7f09020f;
+    public static final int totalCountTextView=0x7f090210;
+    public static final int touch_outside=0x7f090211;
+    public static final int transition_current_scene=0x7f090212;
+    public static final int transition_layout_save=0x7f090213;
+    public static final int transition_position=0x7f090214;
+    public static final int transition_scene_layoutid_cache=0x7f090215;
+    public static final int transition_transform=0x7f090216;
+    public static final int tv_NgoaiTeTenQg=0x7f090217;
+    public static final int tv_NgoaiTemieuta=0x7f090218;
+    public static final int tv_adTenUser=0x7f090219;
+    public static final int tv_admk=0x7f09021a;
+    public static final int tv_adnumber=0x7f09021b;
+    public static final int tv_adtk=0x7f09021c;
+    public static final int tv_advitri=0x7f09021d;
+    public static final int tv_chi=0x7f09021e;
+    public static final int tv_dangki=0x7f09021f;
+    public static final int tv_giatri1=0x7f090220;
+    public static final int tv_giatri2=0x7f090221;
+    public static final int tv_tentk=0x7f090222;
+    public static final int tv_thu=0x7f090223;
+    public static final int tv_tiensaukhichuyen=0x7f090224;
+    public static final int tv_tientrckhichuyen=0x7f090225;
+    public static final int txtDate_AW=0x7f090226;
+    public static final int txtDate_BA=0x7f090227;
+    public static final int txtDate_WF=0x7f090228;
+    public static final int txtMoney_AW=0x7f090229;
+    public static final int txtMoney_BA=0x7f09022a;
+    public static final int txtMoney_CT=0x7f09022b;
+    public static final int txtMoney_WF=0x7f09022c;
+    public static final int txtName_AW=0x7f09022d;
+    public static final int txtName_BA=0x7f09022e;
+    public static final int txtName_CT=0x7f09022f;
+    public static final int txtName_WF=0x7f090230;
+    public static final int txtSumBorrow=0x7f090231;
+    public static final int txtSumLent=0x7f090232;
+    public static final int txt_date_L=0x7f090233;
+    public static final int txt_ghichu_DD=0x7f090234;
+    public static final int txt_ghichu_L=0x7f090235;
+    public static final int txt_kinhphi=0x7f090236;
+    public static final int txt_money_L=0x7f090237;
+    public static final int txt_sum_money_main=0x7f090238;
+    public static final int uniform=0x7f090239;
+    public static final int unlabeled=0x7f09023a;
+    public static final int up=0x7f09023b;
+    public static final int useLogo=0x7f09023c;
+    public static final int userRatingBar=0x7f09023d;
+    public static final int user_id=0x7f09023e;
+    public static final int user_portrait_screenlet=0x7f09023f;
+    public static final int very_dissatisfied_button=0x7f090240;
+    public static final int very_dissatisfied_label=0x7f090241;
+    public static final int very_satisfied_button=0x7f090242;
+    public static final int very_satisfied_label=0x7f090243;
+    public static final int view_offset_helper=0x7f090244;
+    public static final int visible=0x7f090245;
+    public static final int walletProgress=0x7f090246;
+    public static final int web_content_field=0x7f090247;
+    public static final int wide=0x7f090248;
+    public static final int withText=0x7f090249;
+    public static final int workflow_asset_title=0x7f09024a;
+    public static final int workflow_date_created=0x7f09024b;
+    public static final int workflow_is_pending=0x7f09024c;
+    public static final int workflow_status=0x7f09024d;
+    public static final int workflow_type=0x7f09024e;
+    public static final int wrap=0x7f09024f;
+    public static final int wrap_content=0x7f090250;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f0a0000;
@@ -14197,7 +14130,7 @@ public final class R {
      * <tr><td>barrier</td><td>2</td><td></td></tr>
      * <tr><td>chains</td><td>4</td><td></td></tr>
      * <tr><td>dimensions</td><td>8</td><td></td></tr>
-     * <tr><td>direct</td><td>1</td><td>direct, barriers, chains</td></tr>
+     * <tr><td>direct</td><td>1</td><td></td></tr>
      * <tr><td>groups</td><td>20</td><td></td></tr>
      * <tr><td>none</td><td>0</td><td></td></tr>
      * <tr><td>standard</td><td>7</td><td></td></tr>
@@ -15573,9 +15506,8 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.thienbao.myapplication:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.thienbao.myapplication:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_keylines com.example.thienbao.myapplication:keylines}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground com.example.thienbao.myapplication:statusBarBackground}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_keylines
      * @see #CoordinatorLayout_statusBarBackground
@@ -15584,13 +15516,8 @@ public final class R {
       0x7f04015d, 0x7f040213
     };
     /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#keylines}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15601,9 +15528,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_keylines=0;
     /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#statusBarBackground}
+     * attribute's value can be found in the {@link #CoordinatorLayout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15624,15 +15550,12 @@ public final class R {
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
      * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.thienbao.myapplication:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.thienbao.myapplication:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.thienbao.myapplication:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.thienbao.myapplication:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.thienbao.myapplication:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.thienbao.myapplication:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor com.example.thienbao.myapplication:layout_anchor}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity com.example.thienbao.myapplication:layout_anchorGravity}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior com.example.thienbao.myapplication:layout_behavior}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges com.example.thienbao.myapplication:layout_dodgeInsetEdges}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge com.example.thienbao.myapplication:layout_insetEdge}</code></td><td></td></tr>
+     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline com.example.thienbao.myapplication:layout_keyline}</code></td><td></td></tr>
      * </table>
      * @see #CoordinatorLayout_Layout_android_layout_gravity
      * @see #CoordinatorLayout_Layout_layout_anchor
@@ -15676,9 +15599,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
     /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_anchor}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -15689,10 +15611,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_anchor=1;
     /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_anchorGravity}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -15700,36 +15620,28 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>center</td><td>11</td><td></td></tr>
+     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
+     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
+     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
+     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>fill</td><td>77</td><td></td></tr>
+     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
+     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.example.thienbao.myapplication:layout_anchorGravity
      */
     public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
     /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_behavior}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -15738,9 +15650,8 @@ public final class R {
      */
     public static final int CoordinatorLayout_Layout_layout_behavior=3;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_dodgeInsetEdges}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -15748,24 +15659,22 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
+     * <tr><td>all</td><td>77</td><td></td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.example.thienbao.myapplication:layout_dodgeInsetEdges
      */
     public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
     /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_insetEdge}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -15773,24 +15682,21 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
+     * <tr><td>bottom</td><td>50</td><td></td></tr>
+     * <tr><td>end</td><td>800005</td><td></td></tr>
+     * <tr><td>left</td><td>3</td><td></td></tr>
+     * <tr><td>none</td><td>0</td><td></td></tr>
+     * <tr><td>right</td><td>5</td><td></td></tr>
+     * <tr><td>start</td><td>800003</td><td></td></tr>
+     * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      *
      * @attr name com.example.thienbao.myapplication:layout_insetEdge
      */
     public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
     /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#layout_keyline}
+     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -16828,12 +16734,12 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.thienbao.myapplication:fontProviderAuthority}</code></td><td>The authority of the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.thienbao.myapplication:fontProviderCerts}</code></td><td>The sets of hashes for the certificates the provider should be signed with.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.thienbao.myapplication:fontProviderFetchStrategy}</code></td><td>The strategy to be used when fetching font data from a font provider in XML layouts.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.thienbao.myapplication:fontProviderFetchTimeout}</code></td><td>The length of the timeout during fetching.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.thienbao.myapplication:fontProviderPackage}</code></td><td>The package for the Font Provider to be used for the request.</td></tr>
-     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.thienbao.myapplication:fontProviderQuery}</code></td><td>The query to be sent over to the provider.</td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderAuthority com.example.thienbao.myapplication:fontProviderAuthority}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderCerts com.example.thienbao.myapplication:fontProviderCerts}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy com.example.thienbao.myapplication:fontProviderFetchStrategy}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout com.example.thienbao.myapplication:fontProviderFetchTimeout}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderPackage com.example.thienbao.myapplication:fontProviderPackage}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamily_fontProviderQuery com.example.thienbao.myapplication:fontProviderQuery}</code></td><td></td></tr>
      * </table>
      * @see #FontFamily_fontProviderAuthority
      * @see #FontFamily_fontProviderCerts
@@ -16847,9 +16753,8 @@ public final class R {
       0x7f040129, 0x7f04012a
     };
     /**
-     * <p>
-     * @attr description
-     * The authority of the Font Provider to be used for the request.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderAuthority}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16858,13 +16763,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderAuthority=0;
     /**
-     * <p>
-     * @attr description
-     * The sets of hashes for the certificates the provider should be signed with. This is
-     * used to verify the identity of the provider, and is only required if the provider is not
-     * part of the system image. This value may point to one list or a list of lists, where each
-     * individual list represents one collection of signature hashes. Refer to your font provider's
-     * documentation for these values.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderCerts}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -16875,15 +16775,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderCerts=1;
     /**
-     * <p>
-     * @attr description
-     * The strategy to be used when fetching font data from a font provider in XML layouts.
-     * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
-     * choice of API between {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int)} (blocking) and
-     * {@link
-     * androidx.core.content.res.ResourcesCompat#getFont(Context, int, FontCallback, Handler)}
-     * (async).
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderFetchStrategy}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -16891,25 +16784,16 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>async</td><td>1</td><td>The async font fetch works as follows.
-     * First, check the local cache, then if the requeted font is not cached, trigger a
-     * request the font and continue with layout inflation. Once the font fetch succeeds, the
-     * target text view will be refreshed with the downloaded font data. The
-     * fontProviderFetchTimeout will be ignored if async loading is specified.</td></tr>
-     * <tr><td>blocking</td><td>0</td><td>The blocking font fetch works as follows.
-     * First, check the local cache, then if the requested font is not cached, request the
-     * font from the provider and wait until it is finished.  You can change the length of
-     * the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
-     * default typeface will be used instead.</td></tr>
+     * <tr><td>async</td><td>1</td><td></td></tr>
+     * <tr><td>blocking</td><td>0</td><td></td></tr>
      * </table>
      *
      * @attr name com.example.thienbao.myapplication:fontProviderFetchStrategy
      */
     public static final int FontFamily_fontProviderFetchStrategy=2;
     /**
-     * <p>
-     * @attr description
-     * The length of the timeout during fetching.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderFetchTimeout}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      * <p>Must be one of the following constant values.</p>
@@ -16918,18 +16802,15 @@ public final class R {
      * <colgroup align="left" />
      * <colgroup align="left" />
      * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>forever</td><td>ffffffff</td><td>A special value for the timeout. In this case, the blocking font fetching will not
-     * timeout and wait until a reply is received from the font provider.</td></tr>
+     * <tr><td>forever</td><td>ffffffff</td><td></td></tr>
      * </table>
      *
      * @attr name com.example.thienbao.myapplication:fontProviderFetchTimeout
      */
     public static final int FontFamily_fontProviderFetchTimeout=3;
     /**
-     * <p>
-     * @attr description
-     * The package for the Font Provider to be used for the request. This is used to verify
-     * the identity of the provider.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderPackage}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16938,10 +16819,8 @@ public final class R {
      */
     public static final int FontFamily_fontProviderPackage=4;
     /**
-     * <p>
-     * @attr description
-     * The query to be sent over to the provider. Refer to your font provider's documentation
-     * on the format of this string.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontProviderQuery}
+     * attribute's value can be found in the {@link #FontFamily} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -16961,11 +16840,11 @@ public final class R {
      * <tr><td><code>{@link #FontFamilyFont_android_fontStyle android:fontStyle}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_ttcIndex android:ttcIndex}</code></td><td></td></tr>
      * <tr><td><code>{@link #FontFamilyFont_android_fontVariationSettings android:fontVariationSettings}</code></td><td></td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_font com.example.thienbao.myapplication:font}</code></td><td>The reference to the font file to be used.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.thienbao.myapplication:fontStyle}</code></td><td>The style of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.example.thienbao.myapplication:fontVariationSettings}</code></td><td>The variation settings to be applied to the font.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.thienbao.myapplication:fontWeight}</code></td><td>The weight of the given font file.</td></tr>
-     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.example.thienbao.myapplication:ttcIndex}</code></td><td>The index of the font in the tcc font file.</td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_font com.example.thienbao.myapplication:font}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontStyle com.example.thienbao.myapplication:fontStyle}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontVariationSettings com.example.thienbao.myapplication:fontVariationSettings}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_fontWeight com.example.thienbao.myapplication:fontWeight}</code></td><td></td></tr>
+     * <tr><td><code>{@link #FontFamilyFont_ttcIndex com.example.thienbao.myapplication:ttcIndex}</code></td><td></td></tr>
      * </table>
      * @see #FontFamilyFont_android_font
      * @see #FontFamilyFont_android_fontWeight
@@ -17005,9 +16884,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontWeight=1;
     /**
-     * <p>
-     * @attr description
-     * References to the framework attrs
+     * <p>This symbol is the offset where the {@link android.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17042,10 +16920,8 @@ public final class R {
      */
     public static final int FontFamilyFont_android_fontVariationSettings=4;
     /**
-     * <p>
-     * @attr description
-     * The reference to the font file to be used. This should be a file in the res/font folder
-     * and should therefore have an R reference value. E.g. @font/myfont
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#font}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -17056,11 +16932,8 @@ public final class R {
      */
     public static final int FontFamilyFont_font=5;
     /**
-     * <p>
-     * @attr description
-     * The style of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any style information in the font's header tables. If
-     * unspecified, the value in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontStyle}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17076,12 +16949,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontStyle=6;
     /**
-     * <p>
-     * @attr description
-     * The variation settings to be applied to the font. The string should be in the following
-     * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
-     * used, or the font used does not support variation settings, this attribute needs not be
-     * specified.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontVariationSettings}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -17090,13 +16959,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontVariationSettings=7;
     /**
-     * <p>
-     * @attr description
-     * The weight of the given font file. This will be used when the font is being loaded into
-     * the font stack and will override any weight information in the font's header tables. Must
-     * be a positive number, a multiple of 100, and between 100 and 900, inclusive. The most
-     * common values are 400 for regular weight and 700 for bold weight. If unspecified, the value
-     * in the font's header tables will be used.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#fontWeight}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -17104,10 +16968,8 @@ public final class R {
      */
     public static final int FontFamilyFont_fontWeight=8;
     /**
-     * <p>
-     * @attr description
-     * The index of the font in the tcc font file. If the font file referenced is not in the
-     * tcc format, this attribute needs not be specified.
+     * <p>This symbol is the offset where the {@link com.example.thienbao.myapplication.R.attr#ttcIndex}
+     * attribute's value can be found in the {@link #FontFamilyFont} array.
      *
      * <p>May be an integer value, such as "<code>100</code>".
      *
@@ -17306,9 +17168,8 @@ public final class R {
       0x01010510, 0x01010511, 0x01010512, 0x01010513
     };
     /**
-     * <p>
-     * @attr description
-     * Start color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#startColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -17318,9 +17179,8 @@ public final class R {
      */
     public static final int GradientColor_android_startColor=0;
     /**
-     * <p>
-     * @attr description
-     * End color of the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#endColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -17330,9 +17190,8 @@ public final class R {
      */
     public static final int GradientColor_android_endColor=1;
     /**
-     * <p>
-     * @attr description
-     * Type of gradient. The default type is linear.
+     * <p>This symbol is the offset where the {@link android.R.attr#type}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17349,9 +17208,8 @@ public final class R {
      */
     public static final int GradientColor_android_type=2;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -17363,9 +17221,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerX=3;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the center of the gradient within the path.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a fractional value, which is a floating point number appended with
@@ -17377,9 +17234,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerY=4;
     /**
-     * <p>
-     * @attr description
-     * Radius of the gradient, used only with radial gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#gradientRadius}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -17396,9 +17252,8 @@ public final class R {
      */
     public static final int GradientColor_android_gradientRadius=5;
     /**
-     * <p>
-     * @attr description
-     * Defines the tile mode of the gradient. SweepGradient doesn't support tiling.
+     * <p>This symbol is the offset where the {@link android.R.attr#tileMode}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -17416,9 +17271,8 @@ public final class R {
      */
     public static final int GradientColor_android_tileMode=6;
     /**
-     * <p>
-     * @attr description
-     * Optional center color.
+     * <p>This symbol is the offset where the {@link android.R.attr#centerColor}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -17428,10 +17282,8 @@ public final class R {
      */
     public static final int GradientColor_android_centerColor=7;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the start point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17439,10 +17291,8 @@ public final class R {
      */
     public static final int GradientColor_android_startX=8;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the start point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#startY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17450,10 +17300,8 @@ public final class R {
      */
     public static final int GradientColor_android_startY=9;
     /**
-     * <p>
-     * @attr description
-     * X coordinate of the end point origin of the gradient.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endX}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17461,10 +17309,8 @@ public final class R {
      */
     public static final int GradientColor_android_endX=10;
     /**
-     * <p>
-     * @attr description
-     * Y coordinate of the end point of the gradient within the shape.
-     * Defined in same coordinates as the path itself
+     * <p>This symbol is the offset where the {@link android.R.attr#endY}
+     * attribute's value can be found in the {@link #GradientColor} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *
@@ -17488,9 +17334,8 @@ public final class R {
       0x010101a5, 0x01010514
     };
     /**
-     * <p>
-     * @attr description
-     * The current color for the offset inside the gradient.
+     * <p>This symbol is the offset where the {@link android.R.attr#color}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
@@ -17500,10 +17345,8 @@ public final class R {
      */
     public static final int GradientColorItem_android_color=0;
     /**
-     * <p>
-     * @attr description
-     * The offset (or ratio) of this current color item inside the gradient.
-     * The value is only meaningful when it is between 0 and 1.
+     * <p>This symbol is the offset where the {@link android.R.attr#offset}
+     * attribute's value can be found in the {@link #GradientColorItem} array.
      *
      * <p>May be a floating point value, such as "<code>1.2</code>".
      *

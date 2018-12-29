@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:2:1-11:12
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:2:1-57:12
 MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:2:1-14:12
@@ -90,25 +90,25 @@ MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gr
 MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:2:1-13:12
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:16:1-26:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:5-67
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:11:5-67
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:11:5-67
 MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:11:5-67
@@ -120,15 +120,15 @@ MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gra
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:22:5-67
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:5-79
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:12:5-79
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:12:5-79
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:7:5-77:19
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:7:5-77:19
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:15:5-55:19
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:15:5-55:19
 MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:11:5-12:19
@@ -234,135 +234,135 @@ MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:15:9-40
 	android:usesCleartextTraffic
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:14:9-44
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:14:9-44
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:8:9-35
 activity#com.example.black.savemymoneyv3.MainActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:16:9-22:20
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:label
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:20:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:17:13-41
 activity#com.example.black.savemymoneyv3.DangNhap.StartActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:9-29:20
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:19-57
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:24:13-28:29
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:17-69
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:25-66
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:17-77
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:27-74
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.example.black.savemymoneyv3.DangNhap.DangKiActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:9-32:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:9-32:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:31:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:19-58
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:19-58
 activity#com.example.black.savemymoneyv3.mActivity.AddWallet
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:9-35:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:9-35:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:34:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:19-54
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:19-54
 activity#com.example.black.savemymoneyv3.DangNhap.DangNhapActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:9-38:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:9-38:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:37:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:19-60
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:19-60
 activity#com.example.black.savemymoneyv3.mActivity.WalletInfoActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:9-41:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:9-41:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:40:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:19-63
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:19-63
 activity#com.example.black.savemymoneyv3.mActivity.AddPlanActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:9-44:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:9-44:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:43:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:43:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:19-60
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:19-60
 activity#com.example.black.savemymoneyv3.mActivity.AboutUsActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:9-47:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:9-47:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:46:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:19-60
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:19-60
 activity#com.example.black.savemymoneyv3.mActivity.AddMoneyActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:9-50:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:9-50:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:49:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:49:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:19-61
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:19-61
 activity#com.example.black.savemymoneyv3.DangNhap.AdminActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:9-52:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:9-52:15
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:19-57
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:19-57
 activity#com.example.black.savemymoneyv3.mActivity.BorrowActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:9-56:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:9-56:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:55:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:55:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:19-59
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:19-59
 activity#com.example.black.savemymoneyv3.mActivity.AddBorrowActivity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:9-59:25
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:9-59:25
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:58:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:58:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:19-62
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:19-62
 activity#com.example.black.savemymoneyv3.mActivity.Edit_thongtincanhan
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:9-62:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:9-62:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:61:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:19-64
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:19-64
 activity#com.example.black.savemymoneyv3.mActivity.Xem_thongtincanhan
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:9-65:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:9-65:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:64:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:19-63
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:19-63
 activity#com.example.black.savemymoneyv3.mActivity.NgoaiTe_Activity
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:9-69:20
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:9-69:20
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:67:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:67:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:19-61
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:19-61
 activity#com.example.black.savemymoneyv3.mActivity.Feedback_user
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:9-72:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:9-72:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:71:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:71:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:19-58
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:19-58
 activity#com.example.black.savemymoneyv3.mActivity.hotdeal
-ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:9-75:15
+ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:9-75:15
 	android:theme
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:74:13-56
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:74:13-56
 	android:name
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:19-52
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:19-52
 uses-sdk
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:7:5-9:41
@@ -535,16 +535,16 @@ MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.g
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:4:5-43
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.WAKE_LOCK
 ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:13:5-68
 	android:name
