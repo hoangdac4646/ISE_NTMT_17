@@ -12,7 +12,7 @@
             android:title="Thay Đổi Thông Tin" />
         <item
             android:id="@+id/nav_feelback"
-            android:title="FeelBack" />
+            android:title="FeedBack" />
         <item
             android:id="@+id/nav_aboutus"
             android:title="Giới Thiệu" />
@@ -23,9 +23,6 @@
             <item
                 android:id="@+id/nav_logout"
                 android:title="Đăng Xuất" />
-            <item
-                android:id="@+id/nav_quit"
-                android:title="Thoát" />
         </menu>
     </item>
 

@@ -6,4 +6,12 @@
         android:id="@+id/menu_convert"
         android:icon="@drawable/brorrow"
         android:title="Chuyển đổi tiền" />
+    <item
+        android:id="@+id/menu_hotdeal"
+        android:title="Xem hot deal"
+        />
+    <item
+        android:id="@+id/menu_vaymuon"
+        android:title="Vay mượn"
+        />
 </menu>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:layout_margin="5dp"
     android:weightSum="2"
+    android:padding="5dp"
+    android:background="@drawable/duong_vien"
     android:orientation="horizontal"
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
@@ -23,13 +26,15 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorBlack"
                     android:layout_width="wrap_content"
                     android:text="Tên đăng nhập"
                     android:textSize="15dp"
                     android:layout_height="wrap_content" />
                 <TextView
                     android:background="@drawable/drawable_vienbutton"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorText"
 
                     android:id="@+id/tv_adtk"
                     android:padding="5dp"
@@ -43,16 +48,17 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorBlack"
                     android:layout_width="wrap_content"
                     android:text="Mật khẩu"
                     android:textSize="15dp"
                     android:layout_height="wrap_content" />
                 <TextView
-
+                    android:textColor="@color/colorText"
                     android:id="@+id/tv_admk"
                     android:padding="5dp"
                     android:background="@drawable/drawable_vienbutton"
-                    android:textColor="@color/colorBlack"
                     android:layout_width="wrap_content"
                     android:ems="12"
                     android:layout_height="wrap_content" />
@@ -63,6 +69,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorBlack"
                     android:layout_width="wrap_content"
                     android:text="Họ và tên"
                     android:textSize="15dp"
@@ -70,10 +78,11 @@
                     android:layout_marginBottom="2dp"
                     android:layout_height="wrap_content" />
                 <TextView
+
                     android:id="@+id/tv_adTenUser"
                     android:padding="5dp"
                     android:background="@drawable/drawable_vienbutton"
-                    android:textColor="@color/colorBlack"
+                    android:textColor="@color/colorText"
                     android:layout_width="wrap_content"
                     android:ems="12"
                     android:layout_height="wrap_content" />
@@ -94,14 +103,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <TextView
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/colorBlack"
                 android:layout_marginTop="6dp"
                 android:layout_width="wrap_content"
                 android:text="Số điện thoại"
                 android:layout_height="wrap_content" />
             <TextView
+                android:textColor="@color/colorText"
                 android:padding="5dp"
                 android:background="@drawable/drawable_vienbutton"
-                android:textColor="@color/colorBlack"
                 android:id="@+id/tv_adnumber"
                 android:layout_width="wrap_content"
                 android:ems="11"
@@ -119,6 +130,8 @@
                 android:orientation="vertical"
                 android:layout_height="wrap_content">
                 <TextView
+                    android:layout_marginLeft="3dp"
+                    android:textColor="@color/colorBlack"
                     android:layout_width="wrap_content"
                     android:text="Tài khoản"
                     android:textSize="15dp"

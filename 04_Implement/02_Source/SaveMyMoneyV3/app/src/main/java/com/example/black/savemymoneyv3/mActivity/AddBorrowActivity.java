@@ -1,12 +1,17 @@
 package com.example.black.savemymoneyv3.mActivity;
 
+import android.app.DatePickerDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.RadioButton;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -25,11 +30,13 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AddBorrowActivity extends AppCompatActivity {
-    String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataBorrow.php";
-    EditText edtName, edtDate, edtMoney;
-    RadioButton rbnChovay, rbnMuontien;
-    Button btn_yes;
+    private final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataBorrow.php";
+    private EditText edtName, edtMoney;
+    private RadioButton rbnChovay, rbnMuontien;
+    private Toolbar mtoolbar;
+    private Button btn_yes;
     private ProgressBar AB_progressbar;
+    private TextView  edtDate;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -53,7 +60,17 @@ public class AddBorrowActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if(item.getItemId() == android.R.id.home){
+            finish();
+        }
+        return super.onOptionsItemSelected(item);
+    }
     private void InitWork(){
+        mtoolbar = findViewById(R.id.mtoolbar_AB);
+        setSupportActionBar(mtoolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         edtName = findViewById(R.id.edtName_AB);
         edtDate = findViewById(R.id.edtDate_AB);
         edtMoney = findViewById(R.id.edtMoney_AB);
@@ -65,9 +82,23 @@ public class AddBorrowActivity extends AppCompatActivity {
         AB_progressbar = findViewById(R.id.AB_progressbar);
         AB_progressbar.setVisibility(View.INVISIBLE);
 
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         edtDate.setText(simpleDateFormat.format(Calendar.getInstance().getTime()));
-
+        edtDate.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar1 = Calendar.getInstance();
+                DatePickerDialog datePickerDialog = new DatePickerDialog(AddBorrowActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Calendar show = Calendar.getInstance();
+                        show.set(year,month,dayOfMonth);
+                        edtDate.setText(simpleDateFormat.format(show.getTime()));
+                    }
+                }, calendar1.get(Calendar.YEAR), calendar1.get(Calendar.MONTH), calendar1.get(Calendar.DATE));
+                datePickerDialog.show();
+            }
+        });
     }
 
     private void PutData(String url){

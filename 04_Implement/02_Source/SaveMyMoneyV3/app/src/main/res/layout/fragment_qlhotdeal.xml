@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
+    android:layout_gravity="center"
+    android:gravity="center"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:background="#661822dd"
     android:layout_width="match_parent"
+    android:orientation="vertical"
     android:layout_height="match_parent">
-    <TextView
+    <Button
+        android:id="@+id/btn_themhotdeal"
+        android:text="Thêm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <GridView
+        android:numColumns="1"
+        android:verticalSpacing="5dp"
+        android:id="@+id/lv_hotdeal"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="40dp"
-        android:text="HOT DEAL"
-        />
+        android:layout_height="match_parent">
+
+    </GridView>
 
 </LinearLayout>

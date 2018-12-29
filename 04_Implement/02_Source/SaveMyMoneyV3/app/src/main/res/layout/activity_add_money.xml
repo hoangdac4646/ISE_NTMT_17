@@ -100,13 +100,14 @@
         android:text="Ngày Tạo "
         android:textColor="@color/colorText" />
 
-    <EditText
+    <TextView
         android:inputType="date"
         android:layout_marginRight="20dp"
         android:id="@+id/edt_ngayNap"
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:layout_marginLeft="20dp"
+        android:textColor="@color/colorblack"
         android:background="@drawable/cus_editext"
         android:padding="15dp" />
 

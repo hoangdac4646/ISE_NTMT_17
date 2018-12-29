@@ -104,10 +104,10 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edt_money" />
 
-    <EditText
+    <TextView
         android:id="@+id/edt_dateinit"
         android:padding="15dp"
-
+        android:textColor="@color/colorblack"
         android:layout_width="0dp"
         android:layout_height="50dp"
         android:layout_marginStart="36dp"

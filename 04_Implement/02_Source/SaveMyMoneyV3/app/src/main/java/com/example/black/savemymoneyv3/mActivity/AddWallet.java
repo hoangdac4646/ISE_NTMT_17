@@ -1,5 +1,6 @@
 package com.example.black.savemymoneyv3.mActivity;
 
+import android.app.DatePickerDialog;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.res.TypedArray;
@@ -9,10 +10,12 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -37,7 +40,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class AddWallet extends AppCompatActivity implements View.OnClickListener {
-    private EditText edtName, edtMoney, edtDateInit;
+    private EditText edtName, edtMoney;
     private Button btnXacnhan, btnHuy;
     private SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd");
     private ImageView icon;
@@ -46,6 +49,7 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
     private TypedArray imgs;
     private String username;
     private ProgressBar progressBar2;
+    private TextView edtDateInit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,18 +64,34 @@ public class AddWallet extends AppCompatActivity implements View.OnClickListener
     }
 
     private void InitWork(){
-        edtName = findViewById(R.id.edt_name);
-        edtMoney = findViewById(R.id.edt_money);
-        edtDateInit= findViewById(R.id.edt_dateinit);
+        edtName     = findViewById(R.id.edt_name);
+        edtMoney    = findViewById(R.id.edt_money);
+        edtDateInit = findViewById(R.id.edt_dateinit);
 
-        btnXacnhan = findViewById(R.id.btn_xacnhan);
-        btnHuy = findViewById(R.id.btn_huy);
-        icon = findViewById(R.id.imageView);
+        btnXacnhan  = findViewById(R.id.btn_xacnhan);
+        btnHuy      = findViewById(R.id.btn_huy);
+        icon        = findViewById(R.id.imageView);
 
-        imgs = getResources().obtainTypedArray(R.array.micon);
-        username = DangNhapActivity.user.getName();
+        imgs        = getResources().obtainTypedArray(R.array.micon);
+        username    = DangNhapActivity.user.getName();
         progressBar2 = findViewById(R.id.progressBar2);
         progressBar2.setVisibility(View.INVISIBLE);
+
+        edtDateInit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar1 = Calendar.getInstance();
+                DatePickerDialog datePickerDialog = new DatePickerDialog(AddWallet.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Calendar show = Calendar.getInstance();
+                        show.set(year,month,dayOfMonth);
+                        edtDateInit.setText(format.format(show.getTime()));
+                    }
+                }, calendar1.get(Calendar.YEAR), calendar1.get(Calendar.MONTH), calendar1.get(Calendar.DATE));
+                datePickerDialog.show();
+            }
+        });
 
     }
 

@@ -1,6 +1,7 @@
 package com.example.black.savemymoneyv3.DangNhap;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
@@ -9,10 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.black.savemymoneyv3.MainActivity;
-import com.example.black.savemymoneyv3.DangNhap.StartActivity;
 import com.example.black.savemymoneyv3.R;
 import com.liferay.mobile.screens.context.LiferayScreensContext;
 
@@ -22,11 +20,43 @@ public class StartActivity extends AppCompatActivity {
     private slidelayout adapter;
     private TextView[] mDots;
     private Button DangKi,DangNhap;
+    public static SharedPreferences mPrefs;
+    private static  final String    PRESS_NAME  ="prefsFile";
+    String name="";
+    String pass="";
+    public Boolean getPreferences(){
+        SharedPreferences sp  = getSharedPreferences(PRESS_NAME,MODE_PRIVATE);
+            try{
+                if(sp.contains("pref_name")){
+                     name  = sp.getString("pref_name","not");
+                     if(name.length()==0){
+                         return  false;
+                     }
+                }
+                if(sp.contains("pref_pass")) {
+                     pass = sp.getString("pref_pass", "not found");
+                    if(pass.length()==0){
+                        return  false;
+                    }
+                    return true;
+                }
+            }catch(Exception e){
+                return false;
+            }
+            return false;
+    }
+    final String url = "http://ludicrous-disaster.hostingerapp.com/Login.php";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_start);
         LiferayScreensContext.init(this);
+        mPrefs = getSharedPreferences(PRESS_NAME,MODE_PRIVATE);
+        Boolean Check = getPreferences();
+        if(Check==true){
+            DangNhapActivity.ReadTaiKhoan(url,StartActivity.this,name,pass);
+        }
         mSlideViewPager = findViewById(R.id.slideViewPager);
         mDotLayout  =findViewById(R.id.dotsLayout);
         DangNhap = findViewById(R.id.Btn_dn);
