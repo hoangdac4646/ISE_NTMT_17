@@ -1,10 +1,8 @@
 package com.example.black.savemymoneyv3.mActivity;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
@@ -20,7 +18,6 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.example.black.savemymoneyv3.DangNhap.TaiKhoan;
 import com.example.black.savemymoneyv3.R;
-
 
 import java.util.HashMap;
 import java.util.Map;
@@ -44,7 +41,11 @@ public class Edit_thongtincanhan extends AppCompatActivity {
         DongY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Update(url);
+                if(matkhau.getText().length()==0 || ten.getText().length()==0 || sodt.getText().length()==0){
+                    Toast.makeText(Edit_thongtincanhan.this, "Không được để trống thông tin !", Toast.LENGTH_SHORT).show();
+                }else{
+                    Update(url);
+                }
             }
         });
         Huy.setOnClickListener(new View.OnClickListener() {
@@ -68,22 +69,10 @@ public class Edit_thongtincanhan extends AppCompatActivity {
         StringRequest stringRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {
             @Override
             public void onResponse(String response) {
-                Toast.makeText(getApplicationContext(),response.toString(),Toast.LENGTH_SHORT).show();
-                if(response.toString().equals("Success")){
-                    AlertDialog.Builder builder = new AlertDialog.Builder(Edit_thongtincanhan.this);
-                    builder.setMessage("Bạn có muốn thay đổi thông tin ?");
-                    builder.setPositiveButton("Không", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                        }
-                    });
-                    builder.setNegativeButton("Có", new DialogInterface.OnClickListener() {
-                        @Override
-                        public void onClick(DialogInterface dialog, int which) {
-                            finish();
-                        }
-                    });
-                    builder.create().show();
+
+                if(response.toString().trim().indexOf("Success")!=-1){
+                    Toast.makeText(Edit_thongtincanhan.this, response, Toast.LENGTH_SHORT).show();
+                    finish();
                 }
 
             }

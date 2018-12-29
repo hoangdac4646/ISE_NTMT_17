@@ -1,5 +1,6 @@
 package com.example.black.savemymoneyv3.mActivity;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,8 +8,10 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -30,11 +33,11 @@ import java.util.Map;
 
 public class AddPlanActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private EditText edtKinhPhi, edtNgaydd, edtghichu;
+    private EditText edtKinhPhi, edtghichu;
     private Button yes;
-    private DuDinh duDinh;
     private Toolbar mtoolbar;
     private String ngaykt;
+    private TextView edtNgaydd;
     private ProgressBar AP_progressbar;
     private final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataPlan.php";
     @Override
@@ -48,7 +51,7 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
 
     private void initWorks(){
         edtKinhPhi = (EditText) findViewById(R.id.edt_kinhphi);
-        edtNgaydd = (EditText) findViewById(R.id.edt_ngaydd);
+        edtNgaydd = (TextView) findViewById(R.id.edt_ngaydd);
         edtghichu = (EditText) findViewById(R.id.edt_ghichu_DD);
         yes = (Button) findViewById(R.id.btn_yes_dd);
         mtoolbar = findViewById(R.id.toolbar_AP);
@@ -56,8 +59,24 @@ public class AddPlanActivity extends AppCompatActivity implements View.OnClickLi
         AP_progressbar.setVisibility(View.INVISIBLE);
 
         setSupportActionBar(mtoolbar);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        final SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
         edtNgaydd.setText(simpleDateFormat.format(Calendar.getInstance().getTime()));
+        edtNgaydd.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar1 = Calendar.getInstance();
+                DatePickerDialog datePickerDialog = new DatePickerDialog(AddPlanActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Calendar show = Calendar.getInstance();
+                        show.set(year,month,dayOfMonth);
+                        edtNgaydd.setText(simpleDateFormat.format(show.getTime()));
+                    }
+                }, calendar1.get(Calendar.YEAR), calendar1.get(Calendar.MONTH), calendar1.get(Calendar.DATE));
+                datePickerDialog.show();
+            }
+        });
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
     }

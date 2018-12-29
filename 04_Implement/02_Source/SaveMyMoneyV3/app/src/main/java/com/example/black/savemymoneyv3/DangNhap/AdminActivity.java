@@ -3,6 +3,7 @@ package com.example.black.savemymoneyv3.DangNhap;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -51,9 +52,6 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
         return super.onOptionsItemSelected(item);
     }
 
-
-
-
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
@@ -63,6 +61,7 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
             android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
             fragmentTransaction.commit();
+              drawerLayout.closeDrawers();
             return true;
         }
         else  if(item.getItemId()==R.id.ad_user) {
@@ -71,6 +70,7 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
             android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
             fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
             fragmentTransaction.commit();
+              drawerLayout.closeDrawers();
             return true;
         }
         else  if(item.getItemId()==R.id.ad_deal) {
@@ -79,11 +79,14 @@ public class AdminActivity extends AppCompatActivity implements NavigationView.O
             android.app.FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
            fragmentTransaction.replace(R.id.Frg_layoutAdmin,qlTaiKhoan_fragment);
             fragmentTransaction.commit();
+              drawerLayout.closeDrawers();
             return true;
         }
         else if(item.getItemId()==R.id.ad_logout){
+              drawerLayout.closeDrawers();
             finish();
         }
+        drawerLayout.closeDrawers();
         return false;
     }
 }

@@ -51,7 +51,8 @@ public class ThongKe_fragment extends android.support.v4.app.Fragment {
     static ArrayList<BarEntry> barEntries;
     static ArrayList<BarEntry> barEntries2;
     private ArrayList<CanChuyen>  a = new ArrayList<>();
-
+    List<String> MaVi = new ArrayList<>();
+    List<String> TenCuaVi = new ArrayList<>();
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
@@ -59,12 +60,10 @@ public class ThongKe_fragment extends android.support.v4.app.Fragment {
 
         Bundle args = getArguments();
        a = (ArrayList<CanChuyen>) args.getSerializable("CanChuyen");
-        List<String> MaVi = new ArrayList<>();
-        List<String> TenCuaVi = new ArrayList<>();
         TienChi = view.findViewById(R.id.tv_chi);
         TienThu = view.findViewById(R.id.tv_thu);
         barChart = view.findViewById(R.id.barchar);
-        for(int i=0;i<a.size();i++) {
+       for(int i=0;i<a.size();i++) {
             TenCuaVi.add(a.get(i).getTenVi());
             MaVi.add(a.get(i).getMaVi());
         }
@@ -72,10 +71,19 @@ public class ThongKe_fragment extends android.support.v4.app.Fragment {
         return view;
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+       /* Bundle args = getArguments();
+        a = (ArrayList<CanChuyen>) args.getSerializable("CanChuyen");
+        for(int i=0;i<a.size();i++) {
+            TenCuaVi.add(a.get(i).getTenVi());
+            MaVi.add(a.get(i).getMaVi());
+        }
+        Read("http://ludicrous-disaster.hostingerapp.com/GetThuChi.php",MaVi,TenCuaVi);*/
+    }
 
-
-
-    public void Read(String url,final List<String> a,final List<String> vi2  ){
+    public void Read(String url, final List<String> a, final List<String> vi2  ){
 
         RequestQueue requestQueue = Volley.newRequestQueue(getContext());
         StringRequest jsonArrayRequest = new StringRequest(Request.Method.POST, url, new Response.Listener<String>() {

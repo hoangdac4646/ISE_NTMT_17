@@ -1,33 +1,54 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:2:1-11:12
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:2:1-56:12
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:2:1-57:12
 MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:2:1-14:12
-MERGED from [com.android.support:design:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d45e948e01dd0bb0dd41abc5499a0c90\AndroidManifest.xml:17:1-24:12
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\59884f19e294e79a69c8f75a194f8744\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\2591354c243e73d79943c066f1460501\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\f1beefc0289d12e1e7d33e02f6d7140c\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\3f4525f24a5b32e0e07aa35f71cd7aec\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-transformation-28.0.0-alpha1.aar\f00dfbb929731ce794427164aea5e67a\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-widget-28.0.0-alpha1.aar\21f1b84a5661b20919be9413671b3881\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomsheet-28.0.0-alpha1.aar\647c4e22137a99bad485b8e2f4e6fa41\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-dialog-28.0.0-alpha1.aar\791f34a385e1387a12588b2f62dcd39b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-button:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-button-28.0.0-alpha1.aar\244379654fbe23ade8c19b8119081525\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-card:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-card-28.0.0-alpha1.aar\bcbae0b556a686f744df986bcf6cd068\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-chip-28.0.0-alpha1.aar\8249100bfe52c5302c4b531080245849\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-internal-28.0.0-alpha1.aar\6fab5fde8815dfcd05b9148ff3287699\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomnavigation-28.0.0-alpha1.aar\0ed13c6b41c0df70ec274dc0feba3544\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-floatingactionbutton-28.0.0-alpha1.aar\01095b65bcbd29329a31afa3528f9a94\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-navigation-28.0.0-alpha1.aar\22aa45c0c0499e59ddaa04d3fb4b142f\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-resources-28.0.0-alpha1.aar\f2777134f829f7235a299e1b9e0a5e94\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-tabs-28.0.0-alpha1.aar\9ad3e910de9abd5b485db756a6f570cb\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-textfield-28.0.0-alpha1.aar\40d587b1d72862875fccf1d885dff512\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-typography-28.0.0-alpha1.aar\087291fb515efbe2228c957c021b207e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-shape-28.0.0-alpha1.aar\6a11d06d86924868805f072f426e558e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha1.aar\a209e20e15473da53751b65397cbeb1e\AndroidManifest.xml:17:1-23:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:16:1-25:12
-MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:16:1-24:12
-MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:2:1-13:12
-MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:2:1-6:12
-MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:16:1-26:12
 MERGED from [com.android.support:support-v4:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1c09b5a5cfef1666827308df63fd6ab0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:2:1-13:12
 MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:2:1-13:12
 MERGED from [com.jakewharton.rxbinding:rxbinding:1.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxbinding-1.0.1.aar\f3010f23bfa410747f9ec7c41ddd5750\AndroidManifest.xml:2:1-8:12
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:17:1-22:12
+MERGED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:2:1-17:12
+MERGED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:2:1-28:12
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:15:1-46:12
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e3b8482d2822a0b22aef01db688050b2\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8093e16bcedb555b61b156c5b1aeccde\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4ad45d552c5eb330a84cca4fb8a95bb5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha1.aar\8540a507151bc02b3a698e113c26b310\AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\72a943afbd6e3ad00e5c21271bfbb33e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar\bd8fdf8a5345948122dd92d31d579f46\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-expandable-28.0.0-alpha1.aar\080e3a1ed9031164ab40d92249424267\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-stateful-28.0.0-alpha1.aar\4b6b45dc37c5e894de65a6441b36fa52\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha1.aar\a86e7cf53198634b64a93b56781957d8\AndroidManifest.xml:17:1-23:12
 MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b0ae51d3532fbb8d50638d6ccf32a0ac\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-ripple-28.0.0-alpha1.aar\3bf657f07a69d0c8e46e5bd98b7e85d6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1a6191925684324e838b45c4e4dfb2ff\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5b2971de6d13c4bb33bebc89d791c3a4\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:loader:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\a81540b83216fda622da55fd9da9b6fb\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:viewpager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e0b469b1f04924f3e822b6ca387a158d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d8af1eea1976dde70b6eb502c7c1d448\AndroidManifest.xml:17:1-22:12
@@ -36,68 +57,170 @@ MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\black\.gradl
 MERGED from [com.android.support:customview:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\741dd51eddd42d64247e89ec8945bede\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f095d7ccabf511474729770fe5e5557c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d3add06a69e050ca6887c93d5968ff0d\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\0f550333afb3fe6d9e3d9e23600ad027\AndroidManifest.xml:17:1-22:12
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:2:1-17:12
-MERGED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:2:1-28:12
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:15:1-46:12
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha1.aar\79c3e3c18de657a03c170fff5f5d4c61\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha1.aar\6631b9ea0c93af50a856107ca6fb8479\AndroidManifest.xml:17:1-23:12
 MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:17:1-25:12
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:documentfile:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ff4f2f00c81ce856a5da429a10dfd25d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3d3f68f75c6449c5d744cb8be9f7a3e7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:print:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cf0fddbdff0876b2c101a34f60bc53a5\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1632e398830a5e7b0bb7ac5bc899993f\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:interpolator:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d88ee11280785a5fd39bc8778b3723b4\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b384c2ccf48243534ff76f858a721d8e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-canvas-28.0.0-alpha1.aar\8a224edc6351fa1682913c4613cf0a39\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-cardview-28.0.0-alpha1.aar\8e6e04b19ef0819d0bf82c8967c0f733\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-28.0.0-alpha1.aar\d3d5cf223c60da43eb2186732d685db0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-drawable-28.0.0-alpha1.aar\efcd0ee55a8553e2eb6c1e0260f8f272\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha1.aar\d63e3e00b29226869bf5916448628e7a\AndroidManifest.xml:17:1-23:12
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design-color:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-color-28.0.0-alpha1.aar\f77739771d1f702ea7beb0d63644de1e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-math-28.0.0-alpha1.aar\1d8c867fa310054ac0011782401fd909\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\d61a4621ddad30ec2cbf85a37c5e118c\AndroidManifest.xml:17:1-24:12
 MERGED from [org.apache.cordova:framework:6.2.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\framework-6.2.3-debug.aar\9b39e04546ce868ae83ba2810b53eafa\AndroidManifest.xml:20:1-27:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\49621b7ef1597373238d0a32e0c36da8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:16:1-25:12
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ce450c8f3dbbeb20b81b31cb515b6ed0\AndroidManifest.xml:15:1-21:12
 MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:2:1-13:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
+MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:16:1-26:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:3:5-46
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:3:5-46
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-49:12
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:1-79:12
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:5-67
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:11:5-67
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:11:5-67
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:11:5-67
+MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:11:5-67
+MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:11:5-67
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:24:5-67
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:22:5-67
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:22:5-67
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:24:5-67
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:5-79
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:12:5-79
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:6:22-76
 application
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:8:5-47:19
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:15:5-54:19
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:15:5-54:19
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:7:5-77:19
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:15:5-55:19
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:15:5-55:19
 MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:11:5-12:19
 MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:design:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d45e948e01dd0bb0dd41abc5499a0c90\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d45e948e01dd0bb0dd41abc5499a0c90\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\2591354c243e73d79943c066f1460501\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\2591354c243e73d79943c066f1460501\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\f1beefc0289d12e1e7d33e02f6d7140c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\f1beefc0289d12e1e7d33e02f6d7140c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\3f4525f24a5b32e0e07aa35f71cd7aec\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\3f4525f24a5b32e0e07aa35f71cd7aec\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-transformation-28.0.0-alpha1.aar\f00dfbb929731ce794427164aea5e67a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-transformation-28.0.0-alpha1.aar\f00dfbb929731ce794427164aea5e67a\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-widget-28.0.0-alpha1.aar\21f1b84a5661b20919be9413671b3881\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-widget-28.0.0-alpha1.aar\21f1b84a5661b20919be9413671b3881\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomsheet-28.0.0-alpha1.aar\647c4e22137a99bad485b8e2f4e6fa41\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomsheet-28.0.0-alpha1.aar\647c4e22137a99bad485b8e2f4e6fa41\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-dialog-28.0.0-alpha1.aar\791f34a385e1387a12588b2f62dcd39b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-dialog-28.0.0-alpha1.aar\791f34a385e1387a12588b2f62dcd39b\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-button:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-button-28.0.0-alpha1.aar\244379654fbe23ade8c19b8119081525\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-button:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-button-28.0.0-alpha1.aar\244379654fbe23ade8c19b8119081525\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-card:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-card-28.0.0-alpha1.aar\bcbae0b556a686f744df986bcf6cd068\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-card:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-card-28.0.0-alpha1.aar\bcbae0b556a686f744df986bcf6cd068\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-chip-28.0.0-alpha1.aar\8249100bfe52c5302c4b531080245849\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-chip-28.0.0-alpha1.aar\8249100bfe52c5302c4b531080245849\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-internal-28.0.0-alpha1.aar\6fab5fde8815dfcd05b9148ff3287699\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-internal-28.0.0-alpha1.aar\6fab5fde8815dfcd05b9148ff3287699\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomnavigation-28.0.0-alpha1.aar\0ed13c6b41c0df70ec274dc0feba3544\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomnavigation-28.0.0-alpha1.aar\0ed13c6b41c0df70ec274dc0feba3544\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-floatingactionbutton-28.0.0-alpha1.aar\01095b65bcbd29329a31afa3528f9a94\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-floatingactionbutton-28.0.0-alpha1.aar\01095b65bcbd29329a31afa3528f9a94\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-navigation-28.0.0-alpha1.aar\22aa45c0c0499e59ddaa04d3fb4b142f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-navigation-28.0.0-alpha1.aar\22aa45c0c0499e59ddaa04d3fb4b142f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-resources-28.0.0-alpha1.aar\f2777134f829f7235a299e1b9e0a5e94\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-resources-28.0.0-alpha1.aar\f2777134f829f7235a299e1b9e0a5e94\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-tabs-28.0.0-alpha1.aar\9ad3e910de9abd5b485db756a6f570cb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-tabs-28.0.0-alpha1.aar\9ad3e910de9abd5b485db756a6f570cb\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-textfield-28.0.0-alpha1.aar\40d587b1d72862875fccf1d885dff512\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-textfield-28.0.0-alpha1.aar\40d587b1d72862875fccf1d885dff512\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-typography-28.0.0-alpha1.aar\087291fb515efbe2228c957c021b207e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-typography-28.0.0-alpha1.aar\087291fb515efbe2228c957c021b207e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-shape-28.0.0-alpha1.aar\6a11d06d86924868805f072f426e558e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-shape-28.0.0-alpha1.aar\6a11d06d86924868805f072f426e558e\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:9:5-20
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:7:5-12:19
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:11:5-20
+MERGED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:10:5-15:19
+MERGED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:10:5-15:19
+MERGED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:10:5-26:19
+MERGED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:10:5-26:19
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:26:5-44:19
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:26:5-44:19
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\72a943afbd6e3ad00e5c21271bfbb33e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\72a943afbd6e3ad00e5c21271bfbb33e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar\bd8fdf8a5345948122dd92d31d579f46\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar\bd8fdf8a5345948122dd92d31d579f46\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-expandable-28.0.0-alpha1.aar\080e3a1ed9031164ab40d92249424267\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-expandable-28.0.0-alpha1.aar\080e3a1ed9031164ab40d92249424267\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-stateful-28.0.0-alpha1.aar\4b6b45dc37c5e894de65a6441b36fa52\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-stateful-28.0.0-alpha1.aar\4b6b45dc37c5e894de65a6441b36fa52\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-ripple-28.0.0-alpha1.aar\3bf657f07a69d0c8e46e5bd98b7e85d6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-ripple-28.0.0-alpha1.aar\3bf657f07a69d0c8e46e5bd98b7e85d6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-canvas-28.0.0-alpha1.aar\8a224edc6351fa1682913c4613cf0a39\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-canvas-28.0.0-alpha1.aar\8a224edc6351fa1682913c4613cf0a39\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-cardview-28.0.0-alpha1.aar\8e6e04b19ef0819d0bf82c8967c0f733\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-cardview-28.0.0-alpha1.aar\8e6e04b19ef0819d0bf82c8967c0f733\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-28.0.0-alpha1.aar\d3d5cf223c60da43eb2186732d685db0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-28.0.0-alpha1.aar\d3d5cf223c60da43eb2186732d685db0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-drawable-28.0.0-alpha1.aar\efcd0ee55a8553e2eb6c1e0260f8f272\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-drawable-28.0.0-alpha1.aar\efcd0ee55a8553e2eb6c1e0260f8f272\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-color:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-color-28.0.0-alpha1.aar\f77739771d1f702ea7beb0d63644de1e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-color:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-color-28.0.0-alpha1.aar\f77739771d1f702ea7beb0d63644de1e\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-math-28.0.0-alpha1.aar\1d8c867fa310054ac0011782401fd909\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-math-28.0.0-alpha1.aar\1d8c867fa310054ac0011782401fd909\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\d61a4621ddad30ec2cbf85a37c5e118c\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\d61a4621ddad30ec2cbf85a37c5e118c\AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\49621b7ef1597373238d0a32e0c36da8\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\49621b7ef1597373238d0a32e0c36da8\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:24:5-20
+MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:11:5-20
+MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:11:5-20
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:19:5-23:19
@@ -108,324 +231,472 @@ MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.g
 MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:5:5-20
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:20:5-24:19
 MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:9:5-20
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:9:5-20
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:11:5-20
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:11:5-20
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:10:5-15:19
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:10:5-15:19
-MERGED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:10:5-26:19
-MERGED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:10:5-26:19
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:26:5-44:19
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:26:5-44:19
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:5-94
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:22:5-23:19
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:22:5-23:19
-MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:11:5-20
-MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:11:5-20
 	android:appComponentFactory
 		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:22:18-91
 	android:supportsRtl
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:13:9-35
 	android:label
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:11:9-41
 	android:roundIcon
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:13:9-54
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:12:9-54
 	android:icon
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:10:9-43
 	android:allowBackup
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:9:9-35
 	android:theme
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:15:9-40
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:15:9-40
+	android:usesCleartextTraffic
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:14:9-44
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:8:9-35
 activity#com.example.black.savemymoneyv3.MainActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:16:9-21:20
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:label
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:18:13-45
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:18:13-45
 	android:theme
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:19:13-44
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:17:13-41
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:17:13-41
 activity#com.example.black.savemymoneyv3.DangNhap.StartActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:22:9-28:20
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:9-29:20
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:22:19-57
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:19-57
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:23:13-27:29
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:24:17-69
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:24:25-66
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:26:17-77
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:26:27-74
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:27:27-74
 activity#com.example.black.savemymoneyv3.DangNhap.DangKiActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:29:9-61
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:29:19-58
-activity#com.example.black.savemymoneyv3.mActivity.AddWallet
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:9-57
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:19-54
-activity#com.example.black.savemymoneyv3.DangNhap.DangNhapActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:31:9-63
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:31:19-60
-activity#com.example.black.savemymoneyv3.mActivity.WalletInfoActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:32:9-66
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:32:19-63
-activity#com.example.black.savemymoneyv3.mActivity.AddPlanActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:9-63
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:19-60
-activity#com.example.black.savemymoneyv3.mActivity.AboutUsActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:34:9-63
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:34:19-60
-activity#com.example.black.savemymoneyv3.mActivity.AddMoneyActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:35:9-64
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:35:19-61
-activity#com.example.black.savemymoneyv3.DangNhap.AdminActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:9-60
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:19-57
-activity#com.example.black.savemymoneyv3.mActivity.BorrowActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:37:9-62
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:37:19-59
-activity#com.example.black.savemymoneyv3.mActivity.AddBorrowActivity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:38:9-74
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:38:19-62
-activity#com.example.black.savemymoneyv3.mActivity.Edit_thongtincanhan
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:9-66
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:19-64
-activity#com.example.black.savemymoneyv3.mActivity.Xem_thongtincanhan
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:40:9-65
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:40:19-63
-activity#com.example.black.savemymoneyv3.mActivity.NgoaiTe_Activity
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:41:9-42:20
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:41:19-61
-activity#com.example.black.savemymoneyv3.mActivity.Feedback_user
-ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:43:9-46:20
-	android:name
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:43:19-58
-uses-sdk
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:7:5-9:41
-MERGED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:7:5-9:41
-MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d45e948e01dd0bb0dd41abc5499a0c90\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\d45e948e01dd0bb0dd41abc5499a0c90\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\59884f19e294e79a69c8f75a194f8744\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\59884f19e294e79a69c8f75a194f8744\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:18:5-42
-MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:4:5-43
-MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1c09b5a5cfef1666827308df63fd6ab0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1c09b5a5cfef1666827308df63fd6ab0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:7:5-43
-MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:20:5-44
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.jakewharton.rxbinding:rxbinding:1.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxbinding-1.0.1.aar\f3010f23bfa410747f9ec7c41ddd5750\AndroidManifest.xml:6:5-44
-MERGED from [com.jakewharton.rxbinding:rxbinding:1.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxbinding-1.0.1.aar\f3010f23bfa410747f9ec7c41ddd5750\AndroidManifest.xml:6:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e3b8482d2822a0b22aef01db688050b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e3b8482d2822a0b22aef01db688050b2\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8093e16bcedb555b61b156c5b1aeccde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0.aar\8093e16bcedb555b61b156c5b1aeccde\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4ad45d552c5eb330a84cca4fb8a95bb5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0.aar\4ad45d552c5eb330a84cca4fb8a95bb5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b0ae51d3532fbb8d50638d6ccf32a0ac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b0ae51d3532fbb8d50638d6ccf32a0ac\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1a6191925684324e838b45c4e4dfb2ff\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1a6191925684324e838b45c4e4dfb2ff\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5b2971de6d13c4bb33bebc89d791c3a4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0.aar\5b2971de6d13c4bb33bebc89d791c3a4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\a81540b83216fda622da55fd9da9b6fb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:loader:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\a81540b83216fda622da55fd9da9b6fb\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e0b469b1f04924f3e822b6ca387a158d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:viewpager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e0b469b1f04924f3e822b6ca387a158d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d8af1eea1976dde70b6eb502c7c1d448\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d8af1eea1976dde70b6eb502c7c1d448\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d2b92c385cd6c65c42cade5e049c7f8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d2b92c385cd6c65c42cade5e049c7f8c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e7d4f69533266f8d6ed96d6e4fea11a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e7d4f69533266f8d6ed96d6e4fea11a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\741dd51eddd42d64247e89ec8945bede\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customview:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\741dd51eddd42d64247e89ec8945bede\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f095d7ccabf511474729770fe5e5557c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f095d7ccabf511474729770fe5e5557c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d3add06a69e050ca6887c93d5968ff0d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d3add06a69e050ca6887c93d5968ff0d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\0f550333afb3fe6d9e3d9e23600ad027\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0.aar\0f550333afb3fe6d9e3d9e23600ad027\AndroidManifest.xml:20:5-44
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:6:5-8:41
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:6:5-8:41
-MERGED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:6:5-8:41
-MERGED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:6:5-8:41
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:20:5-22:41
-MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:20:5-22:41
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ff4f2f00c81ce856a5da429a10dfd25d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:documentfile:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ff4f2f00c81ce856a5da429a10dfd25d\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3d3f68f75c6449c5d744cb8be9f7a3e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3d3f68f75c6449c5d744cb8be9f7a3e7\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cf0fddbdff0876b2c101a34f60bc53a5\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:print:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cf0fddbdff0876b2c101a34f60bc53a5\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1632e398830a5e7b0bb7ac5bc899993f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1632e398830a5e7b0bb7ac5bc899993f\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d88ee11280785a5fd39bc8778b3723b4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:interpolator:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d88ee11280785a5fd39bc8778b3723b4\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b384c2ccf48243534ff76f858a721d8e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0.aar\b384c2ccf48243534ff76f858a721d8e\AndroidManifest.xml:20:5-44
-MERGED from [org.apache.cordova:framework:6.2.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\framework-6.2.3-debug.aar\9b39e04546ce868ae83ba2810b53eafa\AndroidManifest.xml:25:5-44
-MERGED from [org.apache.cordova:framework:6.2.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\framework-6.2.3-debug.aar\9b39e04546ce868ae83ba2810b53eafa\AndroidManifest.xml:25:5-44
-MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ce450c8f3dbbeb20b81b31cb515b6ed0\AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ce450c8f3dbbeb20b81b31cb515b6ed0\AndroidManifest.xml:19:5-43
-MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:7:5-9:41
-MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:7:5-9:41
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		ADDED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-		INJECTED from E:\cloneGitKragen\ISE_NTMT_17\ISE_NTMT_17\04_Implement\02_Source\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:12:5-79
-	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:12:22-76
-uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:13:5-68
-	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:13:22-65
-activity#com.liferay.mobile.screens.base.MediaStoreRequestShadowActivity
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:16:9-100
-	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:16:19-97
-activity#com.liferay.mobile.screens.viewsets.defaultviews.imagegallery.DetailImageActivity
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:17:9-19:52
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:9-32:15
 	android:theme
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:19:13-49
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:31:13-56
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:18:13-109
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:30:19-58
+activity#com.example.black.savemymoneyv3.mActivity.AddWallet
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:9-35:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:34:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:33:19-54
+activity#com.example.black.savemymoneyv3.DangNhap.DangNhapActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:9-38:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:36:19-60
+activity#com.example.black.savemymoneyv3.mActivity.WalletInfoActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:9-41:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:40:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:39:19-63
+activity#com.example.black.savemymoneyv3.mActivity.AddPlanActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:9-44:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:42:19-60
+activity#com.example.black.savemymoneyv3.mActivity.AboutUsActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:9-47:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:46:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:45:19-60
+activity#com.example.black.savemymoneyv3.mActivity.AddMoneyActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:9-50:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:49:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:48:19-61
+activity#com.example.black.savemymoneyv3.DangNhap.AdminActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:9-52:15
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:51:19-57
+activity#com.example.black.savemymoneyv3.mActivity.BorrowActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:9-56:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:55:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:54:19-59
+activity#com.example.black.savemymoneyv3.mActivity.AddBorrowActivity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:9-59:25
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:57:19-62
+activity#com.example.black.savemymoneyv3.mActivity.Edit_thongtincanhan
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:9-62:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:61:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:60:19-64
+activity#com.example.black.savemymoneyv3.mActivity.Xem_thongtincanhan
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:9-65:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:64:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:63:19-63
+activity#com.example.black.savemymoneyv3.mActivity.NgoaiTe_Activity
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:9-69:20
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:67:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:66:19-61
+activity#com.example.black.savemymoneyv3.mActivity.Feedback_user
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:9-72:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:71:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:70:19-58
+activity#com.example.black.savemymoneyv3.mActivity.hotdeal
+ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:9-75:15
+	android:theme
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:74:13-56
+	android:name
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml:73:19-52
+uses-sdk
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sundeepk:compact-calendar-view:3.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\compact-calendar-view-3.0.0.aar\dc6ec4f30be7ef5ed8c656b1bfccb8b4\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lsjwzh:recyclerviewpager:1.0.8] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerviewpager-1.0.8.aar\cfe0d27e85ce6d93113b0f4fd289b98a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\2591354c243e73d79943c066f1460501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-28.0.0-alpha1.aar\2591354c243e73d79943c066f1460501\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\f1beefc0289d12e1e7d33e02f6d7140c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomappbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomappbar-28.0.0-alpha1.aar\f1beefc0289d12e1e7d33e02f6d7140c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\3f4525f24a5b32e0e07aa35f71cd7aec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-theme:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-theme-28.0.0-alpha1.aar\3f4525f24a5b32e0e07aa35f71cd7aec\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-transformation-28.0.0-alpha1.aar\f00dfbb929731ce794427164aea5e67a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-transformation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-transformation-28.0.0-alpha1.aar\f00dfbb929731ce794427164aea5e67a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-widget-28.0.0-alpha1.aar\21f1b84a5661b20919be9413671b3881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-widget:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-widget-28.0.0-alpha1.aar\21f1b84a5661b20919be9413671b3881\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomsheet-28.0.0-alpha1.aar\647c4e22137a99bad485b8e2f4e6fa41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomsheet:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomsheet-28.0.0-alpha1.aar\647c4e22137a99bad485b8e2f4e6fa41\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-dialog-28.0.0-alpha1.aar\791f34a385e1387a12588b2f62dcd39b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-dialog:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-dialog-28.0.0-alpha1.aar\791f34a385e1387a12588b2f62dcd39b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-button:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-button-28.0.0-alpha1.aar\244379654fbe23ade8c19b8119081525\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-button:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-button-28.0.0-alpha1.aar\244379654fbe23ade8c19b8119081525\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-card:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-card-28.0.0-alpha1.aar\bcbae0b556a686f744df986bcf6cd068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-card:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-card-28.0.0-alpha1.aar\bcbae0b556a686f744df986bcf6cd068\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-chip-28.0.0-alpha1.aar\8249100bfe52c5302c4b531080245849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-chip:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-chip-28.0.0-alpha1.aar\8249100bfe52c5302c4b531080245849\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-internal-28.0.0-alpha1.aar\6fab5fde8815dfcd05b9148ff3287699\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-internal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-internal-28.0.0-alpha1.aar\6fab5fde8815dfcd05b9148ff3287699\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomnavigation-28.0.0-alpha1.aar\0ed13c6b41c0df70ec274dc0feba3544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-bottomnavigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-bottomnavigation-28.0.0-alpha1.aar\0ed13c6b41c0df70ec274dc0feba3544\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-floatingactionbutton-28.0.0-alpha1.aar\01095b65bcbd29329a31afa3528f9a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-floatingactionbutton:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-floatingactionbutton-28.0.0-alpha1.aar\01095b65bcbd29329a31afa3528f9a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-navigation-28.0.0-alpha1.aar\22aa45c0c0499e59ddaa04d3fb4b142f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-navigation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-navigation-28.0.0-alpha1.aar\22aa45c0c0499e59ddaa04d3fb4b142f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-resources-28.0.0-alpha1.aar\f2777134f829f7235a299e1b9e0a5e94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-resources:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-resources-28.0.0-alpha1.aar\f2777134f829f7235a299e1b9e0a5e94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-tabs-28.0.0-alpha1.aar\9ad3e910de9abd5b485db756a6f570cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-tabs:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-tabs-28.0.0-alpha1.aar\9ad3e910de9abd5b485db756a6f570cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-textfield-28.0.0-alpha1.aar\40d587b1d72862875fccf1d885dff512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-textfield:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-textfield-28.0.0-alpha1.aar\40d587b1d72862875fccf1d885dff512\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-typography-28.0.0-alpha1.aar\087291fb515efbe2228c957c021b207e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-typography:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-typography-28.0.0-alpha1.aar\087291fb515efbe2228c957c021b207e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-shape-28.0.0-alpha1.aar\6a11d06d86924868805f072f426e558e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-shape:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-shape-28.0.0-alpha1.aar\6a11d06d86924868805f072f426e558e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha1.aar\a209e20e15473da53751b65397cbeb1e\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0-alpha1.aar\a209e20e15473da53751b65397cbeb1e\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\00fad122939f98256782e59f5feb982c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1c09b5a5cfef1666827308df63fd6ab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-v4-28.0.0.aar\1c09b5a5cfef1666827308df63fd6ab0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\volley-1.1.1.aar\1bfaa634966aa373166f7ab8779bfe78\AndroidManifest.xml:7:5-43
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-media-compat-28.0.0.aar\0dc12f60de712ea3aca1615bf3b1fc73\AndroidManifest.xml:20:5-44
+MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.liferay.mobile:apio-consumer-android:0.0.9] C:\Users\black\.gradle\caches\transforms-1\files-1.1\apio-consumer-android-0.0.9.aar\8909606f32527175489651df45f1f97b\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions:rxpermissions:0.9.4] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.4.aar\db56137ac6365570a4007beadbf6021d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jakewharton.rxbinding:rxbinding:1.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxbinding-1.0.1.aar\f3010f23bfa410747f9ec7c41ddd5750\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding:rxbinding:1.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxbinding-1.0.1.aar\f3010f23bfa410747f9ec7c41ddd5750\AndroidManifest.xml:6:5-44
+MERGED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:6:5-8:41
+MERGED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:6:5-8:41
+MERGED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:6:5-8:41
+MERGED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:6:5-8:41
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:20:5-22:41
+MERGED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e3b8482d2822a0b22aef01db688050b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-fragment-28.0.0.aar\e3b8482d2822a0b22aef01db688050b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha1.aar\8540a507151bc02b3a698e113c26b310\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-28.0.0-alpha1.aar\8540a507151bc02b3a698e113c26b310\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\72a943afbd6e3ad00e5c21271bfbb33e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-animation:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-animation-28.0.0-alpha1.aar\72a943afbd6e3ad00e5c21271bfbb33e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar\bd8fdf8a5345948122dd92d31d579f46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-coordinatorlayout:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-coordinatorlayout-28.0.0-alpha1.aar\bd8fdf8a5345948122dd92d31d579f46\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-expandable-28.0.0-alpha1.aar\080e3a1ed9031164ab40d92249424267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-expandable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-expandable-28.0.0-alpha1.aar\080e3a1ed9031164ab40d92249424267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-stateful-28.0.0-alpha1.aar\4b6b45dc37c5e894de65a6441b36fa52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-stateful:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-stateful-28.0.0-alpha1.aar\4b6b45dc37c5e894de65a6441b36fa52\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha1.aar\a86e7cf53198634b64a93b56781957d8\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-28.0.0-alpha1.aar\a86e7cf53198634b64a93b56781957d8\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b0ae51d3532fbb8d50638d6ccf32a0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-ui-28.0.0.aar\b0ae51d3532fbb8d50638d6ccf32a0ac\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-ripple-28.0.0-alpha1.aar\3bf657f07a69d0c8e46e5bd98b7e85d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-ripple:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-ripple-28.0.0-alpha1.aar\3bf657f07a69d0c8e46e5bd98b7e85d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1a6191925684324e838b45c4e4dfb2ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-core-utils-28.0.0.aar\1a6191925684324e838b45c4e4dfb2ff\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\a81540b83216fda622da55fd9da9b6fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\loader-28.0.0.aar\a81540b83216fda622da55fd9da9b6fb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e0b469b1f04924f3e822b6ca387a158d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewpager-28.0.0.aar\e0b469b1f04924f3e822b6ca387a158d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d8af1eea1976dde70b6eb502c7c1d448\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-28.0.0.aar\d8af1eea1976dde70b6eb502c7c1d448\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d2b92c385cd6c65c42cade5e049c7f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\drawerlayout-28.0.0.aar\d2b92c385cd6c65c42cade5e049c7f8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e7d4f69533266f8d6ed96d6e4fea11a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-28.0.0.aar\e7d4f69533266f8d6ed96d6e4fea11a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\741dd51eddd42d64247e89ec8945bede\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customview-28.0.0.aar\741dd51eddd42d64247e89ec8945bede\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f095d7ccabf511474729770fe5e5557c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-28.0.0.aar\f095d7ccabf511474729770fe5e5557c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d3add06a69e050ca6887c93d5968ff0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-28.0.0.aar\d3add06a69e050ca6887c93d5968ff0d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha1.aar\79c3e3c18de657a03c170fff5f5d4c61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-28.0.0-alpha1.aar\79c3e3c18de657a03c170fff5f5d4c61\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha1.aar\6631b9ea0c93af50a856107ca6fb8479\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:transition:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\transition-28.0.0-alpha1.aar\6631b9ea0c93af50a856107ca6fb8479\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\support-compat-28.0.0.aar\8bea51acc2fa86d3c72bfbb1cb138562\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\versionedparcelable-28.0.0.aar\e10398888600d7243a7746e6b831951a\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\e57b12ead1ed0ce42c9292bb5f5ecfaa\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\158dcaa8431357ccc585ec5215cec895\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\575bdc39e62171308bd6ea78e05948f4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\214281d29564ef1e86d21da4a6fa7d00\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ff4f2f00c81ce856a5da429a10dfd25d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\documentfile-28.0.0.aar\ff4f2f00c81ce856a5da429a10dfd25d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3d3f68f75c6449c5d744cb8be9f7a3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-28.0.0.aar\3d3f68f75c6449c5d744cb8be9f7a3e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cf0fddbdff0876b2c101a34f60bc53a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\print-28.0.0.aar\cf0fddbdff0876b2c101a34f60bc53a5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1632e398830a5e7b0bb7ac5bc899993f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.1.aar\1632e398830a5e7b0bb7ac5bc899993f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d88ee11280785a5fd39bc8778b3723b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\interpolator-28.0.0.aar\d88ee11280785a5fd39bc8778b3723b4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cursoradapter-28.0.0.aar\46efc685351690b2e5694c0f000a6e96\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-canvas-28.0.0-alpha1.aar\8a224edc6351fa1682913c4613cf0a39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-canvas:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-canvas-28.0.0-alpha1.aar\8a224edc6351fa1682913c4613cf0a39\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-cardview-28.0.0-alpha1.aar\8e6e04b19ef0819d0bf82c8967c0f733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal-cardview:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-cardview-28.0.0-alpha1.aar\8e6e04b19ef0819d0bf82c8967c0f733\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-28.0.0-alpha1.aar\d3d5cf223c60da43eb2186732d685db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-circularreveal:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-circularreveal-28.0.0-alpha1.aar\d3d5cf223c60da43eb2186732d685db0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-drawable-28.0.0-alpha1.aar\efcd0ee55a8553e2eb6c1e0260f8f272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-drawable:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-drawable-28.0.0-alpha1.aar\efcd0ee55a8553e2eb6c1e0260f8f272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha1.aar\d63e3e00b29226869bf5916448628e7a\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\cardview-v7-28.0.0-alpha1.aar\d63e3e00b29226869bf5916448628e7a\AndroidManifest.xml:21:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\exifinterface-27.1.1.aar\0aa8b2b9231987b04d7a4f8c4921e2e3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-color:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-color-28.0.0-alpha1.aar\f77739771d1f702ea7beb0d63644de1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-color:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-color-28.0.0-alpha1.aar\f77739771d1f702ea7beb0d63644de1e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-math-28.0.0-alpha1.aar\1d8c867fa310054ac0011782401fd909\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-math:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-math-28.0.0-alpha1.aar\1d8c867fa310054ac0011782401fd909\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\d61a4621ddad30ec2cbf85a37c5e118c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design-snackbar:28.0.0-alpha1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\design-snackbar-28.0.0-alpha1.aar\d61a4621ddad30ec2cbf85a37c5e118c\AndroidManifest.xml:20:5-44
+MERGED from [org.apache.cordova:framework:6.2.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\framework-6.2.3-debug.aar\9b39e04546ce868ae83ba2810b53eafa\AndroidManifest.xml:25:5-44
+MERGED from [org.apache.cordova:framework:6.2.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\framework-6.2.3-debug.aar\9b39e04546ce868ae83ba2810b53eafa\AndroidManifest.xml:25:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\49621b7ef1597373238d0a32e0c36da8\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\49621b7ef1597373238d0a32e0c36da8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:18:5-42
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ce450c8f3dbbeb20b81b31cb515b6ed0\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.1.aar\ce450c8f3dbbeb20b81b31cb515b6ed0\AndroidManifest.xml:19:5-43
+MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:7:5-9:41
+MERGED from [com.snappydb:snappydb-lib:0.5.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\snappydb-lib-0.5.2.aar\67124023b01cb118ccb3542625309685\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-base-9.0.2.aar\62f270df0f14dae10a31d0697381a3d2\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.0.2.aar\52e08bde530e5df3efc7103b8b57a99e\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:18:5-42
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\black\Desktop\SaveMyMoneyV3\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:13:22-65
+activity#com.liferay.mobile.screens.ddm.form.view.SuccessPageActivity
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:16:9-97
+	android:name
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:16:19-94
+activity#com.liferay.mobile.screens.base.MediaStoreRequestShadowActivity
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:17:9-100
+	android:name
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:17:19-97
+activity#com.liferay.mobile.screens.viewsets.defaultviews.imagegallery.DetailImageActivity
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:18:9-20:52
+	android:theme
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:20:13-49
+	android:name
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:19:13-109
 provider#com.liferay.mobile.screens.ScreensInitProvider
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:21:9-25:40
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:22:9-26:40
 	android:enabled
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:24:13-35
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:25:13-35
 	android:authorities
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:23:13-71
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:24:13-71
 	android:exported
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:25:13-37
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:26:13-37
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:22:13-74
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:23:13-74
 receiver#com.liferay.mobile.screens.cache.CacheReceiver
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:27:9-35:20
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:29:13-37
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:30:13-37
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:28:13-74
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:29:13-74
 intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE+action:name:com.liferay.mobile.screens.auth.login.success+action:name:com.liferay.mobile.screens.cache.resync
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:30:13-34:29
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:31:13-35:29
 action#com.liferay.mobile.screens.auth.login.success
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:31:17-88
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:32:17-88
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:31:25-85
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:32:25-85
 action#com.liferay.mobile.screens.cache.resync
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:32:17-82
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:33:17-82
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:32:25-79
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:33:25-79
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:33:17-79
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:34:17-79
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:33:25-76
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:34:25-76
 service#com.liferay.mobile.screens.ddl.form.service.UploadService
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:37:9-93
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:38:9-93
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:37:18-90
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:38:18-90
 service#com.liferay.mobile.screens.userportrait.interactor.upload.UserPortraitService
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:38:9-113
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:39:9-113
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:38:18-110
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:39:18-110
 service#com.liferay.mobile.screens.imagegallery.interactor.upload.ImageGalleryUploadService
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:39:9-119
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:40:9-119
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:39:18-116
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:40:18-116
 service#com.liferay.mobile.screens.dlfile.display.DownloadService
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:40:9-93
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:41:9-93
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:40:18-90
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:41:18-90
 service#com.liferay.mobile.screens.cache.CacheSyncService
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:41:9-43:40
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:42:9-44:40
 	android:exported
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:43:13-37
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:42:13-77
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:43:13-77
 provider#com.liferay.mobile.screens.base.ScreensFileProvider
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:45:9-53:20
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:46:9-54:20
 	android:grantUriPermissions
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:49:13-47
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:50:13-47
 	android:authorities
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:47:13-72
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:48:13-72
 	android:exported
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:48:13-37
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:46:13-79
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:47:13-79
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:50:13-52:54
+ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:51:13-53:54
 	android:resource
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:52:17-51
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:53:17-51
 	android:name
-		ADDED from [com.liferay.mobile:liferay-screens:4.0.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-4.0.1.aar\1dc6b8499157e599628c5fb4b3816f24\AndroidManifest.xml:51:17-67
+		ADDED from [com.liferay.mobile:liferay-screens:5.0.0-beta-1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-screens-5.0.0-beta-1.aar\79e245b5f4f19f69f2ea4ca1cc568920\AndroidManifest.xml:52:17-67
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] C:\Users\black\.gradle\caches\transforms-1\files-1.1\picasso-2.71828.aar\aa179fee94792ef543ce32ef40f15675\AndroidManifest.xml:9:13-64
+meta-data#com.google.android.gms.version
+ADDED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:11:9-14:45
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:21:9-23:69
+	tools:replace
+		ADDED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:14:13-42
+	android:value
+		ADDED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:13:13-66
+		REJECTED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.liferay.mobile:liferay-push:1.2.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.2.1.aar\21cf22da3df4420d07301a996e3c3126\AndroidManifest.xml:12:13-58
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:11:9-13:36
+REJECTED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:32:9-43:20
+	tools:node
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:13:13-33
+	android:name
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:12:13-74
+activity#com.liferay.mobile.android.auth.oauth2.OAuth2RedirectActivity
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:14:9-25:20
+	android:noHistory
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:15:13-89
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:liferay-mobile
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:17:13-24:29
+action#android.intent.action.VIEW
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:18:17-69
+	android:name
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:18:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:20:17-76
+	android:name
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:20:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:21:17-78
+	android:name
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:21:27-75
+data
+ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:23:17-57
+	android:scheme
+		ADDED from [com.liferay.mobile:liferay-android-sdk-core:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-core-7.1.3.aar\fc4e07cf6263d7c8cf309e5a6ecf9d19\AndroidManifest.xml:23:23-54
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:28:13-78
+meta-data#android.support.VERSION
+ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:22:5-24:34
+	android:value
+		ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:24:9-31
+	android:name
+		ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:23:9-47
 uses-permission#com.google.android.c2dm.permission.RECEIVE
 ADDED from [com.google.android.gms:play-services-gcm:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-gcm-9.0.2.aar\efc13b9df253eb938efbf5c95d6e9036\AndroidManifest.xml:21:5-82
 MERGED from [com.google.android.gms:play-services-iid:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-iid-9.0.2.aar\62494145a88214082f18ea015eafba77\AndroidManifest.xml:21:5-82
@@ -450,60 +721,3 @@ ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\ca
 		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:11:13-36
 	android:name
 		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\firebase-common-9.0.2.aar\079235cd9c8033eab4d8f5c9005c5986\AndroidManifest.xml:9:13-58
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:21:9-23:69
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:11:9-14:45
-MERGED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:11:9-14:45
-	tools:replace
-		ADDED from [com.liferay.mobile:liferay-push:1.1.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-push-1.1.1.aar\9ad5b6d73df06fe0a17061533596cf59\AndroidManifest.xml:14:13-42
-	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:23:13-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\black\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.0.2.aar\015f0f531c55388e3d1dd7c46b646d7f\AndroidManifest.xml:22:13-58
-activity#net.openid.appauth.RedirectUriReceiverActivity
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:11:9-13:36
-REJECTED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:32:9-43:20
-	tools:node
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:13:13-33
-	android:name
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:12:13-74
-activity#com.liferay.mobile.android.auth.oauth2.OAuth2RedirectActivity
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:14:9-25:20
-	android:noHistory
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:16:13-37
-	android:name
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:15:13-89
-intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:liferay-mobile
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:17:13-24:29
-action#android.intent.action.VIEW
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:18:17-69
-	android:name
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:18:25-66
-category#android.intent.category.DEFAULT
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:20:17-76
-	android:name
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:20:27-73
-category#android.intent.category.BROWSABLE
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:21:17-78
-	android:name
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:21:27-75
-data
-ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:23:17-57
-	android:scheme
-		ADDED from [com.liferay.mobile:liferay-android-sdk:7.1.3] C:\Users\black\.gradle\caches\transforms-1\files-1.1\liferay-android-sdk-7.1.3.aar\c87721cc7136432d83f23ebc575d67cd\AndroidManifest.xml:23:23-54
-activity#net.openid.appauth.AuthorizationManagementActivity
-ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:27:9-31:75
-	android:launchMode
-		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:30:13-44
-	android:exported
-		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:29:13-37
-	android:theme
-		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:31:13-72
-	android:name
-		ADDED from [net.openid:appauth:0.7.0] C:\Users\black\.gradle\caches\transforms-1\files-1.1\appauth-0.7.0.aar\233acbb1251142847fbb54574fa099bd\AndroidManifest.xml:28:13-78
-meta-data#android.support.VERSION
-ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:22:5-24:34
-	android:value
-		ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:24:9-31
-	android:name
-		ADDED from [com.android.support:customtabs:25.3.1] C:\Users\black\.gradle\caches\transforms-1\files-1.1\customtabs-25.3.1.aar\ef8805e77d0d389a877abba6e76c1ed0\AndroidManifest.xml:23:9-47

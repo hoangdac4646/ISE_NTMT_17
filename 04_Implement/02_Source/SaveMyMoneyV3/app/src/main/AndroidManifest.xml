@@ -3,8 +3,7 @@
     package="com.example.black.savemymoneyv3">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
         android:name=".mClass.App"
         android:allowBackup="true"
@@ -12,11 +11,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme" >
+
+            android:theme="@style/AppTheme.NoActionBar" >
 
         </activity>
         <activity android:name=".DangNhap.StartActivity">
@@ -26,24 +27,53 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DangNhap.DangKiActivity" />
-        <activity android:name=".mActivity.AddWallet" />
-        <activity android:name=".DangNhap.DangNhapActivity" />
-        <activity android:name=".mActivity.WalletInfoActivity" />
-        <activity android:name=".mActivity.AddPlanActivity" />
-        <activity android:name=".mActivity.AboutUsActivity" />
-        <activity android:name=".mActivity.AddMoneyActivity" />
-        <activity android:name=".DangNhap.AdminActivity" />
-        <activity android:name=".mActivity.BorrowActivity" />
-        <activity android:name=".mActivity.AddBorrowActivity"></activity>
-        <activity android:name=".mActivity.Edit_thongtincanhan"/>
-        <activity android:name=".mActivity.Xem_thongtincanhan"/>
-        <activity android:name=".mActivity.NgoaiTe_Activity" >
-        </activity>
-        <activity android:name=".mActivity.Feedback_user">
+        <activity android:name=".DangNhap.DangKiActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.AddWallet"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".DangNhap.DangNhapActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.WalletInfoActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.AddPlanActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.AboutUsActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.AddMoneyActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".DangNhap.AdminActivity"
+            />
 
-
+        <activity android:name=".mActivity.BorrowActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.AddBorrowActivity"
+            android:theme="@style/AppTheme.NoActionBar"
+            ></activity>
+        <activity android:name=".mActivity.Edit_thongtincanhan"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.Xem_thongtincanhan"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.NgoaiTe_Activity"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
         </activity>
+        <activity android:name=".mActivity.Feedback_user"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+        <activity android:name=".mActivity.hotdeal"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
+
     </application>
 
 </manifest>

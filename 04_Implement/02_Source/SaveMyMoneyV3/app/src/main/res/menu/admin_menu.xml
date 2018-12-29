@@ -19,5 +19,5 @@
     <item
         android:id="@+id/ad_logout"
         android:icon="@drawable/logout"
-        android:title="Thoát " />
+        android:title="Đăng xuất " />
 </menu>

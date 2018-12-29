@@ -17,9 +17,7 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.black.savemymoneyv3.MainActivity;
 import com.example.black.savemymoneyv3.R;
-
 
 import java.util.HashMap;
 import java.util.Map;
@@ -37,6 +35,15 @@ public class DangKiActivity extends AppCompatActivity {
         DongY.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                int Dem=0;
+                for(int i=0;i<Name.length();i++){
+                    if(Name.getText().charAt(i) <=47 || (Name.getText().charAt(i)>=58 && Name.getText().charAt(i) <=64) ||
+                            Name.getText().charAt(i) >=91 && Name.getText().charAt(i)<=96 || Name.getText().charAt(i)>=123 ){
+                        Dem=1;
+                        break;
+                    }
+                }
+
                 if (Name.length() == 0 || Pass1.length() == 0 || Pass2.length() == 0 || Hoten.length() ==0) {
                         Toast.makeText(getApplicationContext(), "Không được để trống !", Toast.LENGTH_SHORT).show();
                 } else if(Pass1.getText().toString().trim().equals(Pass2.getText().toString().trim())) {
@@ -45,6 +52,11 @@ public class DangKiActivity extends AppCompatActivity {
                     }
                     else if(Name.length() <5 || Name.length() >50){
                         Toast.makeText(getApplicationContext(), "Tài khoản lớn hơn 5 kí tự và nhỏ hơn 50 !", Toast.LENGTH_SHORT).show();
+                    }
+                    else if(Name.getText().toString().trim().indexOf(" ")!=-1){
+                        Toast.makeText(DangKiActivity.this, "Tài khoản không được chứa dấu khoảng trắng !", Toast.LENGTH_SHORT).show();
+                    }else if(Dem==1){
+                        Toast.makeText(DangKiActivity.this, "Tài khoản không được chứa kí tự đăc biệt !", Toast.LENGTH_SHORT).show();
                     }
                     else {
                         String url = "http://ludicrous-disaster.hostingerapp.com/DangKi.php";

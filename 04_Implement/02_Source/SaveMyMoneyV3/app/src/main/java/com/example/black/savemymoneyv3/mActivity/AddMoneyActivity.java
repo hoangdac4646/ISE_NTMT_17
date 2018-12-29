@@ -1,18 +1,23 @@
 package com.example.black.savemymoneyv3.mActivity;
 
+import android.app.DatePickerDialog;
 import android.app.DownloadManager;
+import android.app.TimePickerDialog;
 import android.content.Intent;
 import android.content.res.TypedArray;
+import android.nfc.FormatException;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.TimePicker;
 import android.widget.Toast;
 
 import com.android.volley.AuthFailureError;
@@ -29,18 +34,19 @@ import com.example.black.savemymoneyv3.mClass.KhoangChiTieu;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
 public class AddMoneyActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private EditText edtTienNap, edt_ngayNap, edt_ghichu_AW;
+    private EditText edtTienNap, edt_ghichu_AW;
     private Button btn_XacNhan;
     private Toolbar mtoolbar;
     private ImageView img_icon;
     private ProgressBar AM_progressbar;
 
-    private TextView ten, tien, ngaytao;
+    private TextView ten, tien, ngaytao, edt_ngayNap;
     private SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
     private final String url = "http://ludicrous-disaster.hostingerapp.com/Put%20Data/insertDataAction.php";
     private final String urlUpdate = "http://ludicrous-disaster.hostingerapp.com/Update%20Data/updateDataWallet.php";
@@ -61,7 +67,7 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
 
     private void InitWork(){
         edtTienNap      = (EditText) findViewById(R.id.edt_TienNap);
-        edt_ngayNap     = (EditText) findViewById(R.id.edt_ngayNap);
+        edt_ngayNap     = (TextView) findViewById(R.id.edt_ngayNap);
         edt_ghichu_AW   = (EditText) findViewById(R.id.edt_ghichu_AW);
         btn_XacNhan     = (Button) findViewById(R.id.btn_xacnhan_AW);
         img_icon        = (ImageView) findViewById(R.id.img_icon_walleadd);
@@ -86,6 +92,21 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
 
         ngaytao.setText(simpleDateFormat.format(calendar.getTime()));
         edt_ngayNap.setText(simpleDateFormat.format(Calendar.getInstance().getTime()));
+        edt_ngayNap.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Calendar calendar1 = Calendar.getInstance();
+                DatePickerDialog datePickerDialog = new DatePickerDialog(AddMoneyActivity.this, new DatePickerDialog.OnDateSetListener() {
+                    @Override
+                    public void onDateSet(DatePicker view, int year, int month, int dayOfMonth) {
+                        Calendar show = Calendar.getInstance();
+                        show.set(year,month,dayOfMonth);
+                        edt_ngayNap.setText(simpleDateFormat.format(show.getTime()));
+                    }
+                }, calendar1.get(Calendar.YEAR), calendar1.get(Calendar.MONTH), calendar1.get(Calendar.DATE));
+                datePickerDialog.show();
+            }
+        });
     }
 
     @Override
@@ -101,7 +122,11 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         if(v.getId() == R.id.btn_xacnhan_AW){
             try {
-                simpleDateFormat.parse(String.valueOf(edt_ngayNap.getText()));
+                Calendar testDate = Calendar.getInstance();
+                testDate.setTime(simpleDateFormat.parse(edt_ngayNap.getText().toString()));
+                simpleDateFormat.format(testDate.getTime());
+
+
                 if(edt_ghichu_AW.getText().length() == 0 || edtTienNap.getText().length() == 0 || edt_ngayNap.getText().length()== 0){
                     Toast.makeText(this, "Vui Lòng Nhập Đầy Đủ Thông Tin!!", Toast.LENGTH_SHORT).show();
 
@@ -114,7 +139,10 @@ public class AddMoneyActivity extends AppCompatActivity implements View.OnClickL
                     PutData(url);
                 }
             } catch (ParseException e) {
-                Toast.makeText(this, "Vui Lòng Nhập Dinh dạng yyyy-MM-dd (2018-01-31)", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Vui Lòng Nhập Dinh dạng yyyy-MM-dd (2018-01-1)", Toast.LENGTH_SHORT).show();
+            }
+            catch (Exception e){
+                Toast.makeText(this, "Lỗi Định Dạng Ngày tháng năm", Toast.LENGTH_SHORT).show();
             }
         }
     }

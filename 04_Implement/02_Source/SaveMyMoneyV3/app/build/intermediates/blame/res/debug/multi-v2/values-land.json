@@ -1,20 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "E:\\cloneGitKragen\\ISE_NTMT_17\\ISE_NTMT_17\\04_Implement\\02_Source\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
+            "outputFile": "C:\\Users\\black\\Desktop\\SaveMyMoneyV3\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-land\\values-land.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0.aar\\59884f19e294e79a69c8f75a194f8744\\res\\values-land\\values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "55,125,196",
-                        "endColumns": "69,70,67",
-                        "endOffsets": "120,191,259"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\design-28.0.0.aar\\d45e948e01dd0bb0dd41abc5499a0c90\\res\\values-land\\values-land.xml",
+                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\design-widget-28.0.0-alpha1.aar\\21f1b84a5661b20919be9413671b3881\\res\\values-land\\values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -24,12 +14,22 @@
                         "endOffsets": "222"
                     },
                     "to": {
-                        "startLines": "5",
+                        "startLines": "6",
                         "startColumns": "4",
-                        "startOffsets": "264",
-                        "endLines": "8",
+                        "startOffsets": "328",
+                        "endLines": "9",
                         "endColumns": "10",
-                        "endOffsets": "431"
+                        "endOffsets": "495"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\black\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-28.0.0-alpha1.aar\\a209e20e15473da53751b65397cbeb1e\\res\\values-land\\values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

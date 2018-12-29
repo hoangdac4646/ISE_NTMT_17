@@ -74,9 +74,9 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/edtName_AB" />
 
-        <EditText
+        <TextView
             android:padding="15dp"
-
+            android:textColor="@color/colorblack"
             android:inputType="date"
             android:id="@+id/edtDate_AB"
             android:layout_width="0dp"
